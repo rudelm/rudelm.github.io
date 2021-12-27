@@ -9,10 +9,10 @@ id: 1148
 tags:
 - iPod Touch
 - MacBookPro
-title: Neues MBP 13&#8243; &#038; iPod Touch 2G - ein kurzer Erfahrungsbericht
+title: Neues MBP 13" &#038; iPod Touch 2G - ein kurzer Erfahrungsbericht
 url: /2009/07/25/neues-mbp-13-ipod-touch-2g-ein-kurzer-erfahrungsbericht/
 ---
-Ich habs getan: ich hab mein geliebtes altes MBP 15&#8243; gegen ein neues Macbook Pro 13,3&#8243; mit integrierten Akku getauscht.
+Ich habs getan: ich hab mein geliebtes altes MBP 15" gegen ein neues Macbook Pro 13,3" mit integrierten Akku getauscht.
 
 Meine bisherigen Erfahrungen sind eigentlich nur positiver Natur, einzig die Windows Bootcamp Installation war etwas hakelig. Da habe ich wohl mit XP Prof SP2 eine zu alte Windows Version genommen, mit SP3 lief alles dann einwandfrei (ich hatte Probleme, das Notebook als ACPI Computer zu installieren. Dadurch fehlten Stromsparmechanismen und einige komfortable Sachen wie Ausschalten beim Herunterfahren). Letzten Endes war aber gestern nach einer Neuinstallation alles gut.
 

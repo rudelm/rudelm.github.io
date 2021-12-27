@@ -11,10 +11,10 @@ tags:
 - MacBookPro
 - meinung
 - Western Digital
-title: Festplattenaussetzer auf dem MacbookPro 13,3&#8243; verhindern
+title: Festplattenaussetzer auf dem MacbookPro 13,3" verhindern
 url: /2010/02/15/festplattenaussetzer-auf-dem-macbookpro-133-verhindern/
 ---
-Ich habe mich ja schon [vor einiger Zeit](http://centurio.net/2009/10/23/macbook-pro-13-zoll-snow-leopard-10-6-und-der-festplattenwechsel/) mal darüber aufgeregt, dass ich in meinem 13,3&#8243; MacbookPro extremste Probleme mit der Festplatte hatte. Das äußerte sich z.B. in einem System, das nicht mehr auf meine Anfragen reagiert, aber nach etwa 30 bis 60 Sekunden wieder normal weiter läuft und tut, als ob nichts passiert wäre.
+Ich habe mich ja schon [vor einiger Zeit](http://centurio.net/2009/10/23/macbook-pro-13-zoll-snow-leopard-10-6-und-der-festplattenwechsel/) mal darüber aufgeregt, dass ich in meinem 13,3" MacbookPro extremste Probleme mit der Festplatte hatte. Das äußerte sich z.B. in einem System, das nicht mehr auf meine Anfragen reagiert, aber nach etwa 30 bis 60 Sekunden wieder normal weiter läuft und tut, als ob nichts passiert wäre.
 
 Mittlerweile habe ich das bei mir an anderer Stelle nicht empfohlene EFI Update für 3GBit Sata installiert und hatte noch immer die Probleme.
 

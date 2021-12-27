@@ -11,7 +11,7 @@ tags:
 title: Setup external USB disk as NTFS volume on Raspbian
 url: /2020/09/25/setup-external-usb-disk-as-ntfs-volume-on-raspbian/
 ---
-I intend to use an external 2.5&#8243; USB disk formatted as NTFS volume on my Raspberry Pi. Since its rather larger (5TB) I don&#8217;t want to use MBR but GPT instead. Here&#8217;s a short list of commands I&#8217;ve used to setup the disk.
+I intend to use an external 2.5" USB disk formatted as NTFS volume on my Raspberry Pi. Since its rather larger (5TB) I don&#8217;t want to use MBR but GPT instead. Here&#8217;s a short list of commands I&#8217;ve used to setup the disk.
 
 Start by identifying the connected disk:
 

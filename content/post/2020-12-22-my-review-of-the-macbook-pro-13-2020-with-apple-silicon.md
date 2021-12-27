@@ -11,16 +11,16 @@ tags:
 - arm64
 - M1
 - MacBookPro
-title: My Review of the MacBook Pro 13&#8243; (2020) with Apple Silicon
+title: My Review of the MacBook Pro 13" (2020) with Apple Silicon
 url: /2020/12/22/my-review-of-the-macbook-pro-13-2020-with-apple-silicon/
 ---
 ## Introduction
 
-After careful considerations and watching a lot of YouTube videos about the new Macs with Apple Silicon hardware, I&#8217;ve decided to order myself a shiny new MacBook Pro 13&#8243; with 16GB RAM and 512GB SSD. I could compare it to my works MacBook Pro 16&#8243; as well as my older MacBook Pro 15&#8243; from mid 2014 and I must say, I&#8217;m really impressed.
+After careful considerations and watching a lot of YouTube videos about the new Macs with Apple Silicon hardware, I&#8217;ve decided to order myself a shiny new MacBook Pro 13" with 16GB RAM and 512GB SSD. I could compare it to my works MacBook Pro 16" as well as my older MacBook Pro 15" from mid 2014 and I must say, I&#8217;m really impressed.
 
 ## General Things
 
-The hardware is just great. I like the overall form factor and its small size compared to my wife&#8217;s MacBook Air 13&#8243; 2015. The MacBooks internal speaker sound reasonable, but cannot compare to the awesome sound of the MacBook Pro 16&#8243;. But since I don&#8217;t use the internal speaker that often, I can live with the current quality.
+The hardware is just great. I like the overall form factor and its small size compared to my wife&#8217;s MacBook Air 13" 2015. The MacBooks internal speaker sound reasonable, but cannot compare to the awesome sound of the MacBook Pro 16". But since I don&#8217;t use the internal speaker that often, I can live with the current quality.
 
 The temperature of the MacBook is always cold, regardless of the current workload. This means, you cannot use it anymore to warm your hands in winter but also its totally quiet, even when it has an internal fan! This is a huge plus, as I&#8217;m finally having a quiet desktop again!
 
