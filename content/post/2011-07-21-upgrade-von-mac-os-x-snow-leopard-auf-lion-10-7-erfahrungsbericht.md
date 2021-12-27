@@ -12,7 +12,7 @@ tags:
 - Lion
 - Mac
 - Mac OSX
-title: Upgrade von Mac OS X Snow Leopard auf Lion 10.7 &#8211; Erfahrungsbericht
+title: Upgrade von Mac OS X Snow Leopard auf Lion 10.7 - Erfahrungsbericht
 url: /2011/07/21/upgrade-von-mac-os-x-snow-leopard-auf-lion-10-7-erfahrungsbericht/
 ---
 Seit gestern Nachmittag ist Mac OS X Lion 10.7 verfügbar. Natürlich konnte ich wieder nicht die Finger davon lassen und habe es mir auch direkt im Mac App Store für 23,99 Euro gekauft. Ich habe allerdings erst heute morgen das Update installiert, entgegen meiner ursprünglichen Meinung, erst mal abzuwarten was andere dazu sagen. Aber nachdem mir von zwei Leuten bisher nur relativ gutes berichtet wurde, habe ich gestern ein Backup meiner SSD und HDD gemacht und habe anschließend heute morgen das Update gestartet.

@@ -26,8 +26,8 @@ cd /Volumes/&#8220;Install macOS High Sierra&#8220;
 
 Start the installation of High Sierra to the freshly formatted HFS+ volume mounted as &#8222;internal&#8220;. This clean installation will also create the Recovery HD partition.
 
-&#8222;Install macOS High Sierra.app&#8220;/Contents/Resources/startOsInstall &#8211;agreetolicense &#8211;converttoapfs NO &#8211;volume /Volumes/internal
+&#8222;Install macOS High Sierra.app&#8220;/Contents/Resources/startOsInstall -agreetolicense -converttoapfs NO -volume /Volumes/internal
 
-More information can be found [here](https://www.tonymacx86.com/threads/guide-avoid-apfs-conversion-on-high-sierra-update-or-fresh-install.232855/). A video of the process and more details are [here](https://derflounder.wordpress.com/2017/09/26/using-the-macos-high-sierra-os-installers-startosinstall-tool-to-avoid-apfs-conversion/). If you execute the startOsInstall command with &#8211;usage you&#8217;ll get a [list of available parameters](https://apple.stackexchange.com/questions/299726/how-to-prevent-conversion-to-apfs-on-high-sierra-install).
+More information can be found [here](https://www.tonymacx86.com/threads/guide-avoid-apfs-conversion-on-high-sierra-update-or-fresh-install.232855/). A video of the process and more details are [here](https://derflounder.wordpress.com/2017/09/26/using-the-macos-high-sierra-os-installers-startosinstall-tool-to-avoid-apfs-conversion/). If you execute the startOsInstall command with -usage you&#8217;ll get a [list of available parameters](https://apple.stackexchange.com/questions/299726/how-to-prevent-conversion-to-apfs-on-high-sierra-install).
 
 &nbsp;

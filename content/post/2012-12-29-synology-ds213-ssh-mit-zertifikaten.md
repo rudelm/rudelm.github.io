@@ -11,7 +11,7 @@ tags:
 - Mac OS X
 - SSH
 - Synology
-title: Synology DS213+ &#8211; SSH mit Zertifikaten
+title: Synology DS213+ - SSH mit Zertifikaten
 url: /2012/12/29/synology-ds213-ssh-mit-zertifikaten/
 ---
 Auf der Synology DS213+ läuft ein Linux System. Dies kann man manchmal am bequemsten per Konsole über SSH steuern. Dabei hat man entweder die Möglichkeit eine User/Passwort Kombination oder eine User/Zertifikat Kombination zum Authentifizieren zu verwenden. Letztere ist deutlich sicherer und auch bequemer. Ich möchte daher kurz meine eigene Version der notwendigen Schritte bloggen, da die [meisten](https://confluence.atlassian.com/pages/viewpage.action?pageId=271943168#ConfiguringMultipleSSHIdentitiesforGitBash,MacOSX,&Linux-CreatemultipleidentitiesforMacOSX,GitBash,andLinux) verfügbaren Anleitungen nicht alle Schritte optimal für meine Situation lösen. Daher bekommt ihr hier jetzt meine Vorgehensweise, die teilweise Befehle aus den verlinkten Anleitungen nutzt:
@@ -58,8 +58,8 @@ in eine id\_rsa\_ds213plus Datei auf eurem System. Das Gleiche macht ihr auch f�
 
 Ihr solltet jetzt zwei Dateien haben:
 
-  * <span style="line-height: 13px;" data-mce-mark="1">id_rsa_ds213plus &#8211; euer privater Schlüssel</span>
-  * id\_rsa\_ds213plus.pub  &#8211; euer öffentlicher Schlüssel
+  * <span style="line-height: 13px;" data-mce-mark="1">id_rsa_ds213plus - euer privater Schlüssel</span>
+  * id\_rsa\_ds213plus.pub  - euer öffentlicher Schlüssel
 
 4. SSH Daemon konfigurieren
 

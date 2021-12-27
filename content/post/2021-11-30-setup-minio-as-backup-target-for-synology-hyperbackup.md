@@ -65,7 +65,7 @@ SendSIGKILL=no
 &#91;Install]
 WantedBy=multi-user.target</code></pre>
 
-Create a minio environment file in /etc/default/minio. This setups the credentials for minio (access key and secret key), as well as the volume (same as the working directory). I&#8217;ve added a parameter for the URL under which minio will be reachable (MINIO_DOMAIN) as well as a parameter to the options on where the certificates for TLS encryption should reside (&#8211;certs-dir):
+Create a minio environment file in /etc/default/minio. This setups the credentials for minio (access key and secret key), as well as the volume (same as the working directory). I&#8217;ve added a parameter for the URL under which minio will be reachable (MINIO_DOMAIN) as well as a parameter to the options on where the certificates for TLS encryption should reside (-certs-dir):
 
 <pre class="wp-block-code"><code>
 # Volume to be used for Minio server.
@@ -87,7 +87,7 @@ If you want to have minio starting at system startup:
 
 <pre class="wp-block-code"><code>sudo systemctl enable minio</code></pre>
 
-You should enable TLS by placing a private key, a certificate and eventually a CA certificate into the path supplied by the &#8211;certs-dir parameter. In my example it would be /data/.minio/certs. You can read more about securing minio with certificates under [this link](https://docs.min.io/docs/how-to-secure-access-to-minio-server-with-tls).
+You should enable TLS by placing a private key, a certificate and eventually a CA certificate into the path supplied by the -certs-dir parameter. In my example it would be /data/.minio/certs. You can read more about securing minio with certificates under [this link](https://docs.min.io/docs/how-to-secure-access-to-minio-server-with-tls).
 
 I&#8217;ve started with the creation of a wildcard certificate created by my own trusted CA. However, you could create the same result by using Lets Encrypt. It&#8217;s important to use a wildcard certificate, as this is a requirement for using [minio as backup target with Hyper Backup](https://itrandomness.com/2020/05/local-backups-with-synology-hyper-backup-and-minio/){.broken_link}. We&#8217;ll run minio in [virtual-host-style requests](https://docs.min.io/docs/minio-server-configuration-guide.html). That&#8217;s also the reason why you&#8217;ll need to define the MINIO_DOMAIN variable.
 

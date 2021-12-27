@@ -14,7 +14,7 @@ url: /2020/09/21/configure-mail-transport-agent-on-raspbian-with-external-smtp-s
 ---
 I want to get email notifications for actions on my Raspberry Pi using Raspbian. You could setup a separate mail server for that action but that seems to be a little bit overkill.
 
-[msmtp](https://marlam.de/msmtp/) is a mail transfer agent which uses a configured smtp server for email transfer. This allows you to send emails via a configured smtp server (in my case from my webspace provider [All-Inkl.com](https://all-inkl.com/PA13DF412578D) &#8211; by [creating a new account using this link you&#8217;ll support the costs for running this blog](https://all-inkl.com/partnerprogramm/provision/)).
+[msmtp](https://marlam.de/msmtp/) is a mail transfer agent which uses a configured smtp server for email transfer. This allows you to send emails via a configured smtp server (in my case from my webspace provider [All-Inkl.com](https://all-inkl.com/PA13DF412578D) - by [creating a new account using this link you&#8217;ll support the costs for running this blog](https://all-inkl.com/partnerprogramm/provision/)).
 
 Upgrade your raspbian:
 

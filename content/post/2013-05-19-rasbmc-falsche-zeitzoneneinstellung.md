@@ -11,7 +11,7 @@ image: /wp-content/uploads/2013/05/raspbmc-time-settings.jpg
 tags:
 - Rasbmc
 - XBMC
-title: Rasbmc &#8211; falsche Zeitzoneneinstellung
+title: Rasbmc - falsche Zeitzoneneinstellung
 url: /2013/05/19/rasbmc-falsche-zeitzoneneinstellung/
 ---
 Seit einiger Zeit besitze ich ein [Raspberry Pi](http://www.raspberrypi.org/). Dieser kleine Computer ist sehr günstig (etwa 30 Euro) und kann als XBMC eingerichtet werden. Dabei habe ich mich für die [Rasbmc](http://www.raspbmc.com/) Distribution entschieden, da diese sehr einfach (ein Befehl auf der Konsole) installiert werden kann.

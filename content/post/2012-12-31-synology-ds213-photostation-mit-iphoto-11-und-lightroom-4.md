@@ -13,7 +13,7 @@ tags:
 - iPhoto
 - Lightroom
 - Synology
-title: Synology DS213+ &#8211; PhotoStation mit iPhoto 11 und Lightroom 4
+title: Synology DS213+ - PhotoStation mit iPhoto 11 und Lightroom 4
 url: /2012/12/31/synology-ds213-photostation-mit-iphoto-11-und-lightroom-4/
 ---
 Ich habe mir die DS213+ auch dafür gekauft um meine vielen Photographien sicher zu verstauen. Meistens brauche ich eh nicht mein komplettes Bilderarchiv und zweitens habe ich so mehr Platz unterwegs. Mein Ansatz war daher, dass ich den kompletten Bilder Ordner meines Macs auf das NAS in den photos Ordner kopiere. Dort würde er indiziert werden und würde dann der PhotoStation zur Verfügung stehen.

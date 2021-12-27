@@ -36,7 +36,7 @@ Docker preview is already available for Apple Silicon, but is not a final stable
 
 LuLu Firewall for outgoing connections is currently compiled for the Intel architecture. However, there’s [already work going on in that area](https://twitter.com/patrickwardle/status/1336144373549953024?s=20) and I’m looking forward to it.
 
-Visual Studio Code &#8211; Insiders available for Apple Silicon, but not a final stable version. Crashes since its last update and I’ve replaced it with the Intel version again.
+Visual Studio Code - Insiders available for Apple Silicon, but not a final stable version. Crashes since its last update and I’ve replaced it with the Intel version again.
 
 Thunderbird is still compiled for Intel, whereby Firefox is already available for Apple Silicon.
 

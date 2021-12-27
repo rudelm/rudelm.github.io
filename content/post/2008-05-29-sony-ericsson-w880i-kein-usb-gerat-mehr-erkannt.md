@@ -7,7 +7,7 @@ guid: http://centurio.net/?p=925
 id: 925
 tags:
 - Sony
-title: Sony Ericsson W880i &#8211; kein USB Gerät mehr erkannt?
+title: Sony Ericsson W880i - kein USB Gerät mehr erkannt?
 url: /2008/05/29/sony-ericsson-w880i-kein-usb-gerat-mehr-erkannt/
 ---
 Mal was in eigener Sache: Wer benutzt ein aktuelles Sony Ericcsson Handy, wie z.B. das W880i? Ich habe seit etwa 2 Monaten das Problem, dass die eingebaute USB Stick Funktion nicht mehr funktioniert. Man schließt das USB Datenkabel an, stellt im Telefon auf Dateiübertragung um und das Handy bootet in den Datenträgermodus. Dem Handy ist es also bekannt, dass es per USB mit einem Rechner (egal ob Mac oder PC) verbunden ist.

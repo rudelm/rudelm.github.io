@@ -12,7 +12,7 @@ tags:
 - Mac
 - macbook
 - News
-title: Ich habe es getan &#8211; Welcome to the Mac
+title: Ich habe es getan - Welcome to the Mac
 url: /2007/04/16/ich-habe-es-getan-welcome-to-the-mac/
 ---
 So, vor etwa 3 Stunden habe ich mit dem Earl zusammen 2 neue Macs bestellt. Er hat sich ein schwarzes Macbook bestellt und ich habe mir das kleinste silberne Macbook Pro bestellt.

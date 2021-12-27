@@ -10,7 +10,7 @@ id: 3239
 tags:
 - HomeBridge
 - HomeKit
-title: HomeBridge &#8211; Apple HomeKit on Raspberry Pi
+title: HomeBridge - Apple HomeKit on Raspberry Pi
 url: /2021/11/30/homebridge-apple-homekit-on-raspberry-pi/
 ---
 Two years ago I&#8217;ve started to setup a HomeMatic installation using a Raspberry 3b and a RF module by [ELV](https://www.elv.de/elv-smart-home-zentrale-charly-starter-set-bausatz.html). I can now control the heating and want to control many other connected things as well.

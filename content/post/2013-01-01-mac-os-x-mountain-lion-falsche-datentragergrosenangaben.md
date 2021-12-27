@@ -11,7 +11,7 @@ tags:
 - Mac OS X
 - Mountain Lion
 - TimeMachine
-title: Mac OS X Mountain Lion &#8211; Falsche Datenträgergrößenangaben
+title: Mac OS X Mountain Lion - Falsche Datenträgergrößenangaben
 url: /2013/01/01/mac-os-x-mountain-lion-falsche-datentragergrosenangaben/
 ---
 Ich habe mich gerade gewundert, wieso mein Mountain Lion mich mit falschen Datenträgergrößenangaben nervt und verwirrt. Ich habe eine 400GB große Partition, die aber eigentlich nur gut 200GB Daten beinhaltet.

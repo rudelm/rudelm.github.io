@@ -10,7 +10,7 @@ tags:
 - Lightroom
 - Timelapse
 - Zeitraffer
-title: 'Ebook Rezension: Gunther Wegner &#8211; Zeitraffer &#8211; Aufnahmen und Bearbeiten'
+title: 'Ebook Rezension: Gunther Wegner - Zeitraffer - Aufnahmen und Bearbeiten'
 url: /2012/10/03/ebook-rezension-gunther-wegner-zeitraffer-aufnahmen-und-bearbeiten/
 ---
 Seit längerem beschäftige ich mich mit Zeitrafferaufnahmen. Zeitrafferaufnahmen sind im Prinzip nichts anderes, als viele Fotos, die in einem bestimmten zeitlichen Abstand hintereinander erstellt wurden. Wenn man ausreichend viele Fotos in der Sekunde zusammenfügt, so erhält man einen Film. Zeitrafferaufnahmen nutzen jetzt den Umstand, dass der Abstand zwischen den Fotos größer ist als in dem resultierenden Film. Dadurch werden größere Zeiträume auf einen kurzen Zeitraum &#8222;zusammengerafft&#8220;.
@@ -19,7 +19,7 @@ Wenn man im Internet nach diesem Thema sucht, so begegnet einem fast zwangsläuf
 
 Das Ebook hat 142 Seiten und ist auch im epub Format für Ebook Reader wie der Kindle verfügbar. Man kann das Buch grob unterteilen in drei große Abschnitte:
 
-  * Equipment &#8211; die Grundvoraussetzungen
+  * Equipment - die Grundvoraussetzungen
   * Die Aufnahme eines Zeitraffers
   * Das Bearbeiten der Zeitraffer-Sequenz
 

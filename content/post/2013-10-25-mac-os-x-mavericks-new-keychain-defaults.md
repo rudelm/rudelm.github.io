@@ -9,7 +9,7 @@ image: /wp-content/uploads/2013/10/Mavericks.png
 tags:
 - Mac OS X
 - Mavericks
-title: Mac OS X Mavericks &#8211; new keychain defaults
+title: Mac OS X Mavericks - new keychain defaults
 url: /2013/10/25/mac-os-x-mavericks-new-keychain-defaults/
 ---
 I&#8217;ve just completed my Mac OS X Mavericks clean install on my old trusty MacBook Pro 5,5. The update happened without any greater complications. However, I was missing all my WiFi and email passwords, although I&#8217;ve copied over my old login keychain.

@@ -25,9 +25,9 @@ Update: Bin angemeldet. Das Formular ist über diesen Link erreichbar. Ich habe 
 > Zusammenarbeit zwischen secure IT NRW und eurobits ausgerichtet wird.  
 > Die Teilnahme ist Kostenfrei.
 > 
-> &#8211; &#8212;  
+> - &#8212;  
 > NRW-Forschungstag IT-Sicherheit 2007!  
-> 11.10.2007, 10.00 &#8211; 15.00 Uhr  
+> 11.10.2007, 10.00 - 15.00 Uhr  
 > Zentrum für IT-Sicherheit, Bochum
 > 
 > Die Teilnahme ist kostenlos.

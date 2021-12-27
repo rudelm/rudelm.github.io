@@ -10,7 +10,7 @@ id: 1241
 tags:
 - Konzerte
 - Muse
-title: Muse &#8211; The Resistance &#8211; Konzert in Köln
+title: Muse - The Resistance - Konzert in Köln
 url: /2009/11/17/muse-the-resistance-konzert-in-koln/
 wpv_http://www.youtube.com/watch?v=1sqLomLfR20:
 - a:9:{s:5:"title";s:0:"";s:11:"description";s:0:"";s:4:"date";s:0:"";s:6:"author";s:0:"";s:14:"author_profile";s:23:"http://www.youtube.com/";s:8:"duration";s:0:"";s:9:"embedcode";s:198:"<object
@@ -19,7 +19,7 @@ wpv_http://www.youtube.com/watch?v=1sqLomLfR20:
 ---
 Wow, ich bin einfach nur begeistert 🙂
 
-Gestern war ich in der Kölner Lanxess Arena und habe mir dort die Muse &#8211; The Resistance Tour live angeguckt. Für 45 Euro eine wahrhaft lohnende Investition, schließlich ist die gebotene Show so etwas von Bombastisch gewesen, ich bin immer noch begeistert (und laufe mit meinem Konzertshirt immer noch rum ^^).
+Gestern war ich in der Kölner Lanxess Arena und habe mir dort die Muse - The Resistance Tour live angeguckt. Für 45 Euro eine wahrhaft lohnende Investition, schließlich ist die gebotene Show so etwas von Bombastisch gewesen, ich bin immer noch begeistert (und laufe mit meinem Konzertshirt immer noch rum ^^).
 
 Eine wirklich imposante Lasershow, kombiniert mit sehr genialen Projektionswänden runden die wunderbare Musik ab. Die Lautstärke war nicht zu verachten, ich war froh, das ich meine Musicsafe Oropax eingepackt hatte, sonst wäre da bestimmt ein Piepen übergeblieben.
 

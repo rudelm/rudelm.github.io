@@ -9,7 +9,7 @@ tags:
 - Software
 - Update
 - Windows 10
-title: Update Windows 8.1 Pro to Windows 10 &#8211; my experience
+title: Update Windows 8.1 Pro to Windows 10 - my experience
 url: /2015/07/30/update-windows-8-1-pro-to-windows-10-my-experience/
 ---
 As I&#8217;ve written in [my last blog post](http://centurio.net/2015/07/30/how-to-update-to-windows-10-immediately-without-waiting/), I&#8217;m one of the guys who likes to test the newest and latest software versions. In this case, Windows 10. So I&#8217;ve updated my gaming system with the tool from Microsoft I&#8217;ve mentioned.

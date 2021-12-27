@@ -9,7 +9,7 @@ tags:
 - Centurio.net
 - der Tag
 - News
-title: Zufriedenheit &#8211; oder die ersten 72h Mac
+title: Zufriedenheit - oder die ersten 72h Mac
 url: /2007/04/20/zufriedenheit-oder-die-ersten-72h-mac/
 ---
 Wahnsinn was das Teil leistet. Ich habe zwar noch immer nicht Zeit gehabt, alles auszuprobieren und einzurichten, aber für das, was ich bisher alles erlebt habe bin ich sehr zufrieden damit.

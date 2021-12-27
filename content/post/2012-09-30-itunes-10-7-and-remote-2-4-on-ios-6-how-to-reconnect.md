@@ -12,7 +12,7 @@ tags:
 - itunes
 - Remote
 - Wlan
-title: iTunes 10.7 and Remote 2.4 on iOS 6 &#8211; How to reconnect
+title: iTunes 10.7 and Remote 2.4 on iOS 6 - How to reconnect
 url: /2012/09/30/itunes-10-7-and-remote-2-4-on-ios-6-how-to-reconnect/
 ---
 I recently tried to use my iPhone 4S with iOS 6 to control my iTunes 10.7 on my Macbook Pro. This used to work but the official Apple Remote App did not successfully connect to iTunes anymore.

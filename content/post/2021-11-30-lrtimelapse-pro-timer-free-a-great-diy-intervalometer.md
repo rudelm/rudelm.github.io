@@ -11,7 +11,7 @@ id: 2340
 tags:
 - Arduino
 - Timelapse
-title: LRTimelapse Pro Timer Free &#8211; a great DIY intervalometer
+title: LRTimelapse Pro Timer Free - a great DIY intervalometer
 url: /2021/11/30/lrtimelapse-pro-timer-free-a-great-diy-intervalometer/
 ---
 This is an old blog post from 07/06/2017 and I&#8217;ve finally moved it from the draft folder to the published folder. In the meantime, Gunther released a successor to this project called [LRTimelapse PRO Timer 3 and 2.5](https://lrtimelapse.com/lrtpt/). Therefore this blog post is just keeping tracks of what I&#8217;ve did to get it running.

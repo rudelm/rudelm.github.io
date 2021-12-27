@@ -13,7 +13,7 @@ tags:
 - Warenkorb
 - Xbox
 - Xbox 360
-title: Xbox 360 &#8211; oder wie ich (wieder einmal) unter die Spieleconsolen-Gamer
+title: Xbox 360 - oder wie ich (wieder einmal) unter die Spieleconsolen-Gamer
   ging
 url: /2008/09/10/xbox-360-oder-wie-ich-wieder-einmal-unter-die-spieleconsolen-gamer-ging/
 ---

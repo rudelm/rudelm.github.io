@@ -9,7 +9,7 @@ id: 1148
 tags:
 - iPod Touch
 - MacBookPro
-title: Neues MBP 13&#8243; &#038; iPod Touch 2G &#8211; ein kurzer Erfahrungsbericht
+title: Neues MBP 13&#8243; &#038; iPod Touch 2G - ein kurzer Erfahrungsbericht
 url: /2009/07/25/neues-mbp-13-ipod-touch-2g-ein-kurzer-erfahrungsbericht/
 ---
 Ich habs getan: ich hab mein geliebtes altes MBP 15&#8243; gegen ein neues Macbook Pro 13,3&#8243; mit integrierten Akku getauscht.

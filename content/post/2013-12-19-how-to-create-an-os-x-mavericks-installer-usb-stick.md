@@ -46,7 +46,7 @@ Now connect your USB stick. I recommend a stick with at least 16GB space availab
 Open the &#8222;Terminal&#8220; application and enter:
 
 [code]  
-sudo /Applications/Install\ OS\ X\ Mavericks.app/Contents/Resources/createinstallmedia &#8211;volume /Volumes/untitled &#8211;applicationpath /Applications/Install\ OS\ X\ Mavericks.app &#8211;nointeraction[/code]
+sudo /Applications/Install\ OS\ X\ Mavericks.app/Contents/Resources/createinstallmedia -volume /Volumes/untitled -applicationpath /Applications/Install\ OS\ X\ Mavericks.app -nointeraction[/code]
 
 Replace the &#8222;/Volumes/untitled&#8220; with the name of the Volume we&#8217;ve created in step 3, e.g. &#8222;/Volumes/stick&#8220;. This command will ask for your Mac administrator password, so enter it and proceed.
 
