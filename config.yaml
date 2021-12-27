@@ -3,3 +3,18 @@ disablePathToLower: true
 languageCode: en-us
 title: Centurios Blog
 theme: "stack"
+
+params:
+  rssFullContent: true
+  comments:
+    enabled: false
+  widgets:
+    enabled:
+      - search
+      - tag-cloud
+
+    tagCloud:
+      limit: 10
+  twitter:
+    site: rudelm
+    card: summary_large_style
