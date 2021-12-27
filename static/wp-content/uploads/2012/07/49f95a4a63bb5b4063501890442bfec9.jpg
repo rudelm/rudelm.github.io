@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+<head>
+<title>WDR.de
+</title>
+<script type="text/javascript" src="/themen/_config_/script/2006/global.js"></script>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta name="Language" content="de" />
+<meta name="Keywords" content="WDR Online, Radio, Fernsehen, NRW, Aktuelle Nachrichten, Service, Westfalen, Rheinland, Lippe, Sauerland, Eifel, Siegerland, Münsterland, Köln, Düsseldorf, Aachen, Wuppertal, Siegen, Münster, Bielefeld, Dortmund, Essen, Moskau, New York, USA, Russland" />
+<meta name="Description" content="WDR.de ist das programmbegleitende Internetportal des Westdeutschen Rundfunks. Es bietet die wichtigsten Nachrichten des Tages und zusätzliche Informationen in Text, Bild, Audio und Video, sowie umfassende Berichte und Hintergründe zu aktuellen Themen aus und für Nordrhein-Westfalen. WDR.de bündelt Nachrichten und Berichte aus WDR-Radio und Fernseh-Programmen sowie aus entsprechenden Angeboten der ARD." />
+<meta name="Author" content="" />
+<meta name="Publisher" content="Westdeutscher Rundfunk" />
+<meta http-equiv="refresh" content="900" />
+<meta http-equiv="expires" content="899" />
+
+<meta name="DC.Date" content="2006-10-25T12:03+01:00" />
+<meta name="googlebot" content="noarchive" />
+<meta name="robots" content="index,follow" />
+<link rel="start" href="/themen/homepages/homepage.jhtml" title="Startseite WDR.de" />
+<link rel="bookmark" href="/tv/" title="WDR Fernsehen" />
+<link rel="bookmark" href="/radio/" title="WDR Radioprogramme" />
+<link rel="bookmark" href="/themen/homepages/epg.jhtml" title="WDR Programmvorschau" />
+<link rel="bookmark" href="/unternehmen/" title="Informationen über das Unternehmen WDR" />
+<link rel="bookmark" href="#top" title="Zum Seitenanfang" />
+<link rel="bookmark" href="#inhalt" title="Zum Seiteninhalt" />
+<link rel="contents" href="/themen/global/inhalt/" title="Inhaltsverzeichnis" />
+<link rel="bookmark" href="/themen/global/impressum/" title="Impressum" />
+<link rel="search" href="http://www.wdr.de/themen/global/suchen/gs_index.jhtml" title="Suche im WDR Online Angebot" />
+<link rel="help" href="/themen/homepages/hilfe.jhtml" title="Hilfe zur Bedienung und Orientierung" />
+<link rel="copyright" href="/themen/global/urheber/" title="Copyright" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.wdr.de/xml/newsticker.rdf" />
+<link rel="icon" href="http://www.wdr.de/favicon.ico" type="image/ico" />
+
+<link rel="shortcut icon" href="http://www.wdr.de/favicon.ico" />
+
+<link rel="stylesheet" type="text/css" href="http://wartung.wdr.de/css/basic.css" />
+<!--[if !IE]> <--><link rel="stylesheet" type="text/css" href="http://wartung.wdr.de/css/2006/wrapper/homepage.css" /><!--> <![endif]-->
+<!--[if gte IE 5.5000]><link rel="stylesheet" type="text/css" href="http://wartung.wdr.de/css/2006/wrapper/homepage_ie.css" /><![endif]-->
+
+
+<!--[if !IE]> <-->
+<style type="text/css" media="handheld">
+<!-- /* <![CDATA[ */
+@import 'css/pda/basic.css';
+/* ]]> */ -->
+</style>
+<!--> <![endif]-->
+
+<script type="text/javascript">
+<!-- <![CDATA[
+  document.write(getInitHeader());
+// ]]> -->
+</script>
+</head>
+<body><!--googleoff: index-->
+<div class="inv">
+
+<p class="wsBCPfad"><span class="inv">Sie befinden sich hier: </span><img src="http://www.wdr.de/themen/_config_/nav/2006/adc3d8/pfeil.gif" alt="&gt;" /> WDR.de <img src="http://www.wdr.de/themen/_config_/nav/2006/adc3d8/pfeil.gif" alt="&gt;" /> Homepage</p>
+
+
+<script type="text/javascript">
+<!-- <![CDATA[
+ var IVW="http://wdr.ivwbox.de/cgi-bin/ivw/CP/;www.wdr.de/themen/homepages/homepage.jhtml";
+ document.write("<img src=\""+IVW+"?r="+escape(document.referrer)+"\" width=\"1\" height=\"1\" alt=\"\" />"); 
+// ]]> -->
+</script><noscript><div><img src="http://wdr.ivwbox.de/cgi-bin/ivw/CP/;www.wdr.de/themen/homepages/homepage.jhtml" width="1" height="1" alt="" /></div></noscript><img src="http://stat.wdr.de/cgi-bin/wdr/CP/www.wdr.de/themen/homepages/homepage.jhtml?" width="1" height="1" alt="" />
+</div><p><a name="top" id="top"></a></p>
+<div id="wsHauptlogo">
+<img src="images/wdrde.gif" alt="WDR.de - Logo" id="wsLogoWDR" /><a href="http://www.ard.de" rel="ard"><img src="images/ardde.gif" alt="zur Homepage ARD.de" id="wsLogoARD" /></a>
+</div>
+<ul class="inv">
+
+  <li><a href="homepage.jhtml?norefresh=1">Automatische Aktualisierung abschalten</a></li>
+
+  <li><a href="#inhalt">Zum Inhalt</a></li>
+
+
+
+  <li><a href="#themen">Zur Themennavigation</a></li>
+  <li><a href="#re">Programmhinweise, weitere Themen und Fotos</a></li>
+  <li><a href="http://www.wdr.de/themen/homepages/hilfe.jhtml">Hilfe zur Bedienung und Orientierung</a></li>
+
+</ul>
+<hr class="inv" />
+<div id="wsKopf">
+<div id="wsDachNavBg">
+  <div id="wsDachNav"><p class="inv"><strong>Hauptnavigation</strong></p>
+    <ul><li id="wsWdrde" class="aktiv"><a href="#" title="Homepage des WDR">WDR.de</a></li><li id="wsFernsehen"><a href="#" title="Fernsehen im WDR">Fernsehen</a></li><li id="wsRadio"><a href="#" title="Radio im WDR">Radio</a></li><li id="wsEpg"><a href="#" title="Programmübersicht aller Sendungen">Programmvorschau</a></li><li id="wsUnternehmen"><a href="#" title="Informationen über das Unternehmen WDR">Unternehmen</a></li></ul>
+    <p id="wsDatum">
+&nbsp;
+
+    </p>
+
+  </div>
+  <div class="clearMe"></div>
+</div>
+<div id="wsBalken">
+<div id="wsTopNavBg">
+<div id="wsTopNav">
+<!--htdig_noindex-->
+
+<!--/htdig_noindex-->
+</div></div></div>
+</div>
+<hr class="inv"/>
+<div id="wsNavi">
+<div id="wsThemen">
+</div>
+</div>
+<div id="wsContentBGOuter"><div id="wsContentBGInner" class="wsMReSp"><div id="wsContentArea">
+<div id="wsInhC"></div>
+<div class="clearMe"></div><p class="inv"><a name="inhalt" id="inhalt"></a></p>
+<h1 class="wsInvP">Homepage WDR.de</h1>
+<div class="wsTeaserCont">
+<div class="wsTeaser wsTopmeldung">
+
+<h3>Liebe Nutzerinnen und Nutzer von WDR.de</h3>
+<p>
+Leider ist unsere Homepage wegen Wartungsarbeiten vorübergehend nicht erreichbar. Bitte versuchen Sie es später noch einmal.
+</p>
+<p>&nbsp;</p>
+<p>
+Aktuelle Nachrichten erhalten Sie in der Zwischenzeit bei <a href="http://www.tagesschau.de"
+rel="ard@_blank">[tagesschau.de]</a>
+</p>
+<p>&nbsp;</p>
+<p>
+Vielen Dank für Ihr Verständnis!
+</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+Die WDR-Livestreams erreichen Sie hier:
+</p>
+
+<ul class="wsLinkliste">
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/einslive.asx">1LIVE (Windows Media)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/einslive.m3u">1LIVE (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/einslivedigi.asx">1LIVE diggi (Windows Media)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/einslivedigi.m3u">1LIVE diggi (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/1live_planb.m3u">1LIVE Plan B (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/1live_rocker.m3u">1LIVE Rocker (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/1live_kassettendeck.m3u">1LIVE Kassettendeck (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/1live_klubbing.m3u">1LIVE Klubbing (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/1live_fiehe.m3u">1LIVE Fiehe (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/1live_planbmit.m3u">1LIVE Plan B mit... (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/wdr2.asx">WDR 2 (Windows Media)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/wdr2.m3u">WDR 2 (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/wdr2.m3u">WDR 2 Rheinland (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/wdr2_bielefeld.m3u">WDR 2 Ostwestfalen-Lippe (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/wdr2_muenster.m3u">WDR 2 M&uuml;nsterland (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/wdr2_dortmund.m3u">WDR 2 Ruhrgebiet (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/wdr2_essen_duesseldorf.m3u">WDR 2 Rhein und Ruhr (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/wdr2_wuppertal.m3u">WDR 2 Bergisches Land (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/wdr2_siegen.m3u">WDR 2 S&uuml;dwestfalen (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/wdr2_aachen.m3u">WDR 2 Aachen und Region (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/wdr3.asx">WDR 3 (Windows Media)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/wdr3.m3u">WDR 3 (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/wdr4.asx">WDR 4 (Windows Media)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/wdr4.m3u">WDR 4 (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/wdr5.asx">WDR 5 (Windows Media)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/wdr5.m3u">WDR 5 (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/fhe.asx">Funkhaus Europa (Windows Media)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/fhe.m3u">Funkhaus Europa (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/koelnradyosunet.m3u">K&ouml;lnRadyosuNET (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/netradioforum.m3u">NetRadioForum (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/funkhauseuropa_5planeten.m3u">die 5planeten (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/funkhauseuropa_spirits.m3u">spirits (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/funkhauseuropa_massivereggae.m3u">massive reggae (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/funkhauseuropa_italienisch.m3u">Radio Colonia (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/funkhauseuropa_kurdisch.m3u">Bermana Kurdi (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/kiraka.asx">Kiraka (Windows Media)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/kiraka.m3u">Kiraka (mp3)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/audioevent.asx">WDR Event (nur zeitweise aufgeschaltet, Windows Media)</a></span></li>
+<li><img src="images/audio.gif" alt="Audio:" class="wsIcon" /><span class="wsILLInner"><a title="Link &ouml;ffnet in neuem Fenster" rel="ard@_blank" href="media/audioevent.m3u">WDR Event (nur zeitweise aufgeschaltet, mp3)</a></span></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- -->
+<div id="wsFooterOuterBG">
+<div id="wsPublish">
+<ul><li>&nbsp;</li>
+<li>&nbsp;</li>
+<li>&nbsp;</li></ul>
+</div>
+<div id="wsFooterColored"></div>
+<div id="wsFooterInnerBG">
+<div id="wsFunction">
+<ul id="wsTop">
+  <li><img src="/themen/_config_/nav/2006/fbfbfb/pfeil.gif" alt="" /><a href="#top">Seitenanfang</a></li>
+</ul>
+</div>
+<hr class="inv" />
+<div id="wsDisclaimer">
+  <p>Der WDR ist nicht für die Inhalte fremder Seiten verantwortlich, die über einen Link erreicht werden.</p>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>

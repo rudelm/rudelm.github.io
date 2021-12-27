@@ -1,0 +1,11 @@
+<html><head><title>Error generating thumbnail</title></head>
+<body>
+<h1>Error generating thumbnail</h1>
+<p>
+The source file for the specified thumbnail does not exist.
+</p>
+<!-- http://en.wikipedia.org/w/thumb.php?f=Hardhatmack.gif&amp;width=250 -->
+<!-- srv223 -->
+
+</body>
+</html>

@@ -1,0 +1,1796 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+
+
+<html class="no-js loading">
+<head><title>
+	Splinter Cell® Blacklist™ | Die Offizielle Website | Ubisoft
+</title>
+
+<meta http-equiv="content-language" content="de-DE">
+<meta http-equiv="X-UA-Compatible" content="IE=8;chrome=1">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<!-- Customize MetaTag -->
+<meta name="description" content="Official Splinter Cell Blacklist website. Unleash the power of the most lethal agent to ever exist. You are Sam Fisher, and you've been given the ultimate freedom to protect innocents against a series of global terror attacks known as Blacklist - the freedom to use limitless force, to break every law, and to become the globe's deadliest operative. If you succeed, the president of the United States will deny you exist. If you fail, millions will die." />
+<meta name="keywords" content="Splinter Cell, Splinter Cell Blacklist, Blacklist, Sam, Sam Fisher, SCBL, SC, United States, PS3, XBOX360, PC, Ubisoft, video game, announcement, trailer, official, site" />
+
+
+
+<!-- Customize MetaTag End -->
+
+
+<link href="http://static9.cdn.ubi.com/de-DE/images/common/static.css"  rel="stylesheet"
+    type="text/css" media="all">
+
+
+<link href="http://static9.cdn.ubi.com/de-DE/images/common/reset.css"  rel="stylesheet"
+    type="text/css" media="all">
+
+
+<link href="http://static9.cdn.ubi.com/de-DE/images/common/struct.css"  rel="stylesheet"
+    type="text/css" media="all">
+
+
+<link href="http://static9.cdn.ubi.com/de-DE/images/common/style.css"  rel="stylesheet"
+    type="text/css" media="all">
+
+
+<link href="http://static9.cdn.ubi.com/de-DE/images/blacklist/scbl.css"  rel="stylesheet"
+    type="text/css" media="all">
+
+
+<link href="http://static9.cdn.ubi.com/de-DE/images/common/game.css"  rel="stylesheet"
+    type="text/css" media="all">
+
+
+<link href="http://static9.cdn.ubi.com/de-DE/images/blacklist/scbl_loc.css"  rel="stylesheet" type="text/css"
+    media="all">
+
+
+
+<link rel="canonical" href="http://splintercell.ubi.com/blacklist/de-de/index.aspx" />
+
+<!-- Arbitrary Code -->
+<link rel="alternate" hreflang="en-US" href="http://splintercell.ubi.com/blacklist/en-US/index.aspx" />
+<link rel="alternate" hreflang="en-GB" href="http://splintercell.ubi.com/blacklist/en-GB/index.aspx" />
+<link rel="alternate" hreflang="fr-FR" href="http://splintercell.ubi.com/blacklist/fr-FR/index.aspx" />
+<link rel="alternate" hreflang="de-DE" href="http://splintercell.ubi.com/blacklist/de-DE/index.aspx" />
+<link rel="alternate" hreflang="es-ES" href="http://splintercell.ubi.com/blacklist/es-ES/index.aspx" />
+<link rel="alternate" hreflang="it-IT" href="http://splintercell.ubi.com/blacklist/it-IT/index.aspx" />
+<!-- Arbitrary Code End -->
+
+
+
+<!-- Initialize Flowplayer Key -->
+<script type="text/javascript">
+    window.Ubi = {};
+    Ubi.params = {
+        'flowplayer.key': '7a59f2855f5de01a7d0'.split('|'),
+        'sharethis.destUrls': {
+            twitter: 'http://twitter.com/home?status=${title}: ${url}',
+            facebook: 'http://www.facebook.com/sharer.php?s=100&amp;p[url]=${url}&amp;p[title]=${title}&amp;p[images][0]=${thumbSrc}'
+        }
+    }
+</script>
+<!-- End Initialize Flowplayer Key -->
+
+<script type="text/javascript">
+    var d = document;
+    (function (D, cn) {
+        // mark HTML node as IE to allow non-hack CSS fixes, and mark as JS-enabled
+        D[cn] = D[cn].replace(/\bno-js\b/, 'js');
+        // mark any slow-loading page as such
+        setTimeout(function () { if (D[cn].indexOf('loaded') < 0) { D[cn] += ' slow-loading'; } }, 1000);
+    })(d.documentElement, 'className');
+</script>
+
+
+<script src="http://static9.cdn.ubi.com/de-DE/images/common/jquery-1.6.4.min.js"  type="text/javascript"></script>
+
+
+</head>
+<body class=" scbl-home">
+
+    <div class="struct section header">
+        
+
+<input id="nextURLId" value="http://splintercell.ubi.com/blacklist/de-DE/index.aspx" type="hidden" />
+<a id="memberOnlyPage" href="" style="display:none" >memberlink</a>
+
+<script type="text/javascript" src="http://ubibar.ubi.com/_v2/barreubi.php?genomeId=7c77c86e-c414-49b5-8200-613d5f2c5fc4&lang=de-DE&loginnexturl=http://splintercell.ubi.com/blacklist/de-DE/index.aspx"></script>
+
+<script type="text/javascript" language="javascript">
+
+    function CheckLogin() {
+        if (!isUserLoggedIn()) {
+            window.location = document.getElementById("memberOnlyPage").href+"?loginURL="+encodeURIComponent("https://secure.ubi.com/register/Login.aspx?lang=de-DE&NextUrl=" + document.getElementById("nextURLId").value + "&genomeId=7c77c86e-c414-49b5-8200-613d5f2c5fc4");
+        }
+    }
+
+    if("false" == "true"){
+        CheckLogin();
+    }
+</script>
+        <div class="ubiSubBar">
+            <b class="cart"><a class="buynow" href="">Buy Now</a></b>
+            <div class="shareThisBox">
+                <b>Share</b>
+                <button class="share-this stFacebook" st_direct="facebook">Facebook</button>
+                <button class="share-this stTwitter" st_direct="twitter">Twitter</button>
+            </div>
+        </div>
+    </div>
+    <form name="Form1" method="post" action="index.aspx" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMTQ3NzI1MTk2D2QWAgIGD2QWAgIBD2QWBGYQPCsADQIADxYCHgtfIURhdGFCb3VuZGcWAh4NbW9sX2Nzc19jbGFzcwUid2lkZ2V0TWFpbkJveCBuYXZNZW51TGlzdCBzY2JsLW5hdgwUKwAFBQ8wOjAsMDoxLDA6MiwwOjMUKwACFg4eBFRleHQFBE5ld3MeBVZhbHVlBQlzY2JsLW5ld3MeC05hdmlnYXRlVXJsBSAvYmxhY2tsaXN0L2RlLURFL25ld3MvaW5kZXguYXNweB4HRW5hYmxlZGceClNlbGVjdGFibGVnHghEYXRhUGF0aAUgL2JsYWNrbGlzdC9kZS1kZS9uZXdzL2luZGV4LmFzcHgeCURhdGFCb3VuZGdkFCsAAhYOHwIFClN0YXJ0c2VpdGUfAwUJc2NibC1ob21lHwQFIC9ibGFja2xpc3QvZGUtREUvaG9tZS9pbmRleC5hc3B4HwVnHwZnHwcFIC9ibGFja2xpc3QvZGUtZGUvaG9tZS9pbmRleC5hc3B4HwhnZBQrAAIWDh8CBQlTcGllbGluZm8fAwUHc2NibC1naR8EBSUvYmxhY2tsaXN0L2RlLURFL2dhbWUtaW5mby9pbmRleC5hc3B4HwVnHwZnHwcFJS9ibGFja2xpc3QvZGUtZGUvZ2FtZS1pbmZvL2luZGV4LmFzcHgfCGdkFCsAAhYOHwIFDFZvcmJlc3RlbGxlbh8DBQ1zY2JsLXByZW9yZGVyHwQFJS9ibGFja2xpc3QvZGUtREUvcHJlLW9yZGVyL2luZGV4LmFzcHgfBWcfBmcfBwUlL2JsYWNrbGlzdC9kZS1kZS9wcmUtb3JkZXIvaW5kZXguYXNweB8IZ2RkZAIBDxYCHhBTaG93U3RhcnRpbmdOb2RlaGRk2hJ7vKV4lfNVZb0K3sgLNOntcP8=" />
+
+
+    <div id="headerbar" class="struct section header">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+
+
+    <div class="struct actionArea">
+        <div id="header" class="struct section branding">
+            
+            
+                        
+            
+            
+            <div class="scbl-logo-main">
+<a target="" href="/" >
+    <img src="http://static9.cdn.ubi.com/de-DE/images/scbl-nav-logotcm2552925.jpg"  alt="Splinter Cell Blacklist"/>
+    
+    <span>Splinter Cell Blacklsit</span>
+    
+</a>
+    
+</div>            
+            
+            
+            <div class="scbl-pre-order">
+						<!-- BEGIN Agency Modified Code: Updated HTML with new image tag -->
+						<a target="" href="/blacklist/de-DE/pre-order/index.aspx"><img src="http://static9.cdn.ubi.com/de-DE/images/Header%20SCB%20de-DEtcm2553626.png"  alt="scbl-nav-buy" width="480" height="105"/>
+						<div class="buy-text"><span class="line-1">Vorbestellen</span>
+							
+							<span class="line-3">22. August 2013</span>
+								</div></a>
+						<!-- END Agency Modified Code: Updated HTML with new image tag --></div>            
+            
+            
+            
+    <div id="headerNav" class="widget hnav" maxDepth="2">
+  
+<div class="AspNet-Menu-Horizontal" id="Navigation_tcm2548327_NavMenu">
+		<ul id="molecularID" class="widgetMainBox navMenuList scbl-nav">
+			<li class="AspNet-Menu-Leaf scbl-news">
+				<a href="/blacklist/de-DE/news/index.aspx">
+					<span>News</span></a>
+			</li>
+			<li class="AspNet-Menu-Leaf scbl-home">
+				<a href="/blacklist/de-DE/home/index.aspx">
+					<span>Startseite</span></a>
+			</li>
+			<li class="AspNet-Menu-Leaf scbl-gi">
+				<a href="/blacklist/de-DE/game-info/index.aspx">
+					<span>Spielinfo</span></a>
+			</li>
+			<li class="AspNet-Menu-Leaf scbl-preorder">
+				<a href="/blacklist/de-DE/pre-order/index.aspx">
+					<span>Vorbestellen</span></a>
+			</li>
+		</ul>
+
+</div>
+    </div>
+
+
+
+
+
+            
+            
+            
+            <!-- Agency Code Starts here -->
+<div class="header_social_links">
+    <a href="http://www.facebook.com/splintercell" class="social-icon facebook-icon">Facebook</a>
+    <a href="http://www.twitter.com/splintercell" class="social-icon twitter-icon">Twitter</a>
+    <a href="https://plus.google.com/u/0/b/115575648611906695782/" class="social-icon google-icon">Google Plus</a>
+</div>
+<!-- Agency Code Ends here -->            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        <div id="middle" class="struct main">
+            <div id="leftSide" class="struct sidebar leading">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <br />
+            </div>
+            <div id="rightSide" class="struct sidebar trailing">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <br />
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <div id="main5" class="struct compBox wideCompBox lastCompBox">
+                    <p><div id="tcm2548328" class="widget carousel " showTitle="false" showPlay="false" playSpeed="3" imageFit="clip" carouselItemAutoPlay="false" showCaptions="false" >
+    <b class="auxBox"></b>
+    <div class="widgetTitleBox">
+        <!-- widget title goes here: -->
+        <h2 class="widgetTitleText">SCBL Videos/Screens</h2>
+    </div>
+    <div class="widgetMainBox">
+        <div class="carouselZoomBox">
+            <a class="carouselFocusBox">
+                <!-- images or flash or html will go here -->
+            </a>
+            <div class="shareThisBox"><!-- sharethis will be inserted --></div>
+        </div>
+    </div>
+    <div class="carouselControlsBox">
+        <div class="carouselControlsPos">
+            <button class="carouselNavButton carouselNavPrev"></button>
+            <button class="carouselNavButton carouselNavNext"></button>
+            <button class="carouselNavButton carouselNavPlay"></button>
+            <button class="carouselNavButton carouselNavPause"></button>
+        </div>
+    </div>
+    <div class="carouselThumbsBox">
+        <ul class="carouselThumbsCont">
+                
+                    
+
+	                
+	                
+
+
+    	        
+              
+                
+                <li id="tcm2581353" class="carouselThumbWrap" assetType="youtube" videoURL="http://www.youtube.com/embed/rMVCXYqgpbo" >
+                	
+	                   <a class="carouselFocusBox" href="#"><img src="http://static9.cdn.ubi.com/de-DE/images/scbl_videothumb_ubitv2013-01_scbltcm2581385.jpg"  class="carouselThumbItem" alt="Splinter Cell Blacklist Hands On"/></a>	
+                       <span class="carouselThumbCaption"></span>
+                    
+
+	                
+                    
+                    <div class="carouselAssetHtml" style="display:none">
+                        <div class="youtubeVideo" style=" height:100%; overflow:hidden;">
+                            <iframe frameborder="0" height="100%" width="100%" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <!-- Title and Description -->
+                    <div style="display: none;" class="carouselAssetDetail"></div>
+                    <div style="display: none;" class="carouselAssetTitle"></div>
+                    <div style="display: none;" class="carouselAssetDateStamp"></div>	           
+	            </li>
+              
+         
+                    
+
+	                
+	                
+
+
+    	        
+              
+                
+                <li id="tcm2580043" class="carouselThumbWrap" assetType="youtube" videoURL="http://www.youtube.com/embed/UUxVVrUUqYw" >
+                	
+	                   <a class="carouselFocusBox" href="#"><img src="http://static9.cdn.ubi.com/de-DE/images/Splinter%20Cell%20bouton%20Tridion%20Inauguration%20Trailertcm2580042.jpg"  class="carouselThumbItem" alt="Splinter Cell Blacklist Inauguration Trailer"/></a>	
+                       <span class="carouselThumbCaption"></span>
+                    
+
+	                
+                    
+                    <div class="carouselAssetHtml" style="display:none">
+                        <div class="youtubeVideo" style=" height:100%; overflow:hidden;">
+                            <iframe frameborder="0" height="100%" width="100%" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <!-- Title and Description -->
+                    <div style="display: none;" class="carouselAssetDetail"></div>
+                    <div style="display: none;" class="carouselAssetTitle"></div>
+                    <div style="display: none;" class="carouselAssetDateStamp"></div>	           
+	            </li>
+              
+         
+                    
+
+	                
+	                
+
+
+    	        
+              
+                
+                <li id="tcm2565298" class="carouselThumbWrap" assetType="youtube" videoURL="http://www.youtube.com/embed/3g-syrA_uio" >
+                	
+	                   <a class="carouselFocusBox" href="#"><img src="http://static9.cdn.ubi.com/de-DE/images/splinter_cell_blacklist_fifth_freedom_thumbnailtcm2565296.jpg"  class="carouselThumbItem" alt="Splinter Cell Blacklist Fifth Freedom"/></a>	
+                       <span class="carouselThumbCaption"></span>
+                    
+
+	                
+                    
+                    <div class="carouselAssetHtml" style="display:none">
+                        <div class="youtubeVideo" style=" height:100%; overflow:hidden;">
+                            <iframe frameborder="0" height="100%" width="100%" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <!-- Title and Description -->
+                    <div style="display: none;" class="carouselAssetDetail"></div>
+                    <div style="display: none;" class="carouselAssetTitle"></div>
+                    <div style="display: none;" class="carouselAssetDateStamp"></div>	           
+	            </li>
+              
+         
+                    
+
+	                
+	                
+
+
+    	        
+              
+                
+                <li id="tcm2562089" class="carouselThumbWrap" assetType="youtube" videoURL="http://www.youtube.com/embed/tfJwYLn_RzE" >
+                	
+	                   <a class="carouselFocusBox" href="#"><img src="http://static9.cdn.ubi.com/de-DE/images/scbl_videothumb_ubitv2012-08tcm2562090.jpg"  class="carouselThumbItem" alt="Splinter Cell Blacklist sam gear"/></a>	
+                       <span class="carouselThumbCaption"></span>
+                    
+
+	                
+                    
+                    <div class="carouselAssetHtml" style="display:none">
+                        <div class="youtubeVideo" style=" height:100%; overflow:hidden;">
+                            <iframe frameborder="0" height="100%" width="100%" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <!-- Title and Description -->
+                    <div style="display: none;" class="carouselAssetDetail"></div>
+                    <div style="display: none;" class="carouselAssetTitle"></div>
+                    <div style="display: none;" class="carouselAssetDateStamp"></div>	           
+	            </li>
+              
+         
+                    
+
+	                
+	                
+
+
+    	        
+              
+                
+                <li id="tcm2555904" class="carouselThumbWrap" assetType="youtube" videoURL="http://www.youtube.com/embed/awJY3aS7VLQ" >
+                	
+	                   <a class="carouselFocusBox" href="#"><img src="http://static9.cdn.ubi.com/de-DE/images/splinter_cell_blacklist_sam_gear_thumbtcm2555902.jpg"  class="carouselThumbItem" alt="Splinter Cell Blacklist sam gear"/></a>	
+                       <span class="carouselThumbCaption"></span>
+                    
+
+	                
+                    
+                    <div class="carouselAssetHtml" style="display:none">
+                        <div class="youtubeVideo" style=" height:100%; overflow:hidden;">
+                            <iframe frameborder="0" height="100%" width="100%" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <!-- Title and Description -->
+                    <div style="display: none;" class="carouselAssetDetail"></div>
+                    <div style="display: none;" class="carouselAssetTitle"></div>
+                    <div style="display: none;" class="carouselAssetDateStamp"></div>	           
+	            </li>
+              
+         
+                    
+
+	                
+	                
+
+
+    	        
+              
+                
+                <li id="tcm2553298" class="carouselThumbWrap" assetType="youtube" videoURL="http://www.youtube.com/embed/aMltRiyr8vo?rel=0" >
+                	
+	                   <a class="carouselFocusBox" href="#"><img src="http://static9.cdn.ubi.com/de-DE/images/splinter_cell_blacklist_E3_CGI_thumbtcm2553660.jpg"  class="carouselThumbItem" alt="Splinter Cell Blacklist CGI E3 Trailer"/></a>	
+                       <span class="carouselThumbCaption"></span>
+                    
+
+	                
+                    
+                    <div class="carouselAssetHtml" style="display:none">
+                        <div class="youtubeVideo" style=" height:100%; overflow:hidden;">
+                            <iframe frameborder="0" height="100%" width="100%" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <!-- Title and Description -->
+                    <div style="display: none;" class="carouselAssetDetail"></div>
+                    <div style="display: none;" class="carouselAssetTitle"></div>
+                    <div style="display: none;" class="carouselAssetDateStamp"></div>	           
+	            </li>
+              
+         
+                    
+
+	                
+	                
+
+
+    	        
+              
+                
+                <li id="tcm2553950" class="carouselThumbWrap" assetType="youtube" videoURL="http://www.youtube.com/embed/YuhfD48VRGE?rel=0" >
+                	
+	                   <a class="carouselFocusBox" href="#"><img src="http://static9.cdn.ubi.com/de-DE/images/splinter_cell_blacklist_vid1_smtcm2552493.jpg"  class="carouselThumbItem" alt="Splinter Cell Blacklist E3 Walkthrough Trailer"/></a>	
+                       <span class="carouselThumbCaption"></span>
+                    
+
+	                
+                    
+                    <div class="carouselAssetHtml" style="display:none">
+                        <div class="youtubeVideo" style=" height:100%; overflow:hidden;">
+                            <iframe frameborder="0" height="100%" width="100%" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <!-- Title and Description -->
+                    <div style="display: none;" class="carouselAssetDetail"></div>
+                    <div style="display: none;" class="carouselAssetTitle"></div>
+                    <div style="display: none;" class="carouselAssetDateStamp"></div>	           
+	            </li>
+              
+         
+                    
+                       <li assetUrl="http://static9.cdn.ubi.com/de-DE/images/splinter_cell_blacklist_ss1tcm2551255.jpg"  id="tcm2551261" class="carouselThumbWrap" assetType="image" actionUrl="" src="tcm:25-51255" >
+	                        <a class="carouselFocusBox" href="#">
+	                            <img src="http://static9.cdn.ubi.com/de-DE/images/splinter_cell_blacklist_ss1_smtcm2551256.jpg"  class="carouselThumbItem" alt="Splinter Cell Blacklist Screenshot 1"/>
+	                        </a>
+	                        <span class="carouselThumbCaption"></span>
+	                        <!-- Title and Description -->
+	                        <div style="display: none;" class="carouselAssetDetail"></div>
+                            <div style="display: none;" class="carouselAssetTitle">Splinter Cell Blacklist Screenshot 1</div>
+                            <div style="display: none;" class="carouselAssetDateStamp"></div> 	          
+	                   </li>
+	                
+
+	                
+	                
+
+
+    	        
+              
+                
+         
+                    
+                       <li assetUrl="http://static9.cdn.ubi.com/de-DE/images/splinter_cell_blacklist_ss2tcm2551257.jpg"  id="tcm2551272" class="carouselThumbWrap" assetType="image" actionUrl="" src="tcm:25-51257" >
+	                        <a class="carouselFocusBox" href="#">
+	                            <img src="http://static9.cdn.ubi.com/de-DE/images/splinter_cell_blacklist_ss2_smtcm2551258.jpg"  class="carouselThumbItem" alt="Splinter Cell Blacklist Screenshot 2"/>
+	                        </a>
+	                        <span class="carouselThumbCaption"></span>
+	                        <!-- Title and Description -->
+	                        <div style="display: none;" class="carouselAssetDetail"></div>
+                            <div style="display: none;" class="carouselAssetTitle">Splinter Cell Blacklist Screenshot 2</div>
+                            <div style="display: none;" class="carouselAssetDateStamp"></div> 	          
+	                   </li>
+	                
+
+	                
+	                
+
+
+    	        
+              
+                
+         
+                    
+                       <li assetUrl="http://static9.cdn.ubi.com/de-DE/images/splinter_cell_blacklist_ss3tcm2551259.jpg"  id="tcm2551273" class="carouselThumbWrap" assetType="image" actionUrl="" src="tcm:25-51259" >
+	                        <a class="carouselFocusBox" href="#">
+	                            <img src="http://static9.cdn.ubi.com/de-DE/images/splinter_cell_blacklist_ss3_smtcm2551260.jpg"  class="carouselThumbItem" alt="Splinter Cell Blacklist Screenshot 3"/>
+	                        </a>
+	                        <span class="carouselThumbCaption"></span>
+	                        <!-- Title and Description -->
+	                        <div style="display: none;" class="carouselAssetDetail"></div>
+                            <div style="display: none;" class="carouselAssetTitle">Splinter Cell Blacklist Screenshot 3</div>
+                            <div style="display: none;" class="carouselAssetDateStamp"></div> 	          
+	                   </li>
+	                
+
+	                
+	                
+
+
+    	        
+              
+                
+         
+        </ul>
+    </div>
+
+    <div class="carouselDetailBox">
+        <span class="carouselDetailDateStamp"></span>
+        <h3 class="carouselDetailTitle"></h3>
+        <p class="carouselDetailText"></p>
+    </div>
+
+     
+    
+
+</div></p>
+            </div>
+            
+            
+            
+            <div id="main6" class="struct compBox firstCompBox">
+                    <p><div id="tcm2548329" class="summary change_me">
+      <b class="struct auxBox"></b>
+
+         
+         <h2>News</h2>
+         
+ 
+         
+         
+         
+         <div class="sum featured">
+
+         
+             
+                <div class="tn">
+                      <img src="http://static9.cdn.ubi.com/de-DE/images/news-icon-02tcm2543067.png"  alt=""/>
+                      <span class="csHeaderImageCaption"></span>
+                 </div>
+              
+           
+
+           
+
+                    
+                         <div class="txt">
+                       
+                          <p class="date">2012-05-08T15:06:24</p>
+                       
+
+
+                               News Feed Body Text
+                         </div>
+                    
+
+
+         </div>
+         
+
+         
+         <div class="sum">
+              
+              
+              <div class="tn">
+                   
+                   <img src="http://static9.cdn.ubi.com/de-DE/images/SamWallpapertcm2584753.jpg"  alt="" />
+                   
+
+                    
+                  
+                     
+
+                   
+              </div>            
+              
+
+              <div class="txt">
+                   
+                   
+                   
+                   <h4>
+                   <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-84755&ct=tcm:6-231-32" >Auge in Auge mit Sam und unserem brandneuen Blacklist Wallpaper</a></h4>
+                   
+                   
+                   
+                   
+                   
+
+                   
+
+                   
+                   
+                   
+                       <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-84755&ct=tcm:6-231-32" >Mehr</a></h4>                       
+                   
+
+              </div>
+         </div>
+         
+         <div class="sum">
+              
+              
+              <div class="tn">
+                   
+                   <img src="http://static9.cdn.ubi.com/de-DE/images/MbthCtcm2574773.jpg"  alt="" />
+                   
+
+                    
+                  
+                     
+
+                   
+              </div>            
+              
+
+              <div class="txt">
+                   
+                   
+                   
+                   <h4>
+                   <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-81048&ct=tcm:6-231-32" >Ubisoft-TV präsentiert neue Features und neue Gameplayszenen</a></h4>
+                   
+                   
+                   
+                   
+                   
+
+                   
+
+                   
+                   <p>
+						<p>Im Interview mit Ubisoft-TV Moderator Carsten Konze fasst Director Patrick Redding die Story des Spiels kurz zusammen, geht auf wichtige Fragen ein und gibt einige neue Features preis. Außerdem gibt es neue Spielszenen aus Tom Clancy's Splinter Cell Blacklist zusehen.</p>
+						<br /></p>
+                   
+                   
+                   
+                       <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-81048&ct=tcm:6-231-32" >Mehr</a></h4>                       
+                   
+
+              </div>
+         </div>
+         
+         <div class="sum">
+              
+              
+              <div class="tn">
+                   
+                   <img src="http://static9.cdn.ubi.com/de-DE/images/news_sc_comdevtcm2558684.jpg"  alt="" />
+                   
+
+                    
+                  
+                     
+
+                   
+              </div>            
+              
+
+              <div class="txt">
+                   
+                   
+                   
+                   <h4>
+                   <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-79022&ct=tcm:6-231-32" >Das neue Wertungssystem von Splinter Cell Blacklist</a></h4>
+                   
+                   
+                   
+                   
+                   
+
+                   
+
+                   
+                   
+                   
+                       <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-79022&ct=tcm:6-231-32" >Mehr</a></h4>                       
+                   
+
+              </div>
+         </div>
+         
+         <div class="sum">
+              
+              
+              <div class="tn">
+                   
+                   <img src="http://static9.cdn.ubi.com/de-DE/images/MbthCtcm2574773.jpg"  alt="" />
+                   
+
+                    
+                  
+                     
+
+                   
+              </div>            
+              
+
+              <div class="txt">
+                   
+                   
+                   
+                   <h4>
+                   <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-74756&ct=tcm:6-231-32" >Hinter den Kulissen: Der Mann hinter Sams Nahkampf Moves</a></h4>
+                   
+                   
+                   
+                   
+                   
+
+                   
+
+                   
+                   <p>
+          <br />
+        </p>
+                   
+                   
+                   
+                       <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-74756&ct=tcm:6-231-32" >Mehr</a></h4>                       
+                   
+
+              </div>
+         </div>
+         
+         <div class="sum">
+              
+              
+              <div class="tn">
+                   
+                   <img src="http://static9.cdn.ubi.com/de-DE/images/icontcm2573612.jpg"  alt="" />
+                   
+
+                    
+                  
+                     
+
+                   
+              </div>            
+              
+
+              <div class="txt">
+                   
+                   
+                   
+                   <h4>
+                   <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-73554&ct=tcm:6-231-32" >TOM HARDY ÜBERNIMMT DIE ROLLE VON SAM FISHER IM SPLINTER CELL FILM</a></h4>
+                   
+                   
+                   
+                   
+                   
+
+                   
+
+                   
+                   <p>
+          <p>
+            <strong>Liebe Splinter Cell Community,</strong>
+							<br />
+							<br />
+wir freuen uns euch heute bestätigen zu können, dass Ubisoft an einem Film zu <strong>Splinter Cell</strong> arbeitet, der von Ubisoft Motion Picture produziert wird. Dieses kleine Team von Führungskräften aus der Filmindustrie, arbeitet bei Ubisoft daran, das Spieluniversum auf Film und Fernsehen zu übertragen. Teil ihrer Mission ist es sicherzustellen, dass der Film den Kern der Videospielserie trifft und den Fans der Spiele Spaß macht.</p>
+						<p><br /></p>
+						<p>Bei dieser Gelegenheit möchten wir euch auch mitteilen, dass <strong>Tom Hardy</strong> die Rolle von Sam Fisher übernehmen wird und <strong>Eric Singer</strong> für das Drehbuch verantwortlich sein wird.</p>
+						<p><br /></p>
+						<p>Vielleicht ist euch <strong>Tom Hardy</strong> in seiner Rolle als "Bane" in THE DARK KNIGHT RISES bekannt oder als "Eames" aus INCEPTION. Weitere Filme, in denen er mitgespielt hat sind LAWLESS, das MMA-Drama WARRIOR und der Thriller BUBE, KÖNIG, AS, SPION.</p>
+						<p><br /></p>
+						<p>Eines der aktuelleren Werke, an denen <strong>Eric Warren Singer</strong> beteiligt war, ist der Thriller THE INTERNATIONAL.</p>
+						<p><br /></p>
+						<p>Wir freuen uns die beiden an Bord zu haben, um mit ihnen das Abenteuer, einen <strong>Splinter Cell</strong> Film zu erschaffen, anzugehen. Bleibt am Ball, denn in den kommenden Monaten wird es noch weitere Informationen geben.
+<br />
+							<br />
+							<strong>Stay stealthy!</strong>
+							<br />
+Ubi_Asahi</p></p>
+                   
+                   
+                   
+                       <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-73554&ct=tcm:6-231-32" >Mehr</a></h4>                       
+                   
+
+              </div>
+         </div>
+         
+         <div class="sum">
+              
+              
+              <div class="tn">
+                   
+                   <img src="http://static9.cdn.ubi.com/de-DE/images/news_sc_comdevtcm2558684.jpg"  alt="" />
+                   
+
+                    
+                  
+                     
+
+                   
+              </div>            
+              
+
+              <div class="txt">
+                   
+                   
+                   
+                   <h4>
+                   <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-73583&ct=tcm:6-231-32" >Stealth Videos - 'Closer than ever'</a></h4>
+                   
+                   
+                   
+                   
+                   
+
+                   
+
+                   
+                   <p>
+						<br />
+					</p>
+                   
+                   
+                   
+                       <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-73583&ct=tcm:6-231-32" >Mehr</a></h4>                       
+                   
+
+              </div>
+         </div>
+         
+         <div class="sum">
+              
+              
+              <div class="tn">
+                   
+                   <img src="http://static9.cdn.ubi.com/de-DE/images/splinter-cell-echoes-thumbnailtcm2567932.jpg"  alt="" />
+                   
+
+                    
+                  
+                     
+
+                   
+              </div>            
+              
+
+              <div class="txt">
+                   
+                   
+                   
+                   <h4>
+                   <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-67928&ct=tcm:6-231-32" >Q&A mit Nathan Edmondson und Marc Laming zu Splinter Cell Echoes</a></h4>
+                   
+                   
+                   
+                   
+                   
+
+                   
+                   <p class="date">2012-10-11T18:00:00</p>
+                   
+
+                   
+                   <p>
+						<br />
+					</p>
+                   
+                   
+                   
+                       <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-67928&ct=tcm:6-231-32" >Mehr</a></h4>                       
+                   
+
+              </div>
+         </div>
+         
+         <div class="sum">
+              
+              
+              <div class="tn">
+                   
+                   <img src="http://static9.cdn.ubi.com/de-DE/images/SCEchoesSmalltcm2567906.jpg"  alt="" />
+                   
+
+                    
+                  
+                     
+
+                   
+              </div>            
+              
+
+              <div class="txt">
+                   
+                   
+                   
+                   <h4>
+                   <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-67865&ct=tcm:6-231-32" >Ubisoft® kündigt Splinter Cell® Graphic-Novel an</a></h4>
+                   
+                   
+                   
+                   
+                   
+
+                   
+
+                   
+                   <p>
+						<br />
+					</p>
+                   
+                   
+                   
+                       <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-67865&ct=tcm:6-231-32" >Mehr</a></h4>                       
+                   
+
+              </div>
+         </div>
+         
+         <div class="sum">
+              
+              
+              <div class="tn">
+                   
+                   <img src="http://static9.cdn.ubi.com/de-DE/images/scbl-default-newstcm2550326.jpg"  alt="" />
+                   
+
+                    
+                  
+                     
+
+                   
+              </div>            
+              
+
+              <div class="txt">
+                   
+                   
+                   
+                   <h4>
+                   <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-66634&ct=tcm:6-231-32" >Splinter Cell Blacklist Fifth Freedom Trailer</a></h4>
+                   
+                   
+                   
+                   
+                   
+
+                   
+
+                   
+                   
+                   
+                       <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-66634&ct=tcm:6-231-32" >Mehr</a></h4>                       
+                   
+
+              </div>
+         </div>
+         
+         <div class="sum">
+              
+              
+              <div class="tn">
+                   
+                   <img src="http://static9.cdn.ubi.com/de-DE/images/scbl-default-newstcm2550326.jpg"  alt="" />
+                   
+
+                    
+                  
+                     
+
+                   
+              </div>            
+              
+
+              <div class="txt">
+                   
+                   
+                   
+                   <h4>
+                   <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-65580&ct=tcm:6-231-32" >Helden des Cyber-Alltags gesucht!</a></h4>
+                   
+                   
+                   
+                   
+                   
+
+                   
+
+                   
+                   <p>
+						<br />
+					</p>
+                   
+                   
+                   
+                       <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-65580&ct=tcm:6-231-32" >Mehr</a></h4>                       
+                   
+
+              </div>
+         </div>
+         
+         <div class="sum">
+              
+              
+              <div class="tn">
+                   
+                   <img src="http://static9.cdn.ubi.com/de-DE/images/news_sc_comdevtcm2558684.jpg"  alt="" />
+                   
+
+                    
+                  
+                     
+
+                   
+              </div>            
+              
+
+              <div class="txt">
+                   
+                   
+                   
+                   <h4>
+                   <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-58686&ct=tcm:6-231-32" >ComDev Videos - Aktuell: 4th Echelon Logo Analyse</a></h4>
+                   
+                   
+                   
+                   
+                   
+
+                   
+
+                   
+                   <p>
+						<br />
+					</p>
+                   
+                   
+                   
+                       <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-58686&ct=tcm:6-231-32" >Mehr</a></h4>                       
+                   
+
+              </div>
+         </div>
+         
+         <div class="sum">
+              
+              
+              <div class="tn">
+                   
+                   <img src="http://static9.cdn.ubi.com/de-DE/images/news_SC_ubisoftTVtcm2558976.png"  alt="" />
+                   
+
+                    
+                  
+                     
+
+                   
+              </div>            
+              
+
+              <div class="txt">
+                   
+                   
+                   
+                   <h4>
+                   <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-58977&ct=tcm:6-231-32" >Ubisoft-TV - Folge 8/2012 mit Splinter Cell Blacklist</a></h4>
+                   
+                   
+                   
+                   
+                   
+
+                   
+
+                   
+                   
+                   
+                       <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-58977&ct=tcm:6-231-32" >Mehr</a></h4>                       
+                   
+
+              </div>
+         </div>
+         
+         <div class="sum">
+              
+              
+              <div class="tn">
+                   
+                   <img src="http://static9.cdn.ubi.com/de-DE/images/news_SC_popup-trailertcm2558458.jpg"  alt="" />
+                   
+
+                    
+                  
+                     
+
+                   
+              </div>            
+              
+
+              <div class="txt">
+                   
+                   
+                   
+                   <h4>
+                   <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-58461&ct=tcm:6-231-32" >Rettungsmission im neuen Trailer</a></h4>
+                   
+                   
+                   
+                   
+                   
+
+                   
+
+                   
+                   
+                   
+                       <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-58461&ct=tcm:6-231-32" >Mehr</a></h4>                       
+                   
+
+              </div>
+         </div>
+         
+         <div class="sum">
+              
+              
+              <div class="tn">
+                   
+                   <img src="http://static9.cdn.ubi.com/de-DE/images/E3_logo-icontcm2555355.png"  alt="" />
+                   
+
+                    
+                  
+                     
+
+                   
+              </div>            
+              
+
+              <div class="txt">
+                   
+                   
+                   
+                   <h4>
+                   <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-55353&ct=tcm:6-231-32" >Splinter Cell Blacklist E3 Auszeichnungen</a></h4>
+                   
+                   
+                   
+                   
+                   
+
+                   
+
+                   
+                   <p>
+          <p>
+            <img src="http://static9.cdn.ubi.com/de-DE/images/e3_2012Accolades_newtcm2555358.jpg"  style="WIDTH: 560px; HEIGHT: 316px" title="Splinter Cell E3 Awards news image" alt="Splinter Cell E3 Awards news image" />
+          </p>
+						<p>Splinter Cell Blacklist wurde am vergangenen Montag dem 4. Juni als Teil einer spektakulären Show auf der E3 vorgestellt. Die erste eigenständige Entwicklung von Ubisoft Toronto, konnte bereits 17 Nominierungen und 6 definitive Auszeichnungen für sich beanspruchen. Unter anderem erhielt Splinter Cell Blacklist von <a href="http://www.gamespot.com/special-feature/best-of-e3-2012-edit/image-gallery/index.html?image=12">Gamespot</a> den "Editor’s Choice" Award mit der Begründung, dass es "visuell atemberaubend und farbgewaltig gestaltet sei". Das herausstechendste Merkmal sei jedoch die Choreographie, die dem Spiel eine derart hohe visuelle Qualität verleihen würde, welche der Eleganz und den flüssigen Bewegungsabläufen eines Assassin's Creed in nichts nachstehen würde”. Game Informer, <a href="http://www.elecplay.com/all/spotlight/the-electric-playgrounds-best-of-e3-winners/">Electric Playground</a>, und <a href="http://blog.gameone.net/2012/06/11/les-gagnants-des-game-one-awards-e3-2012/">Game One</a> stellten fest, dass Splinter Cell Blacklist definitiv zu den "Best of E3" 2012 gehöre, während <a href="http://www.gamechronicles.com/features/e32k12/bos.htm">Game Chronicles</a> Splinter Cell Blacklist sogar als den ihrer Meinung nach besten Third-Person Shooter der E3 bezeichnete. Das <a href="http://www.oxmonline.com/official-xbox-magazines-10-most-valuable-games-e3-2012#slide-7">OXM</a> nannte den kommenden Splinter Cell Teil sogar eines der “hochwertigsten Spiele" der gesamten E3.</p></p>
+                   
+                   
+                   
+                       <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-55353&ct=tcm:6-231-32" >Mehr</a></h4>                       
+                   
+
+              </div>
+         </div>
+         
+         <div class="sum">
+              
+              
+              <div class="tn">
+                   
+                   <img src="http://static9.cdn.ubi.com/de-DE/images/sc6-sam-fisher-geartcm2554326.jpg"  alt="" />
+                   
+
+                    
+                  
+                     
+
+                   
+              </div>            
+              
+
+              <div class="txt">
+                   
+                   
+                   
+                   <h4>
+                   <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-54221&ct=tcm:6-231-32" >Entdeckt Sam Fishers neue Ausrüstung!</a></h4>
+                   
+                   
+                   
+                   
+                   
+
+                   
+
+                   
+                   <p>
+          <p>Coole Ausrüstungsgegenstände und High-Tech Waffen hatten schon immer einen besonderen Stellenwert in Splinter Cell, das wird sich auch mit Blacklist nicht ändern, denn auch dieses Mal wird Sam Fisher wieder über eine entsprechend hochentwickelte Ausrüstung verfügen. </p>
+						<p><br /></p>
+						<p>Vor allem wäre da der mit Kevlar-Gewebe verstärkte, taktische Kampfanzug zu erwähnen. Dank diesem Anzug verfügt Sam in seinen Missionen, über einen gewichts-reduzierten effektiven Schutz, der sowohl optik- als auch lärmdämpfende Eigenschaften besitzt.</p>
+						<p><br /></p>
+						<p>Aber auch altbekannte Ausrüstungsgegenstände sind wieder Teil des Arsenals, wie z.B. die Spezialsichtbrille die nun sogar eine Sonar-basierte Ortung gestattet, wodurch die aus vorherigen Episoden bekannte Nachtsicht noch effektiver wird. Einfach ausgedrückt: Durch diese Technologie wird Sam in die Lage versetzt, durch Wände zu sehen und ganze Gebiete mittels der Sonarsichtbrille nach Gegnern zu scannen.</p>
+						<p><br /></p>
+						<p>Im folgenden Video wollen wir euch die Spezialausrüstung etwas näher vorstellen:</p>
+						<p><br /></p>
+						<p><object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/awJY3aS7VLQ?version=3&amp;hl=fr_FR&amp;rel=0" />
+								<param name="allowFullScreen" value="true" />
+								<param name="allowscriptaccess" value="always" />
+								<embed src="http://www.youtube.com/v/awJY3aS7VLQ?version=3&amp;hl=fr_FR&amp;rel=0" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true" /></object></p>
+						<p><br /></p>
+						<p>Natürlich ist das nur ein kleiner Teil von der Ausrüstung, über die ihr in unserem Spiel verfügen werdet. Neben altbekannter Ausrüstung und Waffen werden wir euch auch so manches Neue vorstellen.  </p>
+						<p><br /></p>
+						<p>Bleibt also dran! </p></p>
+                   
+                   
+                   
+                       <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-54221&ct=tcm:6-231-32" >Mehr</a></h4>                       
+                   
+
+              </div>
+         </div>
+         
+         <div class="sum">
+              
+              
+              <div class="tn">
+                   
+                   <img src="http://static9.cdn.ubi.com/de-DE/images/scbl-default-newstcm2550326.jpg"  alt="" />
+                   
+
+                    
+                  
+                     
+
+                   
+              </div>            
+              
+
+              <div class="txt">
+                   
+                   
+                   
+                   <h4>
+                   <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-49566&ct=tcm:6-231-32" >Der Countdown beginnt – Ubisoft® enthüllt Splinter Cell Blacklist™</a></h4>
+                   
+                   
+                   
+                   
+                   
+
+                   
+                   <p class="date">2012-05-16T10:49:08</p>
+                   
+
+                   
+                   <p>
+          <p>
+            <span class="green">LOS ANGELES — LOS ANGELES – 4. Juni 2012</span> – Auf der Electronic Entertainment Expo (E3) kündigte Ubisoft heute die Entwicklung von Tom Clancy’s Splinter Cell Blacklist™ an, dem nächsten Blockbuster aus der beliebten Tom Clancy-Reihe. Das Spiel ist das erste Produktionsprojekt von Ubisoft Toronto. Unterstützt wird es von Ubisoft Montreal und Ubisoft Shanghai und bietet eine packende zeitgenössische Spezialagenten-Story, die mit allerhöchster Qualität und jüngsten technischen Innovationen aufwartet. Tom Clancy’s Splinter Cell Blacklist wird Anfang 2013 weltweit für das Xbox 360® Videospiel- und Entertainment-System von Microsoft®, das PlayStation®3 Computer-Entertainment-System sowie Windows PCs erhältlich sein.</p>
+						<br />
+						<p>In Tom Clancy’s Splinter Cell Blacklist hat ein aus 12 Schurkenstaaten bestehender Verbund die Nase voll von der US-amerikanischen Militärpräsenz in seinen Ländern. Um die Besatzer loszuwerden, stellt er die USA vor ein Ultimatum namens The Blacklist – einen Countdown eskalierender Terrorangriffe auf US-Interessen. Der Spieler schlüpft in die Rolle des tödlichen Agenten Sam Fisher und wird mit einer Vollmacht des Präsidenten ausgestattet, um sich außerhalb der Grenzen jeder Legalität bewegen zu können. Als Anführer der neuen Spezialeinheit 4th Echelon muss er anschließend die Terroristen jagen und zur Strecke bringen, bevor der Countdown von The Blacklist abläuft. Die packende Story mit ihren zahlreichen intensiven Missionen, die nach und nach den Blick auf das große Ganze freigeben, schickt die Spieler unter Einsatz aller dafür notwendiger Mittel auf die Suche nach den Hintermännern der tödlichen Angriffe.</p>
+						<br />
+						<p>Im gesamten Spiel suchen sich Sam und 4th Echelon ihre Missionen in einem neuen mobilen Befehlsstand aus, der in einem Tarnflugzeug untergebracht wurde. 4th Echelon ist stets einsatzbereit und mit unbeschränkten Mitteln und modernster Technologie ausgestattet. Dazu gehört auch das Strategic Mission Interface (SMI), das globale Ereignisse in Echtzeit meldet. Sams Ausrüstung umfasst natürlich den taktischen Anzug und die Sichtgeräte, mit deren Hilfe er Terrorzellen infiltriert, um anschließend rücksichtlose Verhörmethoden zur Gewinnung wichtiger Informationen anzuwenden, damit der nächste Blacklist-Angriff unterbleibt. Das Spiel enthält außerdem ein ganzes Arsenal neuer Geräte sowie radikal überarbeitete klassische Waffen. Dazu kommt der Kampfstil „Killing in Motion“ (Töten aus der Bewegung), der dem Spieler das Markieren und Ausschalten mehrerer Gegner aus einer fließenden Bewegung heraus mit tödlicher Präzision ermöglicht.</p></p>
+                   
+                   
+                   
+                       <a href="/blacklist/de-DE/news/news_story.aspx?c=tcm:25-49566&ct=tcm:6-231-32" >Mehr</a></h4>                       
+                   
+
+              </div>
+         </div>
+         
+         <div class="icon" style="display:none">
+            
+            
+            <div class="first_text">
+                First           
+            </div>
+            
+            
+            
+            <div class="prev_text">
+                Prev           
+            </div>
+            
+            
+            
+            <div class="next_text">
+                Next           
+            </div>
+            
+            
+            
+            <div class="last_text">
+                Last           
+            </div>
+            
+         </div>
+<div class="widgetMainBox">
+<div id="pager_tcm2548329" class="pager_dynamic"></div>
+
+<script type="text/javascript">
+var pager_tcm2548329 = null;
+
+function checkNum(obj)
+{
+    var re = /^[1-9]\d*$/;
+    return re.test(obj);
+
+}
+
+var pageSize_tcm2548329 = 0;
+var limit_tcm2548329 = 0;
+
+if(checkNum("3")){
+    pageSize_tcm2548329 = "3";
+}
+
+if(checkNum("0")){
+    limit_tcm2548329 = "0";
+}
+
+var first_tcm2548329 = "";
+if(first_tcm2548329.length > 0){
+    first_tcm2548329 = $('#tcm2548329 div.first_icon').html();
+}else{
+    first_tcm2548329 = $('#tcm2548329 div.first_text').html();
+}
+
+var prev_tcm2548329 = "";
+if(prev_tcm2548329.length > 0){
+    prev_tcm2548329 = $('#tcm2548329 div.prev_icon').html();
+}else{
+    prev_tcm2548329 = $('#tcm2548329 div.prev_text').html();
+}
+
+var next_tcm2548329 = "";
+if(next_tcm2548329.length > 0){
+    next_tcm2548329 = $('#tcm2548329 div.next_icon').html();
+}else{
+    next_tcm2548329 = $('#tcm2548329 div.next_text').html();
+}
+
+var last_tcm2548329 = "";
+if(last_tcm2548329.length > 0){
+    last_tcm2548329 = $('#tcm2548329 div.last_icon').html();
+}else{
+    last_tcm2548329 = $('#tcm2548329 div.last_text').html();
+}
+
+$(document).ready(function(){
+    if(checkNum(pageSize_tcm2548329)){
+        $('#tcm2548329 div.sum:not(.featured):gt(' + (pageSize_tcm2548329 - 1) + ')').hide();
+    }
+    if(checkNum(limit_tcm2548329)){
+        $('#tcm2548329 div.sum:not(.featured):gt(' + (limit_tcm2548329 - 1) + ')').hide();
+    }
+    var totleNumber_tcm2548329 = $('#tcm2548329 div.sum:not(.featured)').length;
+    if((checkNum(limit_tcm2548329)) && (limit_tcm2548329 < totleNumber_tcm2548329))
+    {
+        totleNumber_tcm2548329 = limit_tcm2548329;
+    }
+    var pagerSetting_tcm2548329 = {
+                        itemsPerPage: pageSize_tcm2548329,
+                        pagerContainerID: 'pager_tcm2548329',
+                        'Text.Next': next_tcm2548329,
+                        'Text.Prev': prev_tcm2548329,
+                        'Text.First': first_tcm2548329,
+                        'Text.Last': last_tcm2548329,
+                        itemTotalNumber: totleNumber_tcm2548329
+                    };
+
+     if(checkNum(pageSize_tcm2548329)){
+         pager_tcm2548329 = new Pager(pagerSetting_tcm2548329);
+         pager_tcm2548329.init();
+         pager_tcm2548329.showPageNav(1);
+         
+         $.extend(pager_tcm2548329, {
+            showPage: function(pageNumber) {
+                $('#tcm2548329 div.sum:not(.featured)').show();
+                $('#tcm2548329 div.sum:not(.featured):lt(' + ((pageNumber - 1) * pageSize_tcm2548329) + ')').hide();
+                $('#tcm2548329 div.sum:not(.featured):gt(' + (pageNumber * pageSize_tcm2548329 - 1) + ')').hide();
+                if(checkNum(limit_tcm2548329)){
+                    $('#tcm2548329 div.sum:not(.featured):gt(' + (limit_tcm2548329 - 1) + ')').hide();
+                }
+                
+                this.showPageNav(pageNumber);
+            }
+        });
+    }
+})
+</script>
+
+</div>
+     
+    </div></p>
+            </div>
+            
+            
+            
+            <div id="main7" class="struct compBox wideCompBox lastCompBox">
+                    <p><div id="tcm2550319" class="richtext ">
+  <b class="struct auxBox">&nbsp;</b>
+     
+        <div class="special-offer-box">
+          
+						
+						<h2>Aktuelles</h2>
+						<a target="" href="pre-order/index.aspx"><img src="http://static9.cdn.ubi.com/de-DE/images/SCB_Homepage_DEtcm2582331.png"  style="width: 469px; height: 317px;" title="SCB_Homepage_DE" alt="SCB_Homepage_DE" /></a>
+						</div>
+      
+</div></p>
+            </div>
+            
+            
+            
+            <div id="main8" class="struct compBox firstCompBox">
+                    <p><div id="tcm2550795" class="richtext promo-slot">
+  <b class="struct auxBox">&nbsp;</b>
+     
+        <div class="promo-slot-1">
+          <a target="_blank" href="http://uplay.ubi.com/">
+            <img src="http://static9.cdn.ubi.com/de-DE/images/home-triple-spot-1tcm2550320.jpg"  alt="Register to Uplay" />
+							<span><span>[Registriere]</span> dich auf Uplay</span></a>
+        </div>
+      
+</div></p>
+            </div>
+            
+            
+            
+            <div id="main9" class="struct compBox">
+                    <p><div id="tcm2550796" class="richtext promo-slot">
+  <b class="struct auxBox">&nbsp;</b>
+     
+        <div class="promo-slot-2">
+          <a target="_blank" href="http://www.twitter.com/#!/splintercell/">
+            <img src="http://static9.cdn.ubi.com/de-DE/images/home-triple-spot-2tcm2550321.jpg"  alt="Follow us on Twitter" />
+							<span><span>[Folge]</span> Splinter Cell auf Twitter</span></a>
+        </div>
+      
+</div></p>
+            </div>
+            
+            
+            
+            <div id="main10" class="struct compBox lastCompBox">
+                    <p><div id="tcm2550797" class="richtext promo-slot">
+  <b class="struct auxBox">&nbsp;</b>
+     
+        <div class="promo-slot-1">
+          <a target="_blank" href="http://www.facebook.com/splintercell">
+            <img src="http://static9.cdn.ubi.com/de-DE/images/home-triple-spot-3tcm2550322.jpg"  alt="Like Splinter Cell on Facebook" />
+							<span><span>[Folge]</span> Splinter Cell auf Facebook</span></a>
+        </div>
+      
+</div></p>
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        <div id="footer" class="struct section partners">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <!-- Agency Code Starts here -->
+<div class="footer-heading">
+  <div class="footer-heading-text"><span class="line-1">Splinter Cell</span> <span class="line-2">Folgen</span></div>
+  <div class="footer-heading-social">
+    <a href="http://www.facebook.com/splintercell" class="social-icon facebook-icon">Facebook</a>
+    <a href="http://www.twitter.com/splintercell" class="social-icon twitter-icon">Twitter</a>
+    <a href="https://plus.google.com/u/0/b/115575648611906695782/" class="social-icon google-icon">Google Plus</a>
+  </div>
+</div>
+<!-- Agency Code Ends here -->            
+            
+            
+            <div class="footer scbl-footer" id="tcm2548642">
+     <b class="auxBox"></b>
+     
+     
+               
+
+                    
+                    <a class="partnersLogoBox" href="http://www.ubi.com" target="_blank">
+                         <img src="http://static9.cdn.ubi.com/de-DE/images/ubisoft-white_EMEAtcm2510971.png"  class="partnersLogoImage" alt="Ubisoft" />
+                    </a>
+                    
+
+                    
+
+               
+
+               
+
+               
+
+     
+               
+
+                    
+                    <a class="partnersLogoBox" href="http://www.playstation.com/" target="_blank">
+                         <img src="http://static9.cdn.ubi.com/de-DE/images/PS3Family_PS3_PSN_Negative_lockuptcm2512812.png"  class="partnersLogoImage" alt="Sony PlayStation" />
+                    </a>
+                    
+
+                    
+
+               
+
+               
+
+               
+
+     
+               
+
+                    
+                    <a class="partnersLogoBox" href="http://www.xbox.com" target="_blank">
+                         <img src="http://static9.cdn.ubi.com/de-DE/images/xbox360_betterkinect_xbl_4CKO_lockuptcm2538932.png"  class="partnersLogoImage" alt="Microsoft Xbox 360-Better With Kinect Sensor-Xbox Live" />
+                    </a>
+                    
+
+                    
+
+               
+
+               
+
+               
+
+     
+               
+
+                    
+
+                    
+                    <img src="http://static9.cdn.ubi.com/de-DE/images/PC-DVD_icontcm2514709.png"  class="partnersLogoBox partnersLogoImage" alt="PC-DVD" />
+                    
+
+               
+
+               
+
+               
+
+     
+      <p class="legal">
+        <div style="font-family: Arial; font-size: 8pt;">
+						<p style="color: rgb(255, 255, 255);">© 2012 Ubisoft Entertainment. All Rights Reserved. Tom Clancy’s, Splinter Cell, Blacklist, Sam Fisher, the Soldier Icon, Ubi.com, Ubisoft, and the Ubisoft logo are trademarks of Ubisoft Entertainment in the US and/or other countries. “PlayStation” and the “PS” Family logo are registered trademarks and “PS3” and the PlayStation Network logo are trademarks of Sony Computer Entertainment Inc. KINECT, Xbox, Xbox 360, Xbox LIVE, and the Xbox logos are trademarks of the Microsoft group of companies and are used under license from Microsoft. Software platform logo (TM and ©) EMA 2006.</p>
+						<p><br />
+							<a href="http://www.ubi.com/DE/Info/Info.aspx?tagname=PrivacyPolicy" target="_blank" style="color: white">Datenschutz</a> | <a href="http://www.ubi.com/DE/Info/Info.aspx?tagname=TermsOfUse" target="_blank" style="color: white">Nutzungsbedingungen</a> | <a href="http://www.ubi.com/DE/Info/Info.aspx?tagname=Legal" target="_blank" style="color: white">Impressum</a> | <a href="http://www.ubi.com/DE/Info/Info.aspx?tagname=ContactUs" target="_blank" style="color: white">Kontakt</a> | <a href="http://job.ubisoft.com/MAIN/careerportal/default.cfm?szUniqueCareerPortalID=87589c84-0c30-41d6-b7de-3df3f25f2a29" target="_blank" style="color: white">Jobs</a> | <a href="http://pressextranet.ubisoft.com/EMEA/DE/default.aspx" target="_blank" style="color: white">Presse</a> | <a href="http://trade.ubisoft.de" target="_blank" style="color: white">Händler</a> | <a href="http://www.ubisoftgroup.com" target="_blank" style="color: white">Über Ubisoft</a>
+							<br />
+							<br />
+							<a href="http://tools.google.com/dlpage/gaoptout?hl=de" style="color: white" target="_blank">Browser-Add-on zur Deaktivierung von Google Analytics</a></p>
+					</div>
+      </p>
+</div>
+
+
+     <style type="text/css">
+     #tcm2548642 .partnersLogoBox {
+         margin-left: 1.25em;
+         margin-right: 1.25em;
+     }
+     </style>
+            
+            
+            
+            <div id="tcm2558122" class="richtext flags">
+  <b class="struct auxBox">&nbsp;</b>
+     
+        <div id="flags">
+						<ul>
+							<li><a href="http://splintercell.ubi.com/blacklist/en-US/" class="flagsoff"><img title="Visit the US version" alt="Visit the US version" src="http://static2.cdn.ubi.com/general-assets/flags/us.png" /></a></li>
+							<li><a href="http://splintercell.ubi.com/blacklist/en-GB/" class="flagson"><img title="Visit the English (UK) version" alt="Visit the English (UK) version" src="http://static2.cdn.ubi.com/general-assets/flags/uk.png" /></a></li>
+							<li><a href="http://splintercell.ubi.com/blacklist/en-AU/" class="flagsoff"><img title="Visit the Australian (AU) version" alt="Visit the English (AU) version" src="http://static2.cdn.ubi.com/general-assets/flags/au.png" /></a></li>
+							<li><a href="http://splintercell.ubi.com/blacklist/fr-FR/" class="flagsoff"><img title="Visit the French version" alt="Visit the French version" src="http://static2.cdn.ubi.com/general-assets/flags/fr.png" /></a></li>
+							<li><a href="http://splintercell.ubi.com/blacklist/de-DE/" class="flagsoff"><img title="Visit the Deutsch version" alt="Visit the Deutsch version" src="http://static2.cdn.ubi.com/general-assets/flags/de.png" /></a></li>
+							<li><a href="http://splintercell.ubi.com/blacklist/it-IT/" class="flagsoff"><img title="Visit the Italian version" alt="Visit the Italian version" src="http://static2.cdn.ubi.com/general-assets/flags/it.png" /></a></li>
+							<li><a href="http://splintercell.ubi.com/blacklist/es-ES/" class="flagsoff"><img title="Visit the Spanish version" alt="Visit the Spanish version" src="http://static2.cdn.ubi.com/general-assets/flags/es.png" /></a></li>
+							<li><a href="http://splintercell.ubi.com/blacklist/pl-PL/" class="flagsoff"><img title="Visit the Polish version" alt="Visit the Polish version" src="http://static2.cdn.ubi.com/general-assets/flags/pl.png" /></a></li>
+							<li><a href="http://splintercell.ubi.com/blacklist/nl-NL/" class="flagsoff"><img title="Visit the NL version" alt="Visit the NL version" src="http://static2.cdn.ubi.com/general-assets/flags/nl.png" /></a></li>
+							<li><a href="http://splintercell.ubi.com/blacklist/en-NO/" class="flagsoff"><img title="Visit the NO version" alt="Visit the NO version" src="http://static2.cdn.ubi.com/general-assets/flags/no.png" /></a></li>
+							<li><a href="http://splintercell.ubi.com/blacklist/en-FI/" class="flagsoff"><img title="Visit the FI version" alt="Visit the FI version" src="http://static2.cdn.ubi.com/general-assets/flags/fi.png" /></a></li>
+							<li><a href="http://splintercell.ubi.com/blacklist/en-SE/" class="flagsoff"><img title="Visit the SE version" alt="Visit the SE version" src="http://static2.cdn.ubi.com/general-assets/flags/se.png" /></a></li>
+							<li><a href="http://splintercell.ubi.com/blacklist/en-DK/" class="flagsoff"><img title="Visit the DK version" alt="Visit the DK version" src="http://static2.cdn.ubi.com/general-assets/flags/dk.png" /></a></li>
+						</ul>
+						<div style="clear: both;"> </div>
+					</div>
+      
+</div>            
+            
+        </div>
+    </div>
+    <div id="dialog"></div>
+    
+    </form>
+
+    <div class="noJsMessage">
+        <p>
+            JavaScript must be enabled to use this page.</p>
+        <p class="noJsInfo">
+            Your web browser is currently configured to prevent JavaScript from running. This page uses JavaScripts to perform many of its functions. You must re-configure your browser to allow JavaScript to run before you can use the page.
+        </p>
+    </div>
+    <div class="loadingMessage">
+        <p>
+            Wird geladen ...</p>
+    </div>
+
+    <!-- JavaScript -->
+    
+
+
+<script src="http://static9.cdn.ubi.com/de-DE/images/common/plugins.js"  type="text/javascript"></script>
+
+
+<script src="http://static9.cdn.ubi.com/de-DE/images/common/ctrlr.js"  type="text/javascript"></script>
+
+
+<script src="http://static9.cdn.ubi.com/de-DE/images/common/static.js"  type="text/javascript"></script>
+
+
+<script src="http://static9.cdn.ubi.com/de-DE/images/blacklist/scbl.js"  type="text/javascript"></script>
+
+
+<script src="http://static9.cdn.ubi.com/de-DE/images/common/game.js"  type="text/javascript"></script>
+
+
+<script src="http://static9.cdn.ubi.com/de-DE/images/blacklist/scbl_loc.js"  type="text/javascript"></script>
+
+
+<script type="text/javascript">
+    var ctrlr = new Ubi.Controller();
+    if (!$.browser.msie) ctrlr.init();
+    $(document).ready(function () {
+        if ($.browser.msie) ctrlr.init();
+        setTimeout(function () { ctrlr.postInit(); }, ctrlr.postInitDelay || 0);
+    });
+</script>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1575735-4']);
+    
+    _gaq.push(['_gat._anonymizeIp']); 
+    
+    _gaq.push(['_setDomainName', '.ubi.com']);
+    _gaq.push(['_trackPageview']);
+
+    (function () { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
+</script>
+
+    
+</body>
+</html>

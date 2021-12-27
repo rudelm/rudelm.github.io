@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+<meta charset="UTF-8" />
+
+<link href="http://www.sevenload.de/wp-content/themes/corporate_sevenload/favicon.ico" rel="shortcut icon">
+<title>404 Not Found | sevenload - Social Video wirkt. | sevenload corporate site</title>
+<link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/corporate_sevenload/style.css" />
+
+
+<link href="http://www.sevenload.de/wp-content/themes/corporate_sevenload/stylesheets/video-js.css" media="screen" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="http://www.sevenload.de/wp-content/themes/corporate_sevenload/javascripts/video-js.js"></script>
+<script type="text/javascript" src="http://www.sevenload.de/wp-content/themes/corporate_sevenload/javascripts/video.js"></script>
+
+<!--link rel="stylesheet" type="text/css" media="all" href="http://www.sevenload.de/wp-content/themes/corporate_sevenload/style.css" /-->
+<!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="http://www.sevenload.de/wp-content/themes/corporate_sevenload/ie.css" />
+<![endif]-->
+<!--script src="http://www.sevenload.de/wp-content/themes/corporate_sevenload/modernizr.js"></script-->
+
+
+<link rel="pingback" href="http://www.sevenload.de/xmlrpc.php" />
+
+<!-- SEO Ultimate (http://www.seodesignsolutions.com/wordpress-seo/) -->
+<!-- /SEO Ultimate -->
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.sevenload.de/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.sevenload.de/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.4.2" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34354099-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body class="error404">
+	<div class="bg_wrap">
+		<div class="wrap">
+			<header class="main_header">
+				<div class="inner">
+					<hgroup>
+						<h1 id="logo"><a href="http://www.sevenload.de/" title="sevenload &#8211; Social Video wirkt. | sevenload corporate site" rel="home">sevenload &#8211; Social Video wirkt. | sevenload corporate site</a></h1>
+					</hgroup>
+
+					<nav id="nav">
+						<ul class="main_nav">
+							<li class="has_sub_nav">
+								<a >Unternehmen<div><div><div></div></div></div></a>
+								<ul id="sub_nav_one">
+									<li>
+										<a href="/unternehmen/uebersicht/">Übersicht</a>
+									</li>
+									<li>
+										<a href="/unternehmen/management/">Management</a>
+									</li>
+									<!--li>
+										<a href="/unternehmen/team/">Team</a>
+									</li-->
+								</ul>
+							</li>
+							<li>
+								<a  href="/portale/">Portale<div><div><div></div></div></div></a>
+							</li>
+							<li>
+								<a  href="/leistungen/">Leistungen<div><div><div></div></div></div></a>
+							</li>
+							<!--li>
+								<a  href="/partner/">Partner<div><div><div></div></div></div></a>
+							</li>
+							<li>
+								<a  href="/presse/">Presse<div><div><div></div></div></div></a>
+								<ul class="sub_nav">
+									<li>
+										<a href="/presse/uebersicht/">Übersicht</a>
+									</li>
+									<li>
+										<a href="/presse/presseverteiler/">Presseverteiler</a>
+									</li>
+									<li>
+										<a href="/presse/download/">Download</a>
+									</li>
+								</ul>
+							</li-->
+							<li class="last">
+								<a  href="/karriere/">Karriere<div><div><div></div></div></div></a>
+							</li>
+						</ul>
+						<script>
+						// Show sub_nav on iOS-devices
+							 $(document).ready(function() {
+							 	if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i))) {
+								 	$('#sub_nav_one').hide();
+									$('.has_sub_nav').click(function(){
+										$('#sub_nav_one').toggle();
+									});
+								};
+							});
+						</script>
+						<iframe class="fb_like_button" src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fsevenload&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=365428720195429" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:140px; height:21px;" allowTransparency="true"></iframe>
+
+						<a href="https://twitter.com/share" class="twitter-share-button" data-lang="de">Twittern</a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+						<!-- Place this tag where you want the +1 button to render. -->
+						<div class="plusone">
+							<div class="g-plusone" data-annotation="none"></div>
+						</div>
+
+						<!-- Place this tag after the last +1 button tag. -->
+						<script type="text/javascript">
+						  window.___gcfg = {lang: 'de'};
+
+						  (function() {
+						    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+						    po.src = 'https://apis.google.com/js/plusone.js';
+						    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+						  })();
+						</script>
+					</nav>
+				</div>
+			</header>
+
+
+			<div id="main">
+				<div class="inner">
+	<div id="primary">
+		<div id="content">
+
+			<article class="post" style="min-height: 500px;">
+				<header class="entry-header">
+					<h1 class="entry-title">Oooops...</h1>
+				</header>
+
+				<div class="entry-content">
+					<p>Leider konnte die angeforderte Seite nicht gefunden werden.</p>
+					<p>Bitte benutzen Sie die Navigation um die gewünschte Seite zu finden.</p>
+					<br /><br />
+				</div>
+			</article>
+
+		</div>
+	</div>
+
+			</div>
+		</div><!-- #main -->
+
+		<footer id="footer">
+			<div class="inner">
+
+				<div class="footer_box left">
+					<div class="footer_sitemap">
+						<ul>
+							<li>
+								<a href="/unternehmen/uebersicht">Unternehmen</a>
+								<ul>
+									<li>
+										<a href="/unternehmen/uebersicht">Übersicht</a>
+									</li>
+									<li>
+										<a href="/unternehmen/management">Management</a>
+									</li>
+									<!--li>
+										<a href="/unternehmen/team">Team</a>
+									</li-->
+								</ul>
+							</li>
+							<li>
+								<a href="/portale/">Portale</a>
+							</li>
+							<li>
+								<a href="/leistungen/">Leistungen</a>
+							</li>
+							<!--li>
+								<a href="/partner/">Partner</a>
+							</li-->
+						</ul>
+						<ul class="right">
+							<!--li>
+								<a href="/presse/">Presse</a>
+								<ul>
+									<li>
+										<a href="/presse/uebersicht/">Übersicht</a>
+									</li>
+									<li>
+										<a href="/presse/presseverteiler/">Presseverteiler</a>
+									</li>
+									<li>
+										<a href="/presse/downloads/">Downloads</a>
+									</li>
+								</ul>
+							</li-->
+							<li>
+								<a href="/karriere/">Karriere</a>
+							</li>
+						</ul>
+					</div>
+<p style="position: absolute; left: 0; bottom: 0;">sevenload® 2006-2012</p>
+				</div>
+				<div class="footer_box center">
+					<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fsevenload&amp;width=300&amp;height=258&amp;colorscheme=bright&amp;show_faces=true&amp;border_color=#ffffff&amp;stream=false&amp;header=false&amp;appId=365428720195429" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:258px; background: #fff;" allowTransparency="false"></iframe>
+				</div>
+				<div class="footer_box right">
+					<h3>
+						Kontakt
+					</h3>
+					<p>
+						<strong>sevenload GmbH</strong>
+						<br />
+						Leyendeckerstraße 35-37
+						<br />
+						50825 Köln
+					</p>
+					<p>
+						Tel. 0221 &#8211; 788 76 0
+						<br />
+						Fax 0221 &#8211; 788 76 50
+					</p>
+					<p>
+						<a href="mailto:info@sevenload.de">info@sevenload.de</a>
+					</p>
+
+<br /><br /><br /><br />
+					<p style="text-align: right;">
+						<a href="/impressum/">Impressum</a>&nbsp;/&nbsp;<a href="/datenschutzrichtlinien/">Datenschutzrichtlinien</a>
+					</p>
+				</div>
+				<!--div class="footer_box left">
+					<div class="footer_sitemap">
+						<ul>
+							<li>
+								<a href="#">Unternehmen</a>
+								<ul>
+									<li>
+										<a href="#">Übersicht</a>
+									</li>
+									<li>
+										<a href="#">Management</a>
+									</li>
+									<li>
+										<a href="#">Team</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Portale</a>
+							</li>
+							<li>
+								<a href="#">Leistungen</a>
+							</li>
+							<li>
+								<a href="#">Partner</a>
+							</li>
+						</ul>
+						<ul class="right">
+							<li>
+								<a href="#">Presse</a>
+								<ul>
+									<li>
+										<a href="#">Übersicht</a>
+									</li>
+									<li>
+										<a href="#">Presseverteiler</a>
+									</li>
+									<li>
+										<a href="#">Download</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Karriere</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer_box center">
+					<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FVilogoTV&amp;width=300&amp;height=258&amp;colorscheme=bright&amp;show_faces=true&amp;border_color=#ffffff&amp;stream=false&amp;header=false&amp;appId=365428720195429" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:258px; background: #fff;" allowTransparency="false"></iframe>
+				</div>
+				<div class="footer_box right">
+					<h3>
+						Kontakt
+					</h3>
+					<p>
+						<strong>sevenload GmbH</strong>
+						<br />
+						Leyendeckerstraße 35-37
+						<br />
+						50825 Köln
+					</p>
+					<p>
+						Tel. 0221 - 788 76 0
+						<br />
+						Fax 0221 - 788 76 50
+					</p>
+					<p>
+						<a href="mailto:info@sevenload.com">info@sevenload.com</a>
+					</p>
+				</div-->
+
+
+			</div>
+		</footer>
+	</div>
+</div>
+<div id="su-footer-links" style="text-align: center;"></div>
+			</div>
+		</div>
+</body>
+</html>

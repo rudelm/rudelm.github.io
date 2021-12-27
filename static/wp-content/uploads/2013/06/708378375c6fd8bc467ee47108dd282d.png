@@ -1,0 +1,46 @@
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <title>Milner Solutions</title>
+ <link rel="stylesheet" type="text/css" href="http://www.milnersolutions.com/css/default.css" />
+</head>
+<body>
+	<div id="content_container">
+		<div id="info">
+			<img src="http://www.milnersolutions.com/images/email.gif" width="16" height="16" class="icon" /> &#105;&#110;&#102;&#111;&#064;&#109;&#105;&#108;&#110;&#101;&#114;&#115;&#111;&#108;&#117;&#116;&#105;&#111;&#110;&#115;&#046;&#099;&#111;&#109;
+		</div>
+		<img src="http://www.milnersolutions.com/images/milner_solutions.gif" />
+		<div id="menu_container">
+			<ul id="menu">
+				<li class="menu_current_page"><a href="http://www.milnersolutions.com/">Home</a></li>
+				<li class="menu"><a href="http://www.milnersolutions.com/services/">Services</a></li>
+				<li class="menu"><a href="http://www.milnersolutions.com/portfolio/">Portfolio</a></li>
+				<li class="menu"><a href="http://www.lifeoftech.com/">Blog</a></li>
+				<li class="menu"><a href="http://www.milnersolutions.com/tips/">Tips</a></li>
+				<li class="menu"><a href="http://www.milnersolutions.com/contact/">Contact</a></li>
+			</ul>
+		</div>
+		<div id="content">
+			<h1>
+	Welcome</h1>
+<p>
+	Since 1996 I&#39;ve been designing content for the web. It started out with personal websites, and over time built up to include personal entrepreneurial endeavors as well as web development for clients and employers.</p>
+<p>
+	Along the way I&#39;ve commited myself to learning serveral programming languages for both the web and the Microsoft Windows&reg; environment. These skills give me the ability to develop a wide range of products including interactive web 2.0 applications, traditional static web content, and desktop-based Microsoft Windows&reg; software.</p>
+<p>
+	In addition to programming, I also provide personal computer support for systems running any Microsoft&reg; operating system. Services range from virus and spyware removal to hardware installation, and more.</p>
+		</div>
+		<div id="footer">
+			<div id="powered_by"><a href="http://refer.asmallorange.com/Click/button/275"><img src="http://refer.asmallorange.com/Images/button1.png" border="0" /></a></div>
+			&copy; Copyright 2013 <img src="http://www.milnersolutions.com/images/milner_solutions_footer.gif" />, Simi Valley, CA
+		</div>
+	</div>
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		_uacct = "UA-139956-1";
+		urchinTracker();
+	</script>
+	</body>
+</html>

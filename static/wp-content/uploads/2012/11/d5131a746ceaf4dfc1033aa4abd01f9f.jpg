@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="de">
+	<!-- sf-3.7.0.43| 20121022-1403| 28615 | Sat Nov 03 23:39:53 CET 2012 | 18 |  | FPO-1 |  -->
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="language" content="deutsch,de" />
+	<meta name="distribution" content="global" />
+	<meta name="robots" content="index,follow" />
+	<meta name="revisit-after" content="7 days" />
+	<meta name="author" content="Schwarz E-Commerce GmbH &amp; Co. KG" />
+	<meta name="publisher" content="Schwarz E-Commerce GmbH &amp; Co. KG" />
+	<meta name="copyright" content="Schwarz E-Commerce GmbH &amp; Co. KG" />
+	<meta name="description" content="" />
+	<meta name="apple-itunes-app" content="app-id=398474140" />
+	
+	<meta name="keywords" content="Lidl, Shop, Online-Shop, sicher, einfach, online, kaufen, shopping, Aktion, Non-Food, billig, , " />
+
+	<meta property="og:image" content="http://www.lidl.de/imgs/logo.png"/>
+<base href="http://www.lidl.de/de/" />
+
+	<title>
+        Die Seite existiert nicht mehr -
+        Lidl Deutschland - lidl.de</title>
+
+	<link rel="P3Pv1" href="/w3c/p3p.xml" />
+	<link href="/css/screen.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="/css-ext/screen-ext.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="/css/print.css" rel="stylesheet" type="text/css" media="print" />
+
+	<link href="https://plus.google.com/100519921380812723942" rel="publisher" /><script type="text/javascript">
+(function() 
+{var po = document.createElement("script");
+po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(po, s);
+})();</script>
+
+	<link rel="shortcut icon" href="/imgs/favicon.ico" />
+	<script type="text/javascript" src="/js/main.js"></script>
+	<script type="text/javascript" src="/js/static.js"></script>
+	<script type="text/javascript">
+		if(document.cookie.match('shopMode') == null && navigator.userAgent.match('iPhone|iPod') != null) {
+			document.cookie = "shopMode=EXTERNAL_MOBILE_SAFARI; ; path=/";
+		}
+	</script>
+	
+	</head>
+<body>
+		<noscript>
+			<p><strong>Achtung:</strong> Javascript ist in Ihrem Browser nicht aktiviert. Aktivieren Sie bitte Javascript um alle Funktionen unserer Seite nutzen zu können.</p>
+		</noscript>
+
+		<ul class="hide">
+			<li><a href="#firstlevel">Zur Navigation springen</a></li>
+			<li><a href="#content">Zum Inhalt springen</a></li>
+		</ul>
+		
+		<div id="wrapper" class="">
+			<div id="specialslayer" style="display:none;">
+					<div style="width: 990px; position: fixed; top: 170px;">
+<div style="margin: auto; height: 350px; width: 802px; position: relative;"><img alt="Zu den TV-Angeboten!" src="/de/asset/images/overlay_tv_kw4512.png" style="border: medium none ! important;" /> <a onmouseout="$(this).css('background-position', '0 0')" onmouseover="$(this).css('background-position', '0 -35px')" style="background: url(/de/asset/images/overlay_tv_hover_kw3812.png) no-repeat scroll 0pt 0pt transparent; bottom: 40px; display: block; height: 35px; right: -18px; position: absolute; padding: 0pt; width: 329px;" href="http://www.lidl.de/de/Trend-Sport-Fashion-ab-05-11"> <span style="display: none;">Zu den TV-Angeboten!</span></a> <button onclick="$('#specialslayer').hide();" type="button" class="small close onlyicon" style="position: absolute; right: 20px; top: 20px; border: 1px solid white;"><strong>Close</strong></button></div>
+</div></div>
+				<script type="text/javascript">
+					if(document.cookie.match('hasPopupBeenShownOnceToUser') == null) {
+						$('#specialslayer').show();
+						document.cookie = "hasPopupBeenShownOnceToUser=true; ; path=/";
+					}
+				</script>
+			<header>
+	<a href="/" id="logolink"><img src="../imgs/logo.png" id ="logo" alt="Lidl - Lidl lohnt sich."><span class="hide">Lidl lohnt sich.</span></a>
+
+	
+<ul id="metanav">
+<li><a class="metalidlactive" href="http://www.lidl.de">Lidl</a></li>
+<li><a class="metatravel" href="http://www.lidl-reisen.de/?et_cid=4&amp;et_lid=4">Reisen</a></li>
+<li><a class="metaflowers" href="http://www.lidl-blumen.de/?et_cid=53&amp;et_lid=83">Blumen</a></li>
+<li><a class="metaphotos" href="http://www.lidl-fotos.de/?et_cid=1&amp;et_lid=4">Fotos</a></li>
+<li><a class="metaprintservice" href="http://www.lidl-druckservice.de/?et_cid=2&et_lid=2">Druckservice</a></li>
+<li><a class="metadrugstore" href="http://www.etracker.de/rdirect.php?et=9Vgu59&amp;et_cid=2&amp;et_lid=2">Partner-Apotheke</a></li>
+<li><a class="metamobile" href="http://www.lidl.de/de/Lidl-Mobile">Lidl-Mobile</a></li>
+<li><a class="metarecipe" href="http://www.etracker.de/lnkcnt.php?et=7WxVWs&url=https%3A%2F%2Fwww.etracker.de%2Frdirect.php%3Fet%3DB3gaB9%26et_cid%3D10%26et_lid%3D1156065&lnkname=Klicks_TopNavi_LidlDE" target="_blank">Rezepte</a></li>
+</ul>
+<div id="basket">
+		<div id="basketcounter">0<span class="hide">Artikel im Warenkorb</span></div>
+			<p>In Ihrem Warenkorb befinden sich derzeit noch&nbsp;<strong>keine Artikel</strong>.</p>
+			<ul id="basketfunctions">
+				<li><a href="shop@ShowBasketContents">Warenkorb</a></li>
+			</ul>
+		</div>
+	<ul id="userbar">
+		<li><strong>Herzlich willkommen bei Lidl!</strong></li>
+				<li class="pos">
+					<a href="javascript:void(0);" onclick="x_fadein('loginlayer');" id="userlogin">Anmelden</a>
+					<form method="post" action="https://www.lidl.de/de/shop@LoginMarginal" id="loginlayer" style="display:none;">
+						<input type="submit" onclick="javascript:jQuery('#loginlayer').get(0).submit();" style="position:absolute; top:20px; left:0; background-color:transparent; border:none; color:#f0f3f7; font-size:1px; width:1px; height:1px;" />
+						<fieldset>
+							<legend id="userloginpopup">Anmelden</legend>
+							<button class="small close onlyicon" type="button" onclick="x_fadeout('loginlayer')" id="userloginclose"><strong>Close</strong></button>
+							<ol>
+								<li>
+								    <label for="loginemailaddress">E-Mail-Adresse:</label>
+								    <input type="email" id="loginemailaddress" name="username" required="required" />
+								</li>
+								<li>
+								    <label for="loginpassword">Passwort:</label>
+								    <input type="password" id="loginpassword" name="password" required="required" />
+								</li>
+							</ol><br />
+							<div class="buttonbar">
+								<a href="shop@ForgetPassword">Passwort vergessen?</a>
+								<button class="process" onclick="javascript:jQuery('#loginlayer').get(0).submit();"><strong>Anmelden</strong></button>
+							</div>
+						</fieldset>
+						</form>
+				</li>
+			<li><a href="shop@RegisterAccount" id="userregistration">Registrierung</a></li>
+		<li><a href="Filialsuche" id="usersearch">Filialsuche</a></li>
+		<li>
+			<a href="shop@ShowWatchlistContents" id="usernote">Merkliste</a>
+
+			</li>
+		</ul>
+	
+</header>
+
+<nav class="nosecondlevel">
+<ul id="firstlevel">
+<li>
+<a href="Aktuelle-Angebote">Aktuelle Angebote</a>
+<ul class="secondlevel tencells">
+<li><a href="Trend-Sport-Fashion-ab-05-11"><img src="/media/campaign/0/0/1/0/1/6/4/5204b4bf-ad62-4011-bacd-5488518561b9.png"/><p>Ab Montag, 05.11.</p></a></li>
+<li><a href="XXL-Woche-ab-05-11"><img src="/media/campaign/0/0/0/6/2/4/0/52925b42-5ea9-4c0a-bd98-2fdb019cd606.png"/><p>Ab Montag, 05.11.</p></a></li>
+<li><a href="Erholsam-schlafen-ab-08-11"><img src="/media/campaign/0/0/1/0/1/6/3/f0d3d422-224a-470c-8b49-3fdfaeaa68c3.png"/><p>Ab Donnerstag, 08.11.</p></a></li>
+<li><a href="Perfekt-angezogen-ab-12-11"><img src="/media/campaign/0/0/1/0/1/7/3/fe9ae584-38a1-4360-b38e-9c04ac0c1043.png"/><p>Ab Montag, 12.11.</p></a></li>
+<li><a href="Sanfte-Momente-ab-15-11"><img src="/media/campaign/0/0/1/0/1/8/3/eddc5c78-2a25-48d6-b114-de107be6f544.png"/><p>Ab Donnerstag, 15.11.</p></a></li>
+<li><a href="Geniessen-Sie-Bella-Italia-ab-15-11"><img src="/media/campaign/0/0/0/9/6/2/6/71e1c127-8ac3-4204-b6dc-1e8fd22169f1.png"/><p>Ab Donnerstag, 15.11.</p></a></li>
+<li><a href="Foto-Geschenkideen"><img src="/media/campaign/0/0/1/0/1/9/7/d30d4757-31f2-4298-ac43-b5e71b4b3d79.png"/><p>Foto-Geschenkideen</p></a></li>
+<li><a href="Aus-unserer-Werbung"><img src="/media/campaign/0/0/1/0/2/0/5/bf8f9ff2-c093-45aa-b3cf-0098a5782701.jpg"/><p>Aus unserer Werbung</p></a></li>
+<li><a href="Bestellmagazin"><img src="/media/campaign/0/0/1/0/1/2/8/52a21a8b-2e37-40ec-95d5-b0c3484c51e3.jpg"/><p>Bestellmagazin</p></a></li>
+<li><a href="Billiger-ab-05-11-bis-10-11"><img src="/media/campaign/0/0/0/9/7/7/3/75fc3b06-aa58-4024-9f0b-0628420edfb0.png"/><p>Aktuelle Angebote</p></a></li>
+</ul>
+</li>
+<li>
+<a href="Onlineshop">Onlineshop</a>
+<ul class="secondlevel tencells">
+<li><a href="Wohnen-Einrichten1"><img src="/media/campaign/0/0/0/5/8/6/2/a7b6f304-eb71-4303-a8a0-4f25d721b1d6.png"/><p>Wohnen &amp; Einrichten</p></a></li>
+<li><a href="Multimedia-Technik-1"><img src="/media/campaign/0/0/0/5/8/9/1/01b91e7d-1201-48e1-8a8c-69531e4e2eb3.png"/><p>Multimedia &amp; Technik</p></a></li>
+<li><a href="Haushalt-Kueche1"><img src="/media/campaign/0/0/0/5/8/5/8/b7a6fe79-7f7d-493d-9df5-cffb6ff03cf1.png"/><p>Haushalt &amp; K&#252;che</p></a></li>
+<li><a href="Baumarkt"><img src="/media/campaign/0/0/1/0/1/4/0/8d6f36b8-dc56-4c51-9c8a-6045f4da353e.jpg"/><p>Baumarkt</p></a></li>
+<li><a href="Kinderwelt"><img src="/media/campaign/0/0/0/6/2/3/6/078d4b23-c20a-4b6f-9600-e83e1eeb2267.jpg"/><p>Kinderwelt</p></a></li>
+<li><a href="Mode"><img src="/media/campaign/0/0/0/5/8/9/2/ae2dcb1b-edd0-466d-a0f3-b9f9faf82ab5.png"/><p>Mode</p></a></li>
+<li><a href="Sport-1"><img src="/media/campaign/0/0/0/5/8/8/3/783f1ee9-9d61-4255-83b3-a9dadc4ae427.png"/><p>Sport</p></a></li>
+<li><a href="Hobby-Freizeit"><img src="/media/campaign/0/0/0/5/8/8/7/00ec69c5-b3eb-4f3b-ac1c-41ff9c7c9612.png"/><p>Hobby &amp; Freizeit</p></a></li>
+<li><a href="Gesundheit-Pflege"><img src="/media/campaign/0/0/0/5/8/9/0/4efcce90-ed36-431a-a787-4d7f163762fd.jpg"/><p>Gesundheit &amp; Pflege</p></a></li>
+<li><a href="Weinwelt1"><img src="/media/campaign/0/0/0/5/8/9/4/5ecef3de-d1af-4b89-b5fc-72e5175d953c.png"/><p>Weinwelt</p></a></li>
+</ul>
+</li>
+<li>
+<a href="Neu-bei-Lidl">Sortiment</a>
+<ul class="secondlevel">
+<li><a href="Neu-bei-Lidl"><img src="/media/campaign/0/0/0/4/1/6/1/038c3ec7-0de9-4a40-87a4-ffefffc22a65.png"/><p>Neu bei Lidl</p></a></li>
+<li><a href="Eigenmarken-Food"><img src="/media/campaign/0/0/0/4/6/6/3/7ebfa47d-efcb-48ae-a129-7526b85609b2.png"/><p>Eigenmarken Food</p></a></li>
+<li><a href="Eigenmarken-Non-Food"><img src="/media/static_page/de/0/0/0/1/3/0/1/2c4a3960-4d27-48e4-8801-e553a73280b7.png"/><p>Eigenmarken Non-Food</p></a></li>
+<li><a href="Marken-im-Lidl-Onlineshop"><img src="/media/static_page/de/0/0/0/3/4/6/0/9ff251ee-7aa2-480f-b91c-5798a2194be8.png"/><p>Marken im Lidl Onlineshop</p></a></li>
+<li><a href="Wein"><img src="/media/static_page/de/0/0/0/0/9/0/9/dcdc0bd2-6c5d-4711-92b6-684f29ad5db2.jpg"/><p>Wein</p></a></li>
+</ul>
+</li>
+<li>
+<a href="Service-Filiale">Informationen</a>
+<ul class="secondlevel tencells">
+<li><a href="Service-Filiale"><img src="/media/static_page/de/0/0/0/2/4/9/9/63f1117e-52af-4b45-aec5-8bbae749a1ba.jpg"/><p>Service Filiale</p></a></li>
+<li><a href="Service-Onlineshop"><img src="/media/static_page/de/0/0/0/2/4/8/7/40756e69-2fc5-4a48-aaab-d8b5fd2dcebf.jpg"/><p>Service Onlineshop</p></a></li>
+<li><a href="Filialsuche"><img src="/media/named_node/0/0/0/0/3/0/1/55d47eb2-7369-478f-bd7c-9893a004855a.jpg"/><p>Die Filialen</p></a></li>
+<li><a href="Aktuelles"><img src="/media/static_page/de/0/0/0/0/9/3/7/619331ba-e7c2-4f44-b38c-0c72ea92a220.jpg"/><p>Aktuelles</p></a></li>
+<li><a href="Testergebnisse"><img src="/media/static_page/de/0/0/0/0/9/3/3/034cdc58-3475-4a72-806e-bb69f6aa4fa0.jpg"/><p>Testergebnisse</p></a></li>
+<li><a href="Qualitaet"><img src="/media/static_page/de/0/0/0/0/9/2/5/c59e588c-f67a-4faa-b186-f537c87ea405.jpg"/><p>Qualit&#228;t</p></a></li>
+<li><a href="Ratgeber"><img src="/media/static_page/de/0/0/0/0/8/8/7/720f5d9b-c163-47f6-95f0-954654645eef.jpg"/><p>Ratgeber</p></a></li>
+<li><a href="Online-Specials"><img src="/media/static_page/de/0/0/0/1/2/6/5/6712abc4-b2dd-429b-bbfd-483dd7e20920.png"/><p>Online-Specials</p></a></li>
+<li><a href="Mediathek"><img src="/media/static_page/de/0/0/0/1/0/2/1/3a9a29cc-cf88-4557-afb5-e743083479e2.jpg"/><p>Mediathek</p></a></li>
+<li><a href="Serviceportal"><img src="/media/static_page/de/0/0/0/2/7/7/9/218cd83c-b829-4908-b91f-3713199ad6f6.jpg"/><p>Serviceportal</p></a></li>
+</ul>
+</li>
+<li>
+<a href="Geschichte">Unternehmen</a>
+<ul class="secondlevel">
+<li><a href="Geschichte"><img src="/media/static_page/de/0/0/0/1/2/4/3/5bd9f93d-3590-4742-ac4e-e90bb78254dc.png"/><p>Geschichte</p></a></li>
+<li><a href="Datenschutz"><img src="/media/static_page/de/0/0/0/0/0/2/1/e96abbf7-2a89-475c-aa13-fd5738d159da.png"/><p>Datenschutz</p></a></li>
+<li><a href="Vertrauensanwalt"><img src="/media/static_page/de/0/0/0/1/2/4/5/5915dc1d-9eb2-4093-8063-287ad06893ca.png"/><p>Vertrauensanwalt</p></a></li>
+<li><a href="Grundsaetze"><img src="/media/static_page/de/0/0/0/1/2/4/6/8f6dbf25-d332-418a-ad22-a1112cdd2b54.png"/><p>Grunds&#228;tze</p></a></li>
+<li><a href="Verantwortung"><img src="/media/static_page/de/0/0/0/0/8/4/1/9e467153-4aed-44ee-9e06-e80501873430.jpg"/><p>Verantwortung</p></a></li>
+<li><a href="Immobilien"><img src="/media/static_page/de/0/0/0/1/4/2/1/b1cc1f5b-d167-4e2d-abcc-cfb196696de2.png"/><p>Immobilien</p></a></li>
+</ul>
+</li>
+<li>
+<a href="Karriere">Karriere</a>
+<ul class="secondlevel">
+<li><a href="http://www.karriere-bei-lidl.de/cps/rde/xchg/lidl_ji/hs.xsl/5382.htm" target="_blank"><img src="/media/named_node/0/0/0/0/6/6/1/af527b40-00e8-4919-895a-82787d570b5a.jpeg"/><p>Einstieg bei Lidl Deutschland</p></a></li>
+<li><a href="http://www.karriere-bei-lidl.com/cps/rde/xchg/lidl_int/hs.xsl/6011.htm" target="_blank"><img src="/media/named_node/0/0/0/0/6/6/2/0b40e390-bce6-4684-88b4-5aeadc44fcea.jpeg"/><p>Lidl International in Neckarsulm</p></a></li>
+<li><a href="http://www.karriere-bei-lidl.com/cps/rde/xchg/lidl_int/hs.xsl/4193.htm" target="_blank"><img src="/media/named_node/0/0/0/0/6/6/3/9b3c133e-cb40-4a51-92ff-677604bbb0f3.jpg"/><p>Einstieg bei Lidl in Europa</p></a></li>
+</ul>
+</li>
+<li class="last">
+<a href="shop@ShowSummaryAccount">Mein Benutzerkonto</a>
+<ul class="secondlevel">
+<li><a href="shop@ShowSummaryAccount"><img src="/media/named_node/0/0/0/0/1/2/3/3aa6c515-f123-48a0-b8ba-f25edf5303b2.jpg"/><p>Kontodaten</p></a></li>
+<li><a href="shop@ShowPreviousOrders"><img src="/media/named_node/0/0/0/0/1/2/6/8e51f5d4-0820-4d32-a67b-85c6434cdcc6.jpg"/><p>Bestellungen</p></a></li>
+<li><a href="shop@ShowWatchlistContents"><img src="/media/named_node/0/0/0/0/1/2/9/903bae0d-2dd0-4e60-b737-cf5b229a89d7.jpg"/><p>Merkliste</p></a></li>
+<li><a href="javascript:StoreLocator.openPopup('http://store.lidl.de/lidl/changeHomeStoreDe.do', 'http://www.lidl.de/de/shop@SelectStore');"><img src="/media/named_node/0/0/0/0/3/4/3/b80e0413-00a3-4943-819a-513ce2357d6f.jpg"/><p>Filiale &#228;ndern</p></a></li>
+</ul>
+</li>
+</ul>
+</nav>
+<form method="post" action="#" id="search">	
+	 <fieldset>
+		<legend>Suche</legend>
+		<input class="solr-suggest-field ac_input" id="searchinput" accesskey="s" type="text" name="tx_aoesolr_pi1[querystring]" placeholder="Geben Sie hier einen Suchbegriff ein ..." autocomplete="off" /><button class="process search" type="submit"><strong>Jetzt suchen</strong></button>
+	</fieldset>
+	<div>
+		<a href="Hilfe" id="searchhelp">FAQ/Hilfe</a>
+		<a href="shop@ShowNewsletter" id="searchnewsletter">Newsletter</a>
+	</div>
+	</form>
+<script type="text/JavaScript">
+	<!-- Avoid processing most special XML chars with this comment
+	jQuery(document).ready(function() {
+		window.location.replace('http://' + top.location.host.toString() + '/#lidlsearch@?tx_aoesolr_pi1[querystring]=06_2172_b jpg');
+	});
+	// -->
+</script>
+
+<article id="content"> 
+		
+	<section class="widestcontent"> 
+ 
+		<h1>Leider ist ein Fehler aufgetreten</h1> 
+			
+		<p>Die von Ihnen aufgerufene Seite konnte leider nicht gefunden werden.</p> 
+			
+		<strong>Mögliche Ursache:</strong> 
+		<ul> 
+			<li>Die Seite existiert nicht mehr</li> 
+			<li>Sie haben sich bei der Eingabe der Adresse vertippt</li> 
+		</ul> 
+			
+		<div class="message info"> 
+			<h4>Hinweis:</h4> 
+			<p>Falls Sie über einen Link auf einer anderen Seite zu uns gekommen sind, würden wir uns über eine E-Mail an uns (<a href="mailto:info@lidl-shop.de">info@lidl-shop.de</a>) freuen.</p> 
+		</div> 
+			
+		<p><strong>Hilfe</strong><br /> 
+		Bitte versuchen Sie, die gewünschten Informationen in einem der Bereiche unseres Internetauftrittes unter <a href="http://www.lidl.de">www.lidl.de</a> zu finden. Sollte Ihnen dies nicht möglich sein und Sie benötigen telefonische Hilfe, so wenden Sie sich bitte von 8-20 Uhr an unsere Hotline <strong>01805 / 555 435</strong> (0.14 €/Min. inkl. MwSt. aus dem deutschen Festnetz, Mobilfunkhöchstpreis 0.42 €/Min. inkl. MwSt.).<br /><br /> 
+		Mit freundlichen Grüßen<br /> 
+		Ihr Lidl<br /> 
+		- Kundenservice -</p> 
+			
+	</section> 
+ 
+	<div style="clear:both"></div> 
+ 
+</article> <footer>
+	<div id="footerbreadcrumb">
+		<strong>Sie befinden sich hier:<div class="sidebox" style="display:none"><a href="http://www.facebook.com/lidl" title="Entdecken Sie Lidl bei Facebook"><img src="/de/asset/images/asidebox_facebook.png" alt="Facebook" /></a><a href="http://www.twitter.com/lidl" title="Entdecken Sie Lidl bei Twitter"><img src="/de/asset/images/asidebox_twitter.png" alt="Twitter" /></a><a href="https://plus.google.com/100519921380812723942" title="Entdecken Sie Lidl bei Google Plus"><img src="/de/asset/images/asidebox_googleplus.png" alt="Google Plus" /></a><a href="http://www.youtube.com/lidl" title="Entdecken Sie Lidl bei YouTube"><img src="/de/asset/images/asidebox_youtube.png" alt="YouTube" /></a><a href="/de/shop@ShowNewsletter" title="Erhalten Sie unsere Angebote per E-Mail"><img src="/de/asset/images/asidebox_nwl.png" alt="Newsletter" /></a><a href="/de/Online-Handzettel" title="Wöchentliche Aktionen finden Sie in unserem Online-Prospekt"><img src="/de/asset/images/asidebox_flyer.png" alt="Online-Prospekt" /></a><a href="/de/iPhone" title="Die Lidl iPhone App - Unterwegs informiert und direkt online kaufen."><img src="/de/asset/images/asidebox_iphone.png" alt="iPhone App" /></a></div></strong>
+		<ul>
+			<li><a href="/">www.lidl.de</a></li>
+			<li>
+					<strong>Die Seite existiert nicht mehr</strong>
+						</li>
+			</ul>
+		<a href="/C1256C790050C7BC/images/DE.06_2172/$file/06_2172_b.jpg#wrapper" id="totoplink">Nach oben</a>
+	</div>
+	<ul id="footer">
+
+		
+<li>
+<a href="Aktuelle-Angebote">Aktuelle Angebote</a>
+<ul>
+<li><a href="Trend-Sport-Fashion-ab-05-11">Trend.Sport.Fashion, ab 05.11.</a></li>
+<li><a href="XXL-Woche-ab-05-11">XXL Woche, ab 05.11.</a></li>
+<li><a href="Erholsam-schlafen-ab-08-11">Erholsam schlafen, ab 08.11.</a></li>
+<li><a href="Perfekt-angezogen-ab-12-11">Perfekt angezogen, ab 12.11.</a></li>
+<li><a href="Sanfte-Momente-ab-15-11">Sanfte Momente, ab 15.11.</a></li>
+<li><a href="Geniessen-Sie-Bella-Italia-ab-15-11">Genie&#223;en Sie Bella Italia, ab 15.11.</a></li>
+<li><a href="Foto-Geschenkideen">Foto-Geschenkideen</a></li>
+<li><a href="Aus-unserer-Werbung">Aus unserer Werbung</a></li>
+<li><a href="Bestellmagazin">Bestellmagazin</a></li>
+<li><a href="Billiger-ab-05-11-bis-10-11">Billiger, ab 05.11. bis 10.11.</a></li>
+<li><a href="Moebel-Spiele-fuers-Kinderzimmer">M&#246;bel &amp; Spiele f&#252;rs Kinderzimmer</a></li>
+</ul>
+</li>
+<li>
+<a href="Onlineshop">Onlineshop</a>
+<ul>
+<li><a href="Wohnen-Einrichten1">Wohnen &amp; Einrichten</a></li>
+<li><a href="Multimedia-Technik-1">Multimedia &amp; Technik</a></li>
+<li><a href="Haushalt-Kueche1">Haushalt &amp; K&#252;che</a></li>
+<li><a href="Baumarkt">Baumarkt</a></li>
+<li><a href="Kinderwelt">Kinderwelt</a></li>
+<li><a href="Mode">Mode</a></li>
+<li><a href="Sport-1">Sport</a></li>
+<li><a href="Hobby-Freizeit">Hobby &amp; Freizeit</a></li>
+<li><a href="Gesundheit-Pflege">Gesundheit &amp; Pflege</a></li>
+<li><a href="Weinwelt1">Weinwelt</a></li>
+<li><a href="Sonderposten">Sonderposten</a></li>
+</ul>
+</li>
+<li>
+<a href="Neu-bei-Lidl">Sortiment</a>
+<ul>
+<li><a href="Neu-bei-Lidl">Neu bei Lidl</a></li>
+<li><a href="Eigenmarken-Food">Eigenmarken Food</a></li>
+<li><a href="Eigenmarken-Non-Food">Eigenmarken Non-Food</a></li>
+<li><a href="Marken-im-Lidl-Onlineshop">Marken im Lidl Onlineshop</a></li>
+<li><a href="Wein">Wein</a></li>
+</ul>
+</li>
+<li>
+<a href="Service-Filiale">Informationen</a>
+<ul>
+<li><a href="Service-Filiale">Service Filiale</a></li>
+<li><a href="Service-Onlineshop">Service Onlineshop</a></li>
+<li><a href="Filialsuche">Die Filialen</a></li>
+<li><a href="Aktuelles">Aktuelles</a></li>
+<li><a href="Testergebnisse">Testergebnisse</a></li>
+<li><a href="Qualitaet">Qualit&#228;t</a></li>
+<li><a href="Ratgeber">Ratgeber</a></li>
+<li><a href="Online-Specials">Online-Specials</a></li>
+<li><a href="Mediathek">Mediathek</a></li>
+<li><a href="Serviceportal">Serviceportal</a></li>
+<li><a href="Das-Lidl-Partnerprogramm">Das Lidl Partnerprogramm</a></li>
+</ul>
+</li>
+<li>
+<a href="Geschichte">Unternehmen</a>
+<ul>
+<li><a href="Geschichte">Geschichte</a></li>
+<li><a href="Datenschutz">Datenschutz</a></li>
+<li><a href="Vertrauensanwalt">Vertrauensanwalt</a></li>
+<li><a href="Grundsaetze">Grunds&#228;tze</a></li>
+<li><a href="Verantwortung">Verantwortung</a></li>
+<li><a href="Immobilien">Immobilien</a></li>
+</ul>
+</li>
+<li>
+<a href="Karriere">Karriere</a>
+<ul>
+<li><a href="http://www.karriere-bei-lidl.de/cps/rde/xchg/lidl_ji/hs.xsl/5382.htm" target="_blank">Einstieg bei Lidl Deutschland</a></li>
+<li><a href="http://www.karriere-bei-lidl.com/cps/rde/xchg/lidl_int/hs.xsl/6011.htm" target="_blank">Lidl International in Neckarsulm</a></li>
+<li><a href="http://www.karriere-bei-lidl.com/cps/rde/xchg/lidl_int/hs.xsl/4193.htm" target="_blank">Einstieg bei Lidl in Europa</a></li>
+</ul>
+</li>
+<li>
+<a href="shop@ShowSummaryAccount">Mein Benutzerkonto</a>
+<ul>
+<li><a href="shop@ShowSummaryAccount">Kontodaten</a></li>
+<li><a href="shop@ShowPreviousOrders">Bestellungen</a></li>
+<li><a href="shop@ShowWatchlistContents">Merkliste</a></li>
+<li><a href="javascript:StoreLocator.openPopup('http://store.lidl.de/lidl/changeHomeStoreDe.do', 'http://www.lidl.de/de/shop@SelectStore');">Filiale &#228;ndern</a></li>
+</ul>
+</li>
+<li class="footerlast">
+			<img src="../imgs/de/logosmall.png" alt="Lidl lohnt sich."/>
+
+			<p>
+				<strong>Lidl - eine international operierende Unternehmensgruppe</strong>Wir sind eine Gruppe erfolgreicher Lebensmittel-Filialunternehmen, die mit einer starken Expansion für ein Wachstum über die Grenzen Europas hinaus sorgt.<span><a href="https://www.shopinfo.net/zertifizierte-shops/zertifikat/index.html?memberkey=EHI&amp;shopurl=www.lidl.de" target="_blank" rel="nofollow"><img src="/de/asset/images/footer_ehi.png" alt="EHI Geprüfter Online-Shop"></a><a href="http://www.gdd.de" target="_blank" rel="nofollow"><img src="../de/asset/images/footer_gdd.png" alt="GDD-Mitglied"></a><a onclick="window.open(this.href, '', 'width = 600, height = 615, left = 100, top = 200'); return false;" target="_blank" href="https://pci.usd.de/compliance/2644-65BD-2CF9-F360-74A9-DC91/details_de.html"><img src="/de/asset/images/footer_pci.png" alt="PCI DSS konform"></a></span></p>
+			<ul>
+				<li class="footerimprint"><a href="Impressum">Impressum</a></li>
+				<li class="footercontact"><a href="Kontakt">Kontakt</a></li>
+				<li class="footeragb"><a href="Allgemeine-Geschaeftsbedingungen">AGB</a></li>
+				<li class="footerprivacy"><a href="Datenschutzbestimmungen">Datenschutzbestimmungen</a></li>
+				<li class="footerlegal"><a href="Gesetzliche-Zusatzinformationen">Gesetzliche Zusatzinformationen</a></li>
+			</ul>
+		</li>
+	</ul>
+</footer></div>
+
+		<script type="text/javascript" language="JavaScript">
+var RFA_OID = "903";
+var RFA_SEO_AID = "431";
+var RFA_GENERIC_AID = "436";
+var RFA_IGNORE_REFERRER_HOSTNAMES = ['www.lidl.de', 'lidl.de'];
+var RFA_IGNORE_CGI_PARAMETER = ['gclid', 'et_cid'];
+</script>
+<script src="/js/Lidl.de_seo_generic_tracking.js" type="text/javascript"></script><script type="text/javascript">
+		
+		function generateGuid() {
+	    	var S4 = function() {
+	   			return (((1+Math.random())*0x10000)|0).toString(16).substring(1);
+	    	};
+	    	return (S4()+S4()+"-"+S4()+"-"+S4()+"-"+S4()+"-"+S4()+S4()+S4());
+		}	
+		
+		function setCookie(name, value) {
+			document.cookie = name + "=" +escape(value) + "; ; path=/";
+		}
+			
+		
+		function getCookie( checkName ) {
+			var allCookies = document.cookie.split( ';' );
+			var tempCookie = '';
+			var cookieName = '';
+			var cookieValue = '';
+			var cookieFound = false;
+			for ( i = 0; i < allCookies.length; i++ ) {
+				tempCookie = allCookies[i].split( '=' );
+				cookieName = tempCookie[0].replace(/^\s+|\s+$/g, '');
+				if ( cookieName == checkName ) {
+					cookieFound = true;
+					if ( tempCookie.length > 1 ) {
+						cookieValue = unescape( tempCookie[1].replace(/^\s+|\s+$/g, '') );
+					}
+					return cookieValue;
+					break;
+				}
+				tempCookie = null;
+				cookieName = '';
+			}
+			if ( ! cookieFound ) {
+				return null;
+			}
+		}
+		
+	</script>
+
+	<script type="text/javascript">
+		var sec_et_easy = 1;
+		var sec_et_ssl = ("https:" == document.location.protocol ? 1 : 0);
+		var sec_et_areas = "";
+		var sec_et_ilevel = 0;
+		var sec_et_tag = "";
+		var sec_et_se = 12;
+
+	</script>
+
+	<noscript><p><a href="http://www.etracker.com"><img style="border:0px;" alt="" src="https://www.etracker.com/nscnt.php?et=B3gaB9" /></a></p></noscript>
+	
+	<script type="text/javascript">
+		function et_params() {
+			if(typeof sec_et_easy != 'undefined') et_easy = sec_et_easy;
+			if(typeof sec_et_ssl != 'undefined') et_ssl = sec_et_ssl;
+			if(typeof sec_et_areas != 'undefined') et_areas = sec_et_areas;
+			if(typeof sec_et_ilevel != 'undefined') et_ilevel = sec_et_ilevel;
+			if(typeof sec_et_tag != 'undefined') et_tag = sec_et_tag;
+			if(typeof sec_et_se != 'undefined') et_se = sec_et_se;
+			if(typeof sec_et_target != 'undefined') et_target = sec_et_target;
+			if(typeof sec_et_tval != 'undefined') et_tval = sec_et_tval;
+			if(typeof sec_et_tsale != 'undefined') et_tsale = sec_et_tsale;
+			if(typeof sec_et_tonr != 'undefined') et_tonr = sec_et_tonr;
+			if(typeof sec_et_custnr != 'undefined') et_custnr = sec_et_custnr;
+			if(typeof sec_et_basket != 'undefined') et_basket = sec_et_basket;
+		}
+	</script>
+	
+	<!-- BEGIN etracker Tracklet 3.0 async -->
+	<script type="text/javascript">
+	(function(){
+		
+		var et_init = function(){
+			var et = document.createElement('script');
+			et.src = 'http'+('https:'==document.location.protocol?'s':'')+'://code.etracker.com/a.js?et=B3gaB9';
+			var head = document.getElementsByTagName('head')[0];
+			head.insertBefore(et, head.firstChild);
+		};
+		
+		var et_init_2 = function() {
+
+		var guid = getCookie("ychoosecookie");
+		if (guid == null) {
+			guid = generateGuid();
+			setCookie("ychoosecookie", guid); 
+		}
+		
+		
+
+		
+		};
+		
+		window.addEventListener
+			? window.addEventListener('DOMContentLoaded', et_init, false)
+			: window.attachEvent('DOMContentLoaded', et_init);
+
+		window.addEventListener
+			? window.addEventListener('load', et_init_2, false)
+			: window.attachEvent('onload', et_init_2);
+		
+		})();
+	</script>
+	<!-- etracker Tracklet END -->
+</body>
+</html>

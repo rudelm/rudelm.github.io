@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de-DE" lang="de-DE">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="Author" content="Apple Inc." />
+	<meta name="viewport" content="width=1024" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" />
+	<link id="globalheader-stylesheet" rel="stylesheet" href="http://images.apple.com/global/nav/styles/navigation.css" type="text/css" />
+
+	<title>Apple – MacBook Pro</title>
+	<meta name="omni_page" content="MacBook Pro - Index" />
+	<meta name="Description" content="Das neue MacBook Pro mit Retina Display. Und die neuen 13 Zoll und 15 Zoll MacBook Pro Laptop Modelle leisten mehr denn je und das auch noch schneller denn je."  />
+	<link rel="stylesheet" href="http://images.apple.com/de/global/styles/base.css" />
+	<link rel="stylesheet" href="http://images.apple.com/v/macbook-pro/c/styles/macbook-pro.css" />
+	<link rel="stylesheet" href="http://images.apple.com/de/macbook-pro/styles/macbook-pro.css" />
+	<link rel="stylesheet" href="http://images.apple.com/v/macbook-pro/c/styles/platter.css" />
+	<link rel="stylesheet" href="http://images.apple.com/v/macbook-pro/home/c/styles/overview.css" />
+	<link rel="stylesheet" href="http://images.apple.com/de/macbook-pro/styles/overview.css" />
+	<link rel="stylesheet" href="http://images.apple.com/v/macbook-pro/c/ac_darkbox/ac_darkbox.css" />
+	<link rel="stylesheet" href="http://images.apple.com/v/macbook-pro/c/ac_fluidgallery/ac_fluidgallery.css" />
+	<script src="http://images.apple.com/global/scripts/lib/prototype.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/lib/scriptaculous.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/lib/sizzle.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/browserdetect.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/apple_core.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/scripts/search_decorator.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/ac_base/ac_base.js" type="text/javascript" charset="utf-8"></script>
+	<script src="http://images.apple.com/global/ac_retina/ac_retina.js" type="text/javascript" charset="utf-8"></script>
+
+	
+<script src="http://images.apple.com/global/scripts/lib/event_mixins.js" charset="utf-8"></script>
+<script src="http://images.apple.com/global/scripts/swap_view.js" charset="utf-8"></script>
+<script src="http://images.apple.com/global/scripts/view_master_tracker.js" charset="utf-8"></script>
+<script src="http://images.apple.com/global/scripts/ac_autogallery.js" charset="utf-8"></script>
+
+
+	
+
+
+<script src="http://images.apple.com/global/scripts/ac_media.js" charset="utf-8"></script>
+<script>
+
+ACUtils.platterFixes = {
+	isIE8: function () {
+		var match = navigator.userAgent.toLowerCase().match(/msie\D*([\.\d]*)/i);
+		return (match && match[1] && (parseInt(match[1]) <= 8));
+	}
+}
+
+Media.ControlsWidget.prototype._positionSettingsMenuForControl = Media.ControlsWidget.prototype.positionSettingsMenuForControl;
+Media.ControlsWidget.prototype.positionSettingsMenuForControl = function(control) {
+	var correction = ((document.viewport.getDimensions().width - document.body.offsetWidth));
+	this._positionSettingsMenuForControl(control);
+	this.settingsMenu.style.left = (parseInt(this.settingsMenu.style.left) - correction / 2) + 'px';
+}
+
+if (!ACUtils.platterFixes.isIE8()) {
+	ACUtils._cumulativeOffset = ACUtils.cumulativeOffset;
+	ACUtils.cumulativeOffset = function(element) {
+		var offset = ACUtils._cumulativeOffset(element);
+		
+		// if we're in a platter, compensate for the width set on the body
+		offset[0] += ((document.viewport.getDimensions().width - document.body.offsetWidth) / 2);
+		offset.left = offset[0];
+		return offset;
+	}
+}
+
+</script>
+<link rel="stylesheet" href="http://images.apple.com/global/styles/ac_media.css" />
+
+
+	<script src="http://images.apple.com/global/ac_showonscroll/ac_showonscroll.js" charset="utf-8"></script>
+<script src="http://images.apple.com/v/macbook-pro/c/scripts/ac_ambient.js" charset="utf-8"></script>
+<script src="http://images.apple.com/v/macbook-pro/c/scripts/ac_flow/ac_flow.js" charset="utf-8"></script>
+
+	<script src="http://images.apple.com/v/macbook-pro/c/ac_darkbox/ac_darkbox.js" charset="utf-8"></script>
+	<script src="http://images.apple.com/v/macbook-pro/c/ac_fluidgallery/ac_fluidgallery.js" charset="utf-8"></script>
+	<script src="http://images.apple.com/v/macbook-pro/c/scripts/macbook-pro-fluidgallery.js" charset="utf-8"></script>
+	<script src="http://images.apple.com/v/macbook-pro/c/scripts/single_displace_overlay_overview.js" charset="utf-8"></script>
+	<script src="http://images.apple.com/euro/macbook-pro/scripts/fluidgallery_retina_options.js" charset="utf-8"></script>
+</head>
+<body class="macbookpro overview platter" id="overview">
+	<script type="text/javascript">
+	var searchSection = 'mac'; 
+	var searchCountry = 'de';
+ </script>
+<script src="http://images.apple.com/global/nav/scripts/globalnav.js" type="text/javascript" charset="utf-8"></script>
+<nav id="globalheader" class="mac">
+	<!--googleoff: all-->
+	<ul id="globalnav" role="navigation">
+		<li id="gn-apple"><a href="/de/"><span>Apple</span></a></li>
+		<li id="gn-store"><a href="http://store.apple.com/de"><span>Store</span></a></li>
+		<li id="gn-mac"><a href="/de/mac/"><span>Mac</span></a></li>
+		<li id="gn-ipod"><a href="/de/ipod/"><span>iPod</span></a></li>
+		<li id="gn-iphone"><a href="/de/iphone/"><span>iPhone</span></a></li>
+		<li id="gn-ipad"><a href="/de/ipad/"><span>iPad</span></a></li>
+		<li id="gn-itunes"><a href="/de/itunes/"><span>iTunes</span></a></li>
+		<li id="gn-support" class="gn-last"><a href="/de/support/"><span>Support</span></a></li>
+	</ul>
+	<!--googleon: all-->
+	<div id="globalsearch">
+		<form action="/search/" method="post" class="search" id="g-search"><div class="sp-label">
+			<label for="sp-searchtext">Search</label>
+			<input type="text" name="q" id="sp-searchtext" accesskey="s" />
+		</div></form>
+		<div id="sp-magnify"><div class="magnify-searchmode"></div><div class="magnify"></div></div>
+		<div id="sp-results"></div>
+	</div>
+</nav>
+<script type="text/javascript">
+	AC.GlobalNav.Instance = new AC.GlobalNav();
+</script>
+
+	<div id="top">
+<!-- SiteCatalyst code version: H.8. Copyright 1997-2006 Omniture, Inc. -->
+
+
+	
+	
+
+
+
+
+	
+
+<script type="text/javascript">
+/* RSID: */
+
+var s_account="appledeglobal,appledemac,appledemacbookpro,applewwevents"
+
+</script>
+
+
+<script type="text/javascript" src="http://images.apple.com/metrics/scripts/s_code_h.js"></script>
+  
+
+<script type="text/javascript">
+
+s.pageName=AC.Tracking.pageName()+" (de)";
+s.channel="www.de.macbookpro";
+
+s.prop1="e:October special event - 2012 (de)";
+
+s.prop2="www.de.mac.hardware";
+
+
+
+
+s.linkInternalFilters="javascript:,apple.com/de/"
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)</script>
+<!-- End SiteCatalyst code version: H.8. -->
+</div>
+	<div id="main" data-hires="true">
+		
+
+
+	
+
+
+
+
+
+<nav id="productheader" data-hires="true">
+	<h2><a href="/de/macbook-pro/"><img src="http://images.apple.com/de/macbook-pro/images/product_title.png" width="160" height="26" alt="MacBook Pro"  /></a></h2>
+	<ul>
+		<li id="pn-features"><a href="/de/macbook-pro/features-retina/">Features</a></li>
+		<li id="pn-design"><a href="/de/macbook-pro/design-retina/">Design</a></li>
+		<li id="pn-osx"><a href="/de/macbook-pro/osx-retina/">OS X</a></li>
+		<li id="pn-built-in"><a href="/de/macbook-pro/built-in-apps-retina/">Integrierte Apps</a></li>
+		<li id="pn-specs"><a href="/de/macbook-pro/specs-retina/">Technische Daten</a></li>
+		<li><a class="buynows" href="http://store.apple.com/de/go/macbookpro/">MacBook Pro jetzt kaufen</a></li>
+	</ul>
+</nav>
+
+
+		<div class="content" id="content">
+			<header id="hero" class="gallery autogallery autogallery-video">
+				<div id="gallery-hero" class="gallery-view">
+					<div id="gallery-view-default" class="gallery-view-default gallery-content">
+						<hgroup>
+							<h1><img class="center" src="http://images.apple.com/de/macbook-pro/images/overview_hero_title.png" width="362" height="91" alt="MacBook Pro mit Retina Display"  /></h1>
+							<h2><img class="center" src="http://images.apple.com/de/macbook-pro/images/overview_hero_subtitle.png" width="686" height="60" alt="Das Notebook mit der höchsten Auflösung. Und das mit der zweithöchsten."  /></h2>
+						</hgroup>
+						<img class="flushleft flushright" src="http://images.apple.com/euro/macbook-pro/images/overview_hero.jpg" width="1120" height="463" alt=""  />
+					</div><!--/gallery-view-default-->
+				</div><!--/gallery-hero-->
+
+				<nav class="videos">
+					<ul>
+						<li>
+							<a class="video-trigger gallery-hero" href="/de/macbook-pro/includes/videos/macbook-pro.html#macbookpro">
+								<div class="image">
+									<img class="video-thumb rounded" src="http://images.apple.com/euro/macbook-pro/images/overview_video_thumb_mbp.jpg" width="128" height="73" alt=""  />
+									<div class="play-button"></div>
+								</div>
+								<p class="link">Video ansehen</p>
+							</a>
+						</li>
+						
+						
+						<li>
+							<a class="gallery-link design-hero-gallery" href="#design-hero-gallery">
+								<div class="image">
+									<img class="video-thumb rounded" src="http://images.apple.com/euro/macbook-pro/images/overview_thumb_gallery.jpg" width="128" height="73" alt=""  />
+									<div class="plus-button"></div>
+								</div>
+								<p class="link">Galerie ansehen</p>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<div class="darkbox-content" id="design-hero-gallery" data-darkbox-id="design-hero-gallery">
+	<div id="fluid-gallery-vertical-center" class="fluid-gallery-vertical-center">
+		<div id="slideshow-container" class="slideshow-container fluid-slideshow">
+			<div id="fluid-slideshow" class="gallery-view">
+				<figure class="gallery-content fluid-figure gallery-1" id="gallery-1">
+					<img class="fluid-image" src="http://images.apple.com/euro/macbook-pro/design-retina/images/fluidgallery/gallery1_564.jpg" alt=""  />
+				</figure>
+				<figure class="gallery-content fluid-figure gallery-2" id="gallery-2">
+					<img class="fluid-image" src="http://images.apple.com/euro/macbook-pro/design-retina/images/fluidgallery/gallery2_564.jpg" alt=""  />
+				</figure>
+				<figure class="gallery-content fluid-figure gallery-3" id="gallery-3">
+					<img class="fluid-image" src="http://images.apple.com/euro/macbook-pro/design-retina/images/fluidgallery/gallery3_564.jpg" alt=""  />
+				</figure>
+				<figure class="gallery-content fluid-figure gallery-4" id="gallery-4">
+					<img class="fluid-image" src="http://images.apple.com/euro/macbook-pro/design-retina/images/fluidgallery/gallery4_564.jpg" alt=""  />
+				</figure>
+				<figure class="gallery-content fluid-figure gallery-5" id="gallery-5">
+					<img class="fluid-image" src="http://images.apple.com/euro/macbook-pro/design-retina/images/fluidgallery/gallery5_564.jpg" alt=""  />
+				</figure>
+			</div>
+			<nav class="paddle-nav">
+				<ul>
+					<li><a class="arrow prev fluid-slideshow-trigger" href="#previous"><b>Zurück</b></a></li>
+					<li><a class="arrow next fluid-slideshow-trigger" href="#next"><b>Weiter</b></a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+		
+	<nav class="simplenav"><ul><li>
+		<a class="fluid-slideshow-trigger" href="#gallery-1">Abbildung 1</a></li><li>
+		<a class="fluid-slideshow-trigger" href="#gallery-2">Abbildung 2</a></li><li>
+		<a class="fluid-slideshow-trigger" href="#gallery-3">Abbildung 3</a></li><li>
+		<a class="fluid-slideshow-trigger" href="#gallery-4">Abbildung 4</a></li><li>
+		<a class="fluid-slideshow-trigger" href="#gallery-5">Abbildung 5</a></li>
+	</li></ul></nav>
+
+	<a class="close design-hero-gallery" href="#design-hero-gallery"></a>
+</div>
+
+
+			<section id="display" class="row flushpad gradient-down">
+				<div class="loupe-gallery">
+					<div class="loupe-container">
+						<figure class="loupe-figure">
+							<div class="loupe" data-initplacement="307,6" data-boundingbox="-389,-127,175,192" data-scale-ratio="2.2" data-src="http://images.apple.com/euro/macbook-pro/images/retina_loupe_hr.jpg" data-displacementmap="http://images.apple.com/v/macbook-pro/c/images/loupedisplacementmap.png">
+							 	<img class="loupe-image" src="http://images.apple.com/v/macbook-pro/c/images/loupe.png" width="265" height="265" alt=""  />
+							 	<div class="tooltip click">Klicken und ziehen</div>
+							 	<div class="tooltip touch">Berühren und ziehen</div>
+							</div>
+							<div id="gallery-loupe">
+								<img class="gallery-content content loupeView" src="http://images.apple.com/euro/macbook-pro/images/retina_loupe.jpg" width="654" height="409" alt=""  />
+							</div>
+						</figure>
+					</div>
+				</div><!--/loupe-gallery-->
+				<img class="loupe-still center" src="http://images.apple.com/euro/macbook-pro/images/overview_display_hero.png" width="863" height="525" alt=""  />
+				<a href="/de/macbook-pro/features-retina/" class="block flushleft flushright">
+					<h1><img class="center" src="http://images.apple.com/de/macbook-pro/images/overview_display_title.png" width="800" height="73" alt="Beeindruckendes Retina Display. Seiner Zeit um Millionen Pixel voraus."  /></h1>
+					 <p>Auf den ersten Blick ist klar: Mit über 4 Millionen Pixeln beim 13" Modell und über 5 Millionen Pixeln beim 15" Modell ist das Retina Display im MacBook Pro eine unglaubliche technische Leistung. Beim Retuschieren von professionellen Fotografien oder beim Bearbeiten von Homevideos in HD bietet diese Pixeldichte Bilder mit einer Klarheit, die du noch nie auf einem Notebook gesehen hast – und auch auf keinem anderen Computer. Mit so klaren, leuchtenden Farben und so scharfen Details ist es genau das richtige Display für das fortschrittlichste Notebook der Welt. <em class="more">Weitere Infos</em></p>
+				</a>
+			</section>
+
+			<section id="performance" class="row flushpad border-top">
+				<a href="/de/macbook-pro/features-retina/" class="block flushpad">
+					<img class="center" src="http://images.apple.com/euro/macbook-pro/images/overview_performance_hero.jpg" width="865" height="128" alt=""  />
+					<h1><img class="center" src="http://images.apple.com/de/macbook-pro/images/overview_performance_title.png" width="800" height="73" alt="100 % Flash-Architektur. Das macht alles schneller."  /></h1>
+					<p>Das MacBook Pro mit Retina Display wurde mit einer 100 % Flash-Architektur entwickelt. Flash ist die schnellste und zuverlässigste Speichertechnologie. Es sorgt für eine beispiellose Power und Speicherkapazität in einem umwerfend kompakten 13" und einem superdünnen 15" Modell. Der Prozessor, der Grafikprozessor und die I/O profitieren alle von der höheren Bandbreite, die der Flash-Speicher bietet. Zusammen machen sie mit diesem Notebook Dinge möglich, die kein anderes Notebook kann. Weil kein anderes Notebook dafür entwickelt wurde. <em class="more">Weitere Infos</em></p>
+				</a>
+			</section>
+
+			<section id="design" class="row flushpad border-top">
+				<a href="/de/macbook-pro/design-retina/" class="block flushpad">
+					<img class="flushleft flushright" src="http://images.apple.com/euro/macbook-pro/images/overview_design_hero.jpg" width="1120" height="174" alt=""  />
+					<h1><img class="center" src="http://images.apple.com/de/macbook-pro/images/overview_design_title.png" width="800" height="73" alt="Dünn. Leicht. Leistungsstark. Innovation in jedem Nanometer."  /></h1>
+					<p>Der moderne Flash-Speicher, die neuesten Intel Prozessoren und superschnelle Grafik der nächsten Generation holen beim MacBook Pro jede Menge Leistung aus wenig Platz. Die Apple Designer und Ingenieure haben auch die kleinsten Details der internen Komponenten überdacht, um die Performance zu maximieren und die Größe zu minimieren. Als Ergebnis sind diese Notebooks die dünnsten, leichtesten und leistungsfähigsten MacBook Pro Modelle, die Apple je entwickelt hat. <em class="more">Weitere Infos</em></p>
+				</a>
+			</section>
+
+			<section id="os" class="row flushpad border-top">
+				<a href="/de/macbook-pro/osx-retina/" class="block flushpad">
+					<img class="center" src="http://images.apple.com/euro/macbook-pro/images/overview_os_hero.jpg" width="863" height="179" alt=""  />
+					<h1><img class="center" src="http://images.apple.com/de/macbook-pro/images/overview_os_title.png" width="800" height="73" alt="OS X Mountain Lion. Das fortschrittlichste Computer-Betriebssystem der Welt."  /></h1>
+					<p>OS X Mountain Lion nutzt die unglaublichen Technologien in jedem Mac optimal. Es macht die Bedienung eines so leistungsstarken Computers intuitiv und einfach. Es sorgt dafür, dass sich Multi-Touch Gesten auf dem Trackpad flüssig und natürlich anfühlen. Es erleichtert dir das Finden, Organisieren, Teilen und auch alles andere. Und dank iCloud arbeiten dein Mac, iPhone, iPad und iPod touch wunderbar zusammen. <em class="more">Weitere Infos</em></p>
+				</a>
+			</section>
+
+			<aside id="macbookpro">
+				<a href="/de/macbook-pro/features/" class="row border-top block flushpad grid2col">
+					<img class="left" src="http://images.apple.com/euro/macbook-pro/images/overview_macbookpro_hero.png" width="402" height="153" alt=""  />
+					<div class="column last">
+						<h1><img src="http://images.apple.com/de/macbook-pro/images/overview_macbookpro_title.png" width="400" height="63" alt="Lern den Rest der MacBook Pro Familie kennen."  /></h1>
+						<p>Die 13" und 15" MacBook Pro Modelle. Ab 1.249 €. <em class="more">Weitere Infos</em></p>
+					</div>
+				</a>
+			</aside>
+		</div><!--/content-->
+	</div><!--/main-->
+
+	<div class="buystrip-wrapper white">
+		<div id="buystrip" class="selfclear small" data-hires="true">
+	<div class="grid4col">
+		<div class="column first">
+		    <a class="block" href="/de/why-mac/compare/notebooks.html">
+				<h1><img class="center" src="http://images.apple.com/de/macbook-pro/images/buystrip_title.png" width="180" height="25" alt="MacBook Pro"  /></h1>
+				<p class="center">Ab 1.249 €</p>
+				<img class="product" src="http://images.apple.com/euro/macbook-pro/images/buystrip_hero.png" width="238" height="74" alt=""  /> <span class="more">Mac Notebooks vergleichen</span> </a>
+		</div>
+		<div class="column second border">
+			<a class="block" href="http://store.apple.com/de/go/macbookpro">
+			<h2><img src="http://images.apple.com/de/macbook-pro/images/buystrip_aos.png" width="200" height="84" alt="Online kaufen."  /></h2>
+			<p>Konfigurier dir dein<br/>MacBook Pro und lass es<br/>frei Haus liefern.</p>
+			<span class="more" class="buynows-arrow">MacBook Pro kaufen</span> </a>
+		</div>
+		<div class="column third border">
+			<a class="block" href="/de/retail/mac/" >
+				<h2><img src="http://images.apple.com/de/macbook-pro/images/buystrip_retail.png" width="200" height="84" alt="Store besuchen."  /></h2>
+				<p>Sieh dir das MacBook Pro im Apple Store an und hol dir Antworten auf all deine Fragen.</p> 
+				<span class="more">Store finden</span> </a>
+		</div>
+		<div class="column last border">
+			<h2><img src="http://images.apple.com/de/macbook-pro/images/buystrip_title_call.png" width="200" height="84" alt="Apple anrufen."  /></h2>
+			<p>Hol dir alle Antworten vor deinem Kauf. Ruf ganz einfach einen Apple Experten an.</p>
+			<span>0800 2000 136</span>
+		</div>
+	</div>
+	<ul class="strip">
+		<li><img class="left" src="http://images.apple.com/euro/macbook-pro/images/buystrip_extra_icon_appstore.png" width="22" height="22" alt=""  />Kauf mit der Apple Store App ein, vereinbare Termine und mehr. <a class="more" href="http://itunes.apple.com/de/app/apple-store/id375380948?mt=8">Jetzt laden</a></li>
+		<li><a class="more" href="/de/buy/">Apple Händler finden</a></li>
+		<li class="last-child"><a class="more" href="http://store.apple.com/de/browse/home/education_routing/">Apple Preise für Bildungskunden</a></li>
+	</ul>
+</div><!--/buynow-->
+		<footer id="globalfooter">
+			<div id="breadory">
+				<ol id="breadcrumbs">
+					<li class="home"><a href="/de/">Start</a></li>
+					<li><a href="/de/mac/">Mac</a></li>
+					<li>MacBook Pro</li>
+				</ol>
+				<!--googleoff: all-->
+<div id="directorynav" class="mac">
+	<div id="dn-cola" class="column first">
+		<h3>Macs</h3>
+		<ul>
+			<li><a href="/de/macbookair/">MacBook Air</a></li>
+			<li><a href="/de/macbook-pro/">MacBook Pro</a></li>
+			<li><a href="/de/mac-mini/">Mac mini</a></li>
+			<li><a href="/de/mac-mini/server/">Mac mini Server</a></li>
+			<li><a href="/de/imac/">iMac</a></li>
+			<li><a href="/de/macpro/">Mac Pro</a></li>
+		</ul>
+		<h3>Warum ein Mac?</h3>
+		<ul>
+			<li><a href="/de/why-mac/">Gründe für den Mac</a></li>
+			<li><a href="/de/why-mac/compare/">Macs vergleichen</a></li>
+			<li><a href="/de/why-mac/faq/">Fragen und Antworten</a></li>
+			<li><a href="/de/why-mac/try-a-mac/">Mac ausprobieren</a></li>
+		</ul>
+	</div>
+	<div id="dn-colb" class="column">
+		<h3>Zubehör</h3>
+		<ul>
+			<li><a href="/de/magicmouse/">Magic Mouse</a></li>
+			<li><a href="/de/magictrackpad/">Magic Trackpad</a></li>
+			<li><a href="/de/keyboard/">Apple Wireless Keyboard</a></li>
+			<li><a href="/de/displays/">Thunderbolt Display</a></li>
+			<li><a href="/de/airportexpress/">AirPort Express</a></li>
+			<li><a href="/de/airportextreme/">AirPort Extreme</a></li>
+			<li><a href="/de/timecapsule/">Time Capsule</a></li>
+		</ul>
+		<h3>OS X</h3>
+		<ul>
+			<li><a href="/de/osx/">OS X Mountain Lion</a></li>
+			<li><a href="/de/osx/server/">OS X Server</a></li>
+		</ul>
+		
+	</div>
+	<div id="dn-colc" class="column">
+		<h3>Programme</h3>
+		<ul>
+			<li><a href="/de/ilife/">iLife</a></li>
+			<li><a href="/de/iwork/">iWork</a></li>
+			<li><a href="/de/aperture/">Aperture</a></li>
+			<li><a href="/de/finalcutpro/">Final Cut Pro</a></li>
+			<li><a href="/de/finalcutpro/motion/">Motion</a></li>
+			<li><a href="/de/finalcutpro/compressor/">Compressor</a></li>
+			<li><a href="/de/logicpro/">Logic Pro</a></li>
+			<li><a href="/de/logicpro/mainstage/">MainStage</a></li>
+			<li><a href="/de/remotedesktop/">Remote Desktop</a></li>
+			<li><a href="/de/safari/">Safari</a></li>
+			<li><a href="/de/quicktime/">QuickTime</a></li>
+			<li><a href="/de/osx/apps/app-store.html">Mac App Store</a></li>
+		</ul>
+	</div>
+	<div id="dn-cold" class="column last">
+		<h3>Marktsegmente</h3>
+		<ul>
+			<li><a href="/de/pro/">Kreativbranche</a></li>
+			<li><a href="/de/education/">Schule & Uni</a></li>
+			<li><a href="/de/students/">Schüler/Studenten</a></li>
+			<li><a href="/de/science/">Wissenschaft</a></li>
+		</ul>
+		<h3>Support</h3>
+		<ul>
+			<li><a href="/de/support/products/">AppleCare</a></li>
+			<li><a href="/de/support/">Online-Support</a></li>
+			<li><a href="http://store.apple.com/de/help/contact">Tele-Sales</a></li>
+			<li><a href="/de/retail/geniusbar/">Genius Bar</a></li>
+			<li><a href="/de/retail/learn">Workshops</a></li>
+			<li><a href="/de/retail/learn/one-to-one/">One to One</a></li>
+		</ul>
+	</div>
+	<div class="capbottom"></div>
+</div>
+<!--googleon: all-->
+
+			</div><!--/breadory-->
+			<p class="gf-buy">Kaufen: <a href="http://store.apple.com/de">online</a>, unter 0800 2000 136, im <a href="/de/retail/">Apple Store</a> oder bei einem <a href="/de/buy/">Händler</a> in der Nähe.<br />Preise gelten für den Kauf im Apple Online Store für Deutschland, exklusive Versand und Bearbeitung.</p>
+
+<ul class="gf-links piped">
+	<li><a href="/de/sitemap/" class="first">Sitemap</a></li>
+	<li><a href="/de/hotnews/">Hot News</a></li>
+	<li><a href="/de/rss/">RSS Feeds</a></li>
+	<li><a href="/de/contact/" class="contact_us">Kontakt</a></li>
+	<li><a href="/choose-your-country/" class="choose"><img src="http://images.apple.com/de/home/elements/germanyicon.png" alt="Land oder Region auswählen" width="22" height="22" /></a></li>
+</ul>
+
+<div class="gf-sosumi">
+	<p class="copyright">Copyright © 2012 Apple Inc. Alle Rechte vorbehalten.</p>
+	<ul class="piped">
+		<li><a href="/de/legal/terms/site.html" class="first">Nutzungsbedingungen</a></li>
+		<li><a href="/de/privacy/">Datenschutz</a></li>
+		<li><a href="/de/privacy/use-of-cookies/">Verwendung von Cookies</a></li>
+	</ul>
+	<p class="footer-note_spec">Angebot und Verkauf von Artikeln in deutschen Apple Retail Stores erfolgen durch die Apple Retail Germany GmbH.<br />
+	Angebot und Verkauf von über den Apple Online Store in Deutschland verkauften Artikeln erfolgen durch Apple Distribution International.</p>
+</div>
+		</footer><!--/globalfooter-->
+	</div><!--/buystrip-wrapper-->
+</body>
+</html>
