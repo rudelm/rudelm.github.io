@@ -8,11 +8,16 @@ params:
   rssFullContent: true
   comments:
     enabled: false
+  sidebar:
+    subtitle: Macs, Linux, IoT and Photography
+    avatar:
+      enabled: true
+      local: true
+      src: img/avatar.png
   widgets:
     enabled:
       - search
       - tag-cloud
-
     tagCloud:
       limit: 10
   twitter:
