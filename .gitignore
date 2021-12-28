@@ -1,2 +1,9 @@
+# typical macOS files
+.DS_Store
 
+# Generated files by hugo
 .hugo_build.lock
+/assets/jsconfig.json
+hugo_stats.json
+/public/
+/resources/_gen/
