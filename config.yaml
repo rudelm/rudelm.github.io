@@ -17,8 +17,11 @@ params:
   widgets:
     enabled:
       - search
-      - tag-cloud
       - categories
+      - archives
+      - tag-cloud
+    archives:
+      limit: 5
     tagCloud:
       limit: 10
     categoriesCloud:
