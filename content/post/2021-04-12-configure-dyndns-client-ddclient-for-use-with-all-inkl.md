@@ -22,14 +22,18 @@ Create a new dyndns account in kas.all-inkl.com. Go to Tools, DDNS Settings and 
 ## Installation
 On your Raspberry pi:
 
-<pre class="wp-block-preformatted">$ sudo apt-get update
-$ sudo apt-get install ddclient</pre>
+```
+$ sudo apt-get update
+$ sudo apt-get install ddclient
+```
 
 ## Configuration
 
 Select other as DDNS service provider. Use dyndns.kasserver.com/ as update server with dyndns2 as protocol. Configure username and password as provided by all-inkl. Use eth0 as network interface (we'll change this later on) and add your DynDNS Domainname.
 
-<pre class="wp-block-preformatted">$ sudo nano /etc/ddclient.conf</pre>
+```
+$ sudo nano /etc/ddclient.conf
+```
 
 Change the file accordingly to your needs:
 
@@ -59,4 +63,6 @@ If it encounters any errors, it will send an failure email to the provided email
 
 Now reboot the service and you're done
 
-<pre class="wp-block-preformatted">$ sudo service ddclient restart</pre>
+```
+$ sudo service ddclient restart
+```
