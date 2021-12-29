@@ -26,6 +26,19 @@ params:
       limit: 10
     categoriesCloud:
       limit: 20
-  twitter:
-    site: rudelm
-    card: summary
+
+menu:
+    main:
+        - identifier: github
+          name: GitHub
+          url: 'https://github.com/rudelm/'
+          params:
+            icon: github
+            newTab: true
+            
+        - identifier: twitter
+          name: Twitter
+          url: 'https://twitter.com/rudelm'
+          params:
+            icon: twitter
+            newTab: true
