@@ -6,6 +6,9 @@ theme: "stack"
 
 params:
   rssFullContent: true
+  article:
+    toc: true
+    readingTime: true
   comments:
     enabled: false
   sidebar:
