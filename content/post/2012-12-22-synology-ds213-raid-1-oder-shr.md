@@ -29,6 +29,8 @@ Also suchte ich weiter und fand in [diesem Thread](http://www.synology-forum.de/
 
 Daher habe ich mich entschlossen, lieber das &#8222;native&#8220; RAID 1 zu verwenden. Hier sollte man dann im Notfall von einer Linux Live CD booten können und hätte dann die Möglichkeit das md Device zu erstellen, auch wenn nur noch eine Platte vorhanden ist. Von diesem Device könnte man dann die ext4 Partition mounten. Idealerweise wäre das dann:
 
-<pre>sudo mdadm --assemble --scan</pre>
+```
+sudo mdadm --assemble --scan
+```
 
 Danach könnte man dann mit der Beschreibung aus dem Wiki zu Datenrettungstools fortfahren, bzw. man liest weiter im [Ubuntu Wiki](http://wiki.ubuntuusers.de/Software-RAID).

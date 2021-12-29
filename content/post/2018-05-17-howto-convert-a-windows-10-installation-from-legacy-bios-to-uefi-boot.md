@@ -30,10 +30,10 @@ The necessary steps are:
   * Windows will ask you to select a user name with admin rights.
   * Login with that user.
   * The Command Prompt opens and you can start the process with 
-      * <pre class="">MBR2GPT /validate</pre>
+      * MBR2GPT /validate
 
   * If that command succeeds without errors, you can start the conversion with 
-      * <pre class="">MBR2GPT /convert</pre>
+      * MBR2GPT /convert
 
   * You can exit the Command Prompt.
   * Reboot your computer.

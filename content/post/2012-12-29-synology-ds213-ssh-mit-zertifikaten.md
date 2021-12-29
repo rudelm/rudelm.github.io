@@ -34,7 +34,9 @@ Als User verwendet man root mit dem Passwort des DiskStation admin Benutzers.
 
 Mit dem Befehl
 
-<pre>ssh-keygen -t rsa</pre>
+```
+ssh-keygen -t rsa
+```
 
 wird ein SSH Schlüsselpaar auf der DS erzeugt. Dieses ist dann gültig für den root User. Man kann diesen Schritt aber auch für einzelne Benutzer anlegen, wenn man denn vorher unter Systemsteuerung, Benutzer, Benutzerbasis den Benutzer-Home-Dienst aktiviert hat. Damit erhält dann jeder Benutzer ein eigenes home Verzeichnis, indem dann z.B. die SSH Keys abgelegt werden können.
 
@@ -42,19 +44,27 @@ Bei der Erzeugung wird man nach einem Passwort gefragt. Dieses Passwort wird ver
 
 Aus dem erzeugten Schlüsselpaar kopieren wir jetzt den öffentlichen Schlüssel in die Datei authorized_keys:
 
-<pre>cat /root/.ssh/id_rsa.pub &gt;&gt; /root/.ssh/authorized_keys</pre>
+```
+cat /root/.ssh/id_rsa.pub &gt;&gt; /root/.ssh/authorized_keys
+```
 
 Dieser Befehl hängt den Inhalt von id\_rsa.pub an das Ende von authorized\_keys und erzeugt die Datei, falls sie noch nicht existiert. Die Datei wird jetzt vor neugierigen Blicken auf dem System geschützt, es darf  nur noch root die Datei lesen:
 
-<pre>chmod 600 /root/.ssh/authorized_keys</pre>
+```
+chmod 600 /root/.ssh/authorized_keys
+```
 
 Die Inhalte des privaten und des öffentlichen Schlüssels sichern wir jetzt auf eurem PC. Dazu könnt ihr am einfachsten die Inhalte mit dem cat Befehl anzeigen lassen und kopiert sie einfach aus dem Terminal in eine Datei auf eurem PC. Hier gibt es auch elegantere Methoden (mit scp rüberkopieren), aber das lasse ich im Moment um es nicht unnötig kompliziert zu machen. Kopiert den Inhalt von
 
-<pre>cat /root/.ssh/id_rsa</pre>
+```
+cat /root/.ssh/id_rsa
+```
 
 in eine id\_rsa\_ds213plus Datei auf eurem System. Das Gleiche macht ihr auch für die Datei id\_rsa.pub und kopiert sie in eine id\_rsa_ds213plus.pub Datei auf eurem System:
 
-<pre>cat /root/.ssh/id_rsa.pub</pre>
+```
+cat /root/.ssh/id_rsa.pub
+```
 
 Ihr solltet jetzt zwei Dateien haben:
 
@@ -67,11 +77,17 @@ Ihr müsst die Authentifizierung mit Zertifikaten erst noch aktivieren. Dies ste
 
 Es müssen jetzt folgende drei Stellen auskommentiert bzw. hinzugefügt werden:
 
-<pre>RSAAuthentication yes</pre>
+```
+RSAAuthentication yes
+```
 
-<pre>PubkeyAuthentication yes</pre>
+```
+PubkeyAuthentication yes
+```
 
-<pre>AuthorizedKeysFile ~/.ssh/authorized_keys</pre>
+```
+AuthorizedKeysFile ~/.ssh/authorized_keys
+```
 
 Bevor jetzt der SSH Dienst voreilig neugestartet wird, müsst ihr erst einmal auf eurem Client die Konfiguration entsprechend anpassen.
 
@@ -79,15 +95,19 @@ Bevor jetzt der SSH Dienst voreilig neugestartet wird, müsst ihr erst einmal au
 
 Ihr habt im Schritt 3 zwei Dateien erzeugt mit dem Schlüsselpaar. Diese Dateien kopiert ihr euch in das .ssh Verzeichnis eures Benutzers und setzt die Rechte nur für diesen Benutzer mit dem Befehl
 
-<pre>chmod 600 id_rsa_ds213plus*</pre>
+```
+chmod 600 id_rsa_ds213plus*
+```
 
 In der Datei config legen wir jetzt eine Verbindungskonfiguration an. Falls die Datei noch nicht existiert, erzeugt sie. Die Datei soll ebenfalls im .ssh Verzeichnes des Users liegen. Ihr Inhalt sieht wie folgt aus:
 
-<pre>Host ds
+```
+Host ds
  HostName IP-der-DS
  Port 22
  User root
- IdentityFile ~/.ssh/id_rsa_ds213plus</pre>
+ IdentityFile ~/.ssh/id_rsa_ds213plus
+```
 
 Wenn man jetzt ssh ds als Befehl eintippen würde, so würde dein SSH Client sich zu deiner DS unter der angegebenen IP verbinden auf Port 22, mit User root und dem privaten Schlüssel den wir vorhin kopiert hatten.
 
@@ -95,13 +115,17 @@ Wenn man jetzt ssh ds als Befehl eintippen würde, so würde dein SSH Client sic
 
 Der SSH Daemon muss neugestartet werden auf der DS. Dies geschieht mit dem Befehl
 
-<pre>sh /usr/syno/etc.defaults/rc.d/S95sshd.sh restart</pre>
+```
+sh /usr/syno/etc.defaults/rc.d/S95sshd.sh restart
+```
 
 Anschließend ist deine aktive SSH Verbindung getrennt worden. Solltest du hier einen Fehler gemacht haben, so kommst du nicht mehr per SSH auf die DS. Hier kannst du dann aber die vorhin aktivierte Telnet Verbindung als Backup benutzen.
 
 Verbinde dich erneut mit
 
-<pre>ssh ds</pre>
+```
+ssh ds
+```
 
 Du solltest jetzt nach deinem Passwort zu dem vorhin erstellten SSH Schlüsselpaar gefragt werden. Hast du es eingegeben, so bist du direkt eingeloggt und musst nicht mehr das Passwort des DS admin verwenden.
 
@@ -109,7 +133,9 @@ Du solltest jetzt nach deinem Passwort zu dem vorhin erstellten SSH Schlüsselpa
 
 In der config Datei des SSH Daemons kann man jetzt noch die User/Passwort Authentifizierung abschalten. Dies geschieht mit folgender Zeile:
 
-<pre>PasswordAuthentication no</pre>
+```
+PasswordAuthentication no
+```
 
 Nach einem Neustart des SSH Daemons (siehe oben) solltest du dich nur noch mit deinem SSH Schlüsselpaar anmelden können. Pass also gut auf sie auf!
 

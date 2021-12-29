@@ -28,8 +28,12 @@ Woher kommt also diese Differenz von etwa 160GB? Ich habe ja [meine iTunes Bibli
 
 Bis ich zu dieser Erkenntnis kam dauerte es schon ziemlich lange. Mit dem Befehl
 
-<pre>sudo tmutil disablelocal</pre>
+```
+sudo tmutil disablelocal
+```
 
 kann man das lokale Backup deaktivieren. Nach einem Neustart wird der belegte Platz wieder freigegeben. Ich habe jetzt wieder meine 200GB frei. Jetzt sollte man aber das lokale Backup wieder einschalten mit dem Befehl
 
-<pre>sudo tmutil enablelocal</pre>
+```
+sudo tmutil enablelocal
+```

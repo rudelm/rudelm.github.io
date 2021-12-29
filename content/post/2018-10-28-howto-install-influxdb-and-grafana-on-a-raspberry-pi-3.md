@@ -31,7 +31,8 @@ sudo systemctl start influxdb
 
 influx
 
-CREATE DATABASE topics</pre>
+CREATE DATABASE topics
+```
 
 This will install the InfluxDB without a user and any rights. You can read up further on that [topic](https://docs.influxdata.com/influxdb/v1.5/query_language/authentication_and_authorization/). Ideally you should setup an user for authentication but since some IoT devices do not support this I'm not going to explain it here.
 
@@ -39,13 +40,15 @@ This will install the InfluxDB without a user and any rights. You can read up fu
 
 Please make sure that you'll get the most current version from [github](https://github.com/fg2it/grafana-on-raspberry/releases) and replace it in the wget command:
 
-<pre class="lang:sh decode:true " title="Grafana installation">wget https://github.com/fg2it/grafana-on-raspberry/releases/download/v5.1.4/grafana_5.1.4_armhf.deb
+```lang-bash
+wget https://github.com/fg2it/grafana-on-raspberry/releases/download/v5.1.4/grafana_5.1.4_armhf.deb
 
 sudo dpkg -i grafana_5.1.4_armhf.deb
 
 sudo systemctl enable grafana-server 
 
-sudo systemctl start grafana-server</pre>
+sudo systemctl start grafana-server
+```
 
 # First login to Grafana:
 

@@ -20,12 +20,16 @@ Apple uses their own version of SMB and enabled client signing to mitigate again
 
 Therefore I've disabled client-signing on my mac using this command:
 
-<pre class="lang:default decode:true " title="Disable SMC signing">printf "[default]\nsigning_required=no\n" | sudo tee /etc/nsmb.conf &gt;/dev/null</pre>
+```
+printf "[default]\nsigning_required=no\n" | sudo tee /etc/nsmb.conf &gt;/dev/null
+```
 
 This will write this content
 
-<pre class="lang:default decode:true ">[default]
-signing_required=no</pre>
+```
+[default]
+signing_required=no
+```
 
 &nbsp;
 
@@ -33,6 +37,7 @@ to the file /etc/nsmb.conf. After you've set this value you need to unmount all 
 
 You can revert this change with
 
-<pre class="lang:default decode:true " title="Revert changes made to SMB">sudo rm /etc/nsmb.conf</pre>
+<pre class="lang:default decode:true " title="Revert changes made to SMB">sudo rm /etc/nsmb.conf
+```
 
 &nbsp;
