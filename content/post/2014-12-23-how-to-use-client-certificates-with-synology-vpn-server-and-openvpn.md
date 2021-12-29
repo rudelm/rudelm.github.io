@@ -52,7 +52,8 @@ Enable OpenVPN from the Settings of the VPN Server. For more details [see Synolo
 
 Disable user authentication on the DiskStation and enable the certificate based authentication (code taken from this wiki) in this file: /usr/syno/etc/packages/VPNCenter/openvpn/openvpn.conf
 
-<pre class="lang:sh decode:true ">#ca /var/packages/VPNCenter/target/etc/openvpn/keys/ca.crt
+```
+#ca /var/packages/VPNCenter/target/etc/openvpn/keys/ca.crt
 ca /volume1/myCA/demoCA/my-ca.crt
 #cert /var/packages/VPNCenter/target/etc/openvpn/keys/server.crt
 cert /volume1/myCA/syn.crt
@@ -69,7 +70,8 @@ key /volume1/myCA/syn.key
 #added
 user nobody
 group nobody
-#added</pre>
+#added
+```
 
 &nbsp;
 
@@ -77,7 +79,8 @@ group nobody
 
 I'm only using iOS devices and Macs. Therefore this is again a little biased 🙂 The installation of the clients for Mac and Windows is explained [on Synology's page](https://www.synology.com/en-us/knowledgebase/tutorials/592#t4.2). iOS is explained on [this page](http://www.proenz.de/?page_id=898) (only in german but with screenshots). The initial configuration can be downloaded from the OpenVPN settings page from the DiskStation web interface. The extracted zip file contains the servers official certificates but needs to be modified to add support for the client certificates. Text is taken again from same wiki as above.
 
-<pre class="lang:sh decode:true ">#ca ca.crt
+```
+#ca ca.crt
 
 #added
 dh dh1024.pem
@@ -87,7 +90,8 @@ key my.key
 verb 3
 #added
 
-#auth-user-pass</pre>
+#auth-user-pass
+```
 
 &nbsp;
 

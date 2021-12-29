@@ -33,7 +33,9 @@ Yesterday Ginny Caughey recommended to just use a certain command:
 
 The recommended command is this one:
 
-<pre class="lang:batch decode:true">wuauclt.exe /updatenow</pre>
+```
+wuauclt.exe /updatenow
+```
 
 This command should circumvent the limitations given by Microsoft regarding your position in the update waves. However, it always ended in error messages for me, besides downloading around 2,7GB of setup files.
 

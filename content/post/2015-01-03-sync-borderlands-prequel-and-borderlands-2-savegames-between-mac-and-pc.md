@@ -29,7 +29,9 @@ A short research showed that the developers of Borderlands had this feature deac
 
 Nevertheless, a [clever user on the steam forum](http://forums.steampowered.com/forums/showthread.php?t=3049227) created a nice tutorial. He intends to use Dropbox with NTFS and HFS+ symlinks to link the savegame folder to Dropbox. He suggests to use the mklink command this way:
 
-<pre class="alt2 " dir="ltr">mklink /d "C:\Users\YourUserName\Documents\My Games\Borderlands 2\WillowGame\SaveData\NumericalID" "C:\Users\YourUserName\Documents\Dropbox\DesiredFolder"</pre>
+```
+mklink /d "C:\Users\YourUserName\Documents\My Games\Borderlands 2\WillowGame\SaveData\NumericalID" "C:\Users\YourUserName\Documents\Dropbox\DesiredFolder"
+```
 
 What he did miss to tell you is that you'll need an elevated command window with administrator rights. Just enter cmd on the Windows 8 start menu and select &#8222;Open as administrator&#8220; on the command prompt.
 

@@ -56,7 +56,9 @@ I'm using the Mac Mini for hearing Spotify, watching Netflix and Sky Go Connect,
 
 You'll now need the WideVine libs, you can install them with this command on your Pi:
 
-<pre class="lang:sh decode:true ">curl -Ls http://nmacleod.com/public/libreelec/getwidevine.sh | bash</pre>
+```lang-bash
+curl -Ls http://nmacleod.com/public/libreelec/getwidevine.sh | bash
+```
 
 You'll now only need the [plugin.video.netflix](https://github.com/asciidisco/plugin.video.netflix) add-on. Once it is started you'll be asked for your Netflix credentials. If you enter everything correctly you'll have all the options of Netflix displayed as nice library entries in Kodi. Really comfortable if you ask me! It even works directly with the Hyperion Ambilight which is a cool feature. I was able to use 720p without problems, 1080p is too much for the Pi 3 to decode only in software.
 

@@ -30,7 +30,8 @@ The instructions from stackoverflow write this missing entry into the notificati
 
 <a href="http://centurio.net/wp-content/uploads/2015/10/DisableSpotifyBadgeAppIcon.png" data-rel="lightbox-image-2" data-rl\_title="" data-rl\_caption="" title=""><img loading="lazy" class="aligncenter size-medium wp-image-2263" src="http://centurio.net/wp-content/uploads/2015/10/DisableSpotifyBadgeAppIcon-300x237.png" alt="Disable Spotify Badge App Icon" width="300" height="237" srcset="https://centurio.net/wp-content/uploads/2015/10/DisableSpotifyBadgeAppIcon-300x237.png 300w, https://centurio.net/wp-content/uploads/2015/10/DisableSpotifyBadgeAppIcon.png 669w" sizes="(max-width: 300px) 100vw, 300px" /></a>&nbsp;Here's the code of Ryan Patterson's stackoverflow entry, in case it ever gets deleted:
 
-<pre class="lang:sh decode:true "># "Usernoted" seems to be the "user notifications daemon", so get it's PID.
+```lang-bash
+# "Usernoted" seems to be the "user notifications daemon", so get it's PID.
 pid=$(ps aux | grep -i [u]sernoted | awk '{print $2}')
 
 # Find the sqlite3 database that this program has open. It's in a "private" folder (app sandboxing).
@@ -48,6 +49,7 @@ sql="INSERT INTO app_info (bundleid, flags, show_count, sort_order) VALUES ( '$b
 sqlite3 "$db" "$sql"
 
 # Restart usernoted to make the changes take effect
-killall usernoted</pre>
+killall usernoted
+```
 
 &nbsp;

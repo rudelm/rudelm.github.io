@@ -39,11 +39,13 @@ You'll need the [Arduino IDE](https://www.arduino.cc/) to flash the code. The co
 
 I've started with just attaching the LCD Keypad Shield to the Arduino and loaded the code on the Arduino. My display worked directly, however, I was only able to use the right button. This is due to little manufacturing differences in the voltage divider used for the Keypad. User [Johannes Z provided a small Arduino snippet](https://forum.lrtimelapse.com/Thread-alternative-lcd-keypad-shields?pid=31865#pid31865) which will help to determine the necessary values for your version of the keypad. I've forked Gunthers repo and added Johannes code to my repo to include it in this blog post. If you're interested in my values please checkout my version of LCD\_Keypad\_Reader.cpp. Otherwise here are only the changed values:
 
-<pre class="lang:default decode:true ">Right = 0
+```
+Right = 0
 Up = 131.0
 Down = 308.0
 Left = 481.0
-Select 723.0</pre>
+Select 723.0
+```
 
 [Here's Johannes code](https://gist.github.com/rudelm/463c59a218a4c17fdad8228356446f8b).
 

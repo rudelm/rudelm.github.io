@@ -17,8 +17,10 @@ Even when you disable Trackbacks in the WordPress settings via &#8222;Settings /
 
 Connect to your MySQL database of your blog (e.g. with PHPMyAdmin) and execute these two queries:
 
-<pre class="lang:mysql decode:true" title="Disable Trackback on WordPress posts and pages">UPDATE wp_posts set ping_status='closed' WHERE post_status='publish' AND post_type='post';
-UPDATE wp_posts set ping_status='closed' WHERE post_status='publish' AND post_type='page';</pre>
+```lang-sql
+UPDATE wp_posts set ping_status='closed' WHERE post_status='publish' AND post_type='post';
+UPDATE wp_posts set ping_status='closed' WHERE post_status='publish' AND post_type='page';
+```
 
 &nbsp;
 

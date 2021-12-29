@@ -39,7 +39,8 @@ Update everything with apt:
 sudo apt-get upgrade
 sudo apt-get dist-upgrade
 sudo apt-get clean
-sudo reboot</pre>
+sudo reboot
+```
 
 &nbsp;
 
@@ -64,9 +65,11 @@ HOMEBRIDGE_OPTS=-U /var/homebridge
  
 # If you uncomment the following line, homebridge will log more 
 # You can display this via systemd's journalctl: journalctl -f -u homebridge
-# DEBUG=*</pre>
+# DEBUG=*
+```
 
-  4. open `/etc/systemd/system/homebridge.service` and safe it with this content: <pre class="lang:default decode:true ">[Unit]
+  4. open `/etc/systemd/system/homebridge.service` and safe it with this content: ```
+[Unit]
 Description=Node.js HomeKit Server 
 After=syslog.target network-online.target
  
@@ -80,11 +83,13 @@ RestartSec=10
 KillMode=process
  
 [Install]
-WantedBy=multi-user.target</pre>
+WantedBy=multi-user.target
+```
 
   5. <pre class="lang:default decode:true">sudo useradd --system homebridge
 sudo mkdir /var/homebridge
-cp /usr/local/lib/node_modules/homebridge/config-sample.json ~/.homebridge/config.json</pre>
+cp /usr/local/lib/node_modules/homebridge/config-sample.json ~/.homebridge/config.json
+```
 
 ## Setting up HomeBridge with Xiaomi Robot Vacuum
 
@@ -108,24 +113,28 @@ cp /usr/local/lib/node_modules/homebridge/config-sample.json ~/.homebridge/confi
  "pause": true
  }
  ]
-}</pre>
+}
+```
     
     Generate a new MAC address separated by : using [this website](https://www.miniwebtool.com/mac-address-generator/). You'll need the IP address of your Xiaomi robot as well as the token. There are [several ways to get the token](https://github.com/jghaanstra/com.xiaomi-miio/blob/master/docs/obtain_token.md). I've extracted mine from the iOS backup. Instead of uploading the token I've used this command on the token taken from the sqlite database:
     
     <pre class="lang:default decode:true">echo '0: &lt;YOUR HEXADECIMAL STRING&gt;' | xxd -r -p | openssl enc -d -aes-128-ecb -nopad -nosalt -K 00000000000000000000000000000000
-</pre>
+
+```
 
   3. Check if everything is working by starting homebridge for the first time. It should show a QR code. If it does, cancel the process with ctrl+c
 
 ## Automate HomeBridge startup
 
-<pre class="lang:default decode:true ">cp ~/.homebridge/config.json /var/homebridge
+```
+cp ~/.homebridge/config.json /var/homebridge
 sudo cp -r ~/.homebridge/persist /var/homebridge
 sudo chmod -R 0777 /var/homebridge
 sudo systemctl daemon-reload
 sudo systemctl enable homebridge
 sudo systemctl start homebridge
-sudo systemctl status homebridge</pre>
+sudo systemctl status homebridge
+```
 
 # Adding the HomeBridge to iOS devices
 
