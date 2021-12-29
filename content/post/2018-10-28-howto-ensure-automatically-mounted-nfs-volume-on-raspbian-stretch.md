@@ -18,18 +18,26 @@ I&#8217;ve tried to setup NFS on my old Raspberry Pi 1 with Raspbian Stretch. I 
 
 So I&#8217;ve added this
 
-<pre class="wp-block-code"><code>mynas:/volume1/databases /mnt/databases nfs defaults 0 0</code></pre>
+```
+mynas:/volume1/databases /mnt/databases nfs defaults 0 0
+```
 
 and thought I would be done. I&#8217;ve created the /mnt/databases folder with
 
-<pre class="wp-block-code"><code>mkdir /mnt/databases</code></pre>
+```
+mkdir /mnt/databases
+```
 
 and tried to mount everything with
 
-<pre class="wp-block-code"><code>mount -a</code></pre>
+```
+mount -a
+```
 
 and my volume showed up as mounted. After reboot the volume wasn&#8217;t mounted anymore and the service couldn&#8217;t find its data. So what shall we do? After some research I&#8217;ve found these options, which fixed the problem:
 
-<pre class="wp-block-code"><code>mynas:/volume1/databases /mnt/databases nfs defaults,noauto,x-systemd.automount 0 0</code></pre>
+```
+mynas:/volume1/databases /mnt/databases nfs defaults,noauto,x-systemd.automount 0 0
+```
 
 The NFS volume now shows up even after a reboot. I&#8217;ve also tried to change the configuration of Raspbian so that it waits for the network before any services start but that didn&#8217;t fix the problem. Interestingly the entry with only defaults seems to be working on a Raspberry Pi 3 B.

@@ -15,8 +15,10 @@ url: /2018/11/21/improve-openvpn-security-on-synology-diskstations/
 ---
 I&#8217;m using [OpenVPN on my Synology DiskStation with certificates](http://centurio.net/2014/12/23/how-to-use-client-certificates-with-synology-vpn-server-and-openvpn/) instead of Preshared Keys. A few days ago I&#8217;ve wanted to login to my VPN and it wasn&#8217;t working. After checking the log file I&#8217;ve seen that there were some issues with the used configuration file for OpenVPN.
 
-<pre class="wp-block-code"><code>Tue Nov 20 23:04:27 2018 Cipher algorithm 'TLS-DHE-RSA-WITH-AES-256-GCM-SHA384:TLS-DHE-RSA-WITH-AES-256-CB' not found
-Tue Nov 20 23:04:27 2018 Exiting due to fatal error</code></pre>
+```
+Tue Nov 20 23:04:27 2018 Cipher algorithm 'TLS-DHE-RSA-WITH-AES-256-GCM-SHA384:TLS-DHE-RSA-WITH-AES-256-CB' not found
+Tue Nov 20 23:04:27 2018 Exiting due to fatal error
+```
 
 How can this be? The configuration worked for months without problems? I&#8217;ve started to remember that I&#8217;ve started to increase the security of my OpenVPN configuration using a few parameters. The Cipher algorithm is one of them. [This page](https://stastka.ch/knowledge-base/OpenVPN-auf-einem-Synology-NAS-haerten/story/0f53abf5) describes some of the changes I&#8217;ve made (unfortunately only in German).
 
@@ -28,15 +30,21 @@ I&#8217;ve reorderded the tls-auth and tls-cipher parameter to be above the auth
 
 How do you get supported values for auth, cipher and tls-cipher you might wonder? Just execute
 
-<pre class="wp-block-code"><code>openvpn --show-tls</code></pre>
+```
+openvpn --show-tls
+```
 
 to get the supported tls-cipher you might line up with a : separated.
 
-<pre class="wp-block-code"><code>openvpn --show-digests</code></pre>
+```
+openvpn --show-digests
+```
 
 shows you the allowed values for auth and
 
-<pre class="wp-block-code"><code>openvpn --show-ciphers</code></pre>
+```
+openvpn --show-ciphers
+```
 
 will show the allowed values for cipher. However, cipher and auth can also be preselected from the DSM UI.
 

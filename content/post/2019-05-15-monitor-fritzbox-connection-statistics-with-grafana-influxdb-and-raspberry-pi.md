@@ -21,9 +21,11 @@ I&#8217;ve started searching for a better solution using Grafana, InfluxDB and m
 
 Start with the installation of fritzcollectd. It is a plugin for collectd.
 
-<pre class="wp-block-code"><code>sudo apt-get install -y python-pip
+```
+sudo apt-get install -y python-pip
 sudo apt-get install -y libxml2-dev libxslt1-dev
-sudo pip install fritzcollectd</code></pre>
+sudo pip install fritzcollectd
+```
 
 Now create a user account in the Fritz!Box for collectd. Go to System, Fritz!Box-user and create a new user with password, who has access from internet disabled. The important part is to enable &#8222;Fritz!Box settings&#8220;.
 
@@ -31,24 +33,31 @@ Additionally make sure that your Fritz!Box is configured to support connection q
 
 Next part is the installation and configuration of collectd:
 
-<pre class="wp-block-code"><code>sudo apt-get install -y collectd
-sudo nano /etc/collectd/collectd.conf</code></pre>
+```
+sudo apt-get install -y collectd
+sudo nano /etc/collectd/collectd.conf
+```
 
 Enable the python and network plugins by removing the hashtag
 
-<pre class="wp-block-code"><code>LoadPlugin python
+```
+LoadPlugin python
 [...]
-LoadPlugin network</code></pre>
+LoadPlugin network
+```
 
 Scroll down till you&#8217;ll see the plugin configuration and configure the port and IP for collectd
 
-<pre class="wp-block-code"><code>&lt;Plugin network>
+```
+&lt;Plugin network>
     Server "127.0.0.1" "25826"
-&lt;/Plugin></code></pre>
+&lt;/Plugin>
+```
 
 Enable the python plugin and configure the module with the username and password of the user you&#8217;ve created. Make also sure to use the right address.
 
-<pre class="wp-block-code"><code>&lt;Plugin python>
+```
+&lt;Plugin python>
     Import "fritzcollectd"
 
     &lt;Module fritzcollectd>
@@ -60,24 +69,31 @@ Enable the python plugin and configure the module with the username and password
         Instance "1"
         Verbose "False"
     &lt;/Module>
-&lt;/Plugin></code></pre>
+&lt;/Plugin>
+```
 
 Since you&#8217;ve already got a running InfluxDB, you&#8217;ll just need to enable collectd as data source:
 
-<pre class="wp-block-code"><code>sudo nano /etc/influxdb/influxdb.conf</code></pre>
+```
+sudo nano /etc/influxdb/influxdb.conf
+```
 
 Search for the [collectd] part and replace it with
 
-<pre class="wp-block-code"><code>[[collectd]]
+```
+[[collectd]]
   enabled = true
   bind-address = "127.0.0.1:25826"
   database = "collectd"
-  typesdb = "/usr/share/collectd/types.db"</code></pre>
+  typesdb = "/usr/share/collectd/types.db"
+```
 
 Reboot collectd and influx to activate the changes made
 
-<pre class="wp-block-code"><code>sudo systemctl restart collectd
-sudo systemctl restart influxdb</code></pre>
+```
+sudo systemctl restart collectd
+sudo systemctl restart influxdb
+```
 
 Login to your grafana installation and configure a new datasource. Make sure to set the collectd database. If you&#8217;re using credentials for the InfluxDB, you can add them now. If you&#8217;re not using authentication you can disable the &#8222;With credentials&#8220; checkbox.<figure class="wp-block-image">
 

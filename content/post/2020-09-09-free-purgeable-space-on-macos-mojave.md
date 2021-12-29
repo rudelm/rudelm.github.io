@@ -21,7 +21,9 @@ However, there is nowhere an option to purge this space. Upon further searching 
 
 It looks like TimeMachine takes up a lot of free space in APFS snapshots which needs manual cleaning using this command:
 
-<pre class="wp-block-code"><code>tmutil thinlocalsnapshots / $((100 * 1024 * 1204 * 1024)) 4</code></pre>
+```
+tmutil thinlocalsnapshots / $((100 * 1024 * 1204 * 1024)) 4
+```
 
 This command tries to free 100GB space from the local snapshots. It&#8217;s using the highest priority (4) to speed up the cleaning.
 

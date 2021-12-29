@@ -23,7 +23,9 @@ The problem with Raspbian is that [I&#8217;ve tried to auto mount the NFS share 
 
 I&#8217;ve used these settings in my /etc/fstab to mount the volume automatically:
 
-<pre class="wp-block-code"><code>&lt;DS IP>:/volume1/databases /mnt/databases nfs auto,user,rw,nolock,nosuid 0 0</code></pre>
+```
+&lt;DS IP>:/volume1/databases /mnt/databases nfs auto,user,rw,nolock,nosuid 0 0
+```
 
 This doesn&#8217;t work properly since my influxdb is often dead after a restart, but if I check the mounted volumes I see the NFS volume mounted properly.
 
@@ -31,26 +33,38 @@ However, there&#8217;s a tool called autofs [which already helped me](http://cen
 
 Install autofs using
 
-<pre class="wp-block-code"><code>sudo apt-get install autofs</code></pre>
+```
+sudo apt-get install autofs
+```
 
 Open the file /etc/auto.master and add something like this
 
-<pre class="wp-block-code"><code>/mnt    /etc/auto.databases     -nosuid,noowners</code></pre>
+```
+/mnt    /etc/auto.databases     -nosuid,noowners
+```
 
 Now create a file called /etc/auto.databases with this content
 
-<pre class="wp-block-code"><code>databases       -fstype=nfs,user,nolock,nosuid,rw &lt;DS IP>:/volume1/databases</code></pre>
+```
+databases       -fstype=nfs,user,nolock,nosuid,rw &lt;DS IP>:/volume1/databases
+```
 
 Unmount the existing NFS share. Remove/comment out the line for the nfs mount in your /etc/fstab so that it doesn&#8217;t conflict with autofs. Restart autofs with
 
-<pre class="wp-block-code"><code>sudo service autofs restart</code></pre>
+```
+sudo service autofs restart
+```
 
 Now check the content of your mount point with e.g.
 
-<pre class="wp-block-code"><code>ls /mnt/databases</code></pre>
+```
+ls /mnt/databases
+```
 
 Autofs should now automatically mount the NFS share. This might take a while, which is a good sign that the mount is loaded. You can also verify with
 
-<pre class="wp-block-code"><code>mount</code></pre>
+```
+mount
+```
 
 that your NFS share is mounted to e.g. /mnt/databases. If you&#8217;ll restart now, influxdb should be happy on restart. When it tries to start, autofs will see the access to the mounted folder and will mount the NFS share before influxdb can start up properly.

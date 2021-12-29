@@ -25,7 +25,8 @@ Luckily I&#8217;ve found this [blog post from Chris Warrick](https://chriswarric
   3. Go to the mounted volume
   4. Extract the package:
 
-<pre class="wp-block-code"><code>$ pkgutil --expand InstallMacOSX.pkg elcapitan
+```
+$ pkgutil --expand InstallMacOSX.pkg elcapitan
 $ ls -F elcapitan
 Distribution*       InstallMacOSX.pkg/ Resources/
 $ cd elcapitan/InstallMacOSX.pkg/
@@ -33,21 +34,26 @@ $ tar -xvf Payload
 x .
 x ./Install OS X El Capitan.app
 x ./Install OS X El Capitan.app/Contents
-…</code></pre>
+…
+```
 
 Now we can try to create the install media from the installer app. Make sure you&#8217;ve attach another disk which can be overwritten by the installer. In this example its named &#8222;MyBlankUSBDrive&#8220;:
 
-<pre class="wp-block-code"><code># "Install OS X El Capitan.app/Contents/Resources/createinstallmedia" --volume /Volumes/MyBlankUSBDrive --applicationpath "Install OS X El Capitan.app"
-Install OS X El Capitan.app does not appear to be a valid OS installer application.</code></pre>
+```
+# "Install OS X El Capitan.app/Contents/Resources/createinstallmedia" --volume /Volumes/MyBlankUSBDrive --applicationpath "Install OS X El Capitan.app"
+Install OS X El Capitan.app does not appear to be a valid OS installer application.
+```
 
 The InstallESD.dmg image is missing, which we&#8217;ll need to add to the right location:
 
-<pre class="wp-block-code"><code>$ mkdir "Install OS X El Capitan.app/Contents/SharedSupport"
+```
+$ mkdir "Install OS X El Capitan.app/Contents/SharedSupport"
 $ mv InstallESD.dmg "Install OS X El Capitan.app/Contents/SharedSupport"
 # "Install OS X El Capitan.app/Contents/Resources/createinstallmedia" --volume /Volumes/MyBlankUSBDrive --applicationpath "Install OS X El Capitan.app"
 Ready to start.
 To continue we need to erase the disk at /Volumes/MyBlankUSBDrive.
-If you wish to continue type (Y) then press return:</code></pre>
+If you wish to continue type (Y) then press return:
+```
 
 Now we&#8217;ll have a valid installation medium which can be used to start the installer from. You can reboot from that disk and should be able to install El Capitan. 
 

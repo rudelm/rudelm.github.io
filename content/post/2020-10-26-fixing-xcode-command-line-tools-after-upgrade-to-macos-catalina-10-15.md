@@ -15,20 +15,28 @@ Today I&#8217;ve updated to macOS Catalina 10.15. I&#8217;ve tried to setup zsh 
 
 If I run
 
-<pre class="wp-block-code"><code>xcode-select -p
-/Library/Developer/CommandLineTools</code></pre>
+```
+xcode-select -p
+/Library/Developer/CommandLineTools
+```
 
 I&#8217;m seeing my previous installation in /Library/Developer/CommandLineTools. However, if I run
 
-<pre class="wp-block-code"><code>xcode-select --install</code></pre>
+```
+xcode-select --install
+```
 
 I&#8217;m seeing the installer which tries to fetch the latest Xcode command line tools. However, it always fails with
 
-<pre class="wp-block-code"><code>Unable to Download App. "Xcode" could not be installed. Please try again later.</code></pre>
+```
+Unable to Download App. "Xcode" could not be installed. Please try again later.
+```
 
 I don&#8217;t intend to install the large Xcode from the appstore. So I&#8217;ve tried to delete the existing installation of the command line tools with
 
-<pre class="wp-block-code"><code>sudo rm -rf /Library/Developer</code></pre>
+```
+sudo rm -rf /Library/Developer
+```
 
 but the problem is still present.
 
@@ -38,8 +46,10 @@ Many people suggest to go to the developer.apple.com page and to search manually
 
 However, we&#8217;re already at Xcode 12.1, so I thought this is the wrong download and is already outdated. But after I&#8217;ve installed the tools from this dmg, its working again and 
 
-<pre class="wp-block-code"><code>xcode-select --install
-xcode-select: error: command line tools are already installed, use "Software Update" to install updates</code></pre>
+```
+xcode-select --install
+xcode-select: error: command line tools are already installed, use "Software Update" to install updates
+```
 
 shows a suitable error message.
 

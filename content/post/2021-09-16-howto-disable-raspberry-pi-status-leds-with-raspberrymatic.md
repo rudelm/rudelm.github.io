@@ -18,12 +18,16 @@ These LEDs are quite strong and disturb the sleep of my family. Therefore its ti
 
 Connect via SSH to the RaspberryMatic installation. Edit or create the file /usr/local/etc/rc.local and add this content:
 
-<pre class="wp-block-code"><code>#!/bin/sh
+```
+#!/bin/sh
 echo none >/sys/class/leds/led0/trigger
-echo none >/sys/class/leds/led1/trigger</code></pre>
+echo none >/sys/class/leds/led1/trigger
+```
 
 Now make this script executeable:
 
-<pre class="wp-block-code"><code>chmod +x /usr/local/etc/rc.local</code></pre>
+```
+chmod +x /usr/local/etc/rc.local
+```
 
 This script is executed on each start and disables the LEDs completely. No need to use some duct tape to mask the LEDs anymore 🙂

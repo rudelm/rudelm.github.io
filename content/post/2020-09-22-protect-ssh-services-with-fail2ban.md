@@ -17,36 +17,50 @@ If you&#8217;ll open SSH on a server to the open internet, you&#8217;ll notice a
 
 I&#8217;ve installed fail2ban on my Raspbian installations and want to explain the installation and configuration. Its quite easy and the benefits are huge!
 
-<pre class="wp-block-code"><code>sudo apt-get install fail2ban</code></pre>
+```
+sudo apt-get install fail2ban
+```
 
 Create a copy of the original configuration file so that it won&#8217;t be overwritten by any updates:
 
-<pre class="wp-block-code"><code>sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local</code></pre>
+```
+sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+```
 
 Search for a block for [default]. You should set:
 
-<pre class="wp-block-code"><code>bantime = 10m
+```
+bantime = 10m
 findtime = 10m
-maxretry = 5</code></pre>
+maxretry = 5
+```
 
 These are the general settings. The settings for sshd should be a little bit stricter. Search a block for [sshd]. You should set:
 
-<pre class="wp-block-code"><code>enabled = true
-maxretry = 3</code></pre>
+```
+enabled = true
+maxretry = 3
+```
 
 You can enable and start fail2ban now using systemctl:
 
-<pre class="wp-block-code"><code>sudo systemctl enable fail2ban
-sudo systemctl start fail2ban</code></pre>
+```
+sudo systemctl enable fail2ban
+sudo systemctl start fail2ban
+```
 
 Verify its up and running:
 
-<pre class="wp-block-code"><code>sudo systemctl status fail2ban.service
+```
+sudo systemctl status fail2ban.service
 sudo fail2ban-client status
-sudo fail2ban-client status sshd</code></pre>
+sudo fail2ban-client status sshd
+```
 
 If you end up being locked out, you can unlog an offending IP address using this command:
 
-<pre class="wp-block-code"><code>sudo fail2ban-client set sshd unbanip &lt;offenders IP&gt;</code></pre>
+```
+sudo fail2ban-client set sshd unbanip &lt;offenders IP&gt;
+```
 
 Banned connections will be dropped immediately by the firewall and should be visible with a &#8222;connection refused&#8220;.

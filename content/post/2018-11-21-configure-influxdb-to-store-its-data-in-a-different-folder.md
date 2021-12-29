@@ -14,7 +14,8 @@ url: /2018/11/21/configure-influxdb-to-store-its-data-in-a-different-folder/
 ---
 The default location of the influxDB data is /var/lib/influxdb. If you want to change the location, you&#8217;ll need to configure three folders to be in a different place. The changes should be done in the file /etc/influxdb/influxdb.conf
 
-<pre class="wp-block-code"><code>...
+```
+...
 [meta]
   # Where the metadata/raft database is stored
   #dir = "/var/lib/influxdb/meta"
@@ -27,7 +28,8 @@ The default location of the influxDB data is /var/lib/influxdb. If you want to c
 
   # The directory where the TSM storage engine stores WAL files.
   #wal-dir = "/var/lib/influxdb/wal"
-  wal-dir = "/mnt/databases/influxdb/wal"</code></pre>
+  wal-dir = "/mnt/databases/influxdb/wal"
+```
 
 I&#8217;m using this to store the data on a NFS share [which is mounted automatically](http://centurio.net/2018/11/21/auto-mount-nfs-shares-on-raspbian/). If you want to keep your existing data, move the existing content of /var/lib/influxdb to the new location.
 

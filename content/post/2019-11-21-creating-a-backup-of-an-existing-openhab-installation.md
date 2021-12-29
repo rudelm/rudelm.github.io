@@ -15,11 +15,14 @@ I&#8217;m about to try an update of my existing OpenHAB installation. Right now 
 
 Luckily, there&#8217;s an integrated backup script on my 2.4.0 installation I can use. I just need to install the zip package first on my Raspbian using
 
-<pre class="wp-block-code"><code>sudo apt-get install zip</code></pre>
+```
+sudo apt-get install zip
+```
 
 Now I can run a backup using
 
-<pre class="wp-block-code"><code>sudo $OPENHAB_RUNTIME/bin/backup
+```
+sudo $OPENHAB_RUNTIME/bin/backup
 
 #########################################
        openHAB 2.x.x backup script
@@ -37,6 +40,7 @@ Removing unnecessary files...
 Backup Directory is inside userdata, not including in this backup!
 Zipping folder...
 Removing temporary files...
-Success! Backup made in /var/lib/openhab2/backups/openhab2-backup-19_11_21-19_24_30.zip</code></pre>
+Success! Backup made in /var/lib/openhab2/backups/openhab2-backup-19_11_21-19_24_30.zip
+```
 
 The backup includes the installed plugins as well as the used configuration. Quite easy and fun to use!

@@ -33,16 +33,20 @@ Make the uup\_download\_macos.sh executable by using &#8222;chmod +x uup\_downlo
 
 It will probably complain about missing files. But at the same time, it offers help on what you&#8217;ll need to install using homebrew, e.g.:
 
-<pre class="wp-block-code"><code>brew tap sidneys/homebrew
-brew install aria2 cabextract wimlib cdrtools sidneys/homebrew/chntpw</code></pre>
+```
+brew tap sidneys/homebrew
+brew install aria2 cabextract wimlib cdrtools sidneys/homebrew/chntpw
+```
 
 On my M1/Apple Silicon Mac, chntpw complained about a non working SSL. I&#8217;ve found this [issue on Github](https://github.com/sidneys/homebrew-homebrew/issues/2), which has some easy installation recommendations:
 
-<pre class="wp-block-code"><code>curl -LO https://gist.github.com/minacle/e9dedb8c17025a23a453f8f30eced3da/raw/908b944b3fe2e9f348fbe8b8800daebd87b5966c/openssl@1.0.rb
+```
+curl -LO https://gist.github.com/minacle/e9dedb8c17025a23a453f8f30eced3da/raw/908b944b3fe2e9f348fbe8b8800daebd87b5966c/openssl@1.0.rb
 curl -LO https://gist.github.com/minacle/e9dedb8c17025a23a453f8f30eced3da/raw/908b944b3fe2e9f348fbe8b8800daebd87b5966c/chntpw.rb
 brew install --formula --build-from-source ./openssl@1.0.rb
 brew install --formula --build-from-source ./chntpw.rb
-rm ./openssl@1.0.rb ./chntpw.rb</code></pre>
+rm ./openssl@1.0.rb ./chntpw.rb
+```
 
 Now try to execute the uup\_download\_macos.sh script again. It will now download the requested update files and will create automatically a nice ISO file, which can be used to install Windows.
 

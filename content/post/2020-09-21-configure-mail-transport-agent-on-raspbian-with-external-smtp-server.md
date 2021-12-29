@@ -18,15 +18,20 @@ I want to get email notifications for actions on my Raspberry Pi using Raspbian.
 
 Upgrade your raspbian:
 
-<pre class="wp-block-code"><code>sudo apt-get update && sudo apt-get upgrade</code></pre>
+```
+sudo apt-get update && sudo apt-get upgrade
+```
 
 Install msmtp:
 
-<pre class="wp-block-code"><code>sudo apt-get install msmtp msmtp-mta mailutils</code></pre>
+```
+sudo apt-get install msmtp msmtp-mta mailutils
+```
 
 Get the location of the configuration files:
 
-<pre class="wp-block-code"><code>&gt; msmtp --version
+```
+&gt; msmtp --version
 msmtp version 1.6.6
 Platform: arm-unknown-linux-gnueabihf
 TLS/SSL library: GnuTLS
@@ -42,15 +47,19 @@ User configuration file name: /home/pi/.msmtprc
 Copyright (C) 2016 Martin Lambers and others.
 This is free software.  You may redistribute copies of it under the terms of
 the GNU General Public License &lt;http://www.gnu.org/licenses/gpl.html&gt;.
-There is NO WARRANTY, to the extent permitted by law.</code></pre>
+There is NO WARRANTY, to the extent permitted by law.
+```
 
 Configure the system configuration:
 
-<pre class="wp-block-code"><code>sudo vi /etc/msmtprc</code></pre>
+```
+sudo vi /etc/msmtprc
+```
 
 The content of my configuration file (note the necessary changes for servers and email addresses):
 
-<pre class="wp-block-code"><code># Set default values for all following accounts.
+```
+# Set default values for all following accounts.
 defaults
 
 # Use the mail submission port 587 instead of the SMTP port 25.
@@ -123,23 +132,32 @@ password &lt;The password of the email account you use for sending emails>
 account default: root
 
 # Map local users to mail addresses (for crontab)
-aliases /etc/aliases</code></pre>
+aliases /etc/aliases
+```
 
 This file contains a username and password. Therefore limit its access to only root:
 
-<pre class="wp-block-code"><code>sudo chmod 600 /etc/msmtprc</code></pre>
+```
+sudo chmod 600 /etc/msmtprc
+```
 
 Duplicate the config file to ~/.msmtprc if you want to provide email configuration for your user as well. Don&#8217;t forget to update the accounts accordingly.
 
 Now configure the recipients for your systems users by setting the recipients in /etc/aliases. Make sure, that you don&#8217;t have trailing spaces behind the email addresses:
 
-<pre class="wp-block-code"><code>root: user@domain.name
-default: user@domain.name</code></pre>
+```
+root: user@domain.name
+default: user@domain.name
+```
 
 Let your computer now that msmtp should be used as replacement for sendmail by adding this content to /etc/mail.rc
 
-<pre class="wp-block-code"><code>set sendmail="/usr/bin/msmtp -t"</code></pre>
+```
+set sendmail="/usr/bin/msmtp -t"
+```
 
 Test your configuration by sending an email from the terminal:
 
-<pre class="wp-block-code"><code>echo "Content of your mail" | mail -s "Subject" user@domain.name</code></pre>
+```
+echo "Content of your mail" | mail -s "Subject" user@domain.name
+```

@@ -19,7 +19,9 @@ Reason is the changed structure in the APFS container. If you have a look at the
 
 You&#8217;ll just have to [prepend your existing automount paths](https://www.fkylewright.com/2019/10/macos-catalina-10-15-autofs-mount-point-changes/) with /System/Volumes/Data. Now you&#8217;ll just have to run
 
-<pre class="wp-block-code"><code>sudo automount -vc</code></pre>
+```
+sudo automount -vc
+```
 
 and the automounts are working again.
 

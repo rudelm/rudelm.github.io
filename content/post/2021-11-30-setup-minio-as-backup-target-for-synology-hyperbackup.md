@@ -20,22 +20,29 @@ Minio is a block storage server which is compatible to AWS S3 API. That means I 
 
 Download a copy of minio for arm and make it executable:
 
-<pre class="wp-block-code"><code>wget https://dl.minio.io/server/minio/release/linux-arm/minio
+```
+wget https://dl.minio.io/server/minio/release/linux-arm/minio
 chmod +x minio
-sudo mv minio /usr/local/bin/</code></pre>
+sudo mv minio /usr/local/bin/
+```
 
 We need a user for the minio process to run:
 
-<pre class="wp-block-code"><code>sudo groupadd --system minio
-sudo useradd -s /sbin/nologin --system -g minio minio</code></pre>
+```
+sudo groupadd --system minio
+sudo useradd -s /sbin/nologin --system -g minio minio
+```
 
 We need to give ownership of the minio working directory:
 
-<pre class="wp-block-code"><code>sudo chown -R minio:minio /data/</code></pre>
+```
+sudo chown -R minio:minio /data/
+```
 
 Now we configure a service for starting minio using [Systemd](https://www.raspberrypi.org/documentation/linux/usage/systemd.md), writing the following lines into /etc/systemd/system/minio.service. Make sure to set the right working directory.
 
-<pre class="wp-block-code"><code>[Unit]
+```
+[Unit]
 Description=Minio
 Documentation=https://docs.minio.io
 Wants=network-online.target
@@ -63,11 +70,13 @@ TimeoutStopSec=infinity
 SendSIGKILL=no
 
 [Install]
-WantedBy=multi-user.target</code></pre>
+WantedBy=multi-user.target
+```
 
 Create a minio environment file in /etc/default/minio. This setups the credentials for minio (access key and secret key), as well as the volume (same as the working directory). I&#8217;ve added a parameter for the URL under which minio will be reachable (MINIO_DOMAIN) as well as a parameter to the options on where the certificates for TLS encryption should reside (-certs-dir):
 
-<pre class="wp-block-code"><code>
+```
+
 # Volume to be used for Minio server.
 MINIO_VOLUMES="/data"
 # Use if you want to run Minio on a custom port
@@ -77,15 +86,20 @@ MINIO_ACCESS_KEY=&lt;someAccessKey&gt;
 # Secret key of the server.
 MINIO_SECRET_KEY=&lt;someSecretKey&gt;
 # Server Domain
-MINIO_DOMAIN=&lt;domain&gt;</code></pre>
+MINIO_DOMAIN=&lt;domain&gt;
+```
 
 Reload systemd:
 
-<pre class="wp-block-code"><code>sudo systemctl daemon-reload</code></pre>
+```
+sudo systemctl daemon-reload
+```
 
 If you want to have minio starting at system startup:
 
-<pre class="wp-block-code"><code>sudo systemctl enable minio</code></pre>
+```
+sudo systemctl enable minio
+```
 
 You should enable TLS by placing a private key, a certificate and eventually a CA certificate into the path supplied by the -certs-dir parameter. In my example it would be /data/.minio/certs. You can read more about securing minio with certificates under [this link](https://docs.min.io/docs/how-to-secure-access-to-minio-server-with-tls).
 
@@ -99,25 +113,34 @@ This was also the place, where I found [kasserver](https://github.com/fetzerch/k
 
 Install it with
 
-<pre class="wp-block-code"><code>pip3 install kasserver</code></pre>
+```
+pip3 install kasserver
+```
 
 Setup the KAS credentials in ~/.netrc
 
-<pre class="wp-block-code"><code>machine kasapi.kasserver.com
+```
+machine kasapi.kasserver.com
 login USERNAME
-password PASSWORD</code></pre>
+password PASSWORD
+```
 
 Restrict access to the file to only your user
 
-<pre class="wp-block-code"><code>chmod 600 ~/.netrc</code></pre>
+```
+chmod 600 ~/.netrc
+```
 
 Install certbot
 
-<pre class="wp-block-code"><code>sudo apt-get install certbot</code></pre>
+```
+sudo apt-get install certbot
+```
 
 Setup a user and folder for certbot
 
-<pre class="wp-block-code"><code>sudo groupadd --system letsencrypt
+```
+sudo groupadd --system letsencrypt
 sudo useradd -s /sbin/nologin --system -g letsencrypt letsencrypt
 sudo mkdir -p /etc/letsencrypt
 sudo chown -R letsencrypt:letsencrypt /etc/letsencrypt
@@ -131,15 +154,20 @@ mkdir ~/letsencrypt
 mkdir ~/letsencrypt/config
 mkdir ~/letsencrypt/work
 mkdir ~/letsencrypt/logs
-</code></pre>
+
+```
 
 Request a certificate
 
-<pre class="wp-block-code"><code>certbot certonly -d subdomain.domain.com --config-dir /home/pi/letsencrypt/config --work-dir /home/pi/letsencrypt/work --logs-dir /home/pi/letsencrypt/logs --preferred-challenges dns --manual --manual-auth-hook /home/pi/.local/bin/kasserver-dns-certbot --manual-cleanup-hook /home/pi/.local/bin/kasserver-dns-certbot -m system@rudel.email</code></pre>
+```
+certbot certonly -d subdomain.domain.com --config-dir /home/pi/letsencrypt/config --work-dir /home/pi/letsencrypt/work --logs-dir /home/pi/letsencrypt/logs --preferred-challenges dns --manual --manual-auth-hook /home/pi/.local/bin/kasserver-dns-certbot --manual-cleanup-hook /home/pi/.local/bin/kasserver-dns-certbot -m system@rudel.email
+```
 
 You can start minio using:
 
-<pre class="wp-block-code"><code>sudo systemctl start minio</code></pre>
+```
+sudo systemctl start minio
+```
 
 Once it is started, you can reach it via https://[serverip|localhost]:9000. You can login to the web interface using the two keys defined in the /etc/default/minio file.
 

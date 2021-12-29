@@ -16,7 +16,8 @@ I&#8217;ve recently upgraded to macOS catalina. My automount mount for music med
 
 The last change I did was to install the supplemental update for 10.15.7 which seems to overwrite the /etc/auto\_master so my /etc/auto\_smb wasn&#8217;t loaded anymore. Here&#8217;s my current working content:
 
-<pre class="wp-block-code"><code>#
+```
+#
 # Automounter master map
 #
 +auto_master		# Use directory service
@@ -24,10 +25,13 @@ The last change I did was to install the supplemental update for 10.15.7 which s
 /home			auto_home	-nobrowse,hidefromfinder
 /Network/Servers	-fstab
 /-			-static
-/-			auto_smb	-nosuid,noowners</code></pre>
+/-			auto_smb	-nosuid,noowners
+```
 
 Don&#8217;t forget to run
 
-<pre class="wp-block-code"><code>sudo automount -vc</code></pre>
+```
+sudo automount -vc
+```
 
 after it you&#8217;ve changed the file. Your automount should now work again.

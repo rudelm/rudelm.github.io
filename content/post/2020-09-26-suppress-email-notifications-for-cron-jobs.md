@@ -15,10 +15,14 @@ After I&#8217;ve <a href="https://centurio.net/2020/09/21/configure-mail-transpo
 
 You can edit your crontab with
 
-<pre class="wp-block-code"><code>crontab -e</code></pre>
+```
+crontab -e
+```
 
 Add at the top of the file:
 
-<pre class="wp-block-code"><code>MAILTO=""</code></pre>
+```
+MAILTO=""
+```
 
 Emails won&#8217;t be send now.

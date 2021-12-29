@@ -20,13 +20,17 @@ I&#8217;m already using <a href="https://centurio.net/2014/12/23/how-to-use-clie
 
 Start with updating your installed packages. Its [especially important](https://stackoverflow.com/a/62780701/831825) to install the raspberrypi-kernel-headers before the WireGuard installation.:
 
-<pre class="wp-block-code"><code>sudo apt-get update
+```
+sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install raspberrypi-kernel-headers</code></pre>
+sudo apt-get install raspberrypi-kernel-headers
+```
 
 I&#8217;ll use pivpn as setup script. You can install it with curl piping the script to bash like this:
 
-<pre class="wp-block-code"><code>curl -L https://install.pivpn.io | bash</code></pre>
+```
+curl -L https://install.pivpn.io | bash
+```
 
 However, if you don&#8217;t trust that source and doesn&#8217;t want to execute it unseen, you can also [check the script content first](https://install.pivpn.io/) or download the script separately to your machine first.
 
@@ -41,28 +45,36 @@ I&#8217;ve used the script to setup WireGuard (as it also supports OpenVPN). I&#
 
 Now we&#8217;ll create a new WireGuard profile using
 
-<pre class="wp-block-code"><code>sudo pivpn add</code></pre>
+```
+sudo pivpn add
+```
 
 The script just asks for a profile name and will place the generated profiles in the users home under the config folder.
 
 Setup on the client machine is similar. But instead of using the script for installation, we&#8217;ll use the version provided by the Debian repo. I&#8217;ve followed [these instructions](https://engineerworkshop.com/blog/how-to-set-up-wireguard-on-a-raspberry-pi/):
 
-<pre class="wp-block-code"><code>sudo apt-get install dirmngr
+```
+sudo apt-get install dirmngr
 echo "deb http://deb.debian.org/debian/ unstable main" | sudo tee --append /etc/apt/sources.list
 sudo apt-key adv --keyserver   keyserver.ubuntu.com --recv-keys 04EE7237B7D453EC
 sudo apt-key adv --keyserver   keyserver.ubuntu.com --recv-keys 648ACFD622F3D138
 sudo sh -c 'printf "Package: *\nPin: release a=unstable\nPin-Priority: 90\n" > /etc/apt/preferences.d/limit-unstable'
 sudo apt-get update
-sudo apt install wireguard</code></pre>
+sudo apt install wireguard
+```
 
 I&#8217;ve transferred the created config from the WireGuard host to the WireGuard client and ran
 
-<pre class="wp-block-code"><code>sudo wg-quick up &lt;ProfileName></code></pre>
+```
+sudo wg-quick up &lt;ProfileName>
+```
 
 And it established really fast a connection. However, my problem was now that the SSH connection broke because all of the traffic to and from the client was going through the WireGuard VPN (like you would have used it for your phone when you&#8217;re in an unsecured WiFi and want to redirect all traffic through the VPN).
 
 Luckily I was able to stop the connection by SSHing from the WireGuard VPN to the assigned IP of the WireGuard client and by using
 
-<pre class="wp-block-code"><code>sudo wg-quick down &lt;ProfileName></code></pre>
+```
+sudo wg-quick down &lt;ProfileName>
+```
 
 The question is now, how can I configure WireGuard Client to just know the route through the VPN to resources in the host network or vice versa how I can configure the WireGuard Host to provide other machines in the network a route to the connected client&#8230;

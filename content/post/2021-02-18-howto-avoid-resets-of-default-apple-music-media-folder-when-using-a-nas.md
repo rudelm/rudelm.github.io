@@ -28,8 +28,10 @@ This is incredible annoying and is probably caused by a race condition between A
 
 This can be done in the terminal with just two commands:
 
-<pre class="wp-block-code"><code>ln -s /System/Applications/Music.app /System/Volumes/Data/mount/music/Music.app
-ln -s /System/Volumes/Data/mount/music/Music.app /Applications/MusicOnNAS.app</code></pre>
+```
+ln -s /System/Applications/Music.app /System/Volumes/Data/mount/music/Music.app
+ln -s /System/Volumes/Data/mount/music/Music.app /Applications/MusicOnNAS.app
+```
 
 You can now add that link to MusicOnNAS.app to your dock, but it can only be placed in the area next to the recycle bin.
 

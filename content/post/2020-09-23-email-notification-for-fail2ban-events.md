@@ -16,10 +16,12 @@ So I&#8217;ve configured <a href="https://centurio.net/2020/09/22/protect-ssh-se
 
 We start with editing the /etc/fail2ban/jail.local file. Look for the destemail and action parameters and change them accordingly:
 
-<pre class="wp-block-code"><code>mta = sendmail
+```
+mta = sendmail
 destemail = recipient@domain.name
 senderemail = sender@domain.name
-action = %(action_mwl)s</code></pre>
+action = %(action_mwl)s
+```
 
 The action can be one of these, whereby I&#8217;ve chosen action_mwl:
 
@@ -30,11 +32,14 @@ The action can be one of these, whereby I&#8217;ve chosen action_mwl:
 
 Do a restart of fail2ban:
 
-<pre class="wp-block-code"><code>sudo systemctl restart fail2ban</code></pre>
+```
+sudo systemctl restart fail2ban
+```
 
 You&#8217;ll receive a lot of emails from fail2ban. This also includes any starts and stops of fail2ban as well as the ban notifications. You can limit this behavior by adding following content to the file /etc/fail2ban/action.d/mail-buffered.local:
 
-<pre class="wp-block-code"><code>[Definition]
+```
+[Definition]
 
 # Option:  actionstart
 # Notes.:  command executed once at the start of Fail2Ban.
@@ -46,18 +51,23 @@ actionstart =
 # Notes.:  command executed once at the end of Fail2Ban
 # Values:  CMD
 #
-actionstop =</code></pre>
+actionstop =
+```
 
 Now copy this file a few times with different file names:
 
-<pre class="wp-block-code"><code>sudo cp /etc/fail2ban/action.d/mail-buffered.local /etc/fail2ban/action.d/mail.local
+```
+sudo cp /etc/fail2ban/action.d/mail-buffered.local /etc/fail2ban/action.d/mail.local
 sudo cp /etc/fail2ban/action.d/mail-buffered.local /etc/fail2ban/action.d/mail-whois-lines.local
 sudo cp /etc/fail2ban/action.d/mail-buffered.local /etc/fail2ban/action.d/mail-whois.local
 sudo cp /etc/fail2ban/action.d/mail-buffered.local /etc/fail2ban/action.d/sendmail-buffered.local
-sudo cp /etc/fail2ban/action.d/mail-buffered.local /etc/fail2ban/action.d/sendmail-common.local</code></pre>
+sudo cp /etc/fail2ban/action.d/mail-buffered.local /etc/fail2ban/action.d/sendmail-common.local
+```
 
 Do a restart of fail2ban:
 
-<pre class="wp-block-code"><code>sudo systemctl restart fail2ban</code></pre>
+```
+sudo systemctl restart fail2ban
+```
 
 You should now only receive emails for ban events.
