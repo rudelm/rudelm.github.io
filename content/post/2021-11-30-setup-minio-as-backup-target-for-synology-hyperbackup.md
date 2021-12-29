@@ -14,10 +14,12 @@ tags:
 title: Setup minio as backup target for Synology HyperBackup
 url: /2021/11/30/setup-minio-as-backup-target-for-synology-hyperbackup/
 ---
+# Introduction
 After some unsuccessful <a href="https://centurio.net/2020/09/26/setup-wireguard-vpn-on-raspbian/" data-type="post" data-id="3386">tests with WireGuard VPN</a>, I&#8217;ve tried something new to provide a suitable encrypted backup target for my Synology NAS.
 
 Minio is a block storage server which is compatible to AWS S3 API. That means I can configure a S3 compatible target in HyperBackup. Here&#8217;s now a small [installation guide](https://computingforgeeks.com/how-to-setup-s3-compatible-object-storage-server-with-minio/) for a Raspberry Pi, which I&#8217;ve modified for my needs:
 
+## Installation
 Download a copy of minio for arm and make it executable:
 
 ```
@@ -39,6 +41,7 @@ We need to give ownership of the minio working directory:
 sudo chown -R minio:minio /data/
 ```
 
+## Configuration
 Now we configure a service for starting minio using [Systemd](https://www.raspberrypi.org/documentation/linux/usage/systemd.md), writing the following lines into /etc/systemd/system/minio.service. Make sure to set the right working directory.
 
 ```
@@ -101,6 +104,7 @@ If you want to have minio starting at system startup:
 sudo systemctl enable minio
 ```
 
+## TLS encryption and lets encrypt
 You should enable TLS by placing a private key, a certificate and eventually a CA certificate into the path supplied by the -certs-dir parameter. In my example it would be /data/.minio/certs. You can read more about securing minio with certificates under [this link](https://docs.min.io/docs/how-to-secure-access-to-minio-server-with-tls).
 
 I&#8217;ve started with the creation of a wildcard certificate created by my own trusted CA. However, you could create the same result by using Lets Encrypt. It&#8217;s important to use a wildcard certificate, as this is a requirement for using [minio as backup target with Hyper Backup](https://itrandomness.com/2020/05/local-backups-with-synology-hyper-backup-and-minio/){.broken_link}. We&#8217;ll run minio in [virtual-host-style requests](https://docs.min.io/docs/minio-server-configuration-guide.html). That&#8217;s also the reason why you&#8217;ll need to define the MINIO_DOMAIN variable.
@@ -162,6 +166,8 @@ Request a certificate
 ```
 certbot certonly -d subdomain.domain.com --config-dir /home/pi/letsencrypt/config --work-dir /home/pi/letsencrypt/work --logs-dir /home/pi/letsencrypt/logs --preferred-challenges dns --manual --manual-auth-hook /home/pi/.local/bin/kasserver-dns-certbot --manual-cleanup-hook /home/pi/.local/bin/kasserver-dns-certbot -m system@rudel.email
 ```
+
+## Restart and testing
 
 You can start minio using:
 
