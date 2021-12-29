@@ -1,0 +1,12 @@
+widget:
+    archives:
+        title:
+            other: Archives
+        more:
+            other: More
+    tagCloud:
+        title:
+            other: Tags
+    categoriesCloud:
+        title:
+            other: Categories

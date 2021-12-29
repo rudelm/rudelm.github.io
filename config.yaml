@@ -18,8 +18,11 @@ params:
     enabled:
       - search
       - tag-cloud
+      - categories
     tagCloud:
       limit: 10
+    categoriesCloud:
+      limit: 20
   twitter:
     site: rudelm
-    card: summary_large_style
+    card: summary
