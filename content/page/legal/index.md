@@ -1,15 +1,15 @@
 ---
-title: "About"
-description: About this blog
+title: "Legal"
+description: Legal disclaimers
 aliases:
-  - about-us
-  - contact
+  - legal
+  - disclaimer
 lang: de
 menu:
     main: 
         weight: -90
         params:
-            icon: user
+            icon: legal
 ---
 
 # Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
@@ -77,3 +77,8 @@ Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen.
 Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte
 im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails,
 vor.
+
+## Icons
+* [github svg](https://simpleicons.org/?q=github) modified to be better visible in light/dark mode
+* [twitter svg](https://simpleicons.org/?q=twitter) modified to be better visible in light/dark mode
+* [balance icon svg](https://dryicons.com/icon/balance-icon-6343) modified to be better visible in light/dark mode
