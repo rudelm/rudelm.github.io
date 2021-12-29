@@ -34,7 +34,7 @@ Do a restart of fail2ban:
 
 You&#8217;ll receive a lot of emails from fail2ban. This also includes any starts and stops of fail2ban as well as the ban notifications. You can limit this behavior by adding following content to the file /etc/fail2ban/action.d/mail-buffered.local:
 
-<pre class="wp-block-code"><code>&#91;Definition]
+<pre class="wp-block-code"><code>[Definition]
 
 # Option:  actionstart
 # Notes.:  command executed once at the start of Fail2Ban.

@@ -63,7 +63,7 @@ Do a reboot of your machine and try to connect. You should still be able to conn
 You can have a look at the /var/log/auth.log and will see entries like this for example (blocking an IP from China/CN):
 
 <pre class="wp-block-code"><code>Sep 30 12:10:32 raspberrypi root: DENY sshd connection from 222.186.30.76 (CN)
-Sep 30 12:10:32 raspberrypi sshd&#91;886]: aclexec returned 1
-Sep 30 12:10:32 raspberrypi sshd&#91;886]: refused connect from 222.186.30.76 (222.186.30.76)</code></pre>
+Sep 30 12:10:32 raspberrypi sshd[886]: aclexec returned 1
+Sep 30 12:10:32 raspberrypi sshd[886]: refused connect from 222.186.30.76 (222.186.30.76)</code></pre>
 
 This should reduce the amount of blocked SSH connections attempts significantly, if configured to a smaller selection of countries.

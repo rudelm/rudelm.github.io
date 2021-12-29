@@ -35,20 +35,20 @@ We need to give ownership of the minio working directory:
 
 Now we configure a service for starting minio using [Systemd](https://www.raspberrypi.org/documentation/linux/usage/systemd.md), writing the following lines into /etc/systemd/system/minio.service. Make sure to set the right working directory.
 
-<pre class="wp-block-code"><code>&#91;Unit]
+<pre class="wp-block-code"><code>[Unit]
 Description=Minio
 Documentation=https://docs.minio.io
 Wants=network-online.target
 After=network-online.target
 AssertFileIsExecutable=/usr/local/bin/minio
 
-&#91;Service]
+[Service]
 WorkingDirectory=/data
 User=minio
 Group=minio
 
 EnvironmentFile=-/etc/default/minio
-ExecStartPre=/bin/bash -c "if &#91; -z \"${MINIO_VOLUMES}\" ]; then echo \"Variable MINIO_VOLUMES not set in /etc/default/minio\"; exit 1; fi"
+ExecStartPre=/bin/bash -c "if [ -z \"${MINIO_VOLUMES}\" ]; then echo \"Variable MINIO_VOLUMES not set in /etc/default/minio\"; exit 1; fi"
 
 ExecStart=/usr/local/bin/minio server $MINIO_OPTS $MINIO_VOLUMES
 
@@ -62,7 +62,7 @@ LimitNOFILE=65536
 TimeoutStopSec=infinity
 SendSIGKILL=no
 
-&#91;Install]
+[Install]
 WantedBy=multi-user.target</code></pre>
 
 Create a minio environment file in /etc/default/minio. This setups the credentials for minio (access key and secret key), as well as the volume (same as the working directory). I&#8217;ve added a parameter for the URL under which minio will be reachable (MINIO_DOMAIN) as well as a parameter to the options on where the certificates for TLS encryption should reside (-certs-dir):
