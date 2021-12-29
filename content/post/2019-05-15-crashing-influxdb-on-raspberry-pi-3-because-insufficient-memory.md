@@ -11,9 +11,9 @@ tags:
 title: Crashing influxdb on Raspberry Pi 3+ because insufficient memory
 url: /2019/05/15/crashing-influxdb-on-raspberry-pi-3-because-insufficient-memory/
 ---
-A few days ago I&#8217;ve noticed that my influxdb installation wasn&#8217;t working properly. The server was crashing constantly.
+A few days ago I've noticed that my influxdb installation wasn't working properly. The server was crashing constantly.
 
-I&#8217;ve checked the logs using
+I've checked the logs using
 
 `sudo journalctl -u influxdb -b`
 
@@ -42,7 +42,7 @@ May 12 23:12:18 pi3plus systemd[1]: influxdb.service: Failed with result 'exit-c
 
 ```
 
-This happened because I&#8217;ve recently added statistics from my FritzBox with regards to my DSL line speed. The statistics have a high cadence, which means that many entries are created in influxdb in a short amount of time. Influxdb tries to create an index in RAM for these entries and is overwhelmed by the mass of data.
+This happened because I've recently added statistics from my FritzBox with regards to my DSL line speed. The statistics have a high cadence, which means that many entries are created in influxdb in a short amount of time. Influxdb tries to create an index in RAM for these entries and is overwhelmed by the mass of data.
 
 Therefore, I stopped the service with
 
@@ -50,7 +50,7 @@ Therefore, I stopped the service with
 
 and followed the suggestion from the [upgrade instructions](https://docs.influxdata.com/influxdb/v1.7/administration/upgrading/) to use the [influx_inspect](https://docs.influxdata.com/influxdb/v1.7/tools/influx_inspect/#buildtsi) tool.
 
-I&#8217;ve executed influx_inspect as sudo and changed the permissions of my DB content folter later on with
+I've executed influx_inspect as sudo and changed the permissions of my DB content folter later on with
 
 `chown -R influxdb:influxdb <folder>`
 

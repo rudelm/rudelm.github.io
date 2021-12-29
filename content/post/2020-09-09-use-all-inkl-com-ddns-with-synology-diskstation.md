@@ -12,11 +12,11 @@ tags:
 title: Use all-inkl.com DDNS with Synology DiskStation
 url: /2020/09/09/use-all-inkl-com-ddns-with-synology-diskstation/
 ---
-I&#8217;ve recently upgraded my all-inkl.com webspace to the [PrivatPlus](https://all-inkl.com/webhosting/privatplus/) tariff. As part of this tariff I&#8217;m now able to use DDNS running under the Domains I&#8217;m able to manage.
+I've recently upgraded my all-inkl.com webspace to the [PrivatPlus](https://all-inkl.com/webhosting/privatplus/) tariff. As part of this tariff I'm now able to use DDNS running under the Domains I'm able to manage.
 
 Setting up [DDNS in KAS](https://all-inkl.com/wichtig/anleitungen/kas/tools/ddns-dynamisches-dns/benutzer-anlegen-im-kas_362.html) is explained quite well. However, I did not see instructions on how to use these credentials on a Synology DiskStation OS. Luckily, [somebody else](https://www.ask-sheldon.com/inkl-com-ddns-synology-nas/) did this already.
 
-The important part was, that when you&#8217;ll need to customize a DDNS provider first before it can be setup in DiskStation settings.<figure class="wp-block-image size-large">
+The important part was, that when you'll need to customize a DDNS provider first before it can be setup in DiskStation settings.<figure class="wp-block-image size-large">
 
 <img loading="lazy" width="1024" height="848" src="https://centurio.net/wp-content/uploads/2020/09/All-InklDDNSSynologySettings-1024x848.png" alt="" class="wp-image-3348" srcset="https://centurio.net/wp-content/uploads/2020/09/All-InklDDNSSynologySettings-1024x848.png 1024w, https://centurio.net/wp-content/uploads/2020/09/All-InklDDNSSynologySettings-300x248.png 300w, https://centurio.net/wp-content/uploads/2020/09/All-InklDDNSSynologySettings-768x636.png 768w, https://centurio.net/wp-content/uploads/2020/09/All-InklDDNSSynologySettings.png 1208w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
 

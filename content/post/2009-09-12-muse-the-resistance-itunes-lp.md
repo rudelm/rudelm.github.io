@@ -25,7 +25,7 @@ Aber nun zum Album:
 5. Guiding Light  
 6. Unnatural Selection  
 7. MK Ultra  
-8. I Belong To You [+Mon Coeur S&#8217;Ouvre A Ta Voix]  
+8. I Belong To You [+Mon Coeur S'Ouvre A Ta Voix]  
 9. Exogenesis: Symphony Part I [Overture]  
 10. Exogenesis: Symphony Part II [Cross-pollination]  
 11. Exogenesis: Symphony Part III [Redemption]
@@ -34,6 +34,6 @@ Teilweise erinnern die Lieder an Queen (United States of Eurasia), dann mal wied
 
 Momentan sind meine Favoriten Unnatural Selection, Uprising, MK Ultra und Undisclosed Desires.
 
-Die 30 sekündigen Soundsamples bei iTunes fand ich persönlich als zu kurz um sich ein richtiges Bild zu machen. Also am besten mal in nen CD Laden gehen und dort mal etwas länger reinhören. Den Fan wird&#8217;s vermutlich eh nicht abhalten die CD sich zu kaufen.
+Die 30 sekündigen Soundsamples bei iTunes fand ich persönlich als zu kurz um sich ein richtiges Bild zu machen. Also am besten mal in nen CD Laden gehen und dort mal etwas länger reinhören. Den Fan wird's vermutlich eh nicht abhalten die CD sich zu kaufen.
 
 Am 16.11.2009 bin ich Köln auch auf dem Konzert mit einigen Freunden. Die Freude ist also schon mal groß 🙂

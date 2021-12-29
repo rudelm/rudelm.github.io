@@ -34,7 +34,7 @@ The running OS version on the phone is now 7.10.7720.68. However, after I decide
 
 I guess this update is still necessary to remove all remainders of the beta firmware. The best part about all these updates is that I did not need my old WP7 backup and I had not to restore back to NoDo. Each time I tried this, it took me about an hour to get the phone back in its original state.
 
-Anyways the phone completed this update process as I wrote this blog entry. It&#8217;s now running the same OS version, so it must be just a small update. But there are even more updates: this time it is the &#8222;HTC update for Windows Phone&#8220;.
+Anyways the phone completed this update process as I wrote this blog entry. It's now running the same OS version, so it must be just a small update. But there are even more updates: this time it is the &#8222;HTC update for Windows Phone&#8220;.
 
 <a href="http://centurio.net/wp-content/uploads/2011/09/HTCMangoUpdateWP7.png" data-rel="lightbox-image-2" data-rl\_title="" data-rl\_caption="" title=""><img loading="lazy" src="http://centurio.net/wp-content/uploads/2011/09/HTCMangoUpdateWP7-300x238.png" alt="" title="HTCMangoUpdateWP7" width="300" height="238" class="aligncenter size-medium wp-image-1669" srcset="https://centurio.net/wp-content/uploads/2011/09/HTCMangoUpdateWP7-300x238.png 300w, https://centurio.net/wp-content/uploads/2011/09/HTCMangoUpdateWP7.png 628w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 

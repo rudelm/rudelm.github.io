@@ -11,7 +11,7 @@ tags:
 title: Setup external USB disk as NTFS volume on Raspbian
 url: /2020/09/25/setup-external-usb-disk-as-ntfs-volume-on-raspbian/
 ---
-I intend to use an external 2.5" USB disk formatted as NTFS volume on my Raspberry Pi. Since its rather larger (5TB) I don&#8217;t want to use MBR but GPT instead. Here&#8217;s a short list of commands I&#8217;ve used to setup the disk.
+I intend to use an external 2.5" USB disk formatted as NTFS volume on my Raspberry Pi. Since its rather larger (5TB) I don't want to use MBR but GPT instead. Here's a short list of commands I've used to setup the disk.
 
 Start by identifying the connected disk:
 
@@ -32,13 +32,13 @@ mmcblk0     179:0    0 14.9G  0 disk
 
 My disk is sda. 
 
-I now usually used fdisk as a partitioning tool. However, there&#8217;s a tool I can highly recommend. Its called parted and can be installed using:
+I now usually used fdisk as a partitioning tool. However, there's a tool I can highly recommend. Its called parted and can be installed using:
 
 ```
 sudo apt-get install parted
 ```
 
-Since I&#8217;ll want to use ntfs as file system, I&#8217;ll need to install the ntfs drivers:
+Since I'll want to use ntfs as file system, I'll need to install the ntfs drivers:
 
 ```
 sudo apt-get install ntfs-3g
@@ -53,7 +53,7 @@ Yes/No? yes
 Information: You may need to update /etc/fstab.
 ```
 
-Now create a new partition with ntfs. I&#8217;ll use all of the available space, so its from 0 to 100%:
+Now create a new partition with ntfs. I'll use all of the available space, so its from 0 to 100%:
 
 ```
 > sudo parted -a opt /dev/sda mkpart primary ntfs 0% 100%
@@ -71,7 +71,7 @@ mkntfs completed successfully. Have a nice day.
 
 This label is very helpful in identifying the partition, even when it is connected to a different USB port. Using a device like sda might point to a different drive, so its better to use the label. This is one of the big advantages of using gpt in comparison to mbr.
 
-Let&#8217;s see the label in action:
+Let's see the label in action:
 
 ```
 sudo lsblk --fs
@@ -88,9 +88,9 @@ mmcblk0
 └─mmcblk0p9 ext4               ff645116-fe34-43bf-a580-b89fa963085d
 ```
 
-Note that there&#8217;s also a more specific id, the UUID. We will use this UUID later when we configure a default mount point in /etc/fstab.
+Note that there's also a more specific id, the UUID. We will use this UUID later when we configure a default mount point in /etc/fstab.
 
-Now we&#8217;ll try to mount the new partition. Create a folder to mount the partition and mount it manually:
+Now we'll try to mount the new partition. Create a folder to mount the partition and mount it manually:
 
 ```
 sudo mkdir /mnt/backups
@@ -132,13 +132,13 @@ success
 > sudo umount /mnt/backups
 ```
 
-Now we&#8217;ll add the partition to /etc/fstab so that it can be mounted automatically:
+Now we'll add the partition to /etc/fstab so that it can be mounted automatically:
 
 ```
 UUID=4EE12D1B5321171F   /mnt/backups    ntfs    defaults        0       2
 ```
 
-See that I&#8217;m now using the UUID instead of /dev/sda to mount the ntfs volume to /mnt/backups. We can test the new setting:
+See that I'm now using the UUID instead of /dev/sda to mount the ntfs volume to /mnt/backups. We can test the new setting:
 
 ```
 > sudo mount -a
@@ -154,4 +154,4 @@ tmpfs           462M     0  462M   0% /sys/fs/cgroup
 /dev/sda1       4.6T  210M  4.6T   1% /mnt/backups
 ```
 
-I think this is a really nice change in mounting the volumes and will create a more stable configuration, regardless which USB port you&#8217;ve used to connect your drive.
+I think this is a really nice change in mounting the volumes and will create a more stable configuration, regardless which USB port you've used to connect your drive.

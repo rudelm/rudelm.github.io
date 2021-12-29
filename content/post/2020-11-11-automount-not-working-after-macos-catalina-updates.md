@@ -12,9 +12,9 @@ tags:
 title: automount not working after macOS Catalina updates
 url: /2020/11/11/automount-not-working-after-macos-catalina-updates/
 ---
-I&#8217;ve recently upgraded to macOS catalina. My automount mount for music media <a href="https://centurio.net/2020/10/26/fix-broken-automount-mounts-on-macos-catalina/" data-type="URL" data-id="https://centurio.net/2020/10/26/fix-broken-automount-mounts-on-macos-catalina/">was broken</a>. I fixed it and today it is again not working.
+I've recently upgraded to macOS catalina. My automount mount for music media <a href="https://centurio.net/2020/10/26/fix-broken-automount-mounts-on-macos-catalina/" data-type="URL" data-id="https://centurio.net/2020/10/26/fix-broken-automount-mounts-on-macos-catalina/">was broken</a>. I fixed it and today it is again not working.
 
-The last change I did was to install the supplemental update for 10.15.7 which seems to overwrite the /etc/auto\_master so my /etc/auto\_smb wasn&#8217;t loaded anymore. Here&#8217;s my current working content:
+The last change I did was to install the supplemental update for 10.15.7 which seems to overwrite the /etc/auto\_master so my /etc/auto\_smb wasn't loaded anymore. Here's my current working content:
 
 ```
 #
@@ -28,10 +28,10 @@ The last change I did was to install the supplemental update for 10.15.7 which s
 /-			auto_smb	-nosuid,noowners
 ```
 
-Don&#8217;t forget to run
+Don't forget to run
 
 ```
 sudo automount -vc
 ```
 
-after it you&#8217;ve changed the file. Your automount should now work again.
+after it you've changed the file. Your automount should now work again.

@@ -15,7 +15,7 @@ tags:
 title: Sync Borderlands Prequel and Borderlands 2 savegames between Mac and PC
 url: /2015/01/03/sync-borderlands-prequel-and-borderlands-2-savegames-between-mac-and-pc/
 ---
-I really liked Borderlands 2. So much, that I played over 42 hours already 🙂 This happened all on my gaming PC. With my new Macbook Pro and the availability of Borderlands for Mac, I intend to play it in LAN mode occasionally when I&#8217;m visiting friends who also play Borderlands. However, I was shocked when I started Steam on my Mac and did not see the savegames from my PC, although Steam&#8217;s Cloud Synchronisation was active.
+I really liked Borderlands 2. So much, that I played over 42 hours already 🙂 This happened all on my gaming PC. With my new Macbook Pro and the availability of Borderlands for Mac, I intend to play it in LAN mode occasionally when I'm visiting friends who also play Borderlands. However, I was shocked when I started Steam on my Mac and did not see the savegames from my PC, although Steam's Cloud Synchronisation was active.
 
 <a href="http://centurio.net/wp-content/uploads/2015/01/Borderlands\_2\_Steam\_Cloud\_Sync.png" data-rel="lightbox-image-0" data-rl\_title="" data-rl\_caption="" title=""><img loading="lazy" class="aligncenter size-medium wp-image-2183" src="http://centurio.net/wp-content/uploads/2015/01/Borderlands_2_Steam_Cloud_Sync-300x72.png" alt="Borderlands 2 Steam Cloud Sync" width="300" height="72" srcset="https://centurio.net/wp-content/uploads/2015/01/Borderlands_2_Steam_Cloud_Sync-300x72.png 300w, https://centurio.net/wp-content/uploads/2015/01/Borderlands_2_Steam_Cloud_Sync-35x8.png 35w, https://centurio.net/wp-content/uploads/2015/01/Borderlands_2_Steam_Cloud_Sync.png 470w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
@@ -31,8 +31,8 @@ Nevertheless, a [clever user on the steam forum](http://forums.steampowered.com/
 
 <pre class="alt2 " dir="ltr">mklink /d "C:\Users\YourUserName\Documents\My Games\Borderlands 2\WillowGame\SaveData\NumericalID" "C:\Users\YourUserName\Documents\Dropbox\DesiredFolder"</pre>
 
-What he did miss to tell you is that you&#8217;ll need an elevated command window with administrator rights. Just enter cmd on the Windows 8 start menu and select &#8222;Open as administrator&#8220; on the command prompt.
+What he did miss to tell you is that you'll need an elevated command window with administrator rights. Just enter cmd on the Windows 8 start menu and select &#8222;Open as administrator&#8220; on the command prompt.
 
-The next problem is the order of the folders. In his order, this will result in an error message stating that the link could not be created. However, if you look up the command on [MSDN](http://technet.microsoft.com/en-us/library/cc753194%28v=ws.10%29.aspx) you&#8217;ll see that you must switch the order of the arguments. It is first the Link name (in your Dropbox folder) and then the Target (What do you want to link).
+The next problem is the order of the folders. In his order, this will result in an error message stating that the link could not be created. However, if you look up the command on [MSDN](http://technet.microsoft.com/en-us/library/cc753194%28v=ws.10%29.aspx) you'll see that you must switch the order of the arguments. It is first the Link name (in your Dropbox folder) and then the Target (What do you want to link).
 
-All other information in that forum is correct. You&#8217;ll need to link this numerical Id folder with your savegames to a Dropbox synced folder and do this also on the Mac. Be sure to create a backup before you create the links in case you overwrite your savegames. After that, it works. This will also work for Borderlands The Pre-Sequel!
+All other information in that forum is correct. You'll need to link this numerical Id folder with your savegames to a Dropbox synced folder and do this also on the Mac. Be sure to create a backup before you create the links in case you overwrite your savegames. After that, it works. This will also work for Borderlands The Pre-Sequel!

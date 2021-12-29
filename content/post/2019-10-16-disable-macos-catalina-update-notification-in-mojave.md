@@ -14,7 +14,7 @@ tags:
 title: Disable macOS Catalina update notification in Mojave
 url: /2019/10/16/disable-macos-catalina-update-notification-in-mojave/
 ---
-macOS Catalina was released and is ready to install. If you&#8217;re using the previous macOS version called Mojave, you&#8217;ll get a notification badge on the system settings. 
+macOS Catalina was released and is ready to install. If you're using the previous macOS version called Mojave, you'll get a notification badge on the system settings. 
 
 This little red notification badge is really annoying.
 
@@ -30,7 +30,7 @@ If you want to install Catalina via the software update, you can reset the ignor
 sudo softwareupdate --reset-ignored
 ```
 
-This will hide successfully the Catalina update from the list of available updates in Software Update. However, it won&#8217;t remove the notification badge.
+This will hide successfully the Catalina update from the list of available updates in Software Update. However, it won't remove the notification badge.
 
 But fortunately you can even disable the badge by using [these commands](https://dev.to/krnsk0/turn-off-macos-badge-update-notifications-4bip):
 
@@ -39,4 +39,4 @@ defaults write com.apple.systempreferences AttentionPrefBundleIDs 0
 killall Dock
 ```
 
-This will hide the badge until the next time you&#8217;ll scan for available software updates.
+This will hide the badge until the next time you'll scan for available software updates.

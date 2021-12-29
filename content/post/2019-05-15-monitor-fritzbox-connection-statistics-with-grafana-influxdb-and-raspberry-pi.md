@@ -15,9 +15,9 @@ title: Monitor Fritz!Box connection statistics with Grafana, InfluxDB and Raspbe
   Pi
 url: /2019/05/15/monitor-fritzbox-connection-statistics-with-grafana-influxdb-and-raspberry-pi/
 ---
-I&#8217;ve recently stumbled over an [article](https://www.heise.de/select/ct/2018/21/1539315226273140) in the german magazine C&#8217;T about visualisations of your Fritz!Box&#8217;s connection. The solution looked quite boring and outdated, since it used [MRTG](https://oss.oetiker.ch/mrtg/) for the graph creation.
+I've recently stumbled over an [article](https://www.heise.de/select/ct/2018/21/1539315226273140) in the german magazine C'T about visualisations of your Fritz!Box's connection. The solution looked quite boring and outdated, since it used [MRTG](https://oss.oetiker.ch/mrtg/) for the graph creation.
 
-I&#8217;ve started searching for a better solution using Grafana, InfluxDB and my Raspberry Pi and found this great blog post. I&#8217;ve [already explained](https://centurio.net/2018/10/28/howto-install-influxdb-and-grafana-on-a-raspberry-pi-3/) how to install Grafana and InfluxDB in this post, so I&#8217;ll concentrate on the Fritz!Box related parts:
+I've started searching for a better solution using Grafana, InfluxDB and my Raspberry Pi and found this great blog post. I've [already explained](https://centurio.net/2018/10/28/howto-install-influxdb-and-grafana-on-a-raspberry-pi-3/) how to install Grafana and InfluxDB in this post, so I'll concentrate on the Fritz!Box related parts:
 
 Start with the installation of fritzcollectd. It is a plugin for collectd.
 
@@ -46,7 +46,7 @@ LoadPlugin python
 LoadPlugin network
 ```
 
-Scroll down till you&#8217;ll see the plugin configuration and configure the port and IP for collectd
+Scroll down till you'll see the plugin configuration and configure the port and IP for collectd
 
 ```
 &lt;Plugin network>
@@ -54,7 +54,7 @@ Scroll down till you&#8217;ll see the plugin configuration and configure the por
 &lt;/Plugin>
 ```
 
-Enable the python plugin and configure the module with the username and password of the user you&#8217;ve created. Make also sure to use the right address.
+Enable the python plugin and configure the module with the username and password of the user you've created. Make also sure to use the right address.
 
 ```
 &lt;Plugin python>
@@ -72,7 +72,7 @@ Enable the python plugin and configure the module with the username and password
 &lt;/Plugin>
 ```
 
-Since you&#8217;ve already got a running InfluxDB, you&#8217;ll just need to enable collectd as data source:
+Since you've already got a running InfluxDB, you'll just need to enable collectd as data source:
 
 ```
 sudo nano /etc/influxdb/influxdb.conf
@@ -95,7 +95,7 @@ sudo systemctl restart collectd
 sudo systemctl restart influxdb
 ```
 
-Login to your grafana installation and configure a new datasource. Make sure to set the collectd database. If you&#8217;re using credentials for the InfluxDB, you can add them now. If you&#8217;re not using authentication you can disable the &#8222;With credentials&#8220; checkbox.<figure class="wp-block-image">
+Login to your grafana installation and configure a new datasource. Make sure to set the collectd database. If you're using credentials for the InfluxDB, you can add them now. If you're not using authentication you can disable the &#8222;With credentials&#8220; checkbox.<figure class="wp-block-image">
 
 <img loading="lazy" width="782" height="866" src="http://centurio.net/wp-content/uploads/2019/05/influxdb-collectd-datasource.png" alt="" class="wp-image-3268" srcset="https://centurio.net/wp-content/uploads/2019/05/influxdb-collectd-datasource.png 782w, https://centurio.net/wp-content/uploads/2019/05/influxdb-collectd-datasource-271x300.png 271w, https://centurio.net/wp-content/uploads/2019/05/influxdb-collectd-datasource-768x850.png 768w" sizes="(max-width: 782px) 100vw, 782px" /> </figure> 
 
@@ -103,8 +103,8 @@ Check if your configuration is working by clicking on &#8222;Save & Test&#8220;.
 
 If everything worked, you can proceed to importing the Fritz!Box Dashboard from the Grafana.com dashboard. The ID is 713. Make sure to select the right InfluxDB during the import setup.
 
-After clicking on import, you&#8217;ll should be able to see your new Dashboard. It might take a few minutes/hours until you&#8217;ve gathered enough data to properly display graphs.<figure class="wp-block-image">
+After clicking on import, you'll should be able to see your new Dashboard. It might take a few minutes/hours until you've gathered enough data to properly display graphs.<figure class="wp-block-image">
 
 <img loading="lazy" width="1024" height="634" src="http://centurio.net/wp-content/uploads/2019/05/grafana-fritzbox-dashboard-1024x634.png" alt="" class="wp-image-3269" srcset="https://centurio.net/wp-content/uploads/2019/05/grafana-fritzbox-dashboard-1024x634.png 1024w, https://centurio.net/wp-content/uploads/2019/05/grafana-fritzbox-dashboard-300x186.png 300w, https://centurio.net/wp-content/uploads/2019/05/grafana-fritzbox-dashboard-768x476.png 768w, https://centurio.net/wp-content/uploads/2019/05/grafana-fritzbox-dashboard-825x510.png 825w, https://centurio.net/wp-content/uploads/2019/05/grafana-fritzbox-dashboard.png 1586w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
 
-Be aware though that if you start gathering this much data you&#8217;ll might end up with [&#8222;insufficient memory&#8220; errors](https://centurio.net/2019/05/15/crashing-influxdb-on-raspberry-pi-3-because-insufficient-memory/). You&#8217;ll might want to tweak your InfluxDB settings accordingly.
+Be aware though that if you start gathering this much data you'll might end up with [&#8222;insufficient memory&#8220; errors](https://centurio.net/2019/05/15/crashing-influxdb-on-raspberry-pi-3-because-insufficient-memory/). You'll might want to tweak your InfluxDB settings accordingly.

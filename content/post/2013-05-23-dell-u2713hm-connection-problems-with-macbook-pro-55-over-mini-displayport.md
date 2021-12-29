@@ -28,4 +28,4 @@ This problem originates in the [DDC/CI](http://en.wikipedia.org/wiki/Display_Dat
 
 **You can deactivate this option in the settings menu of the Dell screen under the point &#8222;Other settings&#8220;, then DDC/CI set to disable.**
 
-Suddenly, everything works again and my Mac detects the screen without any problems, even when it wakes up and DisplayPort wasn&#8217;t selected as source in the monitor.
+Suddenly, everything works again and my Mac detects the screen without any problems, even when it wakes up and DisplayPort wasn't selected as source in the monitor.

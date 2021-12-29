@@ -15,9 +15,9 @@ title: Configure Mosquitto mqtt broker  user authentication in Docker running on
   NAS
 url: /2019/12/16/configure-mosquitto-mqtt-broker-user-authentication-in-docker-running-on-synology-nas/
 ---
-Today I&#8217;ve tried to enable user authentication for my Mosquitto mqtt broker running in a Docker container on my Synology NAS.
+Today I've tried to enable user authentication for my Mosquitto mqtt broker running in a Docker container on my Synology NAS.
 
-Here&#8217;s my shared folder for use with docker, its under /volume1/docker:
+Here's my shared folder for use with docker, its under /volume1/docker:
 
 ```
 mqtt
@@ -55,9 +55,9 @@ services:
 
 The mapped files in the volume section need to be present, otherise docker will complain during startup of the container.
 
-Make also sure that you&#8217;re writing mosquitto with double t. I&#8217;ve forgotten this and used only one t, wondering why nothing was working the way I&#8217;ve expected it.
+Make also sure that you're writing mosquitto with double t. I've forgotten this and used only one t, wondering why nothing was working the way I've expected it.
 
-Here&#8217;s the content of my mosquitto.conf:
+Here's the content of my mosquitto.conf:
 
 ```
 pid_file /var/run/mosquitto.pid
@@ -78,7 +78,7 @@ You can setup the mosquitto.passwd using the docker container and/or an installa
 mosquitto_passwd -c /mosquitto/config/mosquitto.passwd &lt;username>
 ```
 
-It will ask you twice for the password for the username. If you want to setup additional users, you should omit the -c parameter, so that the existing file won&#8217;t be overwritten.
+It will ask you twice for the password for the username. If you want to setup additional users, you should omit the -c parameter, so that the existing file won't be overwritten.
 
 The &#8222;allow_anonymous false&#8220; line will disable anonymous authentication to the broker.
 

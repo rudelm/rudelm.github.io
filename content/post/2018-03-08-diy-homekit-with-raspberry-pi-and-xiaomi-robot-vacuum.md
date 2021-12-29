@@ -16,11 +16,11 @@ tags:
 title: DIY HomeKit with Raspberry Pi and Xiaomi Robot Vacuum
 url: /2018/03/08/diy-homekit-with-raspberry-pi-and-xiaomi-robot-vacuum/
 ---
-Inspired by tweets of [Steven Troughten-Smith](https://twitter.com/stroughtonsmith), people started to experiment with Raspberry Pi&#8217;s as DIY HomeBridge devices. One of them is [Wojtek Pietrusiewicz](https://twitter.com/morid1n). He wrote a [nice article](https://infinitediaries.net/using-a-raspberry-pi-zero-w-to-add-a-camera-and-a-xiaomi-air-purifier-2-to-homekit-via-homebridge/) which I used as base for this post.
+Inspired by tweets of [Steven Troughten-Smith](https://twitter.com/stroughtonsmith), people started to experiment with Raspberry Pi's as DIY HomeBridge devices. One of them is [Wojtek Pietrusiewicz](https://twitter.com/morid1n). He wrote a [nice article](https://infinitediaries.net/using-a-raspberry-pi-zero-w-to-add-a-camera-and-a-xiaomi-air-purifier-2-to-homekit-via-homebridge/) which I used as base for this post.
 
 # Introduction
 
-I own a Xiaomi Robot Vacuum. This robot can be controlled by the Xiaomi app, however, I don&#8217;t like it very much. The idea is to control this robot over HomeKit. To use HomeKit, I use an old Raspberry Pi 1B. The software will be [HomeBridge](https://github.com/nfarina/homebridge).
+I own a Xiaomi Robot Vacuum. This robot can be controlled by the Xiaomi app, however, I don't like it very much. The idea is to control this robot over HomeKit. To use HomeKit, I use an old Raspberry Pi 1B. The software will be [HomeBridge](https://github.com/nfarina/homebridge).
 
 # Setting up the Pi
 
@@ -29,9 +29,9 @@ I own a Xiaomi Robot Vacuum. This robot can be controlled by the Xiaomi app, how
   * Download [Raspbian lite image](https://www.raspberrypi.org/software)
   * Download [Etcher](https://etcher.io/)
 
-Use Etcher to write the image to the SD card. Remount that SD card and add a file called &#8222;ssh&#8220; in the root of the mounted partition. This will enable SSH from the beginning so that you can login directly to the Pi. I don&#8217;t want to attach a screen or keyboard to that machine so it will only be reachable over the network. Now boot your Pi from this SD card.
+Use Etcher to write the image to the SD card. Remount that SD card and add a file called &#8222;ssh&#8220; in the root of the mounted partition. This will enable SSH from the beginning so that you can login directly to the Pi. I don't want to attach a screen or keyboard to that machine so it will only be reachable over the network. Now boot your Pi from this SD card.
 
-Identify the Pi&#8217;s IP (e.g. by looking at the network overview in your router). Now connect to that IP with user &#8222;pi&#8220;. The default password is &#8222;raspberry&#8220;. Please change the password now with `passwd` and assign a new user password.
+Identify the Pi's IP (e.g. by looking at the network overview in your router). Now connect to that IP with user &#8222;pi&#8220;. The default password is &#8222;raspberry&#8220;. Please change the password now with `passwd` and assign a new user password.
 
 Update everything with apt:
 
@@ -45,7 +45,7 @@ sudo reboot</pre>
 
 ## Install nodejs 8.9.4
 
-According to Wojtek only this version works currently with HomeBridge. I did not test any other version so I&#8217;m just describing what I did on my machine:
+According to Wojtek only this version works currently with HomeBridge. I did not test any other version so I'm just describing what I did on my machine:
 
   1. Download nodejs for the PI into your users homefolder, e.g. with `wget https://nodejs.org/dist/v8.9.4/node-v8.9.4-linux-armv6l.tar.xz`
   2. Unpack the file with `tar -xvf node-v8.9.4-linux-armv6l.tar.xz`
@@ -110,7 +110,7 @@ cp /usr/local/lib/node_modules/homebridge/config-sample.json ~/.homebridge/confi
  ]
 }</pre>
     
-    Generate a new MAC address separated by : using [this website](https://www.miniwebtool.com/mac-address-generator/). You&#8217;ll need the IP address of your Xiaomi robot as well as the token. There are [several ways to get the token](https://github.com/jghaanstra/com.xiaomi-miio/blob/master/docs/obtain_token.md). I&#8217;ve extracted mine from the iOS backup. Instead of uploading the token I&#8217;ve used this command on the token taken from the sqlite database:
+    Generate a new MAC address separated by : using [this website](https://www.miniwebtool.com/mac-address-generator/). You'll need the IP address of your Xiaomi robot as well as the token. There are [several ways to get the token](https://github.com/jghaanstra/com.xiaomi-miio/blob/master/docs/obtain_token.md). I've extracted mine from the iOS backup. Instead of uploading the token I've used this command on the token taken from the sqlite database:
     
     <pre class="lang:default decode:true">echo '0: &lt;YOUR HEXADECIMAL STRING&gt;' | xxd -r -p | openssl enc -d -aes-128-ecb -nopad -nosalt -K 00000000000000000000000000000000
 </pre>
@@ -129,6 +129,6 @@ sudo systemctl status homebridge</pre>
 
 # Adding the HomeBridge to iOS devices
 
-  1. Install the Home app, if you&#8217;ve removed it from your device. You can reinstall it from the App store.
+  1. Install the Home app, if you've removed it from your device. You can reinstall it from the App store.
   2. Open the Home app and add a new device
-  3. If you&#8217;ve give the app access to your camera, you can scan the QR code you&#8217;ve seen earlier. However, HomeBridge is now running as a daemon in the background so you won&#8217;t see that QR code. You can add the bridge manually by using the PIN you&#8217;ve set in the config.
+  3. If you've give the app access to your camera, you can scan the QR code you've seen earlier. However, HomeBridge is now running as a daemon in the background so you won't see that QR code. You can add the bridge manually by using the PIN you've set in the config.

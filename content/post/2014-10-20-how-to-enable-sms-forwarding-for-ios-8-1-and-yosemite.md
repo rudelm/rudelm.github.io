@@ -20,7 +20,7 @@ Apple just released iOS 8.1. In combination with Mac OS X 10.10 Yosemite, this w
   * Messages
   * Forwarding of SMS
 
-Here are two screenshots of the activated settings. They are in german, but I&#8217;m sure you&#8217;ll find the settings in the english version as well.
+Here are two screenshots of the activated settings. They are in german, but I'm sure you'll find the settings in the english version as well.
 
 <a href="http://centurio.net/wp-content/uploads/2014/10/Messages.png" data-rel="lightbox-image-0" data-rl\_title="" data-rl\_caption="" title=""><img loading="lazy" class="aligncenter size-medium wp-image-2157" src="http://centurio.net/wp-content/uploads/2014/10/Messages-169x300.png" alt="Messages iOS 8.1" width="169" height="300" srcset="https://centurio.net/wp-content/uploads/2014/10/Messages-169x300.png 169w, https://centurio.net/wp-content/uploads/2014/10/Messages-576x1024.png 576w, https://centurio.net/wp-content/uploads/2014/10/Messages-19x35.png 19w, https://centurio.net/wp-content/uploads/2014/10/Messages.png 640w" sizes="(max-width: 169px) 100vw, 169px" /></a>
 

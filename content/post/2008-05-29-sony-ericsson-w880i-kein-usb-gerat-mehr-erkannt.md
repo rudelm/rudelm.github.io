@@ -22,4 +22,4 @@ Allerdings hat das Firmware Update nichts an dem Problem mit dem Datenträgermod
 
 Ist euch da auch schon mal so etwas passiert? Habt ihr noch eine Idee? Im Zweifelsfall werde ich es u.U. einschicken müssen, vorrausgesetzt da ist noch Garantie drauf 🙁
 
-**Update:** Übrigens nachdem ich das Mac OS 10.5.3 Update installiert hatte, wurden auf einmal beim Verbinden per Bluetooth fehlende Netzwerkgeräte angezeigt, und dann war es auch auf einmal kein Problem mehr mit dem USB Datenkabel. Verstehen tue ich es nicht. Aber ein anderes Problem hat sich jetzt noch gezeigt: Das Handy schaltet sich häufig einfach aus, vielleicht geht&#8217;s meinem Akku auch langsam zu Ende&#8230;
+**Update:** Übrigens nachdem ich das Mac OS 10.5.3 Update installiert hatte, wurden auf einmal beim Verbinden per Bluetooth fehlende Netzwerkgeräte angezeigt, und dann war es auch auf einmal kein Problem mehr mit dem USB Datenkabel. Verstehen tue ich es nicht. Aber ein anderes Problem hat sich jetzt noch gezeigt: Das Handy schaltet sich häufig einfach aus, vielleicht geht's meinem Akku auch langsam zu Ende&#8230;

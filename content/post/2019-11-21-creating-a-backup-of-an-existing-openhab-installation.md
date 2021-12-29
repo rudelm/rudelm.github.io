@@ -11,9 +11,9 @@ tags:
 title: Creating a backup of an existing OpenHAB installation
 url: /2019/11/21/creating-a-backup-of-an-existing-openhab-installation/
 ---
-I&#8217;m about to try an update of my existing OpenHAB installation. Right now I&#8217;ve got a few things in a working state and in case I destroy anything I want to have a working backup. 
+I'm about to try an update of my existing OpenHAB installation. Right now I've got a few things in a working state and in case I destroy anything I want to have a working backup. 
 
-Luckily, there&#8217;s an integrated backup script on my 2.4.0 installation I can use. I just need to install the zip package first on my Raspbian using
+Luckily, there's an integrated backup script on my 2.4.0 installation I can use. I just need to install the zip package first on my Raspbian using
 
 ```
 sudo apt-get install zip

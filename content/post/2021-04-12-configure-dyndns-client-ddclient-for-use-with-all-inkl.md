@@ -13,16 +13,16 @@ tags:
 title: Configure DynDNS client ddclient for use with all-inkl
 url: /2021/04/12/configure-dyndns-client-ddclient-for-use-with-all-inkl/
 ---
-You can try ddclient, if you don&#8217;t have a Router or NAS, which updates a DynDNS account. I&#8217;m using it on Raspbian and all-inkl as hosting service.
+You can try ddclient, if you don't have a Router or NAS, which updates a DynDNS account. I'm using it on Raspbian and all-inkl as hosting service.
 
-Create a new dyndns account in kas.all-inkl.com. Go to Tools, DDNS Settings and create a new entry. You&#8217;ll need the information from this page for the configuration of ddclient.
+Create a new dyndns account in kas.all-inkl.com. Go to Tools, DDNS Settings and create a new entry. You'll need the information from this page for the configuration of ddclient.
 
 On your Raspberry pi:
 
 <pre class="wp-block-preformatted">$ sudo apt-get update
 $ sudo apt-get install ddclient</pre>
 
-Select other as DDNS service provider. Use dyndns.kasserver.com/ as update server with dyndns2 as protocol. Configure username and password as provided by all-inkl. Use eth0 as network interface (we&#8217;ll change this later on) and add your DynDNS Domainname.
+Select other as DDNS service provider. Use dyndns.kasserver.com/ as update server with dyndns2 as protocol. Configure username and password as provided by all-inkl. Use eth0 as network interface (we'll change this later on) and add your DynDNS Domainname.
 
 <pre class="wp-block-preformatted">$ sudo nano /etc/ddclient.conf</pre>
 
@@ -48,10 +48,10 @@ password='yourpassword'
 subdomain.domain.com
 ```
 
-This config will use checkip.dyndns.org to get your currently used external IP address. If you&#8217;ll use eth0, it will probably report the internal IP address of your eth0 interface instead.
+This config will use checkip.dyndns.org to get your currently used external IP address. If you'll use eth0, it will probably report the internal IP address of your eth0 interface instead.
 
 If it encounters any errors, it will send an failure email to the provided email.
 
-Now reboot the service and you&#8217;re done
+Now reboot the service and you're done
 
 <pre class="wp-block-preformatted">$ sudo service ddclient restart</pre>

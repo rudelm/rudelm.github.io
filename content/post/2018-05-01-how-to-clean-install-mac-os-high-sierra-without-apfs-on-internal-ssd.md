@@ -16,7 +16,7 @@ url: /2018/05/01/how-to-clean-install-mac-os-high-sierra-without-apfs-on-interna
 ---
 Did you ever wonder how you can make a clean install on your Mac with High Sierra [without being forced to use APFS](http://osxdaily.com/2017/10/17/how-skip-apfs-macos-high-sierra/)? Well, I just reinstalled my mac using this method and want to explain how I acomplished this:
 
-First of all, you&#8217;ll need to boot from a Mac OS Version below 10.13 High Sierra. Otherwise you&#8217;ll get an error message &#8222;Helpertool crashed&#8220;. So in my case I booted from a 10.12 Sierra USB stick.
+First of all, you'll need to boot from a Mac OS Version below 10.13 High Sierra. Otherwise you'll get an error message &#8222;Helpertool crashed&#8220;. So in my case I booted from a 10.12 Sierra USB stick.
 
 You can now use the Disk Utility of the recovery OS you currently booted from to clean you complete disk. Format the volume HFS+ journaled and choose a simple name without spaces like &#8222;internal&#8220; (which I used for my internal SSD). Attach the USB stick which contains the High Sierra installer. You can create this installer following [these instructions](https://support.apple.com/en-us/HT201372).
 
@@ -28,6 +28,6 @@ Start the installation of High Sierra to the freshly formatted HFS+ volume mount
 
 &#8222;Install macOS High Sierra.app&#8220;/Contents/Resources/startOsInstall -agreetolicense -converttoapfs NO -volume /Volumes/internal
 
-More information can be found [here](https://www.tonymacx86.com/threads/guide-avoid-apfs-conversion-on-high-sierra-update-or-fresh-install.232855/). A video of the process and more details are [here](https://derflounder.wordpress.com/2017/09/26/using-the-macos-high-sierra-os-installers-startosinstall-tool-to-avoid-apfs-conversion/). If you execute the startOsInstall command with -usage you&#8217;ll get a [list of available parameters](https://apple.stackexchange.com/questions/299726/how-to-prevent-conversion-to-apfs-on-high-sierra-install).
+More information can be found [here](https://www.tonymacx86.com/threads/guide-avoid-apfs-conversion-on-high-sierra-update-or-fresh-install.232855/). A video of the process and more details are [here](https://derflounder.wordpress.com/2017/09/26/using-the-macos-high-sierra-os-installers-startosinstall-tool-to-avoid-apfs-conversion/). If you execute the startOsInstall command with -usage you'll get a [list of available parameters](https://apple.stackexchange.com/questions/299726/how-to-prevent-conversion-to-apfs-on-high-sierra-install).
 
 &nbsp;

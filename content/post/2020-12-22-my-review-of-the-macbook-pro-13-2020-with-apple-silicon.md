@@ -16,19 +16,19 @@ url: /2020/12/22/my-review-of-the-macbook-pro-13-2020-with-apple-silicon/
 ---
 ## Introduction
 
-After careful considerations and watching a lot of YouTube videos about the new Macs with Apple Silicon hardware, I&#8217;ve decided to order myself a shiny new MacBook Pro 13" with 16GB RAM and 512GB SSD. I could compare it to my works MacBook Pro 16" as well as my older MacBook Pro 15" from mid 2014 and I must say, I&#8217;m really impressed.
+After careful considerations and watching a lot of YouTube videos about the new Macs with Apple Silicon hardware, I've decided to order myself a shiny new MacBook Pro 13" with 16GB RAM and 512GB SSD. I could compare it to my works MacBook Pro 16" as well as my older MacBook Pro 15" from mid 2014 and I must say, I'm really impressed.
 
 ## General Things
 
-The hardware is just great. I like the overall form factor and its small size compared to my wife&#8217;s MacBook Air 13" 2015. The MacBooks internal speaker sound reasonable, but cannot compare to the awesome sound of the MacBook Pro 16". But since I don&#8217;t use the internal speaker that often, I can live with the current quality.
+The hardware is just great. I like the overall form factor and its small size compared to my wife's MacBook Air 13" 2015. The MacBooks internal speaker sound reasonable, but cannot compare to the awesome sound of the MacBook Pro 16". But since I don't use the internal speaker that often, I can live with the current quality.
 
-The temperature of the MacBook is always cold, regardless of the current workload. This means, you cannot use it anymore to warm your hands in winter but also its totally quiet, even when it has an internal fan! This is a huge plus, as I&#8217;m finally having a quiet desktop again!
+The temperature of the MacBook is always cold, regardless of the current workload. This means, you cannot use it anymore to warm your hands in winter but also its totally quiet, even when it has an internal fan! This is a huge plus, as I'm finally having a quiet desktop again!
 
-Another thing I like is the instant on/wakeup. This machine feels like it is an iPad. That also affects the battery life which is just crazy and unparalleled. If you&#8217;ll attach a screen it will turn on immediately. There&#8217;s no fade to black first.
+Another thing I like is the instant on/wakeup. This machine feels like it is an iPad. That also affects the battery life which is just crazy and unparalleled. If you'll attach a screen it will turn on immediately. There's no fade to black first.
 
 ## M1 compatible apps
 
-Apple Silicon is using arm64 as new architecture compared to Intel. That means all existing Intel Mac Software is run in Rosetta 2, the emulation layer for software which is only compiled for the Intel architecture. There&#8217;s already a [huge list of supported software](https://isapplesiliconready.com/de/for/m1). Some [apps are not working](https://forums.macrumors.com/threads/big-sur-working-not-working-apps.2242312/) and even [Homebrew has its ongoing issues](https://github.com/Homebrew/brew/issues/7857), but [is already useable](https://soffes.blog/homebrew-on-apple-silicon).
+Apple Silicon is using arm64 as new architecture compared to Intel. That means all existing Intel Mac Software is run in Rosetta 2, the emulation layer for software which is only compiled for the Intel architecture. There's already a [huge list of supported software](https://isapplesiliconready.com/de/for/m1). Some [apps are not working](https://forums.macrumors.com/threads/big-sur-working-not-working-apps.2242312/) and even [Homebrew has its ongoing issues](https://github.com/Homebrew/brew/issues/7857), but [is already useable](https://soffes.blog/homebrew-on-apple-silicon).
 
 ## Software left to check at a later time
 
@@ -52,13 +52,13 @@ Other Software I use but which is still compiled for Intel:
 
 ## Using Safari as new default browser
 
-I&#8217;ve read somewhere that Safari is so much faster on Apple Silicon compared to Chrome, so I&#8217;ve decided to use Safari as my new default browser for the time being. However, as it turns out, this was [only true until Google published an Apple silicon version of Chrome](https://www.imore.com/google-chrome-sees-2x-performance-boost-apple-silicon) enabling much faster performance.
+I've read somewhere that Safari is so much faster on Apple Silicon compared to Chrome, so I've decided to use Safari as my new default browser for the time being. However, as it turns out, this was [only true until Google published an Apple silicon version of Chrome](https://www.imore.com/google-chrome-sees-2x-performance-boost-apple-silicon) enabling much faster performance.
 
-I&#8217;ve upgraded my 1Password license from 6 to 7. This enabled the extension in Safari again, as my previous 1Password 6 license was not supported anymore.
+I've upgraded my 1Password license from 6 to 7. This enabled the extension in Safari again, as my previous 1Password 6 license was not supported anymore.
 
-There&#8217;s a new webfiltering extension used in Safari > 14. My Adblocker needed&nbsp; updates to support this. I’m currently using [Wipr](https://giorgiocalderolla.com/index.html) from the App Store for 1,99$[]()
+There's a new webfiltering extension used in Safari > 14. My Adblocker needed&nbsp; updates to support this. I’m currently using [Wipr](https://giorgiocalderolla.com/index.html) from the App Store for 1,99$[]()
 
-Wipr&#8217;s looking good so far. It filters even most of the YouTube ads, leaving only from time to time a “Skip ad” but without content.
+Wipr's looking good so far. It filters even most of the YouTube ads, leaving only from time to time a “Skip ad” but without content.
 
 ## Issues so far
 
@@ -68,8 +68,8 @@ This is a thing I’ve witnessed on almost all my Macs I’ve used in combinatio
 
 ### Internal Screen resolution is wrong
 
-The MacBook Pro wakes up after it was connected via USB-C to an external monitor with WQHD resolution. The screen flickers a little bit and the displayed resolution doesn&#8217;t fit the screen. Changing the Display options in System Settings doesn&#8217;t change this behaviour and the right side of the desktop is invisible as well as the lower part. If I take a screenshot, it will show all details. Looks like [this](https://developer.apple.com/forums/thread/654876) is [a Big Sur problem](https://forums.macrumors.com/threads/m1-air-ghosting-flickering-with-external-display.2271670) with [external wide screens](https://screenrant.com/apple-m1-mac-external-display-issue-app-solution/).
+The MacBook Pro wakes up after it was connected via USB-C to an external monitor with WQHD resolution. The screen flickers a little bit and the displayed resolution doesn't fit the screen. Changing the Display options in System Settings doesn't change this behaviour and the right side of the desktop is invisible as well as the lower part. If I take a screenshot, it will show all details. Looks like [this](https://developer.apple.com/forums/thread/654876) is [a Big Sur problem](https://forums.macrumors.com/threads/m1-air-ghosting-flickering-with-external-display.2271670) with [external wide screens](https://screenrant.com/apple-m1-mac-external-display-issue-app-solution/).
 
 ### Bluetooth connectivity
 
-This seems to be [a well known bug](https://www.reddit.com/r/macmini/comments/jye3hc/m1_mac_mini_has_bluetooth_issues/). I&#8217;ve connected a Magic Trackpad and it keeps on disconnecting, regardless the real distance to the MacBook Pro. You can manually disconnect, but it will try to reconnect, even when it isn&#8217;t touched and will show a lot of annoying system notifications.
+This seems to be [a well known bug](https://www.reddit.com/r/macmini/comments/jye3hc/m1_mac_mini_has_bluetooth_issues/). I've connected a Magic Trackpad and it keeps on disconnecting, regardless the real distance to the MacBook Pro. You can manually disconnect, but it will try to reconnect, even when it isn't touched and will show a lot of annoying system notifications.

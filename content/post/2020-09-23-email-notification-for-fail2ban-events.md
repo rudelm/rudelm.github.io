@@ -12,7 +12,7 @@ tags:
 title: Email notification for fail2ban events
 url: /2020/09/23/email-notification-for-fail2ban-events/
 ---
-So I&#8217;ve configured <a href="https://centurio.net/2020/09/22/protect-ssh-services-with-fail2ban/" data-type="post" data-id="3355">my fail2ban installation</a> and I&#8217;m also able to <a href="https://centurio.net/2020/09/21/configure-mail-transport-agent-on-raspbian-with-external-smtp-server/" data-type="post" data-id="3352">send emails</a>. But wouldn&#8217;t it be awesome if I&#8217;ll get notified via email about any fail2ban event?
+So I've configured <a href="https://centurio.net/2020/09/22/protect-ssh-services-with-fail2ban/" data-type="post" data-id="3355">my fail2ban installation</a> and I'm also able to <a href="https://centurio.net/2020/09/21/configure-mail-transport-agent-on-raspbian-with-external-smtp-server/" data-type="post" data-id="3352">send emails</a>. But wouldn't it be awesome if I'll get notified via email about any fail2ban event?
 
 We start with editing the /etc/fail2ban/jail.local file. Look for the destemail and action parameters and change them accordingly:
 
@@ -23,7 +23,7 @@ senderemail = sender@domain.name
 action = %(action_mwl)s
 ```
 
-The action can be one of these, whereby I&#8217;ve chosen action_mwl:
+The action can be one of these, whereby I've chosen action_mwl:
 
   * action_: ban only the IP
   * action_mw: ban the IP and send email with whois information about the banned IP
@@ -36,7 +36,7 @@ Do a restart of fail2ban:
 sudo systemctl restart fail2ban
 ```
 
-You&#8217;ll receive a lot of emails from fail2ban. This also includes any starts and stops of fail2ban as well as the ban notifications. You can limit this behavior by adding following content to the file /etc/fail2ban/action.d/mail-buffered.local:
+You'll receive a lot of emails from fail2ban. This also includes any starts and stops of fail2ban as well as the ban notifications. You can limit this behavior by adding following content to the file /etc/fail2ban/action.d/mail-buffered.local:
 
 ```
 [Definition]

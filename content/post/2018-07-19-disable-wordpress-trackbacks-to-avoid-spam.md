@@ -11,7 +11,7 @@ tags:
 title: Disable WordPress Trackbacks to avoid spam
 url: /2018/07/19/disable-wordpress-trackbacks-to-avoid-spam/
 ---
-I&#8217;ve intended to disable all comment or trackback functionality to avoid having spam and dealing with it in form of anti-spam plugins like Akismet. While I already had comments disabled, Trackbacks were still active.
+I've intended to disable all comment or trackback functionality to avoid having spam and dealing with it in form of anti-spam plugins like Akismet. While I already had comments disabled, Trackbacks were still active.
 
 Even when you disable Trackbacks in the WordPress settings via &#8222;Settings / Discussion&#8220; under &#8222;Allow link notifications from other Weblogs (Pingbacks and Trackbacks)&#8220;, your existing pages needs manual update to take effect.
 
@@ -22,4 +22,4 @@ UPDATE wp_posts set ping_status='closed' WHERE post_status='publish' AND post_ty
 
 &nbsp;
 
-I&#8217;ve found this information on [Andreas blog](https://blog.thul.org/technik/anwendungen/pingbacks-und-trackbacks-global-abschalten/), thank you!
+I've found this information on [Andreas blog](https://blog.thul.org/technik/anwendungen/pingbacks-und-trackbacks-global-abschalten/), thank you!

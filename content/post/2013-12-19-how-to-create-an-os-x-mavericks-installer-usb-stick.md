@@ -14,7 +14,7 @@ tags:
 title: How to create an OS X Mavericks installer USB stick
 url: /2013/12/19/how-to-create-an-os-x-mavericks-installer-usb-stick/
 ---
-<span style="line-height: 1.5em;">So you want to install OS X Mavericks on your older Mac from an USB stick. But the Mavericks installer is just an app which wants to upgrade your running Mac OS X, so you don&#8217;t have the option to start a fresh installation.</span>
+<span style="line-height: 1.5em;">So you want to install OS X Mavericks on your older Mac from an USB stick. But the Mavericks installer is just an app which wants to upgrade your running Mac OS X, so you don't have the option to start a fresh installation.</span>
 
 But there is an option available:
 
@@ -24,11 +24,11 @@ Go to the Mac App Store and search for Mavericks or click this direct link. This
 
 <a href="http://centurio.net/wp-content/uploads/2013/12/Mavericks\_AppStore.png" data-rel="lightbox-image-0" data-rl\_title="" data-rl_caption="" title=""><img loading="lazy" class="aligncenter size-medium wp-image-2111" alt="Mavericks AppStore" src="http://centurio.net/wp-content/uploads/2013/12/Mavericks_AppStore-300x184.png" width="300" height="184" srcset="https://centurio.net/wp-content/uploads/2013/12/Mavericks_AppStore-300x184.png 300w, https://centurio.net/wp-content/uploads/2013/12/Mavericks_AppStore-800x492.png 800w, https://centurio.net/wp-content/uploads/2013/12/Mavericks_AppStore-35x21.png 35w, https://centurio.net/wp-content/uploads/2013/12/Mavericks_AppStore.png 1001w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
-The download will take its time to complete. If it&#8217;s finished, go to step 2. Otherwise you can skip the next part, as you have already downloaded the installer.
+The download will take its time to complete. If it's finished, go to step 2. Otherwise you can skip the next part, as you have already downloaded the installer.
 
 ## 2. Cancel the installation
 
-When the Mavericks installer opens, don&#8217;t continue it. Close it over the menu or press &#8222;alt+q&#8220; to quit the installer.
+When the Mavericks installer opens, don't continue it. Close it over the menu or press &#8222;alt+q&#8220; to quit the installer.
 
 ## 3. Connect the USB stick and prepare it
 
@@ -48,7 +48,7 @@ Open the &#8222;Terminal&#8220; application and enter:
 [code]  
 sudo /Applications/Install\ OS\ X\ Mavericks.app/Contents/Resources/createinstallmedia -volume /Volumes/untitled -applicationpath /Applications/Install\ OS\ X\ Mavericks.app -nointeraction[/code]
 
-Replace the &#8222;/Volumes/untitled&#8220; with the name of the Volume we&#8217;ve created in step 3, e.g. &#8222;/Volumes/stick&#8220;. This command will ask for your Mac administrator password, so enter it and proceed.
+Replace the &#8222;/Volumes/untitled&#8220; with the name of the Volume we've created in step 3, e.g. &#8222;/Volumes/stick&#8220;. This command will ask for your Mac administrator password, so enter it and proceed.
 
 Now the installer will create a bootable USB stick. You should see something like this:
 
@@ -74,8 +74,8 @@ If you look your desktop, you should see a new volume called &#8222;Install OS X
 
 ## 5. Boot into the installer
 
-During the startup sound, press the &#8222;alt&#8220; key. This will open up the boot menu selector. You can now select the Volume we&#8217;ve created. It should be a yellow symbol with an USB logo on it.
+During the startup sound, press the &#8222;alt&#8220; key. This will open up the boot menu selector. You can now select the Volume we've created. It should be a yellow symbol with an USB logo on it.
 
 &nbsp;
 
-Congratulations, you&#8217;ve created a bootable Mac OS X Mavericks installer USB stick, which you could now use to create a fresh installation of Mac OS (or to create a Fusion drive).
+Congratulations, you've created a bootable Mac OS X Mavericks installer USB stick, which you could now use to create a fresh installation of Mac OS (or to create a Fusion drive).

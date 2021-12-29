@@ -15,9 +15,9 @@ tags:
 title: How to enable separated Guest Networks with DD-WRT on TP-Link TL-WR1043N
 url: /2013/09/29/how-to-enable-separated-guest-networks-with-dd-wrt-on-tp-link-tl-wr1043n/
 ---
-I&#8217;ve recently setup a new and shiny [TP-Link TL-WR1043N](http://www.amazon.de/gp/product/B002YETVTQ) Gigabit Router with DD-WRT and wanted to document how I set it up as access point with opening an additional guest network.
+I've recently setup a new and shiny [TP-Link TL-WR1043N](http://www.amazon.de/gp/product/B002YETVTQ) Gigabit Router with DD-WRT and wanted to document how I set it up as access point with opening an additional guest network.
 
-First, you need to flash DD-WRT to the Router. As I was using a brand new device, I&#8217;ve chosen the &#8222;factory-to-ddwrt.bin&#8220; from the [DD-WRT Router Database](http://www.dd-wrt.com/site/support/router-database). Just type in &#8222;TP-Link TL-WR1043N&#8220; and you will see three image files. If you are uncertain, which firmware is the right to choose, try [these](http://www.dd-wrt.com/wiki/index.php/Installation#Choosing_the_Correct_Firmware_-_Extremely_Important) instructions. If you already used DD-WRT, you should know how to make updates to your router. I will not cover this cases in my documentation.
+First, you need to flash DD-WRT to the Router. As I was using a brand new device, I've chosen the &#8222;factory-to-ddwrt.bin&#8220; from the [DD-WRT Router Database](http://www.dd-wrt.com/site/support/router-database). Just type in &#8222;TP-Link TL-WR1043N&#8220; and you will see three image files. If you are uncertain, which firmware is the right to choose, try [these](http://www.dd-wrt.com/wiki/index.php/Installation#Choosing_the_Correct_Firmware_-_Extremely_Important) instructions. If you already used DD-WRT, you should know how to make updates to your router. I will not cover this cases in my documentation.
 
 After flashing, you need to configure it as [Wireless Access Point](http://www.dd-wrt.com/wiki/index.php/Wireless_Access_Point).
 

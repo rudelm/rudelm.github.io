@@ -13,15 +13,15 @@ tags:
 title: Protect SSH services with fail2ban
 url: /2020/09/22/protect-ssh-services-with-fail2ban/
 ---
-If you&#8217;ll open SSH on a server to the open internet, you&#8217;ll notice a lot of bots trying to login. You certainly should setup certificate based login, but banning offending IPs is also an important security measure.
+If you'll open SSH on a server to the open internet, you'll notice a lot of bots trying to login. You certainly should setup certificate based login, but banning offending IPs is also an important security measure.
 
-I&#8217;ve installed fail2ban on my Raspbian installations and want to explain the installation and configuration. Its quite easy and the benefits are huge!
+I've installed fail2ban on my Raspbian installations and want to explain the installation and configuration. Its quite easy and the benefits are huge!
 
 ```
 sudo apt-get install fail2ban
 ```
 
-Create a copy of the original configuration file so that it won&#8217;t be overwritten by any updates:
+Create a copy of the original configuration file so that it won't be overwritten by any updates:
 
 ```
 sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
