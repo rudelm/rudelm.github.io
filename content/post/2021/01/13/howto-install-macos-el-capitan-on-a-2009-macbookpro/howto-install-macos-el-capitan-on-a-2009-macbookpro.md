@@ -59,11 +59,9 @@ Now we'll have a valid installation medium which can be used to start the instal
 
 However, I've encountered another annoying issue which caused the installer to fail:
 
-<blockquote class="wp-block-quote">
-  <p>
+```
     El Capitan Installer cannot be verified
-  </p>
-</blockquote>
+```
 
 Oh great... On to the next commands you can [try from the Terminal inside the Recovery OS](https://apple.stackexchange.com/a/232016/19241):
 

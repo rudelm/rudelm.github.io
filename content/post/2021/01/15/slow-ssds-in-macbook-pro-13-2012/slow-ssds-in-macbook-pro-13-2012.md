@@ -35,11 +35,9 @@ So I've decided to replace the exchanged cable with the original cable and reboo
 
 I've rebooted to the recovery partition of the currently installed SSD and tried to repartition the SSD. Deletion was now slow again and failed with this error I've never seen before (got the error message only in German, sorry 😞):
 
-<blockquote class="wp-block-quote">
-  <p>
+```
     Das Entfernen der Volumedaten zum Verhindern zukünftiger unbeabsichtigter Überprüfungen ist fehlgeschlagen (-69825).
-  </p>
-</blockquote>
+```
 
 Searching for this error lead me to [a German forum](https://www.apfeltalk.de/community/threads/ssd-laesst-sich-nicht-formatieten-festplattendienstprogramm.507817/), where a user has also the same MacBook and problems with his SSD. Looks like changing the SATA cable helped in this case.
 
