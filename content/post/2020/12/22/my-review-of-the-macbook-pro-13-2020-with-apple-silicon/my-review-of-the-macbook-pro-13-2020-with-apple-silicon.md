@@ -56,7 +56,7 @@ I've read somewhere that Safari is so much faster on Apple Silicon compared to C
 
 I've upgraded my 1Password license from 6 to 7. This enabled the extension in Safari again, as my previous 1Password 6 license was not supported anymore.
 
-There's a new webfiltering extension used in Safari > 14. My Adblocker needed&nbsp; updates to support this. I’m currently using [Wipr](https://giorgiocalderolla.com/index.html) from the App Store for 1,99$[]()
+There's a new webfiltering extension used in Safari > 14. My Adblocker needed  updates to support this. I’m currently using [Wipr](https://giorgiocalderolla.com/index.html) from the App Store for 1,99$[]()
 
 Wipr's looking good so far. It filters even most of the YouTube ads, leaving only from time to time a “Skip ad” but without content.
 

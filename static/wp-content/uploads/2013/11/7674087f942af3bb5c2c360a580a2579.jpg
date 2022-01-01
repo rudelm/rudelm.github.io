@@ -439,7 +439,7 @@ Television
     <div id="global-container" class="content-area">
 		<h1 id="global-header">Page Not Found</h1>
 		<div id="global-content-wrapper"><div id="global-content-wrapper-inner">
-			<div id="side-column">&nbsp;</div>
+			<div id="side-column"> </div>
 			<div id="main-content"><div class="wrapper">
 				<p class="error">The page you tried to access was not found. It is possible that the page has moved or that you entered an incorrect URL.</p>
 				<p class="error">ubi.com may also be temporarily unavailable due to routine server maintenance. Please check back later.</p>
@@ -468,7 +468,7 @@ Television
 
 
 	</p>
-	<p>© 2013 Ubisoft Entertainment. All Rights Reserved.&nbsp;Ubisoft, Ubi.com and the Ubisoft logo are trademarks of Ubisoft Entertainment in the U.S. and/or other countries.</p>
+	<p>© 2013 Ubisoft Entertainment. All Rights Reserved. Ubisoft, Ubi.com and the Ubisoft logo are trademarks of Ubisoft Entertainment in the U.S. and/or other countries.</p>
 </div>
 
 

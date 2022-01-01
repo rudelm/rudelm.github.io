@@ -76,6 +76,6 @@ If you look your desktop, you should see a new volume called &#8222;Install OS X
 
 During the startup sound, press the &#8222;alt" key. This will open up the boot menu selector. You can now select the Volume we've created. It should be a yellow symbol with an USB logo on it.
 
-&nbsp;
+ 
 
 Congratulations, you've created a bootable Mac OS X Mavericks installer USB stick, which you could now use to create a fresh installation of Mac OS (or to create a Fusion drive).

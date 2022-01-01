@@ -14,7 +14,7 @@ url: /2014/10/18/how-to-create-an-os-x-yosemite-installer-usb-stick/
 ---
 Apple released last Thursday (10-16-2014) Mac OS X 10.10 aka. Yosemite. If you would like to create an OS X installer Boot stick, just [follow the instructions which I already wrote down for Mavericks](http://centurio.net/2013/12/19/how-to-create-an-os-x-mavericks-installer-usb-stick/ "How to create an OS X Mavericks installer USB stick"). Its the same steps. Here are some screenshots, which documented how I reformatted my old Mavericks USB stick for use with Yosemite:
 
-&nbsp;
+ 
 
 <a href="http://centurio.net/wp-content/uploads/2014/10/PartitionStick.png" data-rel="lightbox-image-0" data-rl\_title="" data-rl\_caption="" title=""><img loading="lazy" class="aligncenter size-medium wp-image-2151" src="http://centurio.net/wp-content/uploads/2014/10/PartitionStick-300x259.png" alt="Partition USB Stick" width="300" height="259" srcset="https://centurio.net/wp-content/uploads/2014/10/PartitionStick-300x259.png 300w, https://centurio.net/wp-content/uploads/2014/10/PartitionStick-1024x886.png 1024w, https://centurio.net/wp-content/uploads/2014/10/PartitionStick-800x692.png 800w, https://centurio.net/wp-content/uploads/2014/10/PartitionStick-35x30.png 35w, https://centurio.net/wp-content/uploads/2014/10/PartitionStick.png 1488w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 

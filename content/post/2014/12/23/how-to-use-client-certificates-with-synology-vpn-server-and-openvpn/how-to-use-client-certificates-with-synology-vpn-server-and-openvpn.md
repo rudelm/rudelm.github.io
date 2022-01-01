@@ -16,7 +16,7 @@ url: /2014/12/23/how-to-use-client-certificates-with-synology-vpn-server-and-ope
 ---
 The holidays are near and I want to have access to my files on my Synology NAS, while I'm visiting my family. That's why I'm showing you today how to configure the official Synology VPN server to use OpenVPN with client certificates instead of username/password.
 
-&nbsp;
+ 
 
 # 1. Start with a custom root CA
 
@@ -73,7 +73,7 @@ group nobody
 #added
 ```
 
-&nbsp;
+ 
 
 # 9. Configure your client
 
@@ -93,7 +93,7 @@ verb 3
 #auth-user-pass
 ```
 
-&nbsp;
+ 
 
 The DiffieHellmann Parameters (dh) can also be created with XCA. I would recommend 2048, since 4096 takes ages to generate.
 

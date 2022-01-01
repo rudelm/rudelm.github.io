@@ -20,7 +20,7 @@ The Mac OS X disk utility only allows me to create exFAT or FAT partition, becau
 
 But this failed with several error messages, indicating that the Bootcamp disk could not be configured. After a short Google search, I've [found the problem](http://translate.google.de/translate?sl=de&tl=en&js=n&prev=_t&hl=de&ie=UTF-8&layout=2&eotf=1&u=http%3A%2F%2Fvmware-forum.de%2Fviewtopic.php%3Ft%3D20367&act=url) with the exFAT format of the Bootcamp partition: VMWare Fusion only supports NTFS formatted partitions.
 
-&nbsp;
+ 
 
 The lessons learned from my experience:
 
@@ -28,7 +28,7 @@ The lessons learned from my experience:
   * If you delete yourself old Bootcamp partitions and want to reinstall, make sure you format the partition with NTFS instead of any other offered formats. Instructions for this can be seen here.
   * If you use Paragon NTFS4Mac or if you use MacFuse, you could preformat the partition with NTFS. But Windows 7 and 8 want to create a small boot partition for themself, so I would not recommend to go this path. Format the partitions from Windows setup.
 
-&nbsp;
+ 
 
 **A small update:**
 
@@ -36,7 +36,7 @@ I was not able to use VMWare again with Bootcamp. Therefore I decided to delete 
 
 <figure id="attachment_1996" aria-describedby="caption-attachment-1996" style="width: 300px" class="wp-caption aligncenter"><a href="http://centurio.net/wp-content/uploads/2012/11/createBootcampPartition.png" data-rel="lightbox-image-0" data-rl\_title="" data-rl\_caption="" title=""><img loading="lazy" class="size-medium wp-image-1996" title="Creation of a  Bootcamp partition on Mac OS X 10.8" src="http://centurio.net/wp-content/uploads/2012/11/createBootcampPartition-300x202.png" alt="Creation of a  Bootcamp partition on Mac OS X 10.8" width="300" height="202" srcset="https://centurio.net/wp-content/uploads/2012/11/createBootcampPartition-300x202.png 300w, https://centurio.net/wp-content/uploads/2012/11/createBootcampPartition.png 782w" sizes="(max-width: 300px) 100vw, 300px" /></a><figcaption id="caption-attachment-1996" class="wp-caption-text">Creation of a Bootcamp partition on Mac OS X 10.8</figcaption></figure>
 
-&nbsp;
+ 
 
 **Next Update:**
 
@@ -44,8 +44,8 @@ No good news to report... Windows was finally recognized correctly by VMWare, bu
 
 <figure id="attachment_1998" aria-describedby="caption-attachment-1998" style="width: 300px" class="wp-caption aligncenter"><a href="http://centurio.net/wp-content/uploads/2012/11/BootcampNotPrepared.png" data-rel="lightbox-image-1" data-rl\_title="" data-rl\_caption="" title=""><img loading="lazy" class="size-medium wp-image-1998" title="Bootcamp partition is not prepared - VMWare Fusion 4.1.3" src="http://centurio.net/wp-content/uploads/2012/11/BootcampNotPrepared-300x195.png" alt="Bootcamp partition is not prepared - VMWare Fusion 4.1.3" width="300" height="195" srcset="https://centurio.net/wp-content/uploads/2012/11/BootcampNotPrepared-300x195.png 300w, https://centurio.net/wp-content/uploads/2012/11/BootcampNotPrepared.png 434w" sizes="(max-width: 300px) 100vw, 300px" /></a><figcaption id="caption-attachment-1998" class="wp-caption-text">Bootcamp partition is not prepared - VMWare Fusion 4.1.3</figcaption></figure>
 
-&nbsp;
+ 
 
 So I decided to try the new [VMWare Fusion 5.0.1](http://www.amazon.de/gp/product/B008VLUE24) version and suddenly my problems were all gone... It's sad to see, that you always need a newer software version to work correctly. Especially when Windows 8 runs just fine inside a normal VMWare VM, but not when you are using Bootcamp. My guess would be that you could install Windows 7, configure Bootcamp correctly in VMWare Fusion and then upgrade to Windows 8. But this takes awefully long, so I'll stick to the newer Fusion version. You can test it 30 days for free and after that you have to buy it for 44,99Euro 🙁
 
-&nbsp;
+ 

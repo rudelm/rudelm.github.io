@@ -122,7 +122,7 @@ function type_text()
 <CENTER>
 <TABLE bgColor="#cccccc" border=0>
 <TR>
-<TD><TT><B><FONT color="#009900">&nbsp;WINDOWS XP&nbsp;</FONT></B></TT></TD>
+<TD><TT><B><FONT color="#009900"> WINDOWS XP </FONT></B></TT></TD>
 </TR></TABLE>
 <P>
 <TABLE WIDTH="80%" border=0 CELLPADDING=10><TR><TD>
@@ -132,9 +132,9 @@ It is possible to continue normally.<BR>
 <BR>
 * Press any key to attempt to continue<BR>
 * Press CTRL+ALT+DEL to restart your computer. You will<BR>
-&nbsp;&nbsp;loose any unsaved information in all applications<BR>
+  loose any unsaved information in all applications<BR>
 * Inform your local MSCE about this exception and<BR>
-&nbsp;&nbsp;wait for help.
+  wait for help.
 <BR><BR>
 </TD></TR></TABLE>
 </TT>

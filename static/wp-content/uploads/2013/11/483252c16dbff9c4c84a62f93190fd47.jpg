@@ -49,7 +49,7 @@
 <div id="gscContentHolder" class="overlayContentTempHolder">
     <div class="overlayInner" style="width: 500px;">
 	<h2 class="overlayTitle">Global Sales Contact List</h2>
-	<div class="contactListAlphaList">Contact&nbsp;&nbsp;
+	<div class="contactListAlphaList">Contact  
 	    <a href="#" class="contactListAlphaLink darkBlueLink">A</a>
 	    <a href="#" class="contactListAlphaLink darkBlueLink">B</a>
 	    <a href="#" class="contactListAlphaLink darkBlueLink">C</a>
@@ -365,7 +365,7 @@
  <div style="display:none">Try RSA SecurID For Free</div>
  <div class="hpTeaserParagraph eveTopic" style="top: 55px; margin-left:0px; bottom: 15px;">A Leader in 2 Magic Quadrants. Highest Rating in MarketScope.</div>
  </div>
- <div class="hpLinkWrapper" style="top: 210px; left:42px"><a href="https://emcinformation.com/189903/reg/.ashx?reg_src=web?pid=rsadomainpage-gartnergrc-270913" class="darkBlueLink" target="_blank">Read the Gartner reports&nbsp;&raquo;</a></div>
+ <div class="hpLinkWrapper" style="top: 210px; left:42px"><a href="https://emcinformation.com/189903/reg/.ashx?reg_src=web?pid=rsadomainpage-gartnergrc-270913" class="darkBlueLink" target="_blank">Read the Gartner reports &raquo;</a></div>
  </div>
  <!-- END PANEL //-->
 
@@ -409,7 +409,7 @@
  <div style="display:none">RSA Authentication Manager 8.0</div>
  <!--<div class="hpTeaserParagraph eveTopic" style="top: 125px; left:8px; width:450px;">#</div>-->
  </div>
- <div class="hpLinkWrapper" style="top: 215px; left:400px"><a href="/microsites/authentication-manager-8/index.htm?pid=rsadomainpage-authenticationmanager8-120213" class="darkBlueLink">Learn more about Authentication Manager 8.0&nbsp;&raquo;</a></div>
+ <div class="hpLinkWrapper" style="top: 215px; left:400px"><a href="/microsites/authentication-manager-8/index.htm?pid=rsadomainpage-authenticationmanager8-120213" class="darkBlueLink">Learn more about Authentication Manager 8.0 &raquo;</a></div>
  </div>
  <!-- END PANEL //-->
 
@@ -423,9 +423,9 @@
  <!-- <div class="hpTeaserParagraph eveTopic" style="top: 115px; margin-left:5px; bottom: 15px;">See it happen 1.30.13<br />
  Security analytics like you've never seen</div> -->
  </div>
- <div class="hpLinkWrapper" style="top: 200px; left:35px"><a href="/collateral/comparsion-charts/rsa-state-of-the-art-security-infographic.pdf" target="_blank">View the infographic&nbsp;&raquo;</a>
+ <div class="hpLinkWrapper" style="top: 200px; left:35px"><a href="/collateral/comparsion-charts/rsa-state-of-the-art-security-infographic.pdf" target="_blank">View the infographic &raquo;</a>
  <br>
- <a href="/collateral/white-papers/h12227-rsa-designing-state-of-the-art-extended-team.pdf" target="_blank">Read the report&nbsp;&raquo;</a>
+ <a href="/collateral/white-papers/h12227-rsa-designing-state-of-the-art-extended-team.pdf" target="_blank">Read the report &raquo;</a>
  </div>
  </div>
  <!-- END PANEL //-->
@@ -469,9 +469,9 @@
 <img src='/R1/images/EMC_Image_C_1310650232031_domain-page-banner-rsa-conference-2013-europe.jpg' alt="RSA at RSA Conference Europe"/>
 </br>
  <div style="display:none">RSA at RSA Conference Europe</div>
- <!-- <div class="hpTeaserParagraph eveTopic" style="top: 115px; margin-left:5px; bottom: 15px;"> &nbsp;</div> -->
+ <!-- <div class="hpTeaserParagraph eveTopic" style="top: 115px; margin-left:5px; bottom: 15px;">  </div> -->
  </div>
- <div class="hpLinkWrapper" style="top: 190px; left:495px"><a href="http://www.rsaconference.com/events/eu13?utm_source=emc&utm_medium=website&utm_content=homepage&utm_campaign=europe2013?pid=rsadomainpage-rsaconferenceeurope-080213" target="_blank" class="darkBlueLink">Register by 27 September and save €300&nbsp;&raquo;</a></div>
+ <div class="hpLinkWrapper" style="top: 190px; left:495px"><a href="http://www.rsaconference.com/events/eu13?utm_source=emc&utm_medium=website&utm_content=homepage&utm_campaign=europe2013?pid=rsadomainpage-rsaconferenceeurope-080213" target="_blank" class="darkBlueLink">Register by 27 September and save €300 &raquo;</a></div>
  </div>
  <!-- END PANEL //-->
  
@@ -500,7 +500,7 @@
  <div style="display:none">Try RSA SecurID For Free</div>
  <div class="hpTeaserParagraph eveTopic" style="top: 115px; margin-left:5px; bottom: 15px;">Protect applications, resources, and information with the award-winning industry standard for two-factor authentication.</div>
  </div>
- <div class="hpLinkWrapper" style="top: 225px; left:42px"><a href="https://emcinformation.com/92207/" class="darkBlueLink">Request your SecurID free trial now&nbsp;&raquo;</a></div>
+ <div class="hpLinkWrapper" style="top: 225px; left:42px"><a href="https://emcinformation.com/92207/" class="darkBlueLink">Request your SecurID free trial now &raquo;</a></div>
  </div>
  <!-- END PANEL //-->
  
@@ -546,7 +546,7 @@
  <div style="display:none">Information Security Shake-Up</div>
  <div class="hpTeaserParagraph eveTopic" style="top: 115px; margin-left:5px; bottom: 15px;">Learn from industry leaders about the disruptive innovations that will test security’s mettle in 2013.</div>
  </div>
- <div class="hpLinkWrapper" style="top: 225px; left:42px"><a href="http://www.emc.com/collateral/industry-overview/h11391-rpt-information-security-shake-up.pdf?pid=rsadomainpage-sbicspecialreport-122112 " class="darkBlueLink">Download the SBIC Special Report&nbsp;&raquo;</a></div>
+ <div class="hpLinkWrapper" style="top: 225px; left:42px"><a href="http://www.emc.com/collateral/industry-overview/h11391-rpt-information-security-shake-up.pdf?pid=rsadomainpage-sbicspecialreport-122112 " class="darkBlueLink">Download the SBIC Special Report &raquo;</a></div>
  </div>-->
  <!-- END PANEL //-->
 
@@ -724,10 +724,10 @@
  
  
  <br />
- <a href="http://www.facebook.com/RSASecured" target="_blank"><img src="/R1/images/EMC_Image_C_1310586481662_fbook_icon.png" border="0" /></a>&nbsp;
- <a href="http://twitter.com/rsasecurity" target="_blank"><img src="/R1/images/EMC_Image_C_1310586483248_twit_icon.png" border="0" /></a>&nbsp;
- <a href="http://www.linkedin.com/company/rsa-the-security-division-of-emc" target="_blank"><img src="/R1/images/EMC_Image_C_1310586484068_linkedin_icon.png" border="0" /></a>&nbsp;
- <a href="http://www.youtube.com/SecuredByRSA" target="_blank"><img src="/R1/images/EMC_Image_C_1310592538131_icon-youtube.jpg" border="0" /></a>&nbsp;
+ <a href="http://www.facebook.com/RSASecured" target="_blank"><img src="/R1/images/EMC_Image_C_1310586481662_fbook_icon.png" border="0" /></a> 
+ <a href="http://twitter.com/rsasecurity" target="_blank"><img src="/R1/images/EMC_Image_C_1310586483248_twit_icon.png" border="0" /></a> 
+ <a href="http://www.linkedin.com/company/rsa-the-security-division-of-emc" target="_blank"><img src="/R1/images/EMC_Image_C_1310586484068_linkedin_icon.png" border="0" /></a> 
+ <a href="http://www.youtube.com/SecuredByRSA" target="_blank"><img src="/R1/images/EMC_Image_C_1310592538131_icon-youtube.jpg" border="0" /></a> 
  <a href="http://blogs.rsa.com/?feed=rss" target="_blank"><img src="/R1/images/EMC_Image_C_1310592538393_icon-rss.jpg" border="0" /></a>
  </td>
  </tr>
@@ -819,9 +819,9 @@ if (jQuery('html').hasClass('legacy')) {
 	<div id="footerTopRow">
 	    <div class="col col1">
         <h3>EMC – LEADING EDGE IN:</h3>
-		<div><a href="/campaign/cloud-transforms-it/index.htm">CLOUD COMPUTING&nbsp;<span class="arrow">&#0187;</span></a></div>
-		<div><a href="/microsites/bigdata/index.htm ">BIG DATA&nbsp;<span class="arrow">&#0187;</span></a></div>
-		<div><a href="/microsites/it-trust/trusted-infrastructure.htm ">TRUSTED INFRASTRUCTURE&nbsp;<span class="arrow">&#0187;</span></a></div>
+		<div><a href="/campaign/cloud-transforms-it/index.htm">CLOUD COMPUTING <span class="arrow">&#0187;</span></a></div>
+		<div><a href="/microsites/bigdata/index.htm ">BIG DATA <span class="arrow">&#0187;</span></a></div>
+		<div><a href="/microsites/it-trust/trusted-infrastructure.htm ">TRUSTED INFRASTRUCTURE <span class="arrow">&#0187;</span></a></div>
 	    </div>
 	    <div class="col col2">
 		<h3><a href="/social-emc/">SOCIAL@EMC <span class="arrow">&#0187;</span></a></h3>
@@ -897,20 +897,20 @@ if (jQuery('html').hasClass('legacy')) {
 			#footerLeftText1st ul li.rsaSocial { display: none; }
 		    </style>
 
-		    <li class="smIcon emcSocial fb"><a href="http://www.facebook.com/emccorp" title="Follow EMC on Facebook">&nbsp;</a></li>
-		    <li class="smIcon emcSocial tw"><a href="https://twitter.com/@emccorp" title="Follow EMC on Twitter">&nbsp;</a></li>
-		    <li class="smIcon emcSocial li"><a href="http://www.linkedin.com/groups/EMC-Corporation-44934?gid=44934" title="Follow EMC on LinkedIn">&nbsp;</a></li>
-		    <li class="smIcon emcSocial yt"><a href="http://www.youtube.com/emccorp" title="Follow EMC on YouTube">&nbsp;</a></li>
-		    <li class="smIcon emcSocial gp"><a href="https://plus.google.com/106680294390454326955?prsrc=3" rel="publisher" title="Follow EMC on Google+">&nbsp;</a></li>
+		    <li class="smIcon emcSocial fb"><a href="http://www.facebook.com/emccorp" title="Follow EMC on Facebook"> </a></li>
+		    <li class="smIcon emcSocial tw"><a href="https://twitter.com/@emccorp" title="Follow EMC on Twitter"> </a></li>
+		    <li class="smIcon emcSocial li"><a href="http://www.linkedin.com/groups/EMC-Corporation-44934?gid=44934" title="Follow EMC on LinkedIn"> </a></li>
+		    <li class="smIcon emcSocial yt"><a href="http://www.youtube.com/emccorp" title="Follow EMC on YouTube"> </a></li>
+		    <li class="smIcon emcSocial gp"><a href="https://plus.google.com/106680294390454326955?prsrc=3" rel="publisher" title="Follow EMC on Google+"> </a></li>
 
-		    <li class="smIcon rsaSocial fb"><a href="http://www.facebook.com/RSASecured" title="Follow RSA on Facebook">&nbsp;</a></li>
-		    <li class="smIcon rsaSocial tw"><a href="https://twitter.com/@rsasecurity" title="Follow RSA on Twitter">&nbsp;</a></li>
-		    <li class="smIcon rsaSocial li"><a href="http://www.linkedin.com/company/rsa-the-security-division-of-emc" title="Follow RSA on LinkedIn">&nbsp;</a></li>
-		    <li class="smIcon rsaSocial yt"><a href="http://www.youtube.com/SecuredByRSA" title="Follow RSA on YouTube">&nbsp;</a></li>
+		    <li class="smIcon rsaSocial fb"><a href="http://www.facebook.com/RSASecured" title="Follow RSA on Facebook"> </a></li>
+		    <li class="smIcon rsaSocial tw"><a href="https://twitter.com/@rsasecurity" title="Follow RSA on Twitter"> </a></li>
+		    <li class="smIcon rsaSocial li"><a href="http://www.linkedin.com/company/rsa-the-security-division-of-emc" title="Follow RSA on LinkedIn"> </a></li>
+		    <li class="smIcon rsaSocial yt"><a href="http://www.youtube.com/SecuredByRSA" title="Follow RSA on YouTube"> </a></li>
 
-		    <li class="justBg">&nbsp;</li>
-		    <li class="rssIcon emcSocial"><a href="/rss/subscription.htm" title="Subscribe to EMC's RSS feeds">RSS&nbsp;</a></li>
-		    <li class="rssIcon rsaSocial"><a href="http://blogs.rsa.com/?feed=rss" title="Subscribe to RSA's RSS feeds">RSS&nbsp;</a></li>
+		    <li class="justBg"> </li>
+		    <li class="rssIcon emcSocial"><a href="/rss/subscription.htm" title="Subscribe to EMC's RSS feeds">RSS </a></li>
+		    <li class="rssIcon rsaSocial"><a href="http://blogs.rsa.com/?feed=rss" title="Subscribe to RSA's RSS feeds">RSS </a></li>
 		    <li class="clearBothTight"></li>
 
 		</ul>

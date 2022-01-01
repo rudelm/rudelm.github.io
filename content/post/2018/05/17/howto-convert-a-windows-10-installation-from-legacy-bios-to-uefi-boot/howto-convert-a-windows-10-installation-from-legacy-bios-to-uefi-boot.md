@@ -39,4 +39,4 @@ The necessary steps are:
   * Reboot your computer.
   * It should boot from the found GPT partition scheme and should present you the Windows boot screen.
 
-&nbsp;
+ 

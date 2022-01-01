@@ -27,7 +27,7 @@ The action can be one of these, whereby I've chosen action_mwl:
 
   * action_: ban only the IP
   * action_mw: ban the IP and send email with whois information about the banned IP
-  * action_mwl:&nbsp;ban the IP and send email with whois information about the banned IP and add relevant log lines to the email
+  * action_mwl: ban the IP and send email with whois information about the banned IP and add relevant log lines to the email
   * action\_cf\_mwl: notify Cloudfare about the offending IP, ban the IP and send email with whois information about the banned IP
 
 Do a restart of fail2ban:

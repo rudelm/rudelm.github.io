@@ -31,7 +31,7 @@ This will write this content
 signing_required=no
 ```
 
-&nbsp;
+ 
 
 to the file /etc/nsmb.conf. After you've set this value you need to unmount all samba shares. If you'll reconnect now, you'll witness a much better performance, starting with faster loading of network shares.
 
@@ -40,4 +40,4 @@ You can revert this change with
 <pre class="lang:default decode:true " title="Revert changes made to SMB">sudo rm /etc/nsmb.conf
 ```
 
-&nbsp;
+ 

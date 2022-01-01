@@ -86,7 +86,7 @@
 <div id="wsKopf">
 <div id="wsDachNavBg">
   <div id="wsDachNav"><p class="inv"><strong>Hauptnavigation</strong></p>
-    <ul><li id="wsWdrde" class="aktiv"><a href="http://www.wdr.de" title="Homepage des WDR">WDR.de</a></li><li id="wsFernsehen"><a href="http://www.wdr.de/tv/" title="Fernsehen im WDR">Fernsehen</a></li><li id="wsRadio"><a href="http://www.wdr.de/radio/" title="Radio im WDR">Radio</a></li><li id="wsEpg"><a href="http://www.wdr.de/programmvorschau/" title="Programmübersicht aller Sendungen">Programmvorschau</a></li><li id="wsUnternehmen"><a href="http://www.wdr.de/unternehmen/" title="Informationen über das Unternehmen WDR">Unternehmen</a></li></ul>
+    <ul><li id="wsWdrde" class="aktiv"><a href="http://www.wdr.de" title="Homepage des WDR">WDR.de</a></li><li id="wsFernsehen"><a href="http://www.wdr.de/tv/" title="Fernsehen im WDR">Fernsehen</a></li><li id="wsRadio"><a href="http://www.wdr.de/radio/" title="Radio im WDR">Radio</a></li><li id="wsEpg"><a href="http://www.wdr.de/programmvorschau/" title="Programmï¿½bersicht aller Sendungen">Programmvorschau</a></li><li id="wsUnternehmen"><a href="http://www.wdr.de/unternehmen/" title="Informationen ï¿½ber das Unternehmen WDR">Unternehmen</a></li></ul>
 
     <p id="wsDatum">
        <script type="text/javascript">
@@ -129,9 +129,9 @@
  }
  
  // Code, der das vollst&auml;ndig formatierte Datum ausgibt  // (z.B. Montag, der 29. Juli 2002)
- document.write(tagesnamen[tag]+ ",&nbsp;" + datum + "."+monatsnamen[monat] + "." + jahr);
+ document.write(tagesnamen[tag]+ ", " + datum + "."+monatsnamen[monat] + "." + jahr);
  // ]]> -->
-</script>&nbsp;
+</script> 
      
 
     </p>
@@ -142,7 +142,7 @@
 <div id="wsTopNavBg">
 <div id="wsTopNav">
 <div id="wsSuchForm" class="wsKopfText">
-<form action="http://www.wdr.de/themen/global/suchen/gs_index.jhtml" method="post" onsubmit="if(document.forms[0].q.value=='Suchbegriff'){ alert('Bitte geben Sie einen von Ihnen gewünschten Suchbegriff ein!'); document.forms[0].q.focus(); return false; }"><fieldset>
+<form action="http://www.wdr.de/themen/global/suchen/gs_index.jhtml" method="post" onsubmit="if(document.forms[0].q.value=='Suchbegriff'){ alert('Bitte geben Sie einen von Ihnen gewï¿½nschten Suchbegriff ein!'); document.forms[0].q.focus(); return false; }"><fieldset>
 <p class="inv"><strong>Suche im gesamten <acronym title="Westdeutscher Rundfunk">WDR</acronym> <span lang="en">Web</span></strong></p>
 
 <label for="words" class="inv">Suchbegriff: </label>
@@ -198,7 +198,7 @@
     <li>
     <a href="http://www.wdr.de/themen/homepages/quiz_und_spiele.jhtml">Quiz &amp; Spiele</a></li><li>
     <a href="http://www.wdr.de/themen/global/webcams/" title="Live-Bilder" lang="en">Webcams</a></li><li>
-    <a href="http://www.wdr.de/themen/global/videotext/index.jhtml" title="Zum WDR (Video)-Text (Diese Seite benötigt JavaScript)">Videotext</a></li><li>
+    <a href="http://www.wdr.de/themen/global/videotext/index.jhtml" title="Zum WDR (Video)-Text (Diese Seite benï¿½tigt JavaScript)">Videotext</a></li><li>
     <a href="http://www.wdr.de/themen/global/newsletter/" title="Newsletter abbonnieren und abbestellen / RSS-Newsfeed" lang="en">Newsletter &amp; RSS</a></li></ul>
 
 </div>
@@ -226,13 +226,13 @@
         <p>Entweder liegt ein fehlerhafter Link oder ein technischer Fehler vor. Es k&ouml;nnte auch sein, dass wir den von Ihnen gesuchten Inhalt inzwischen aus dem Netz genommen haben, weil ein Inhalt nicht mehr zutreffend ist oder bestimmte Rechte und Lizenzen abgelaufen sind.
         </p>
         <p>Ein gro&szlig;er Teil an gel&ouml;schten Seiten ist auf die Bestimmungen des 12. Rundfunk&auml;nderungsstaatsvertrags zur&uuml;ckzuf&uuml;hren. Dieses Gesetz, das seit dem  1.6.2009 in Kraft ist, schreibt uns unter anderem vor, unsere Inhalte nur noch zeitlich begrenzt anzubieten und sie danach ganz aus dem Netz zu nehmen. 
-           Weitere grunds&auml;tzliche Informationen zum 12.&nbsp;Rundfunk&auml;nderungsstaatsvertrag finden Sie hier  <a href="http://www.wdr.de/themen/kultur/medien/staatsvertrag_zwoelfter/verweildauer.jhtml">"Das gro&szlig;e L&ouml;schen"</a> und hier  <a href="http://www.wdr.de/themen/kultur/medien/staatsvertrag_zwoelfter/index.jhtml?rubrikenstyle=specials">"Aufs Wesentliche konzentrieren"</a>.       
+           Weitere grunds&auml;tzliche Informationen zum 12. Rundfunk&auml;nderungsstaatsvertrag finden Sie hier  <a href="http://www.wdr.de/themen/kultur/medien/staatsvertrag_zwoelfter/verweildauer.jhtml">"Das gro&szlig;e L&ouml;schen"</a> und hier  <a href="http://www.wdr.de/themen/kultur/medien/staatsvertrag_zwoelfter/index.jhtml?rubrikenstyle=specials">"Aufs Wesentliche konzentrieren"</a>.       
         </p>
 
         <p>Wenn Sie genauer wissen wollen, warum Sie diese Fehlerseite statt des gew&uuml;nschten Inhalts sehen, dann schreiben Sie uns bitte eine Mail an <a href="mailto:warumweg@wdr.de" class="feature"><b>warumweg@wdr.de</b></a> mit einer m&ouml;glichst konkreten Information dar&uuml;ber, welchen Inhalt Sie gesucht haben. 
         </p>
 				
-        <p>Vielen Dank für Ihr Verst&auml;ndnis.
+        <p>Vielen Dank fï¿½r Ihr Verst&auml;ndnis.
         </p>
         
       </div>
@@ -356,9 +356,9 @@
 <div class="wsRubrik"><h2>Mein WDR</h2></div>
 
 <div class="wsTeaser">
-<a href="http://mein.wdr.de/beta/" title="Ihre persönliche WDR-Homepage" rel="wdr"><img src="http://www.wdr.de/themen/_komponenten_/rechtespalte/homepage/_img/mein_wdr_beta_160_70.jpg" alt="Schriftzug mein WDR und Elemente der WDR-Beta-Hp" class="wsIMG160b" /></a>
+<a href="http://mein.wdr.de/beta/" title="Ihre persï¿½nliche WDR-Homepage" rel="wdr"><img src="http://www.wdr.de/themen/_komponenten_/rechtespalte/homepage/_img/mein_wdr_beta_160_70.jpg" alt="Schriftzug mein WDR und Elemente der WDR-Beta-Hp" class="wsIMG160b" /></a>
 <ul class="wsLinkliste">
-<li><img src="http://www.wdr.de/themen/_config_/nav/2006/adc3d8/wdr.gif" alt="WDR: " class="wsIcon" /><span class="wsILLInner"><a href="http://mein.wdr.de/beta/" rel="wdr">Ihre persönliche WDR-Homepage</a></span>
+<li><img src="http://www.wdr.de/themen/_config_/nav/2006/adc3d8/wdr.gif" alt="WDR: " class="wsIcon" /><span class="wsILLInner"><a href="http://mein.wdr.de/beta/" rel="wdr">Ihre persï¿½nliche WDR-Homepage</a></span>
 </li>
 
 </ul>
@@ -383,10 +383,10 @@
 <div class="wsTeaserCont">
 <div class="wsRubrik"><h2>WDR Podcast</h2></div>
 <div class="wsTeaser">
-<a href="http://www.wdr.de/themen/computer/extra/podcast/index.jhtml" title="Programm für Unterwegs" rel="wdr"><img src="http://www.wdr.de/themen/_komponenten_/rechtespalte/computer/_img/podcast_logo1_458_120.jpg" alt="Logo für Podcasting" class="wsIMG160b" /></a>
+<a href="http://www.wdr.de/themen/computer/extra/podcast/index.jhtml" title="Programm fï¿½r Unterwegs" rel="wdr"><img src="http://www.wdr.de/themen/_komponenten_/rechtespalte/computer/_img/podcast_logo1_458_120.jpg" alt="Logo fï¿½r Podcasting" class="wsIMG160b" /></a>
 
 <ul class="wsLinkliste">
-<li><img src="http://www.wdr.de/themen/_config_/nav/2006/adc3d8/wdr.gif" alt="WDR: " class="wsIcon" /><span class="wsILLInner"><a href="http://www.wdr.de/themen/computer/extra/podcast/index.jhtml" rel="wdr">Programm für Unterwegs</a></span>
+<li><img src="http://www.wdr.de/themen/_config_/nav/2006/adc3d8/wdr.gif" alt="WDR: " class="wsIcon" /><span class="wsILLInner"><a href="http://www.wdr.de/themen/computer/extra/podcast/index.jhtml" rel="wdr">Programm fï¿½r Unterwegs</a></span>
 </li>
 </ul>
 </div>
@@ -395,7 +395,7 @@
 
 <div class="wsRubrik"><h2>Infodienste</h2></div>
 <div class="wsTeaser">
-<a href="http://www.wdr.de/themen/global/infodienste/?rubrikenstyle=computer" title="Newsletter, RSS und mehr" rel="wdr"><img src="http://www.wdr.de/themen/_komponenten_/rechtespalte/computer/_img/infoangebot_wdr_160_70.jpg" alt="Symbole für RSS-Feeds, Browser und Computer; Rechte: Mauritius,dpa,wdr[m]müller" class="wsIMG160b" /></a>
+<a href="http://www.wdr.de/themen/global/infodienste/?rubrikenstyle=computer" title="Newsletter, RSS und mehr" rel="wdr"><img src="http://www.wdr.de/themen/_komponenten_/rechtespalte/computer/_img/infoangebot_wdr_160_70.jpg" alt="Symbole fï¿½r RSS-Feeds, Browser und Computer; Rechte: Mauritius,dpa,wdr[m]mï¿½ller" class="wsIMG160b" /></a>
 <ul class="wsLinkliste">
 <li><img src="http://www.wdr.de/themen/_config_/nav/2006/adc3d8/wdr.gif" alt="WDR: " class="wsIcon" /><span class="wsILLInner"><a href="http://www.wdr.de/themen/global/infodienste/?rubrikenstyle=computer" rel="wdr">Newsletter, RSS und mehr</a></span>
 </li>
@@ -443,7 +443,7 @@ document.write(getIconPrintLink(0,0,'/themen/_config_/nav/2006/fbfbfb/druck.gif'
 </div>
 <hr class="inv" />
 <div id="wsDisclaimer">
-  <p>Der WDR ist nicht für die Inhalte fremder Seiten verantwortlich, die über einen Link erreicht werden.</p>
+  <p>Der WDR ist nicht fï¿½r die Inhalte fremder Seiten verantwortlich, die ï¿½ber einen Link erreicht werden.</p>
 </div>
 </div>
 </div>

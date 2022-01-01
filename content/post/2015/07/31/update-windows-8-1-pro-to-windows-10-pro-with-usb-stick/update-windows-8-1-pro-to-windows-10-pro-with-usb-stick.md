@@ -41,4 +41,4 @@ The update is running. It seems to keep my installed apps and data:
 
 It's finally running! All apps & settings are still there and working. Glad that this finally worked out. BTW: Although I installed en-en Windows 10 started with en-us langauge settings.
 
-&nbsp;
+ 

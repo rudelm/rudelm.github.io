@@ -26,6 +26,6 @@ Here are two screenshots of the activated settings. They are in german, but I'm 
 
 <a href="http://centurio.net/wp-content/uploads/2014/10/ForwardingOfSms.png" data-rel="lightbox-image-1" data-rl\_title="" data-rl\_caption="" title=""><img loading="lazy" class="aligncenter size-medium wp-image-2158" src="http://centurio.net/wp-content/uploads/2014/10/ForwardingOfSms-169x300.png" alt="Forwarding of SMS in iOS 8.1" width="169" height="300" srcset="https://centurio.net/wp-content/uploads/2014/10/ForwardingOfSms-169x300.png 169w, https://centurio.net/wp-content/uploads/2014/10/ForwardingOfSms-576x1024.png 576w, https://centurio.net/wp-content/uploads/2014/10/ForwardingOfSms-19x35.png 19w, https://centurio.net/wp-content/uploads/2014/10/ForwardingOfSms.png 640w" sizes="(max-width: 169px) 100vw, 169px" /></a>
 
-&nbsp;
+ 
 
 There you need to enable other iOS devices and Macs, which also use your iCloud/iTunes account. These enabled devices will then show you a pin code, which you need to enter on your iPhone. SMS forwarding should now be active 🙂

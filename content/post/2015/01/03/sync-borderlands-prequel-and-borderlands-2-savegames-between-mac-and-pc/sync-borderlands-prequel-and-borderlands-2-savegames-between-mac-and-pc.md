@@ -25,7 +25,7 @@ A short research showed that the developers of Borderlands had this feature deac
 > 
 > A: Yes, but with a caveat: characters and saved games will NOT sync between Windows PC, Mac, and Linux via Steam Cloud.  Since the Mac and Linux versions of Borderlands: The Pre-Sequel may frequently be in an out of sync with the Windows PC version, syncing game saves across platforms via Steam Cloud has been disabled.  This will ensure saved game data will not be lost or corrupt due to incompatible in-game content or other unforeseen reasons.  Users do have the option of transferring game saves via physical media (like a thumb drive) if they wish.
 
-&nbsp;
+ 
 
 Nevertheless, a [clever user on the steam forum](http://forums.steampowered.com/forums/showthread.php?t=3049227) created a nice tutorial. He intends to use Dropbox with NTFS and HFS+ symlinks to link the savegame folder to Dropbox. He suggests to use the mklink command this way:
 

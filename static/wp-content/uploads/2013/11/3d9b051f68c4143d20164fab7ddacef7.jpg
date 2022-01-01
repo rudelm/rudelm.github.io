@@ -141,7 +141,7 @@ function emailValidate() {
                 <li><a href="http://www.pcmag.com/reviews/digital_cameras">CAMERAS</a></li>
                  <li><a href="http://www.pcmag.com/category2/0,2806,1638887,00.asp">HDTVS</a></li>
                 <li><a href="http://www.pcmag.com/category2/0,2806,10,00.asp">PRINTERS</a></li>
-                <li class="more-tab"><a class="more-link" href="http://www.pcmag.com/category2/0,2806,2352214,00.asp">more<span class="downarrow">&nbsp;</span></a>
+                <li class="more-tab"><a class="more-link" href="http://www.pcmag.com/category2/0,2806,2352214,00.asp">more<span class="downarrow"> </span></a>
  <div class="dropdown">
                 <div class="dropdown-reviews">
                 <div class="dd-list">
@@ -418,49 +418,49 @@ important; margin:0px 5px 0px 0px!important;">AdChoices</span><img style="displa
 </li>
 <li class="utilities">
 <div class="subscribe-image">
-<a href="http://www.pcmag.com/category2/0,2806,2130,00.asp">&nbsp;</a>
+<a href="http://www.pcmag.com/category2/0,2806,2130,00.asp"> </a>
 </div>
 <div class="subscribe-content">
 <a href="http://www.pcmag.com/category2/0,2806,23,00.asp" class="eyebrowlink">PCMag Utility Library</a><br>
-<a href="http://www.pcmag.com/category2/0,2806,2130,00.asp" class="eyebrowtext">Subscribe for full access and a new file every month <span>»</span></a>
+<a href="http://www.pcmag.com/category2/0,2806,2130,00.asp" class="eyebrowtext">Subscribe for full access and a new file every month <span>ï¿½</span></a>
 </div>
 </li>
 <li class="email">
 <div class="subscribe-image">
-<a href="/newsletter_manage/">&nbsp;</a>
+<a href="/newsletter_manage/"> </a>
 </div>
 <div class="subscribe-content">
 <a href="http://www.pcmag.com/newsletter_manage/" class="eyebrowlink">Free Email Newsletters</a><br>
 <a href="http://www.pcmag.com/newsletter_manage/" class="eyebrowtext">Sign Up for free email updates from PCMag: Daily news, new products, security, deals, DIY, and more 
 
-<span>»</span></a><br>
+<span>ï¿½</span></a><br>
 </div>
 </li>
 <li class="feeds">
 <div class="subscribe-image">
-<a href="http://www.pcmag.com/article2/0,1895,1329778,00.asp">&nbsp;</a>
+<a href="http://www.pcmag.com/article2/0,1895,1329778,00.asp"> </a>
 </div>
 <div class="subscribe-content">
 <a href="http://www.pcmag.com/article2/0,1895,1329778,00.asp" class="eyebrowlink">RSS Feeds</a><br>
-<a href="http://www.pcmag.com/article2/0,1895,1329778,00.asp" class="eyebrowtext">Get PCMag.com headlines on your desktop with RSS <span>»</span></a>
+<a href="http://www.pcmag.com/article2/0,1895,1329778,00.asp" class="eyebrowtext">Get PCMag.com headlines on your desktop with RSS <span>ï¿½</span></a>
 </div>
 </li>
 <li class="facebook">
 <div class="subscribe-image">
-<a href="ttp://www.facebook.com/pcmagazine">&nbsp;</a>
+<a href="ttp://www.facebook.com/pcmagazine"> </a>
 </div>
 <div class="subscribe-content">
 <a href="http://www.facebook.com/pcmagazine" class="eyebrowlink">PCMag on Facebook</a><br>
-<a href="http://www.facebook.com/pcmagazine" class="eyebrowtext">Connect with the PCMag Community on Facebook <span>»</span></a>
+<a href="http://www.facebook.com/pcmagazine" class="eyebrowtext">Connect with the PCMag Community on Facebook <span>ï¿½</span></a>
 </div>
 </li>
 <li class="twitter">
 <div class="subscribe-image">
-<a href="http://www.twitter.com/pcmag">&nbsp;</a>
+<a href="http://www.twitter.com/pcmag"> </a>
 </div>
 <div class="subscribe-content">
 <a href="http://www.twitter.com/pcmag" class="eyebrowlink">PCMag on Twitter</a><br>
-<a href="http://www.twitter.com/pcmag" class="eyebrowtext">Follow our Editors, PCMag Coverages and blogs <span>»</span></a>
+<a href="http://www.twitter.com/pcmag" class="eyebrowtext">Follow our Editors, PCMag Coverages and blogs <span>ï¿½</span></a>
 </div>
 </li>
 

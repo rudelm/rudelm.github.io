@@ -80,7 +80,7 @@ if(google_afd_response.search_token){kotValue='<input type="hidden" name="kot" v
 </head>
 <body>
 <div style="display:none;visibility:hidden;">
-<a href="/st.aspx">&nbsp;</a>
+<a href="/st.aspx"> </a>
 </div>
 <div style="float:left;width:1024px;">
 <div id="domainname1">Welcome to: <span style="position:relative;font-weight:bold;">sharpe-shell.org</span><div style="white-space:nowrap;font-size:12px;width:712px;color:#000000;font-weight:bold;">This Web page is parked for FREE, courtesy of <a target="_top" href="http://www.godaddy.com?isc=GPPT02K203&ci=75904&domain=sharpe-shell.org">GoDaddy.com</a>.<br /></div></div>

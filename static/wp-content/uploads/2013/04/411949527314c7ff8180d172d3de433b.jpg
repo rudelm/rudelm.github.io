@@ -472,10 +472,10 @@
 
   <div id="copyright">
   <p id="footer-links">
-        <a href="http://mozilla.com/privacy-policy.html">Privacy Policy</a> &nbsp;|&nbsp;
-    <a href="http://mozilla.com/about/legal.html">Legal Notices</a> &nbsp;|&nbsp;
+        <a href="http://mozilla.com/privacy-policy.html">Privacy Policy</a>  | 
+    <a href="http://mozilla.com/about/legal.html">Legal Notices</a>  | 
     <a href="http://mozilla.com/legal/fraud-report/index.html">Report Trademark Abuse</a>
-          &nbsp;|&nbsp;<a class="mobile-link" href="#">View Mobile Site</a>
+           | <a class="mobile-link" href="#">View Mobile Site</a>
         </p>
   <p>
     Except where otherwise <a href="http://mozilla.com/about/legal.html#site">noted</a>, content on this site is licensed under the <br /> <a href="http://creativecommons.org/licenses/by-sa/3.0/"> Creative Commons Attribution Share-Alike License v3.0 </a> or any later version.  </p>

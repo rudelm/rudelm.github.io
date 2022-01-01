@@ -22,6 +22,6 @@ UPDATE wp_posts set ping_status='closed' WHERE post_status='publish' AND post_ty
 UPDATE wp_posts set ping_status='closed' WHERE post_status='publish' AND post_type='page';
 ```
 
-&nbsp;
+ 
 
 I've found this information on [Andreas blog](https://blog.thul.org/technik/anwendungen/pingbacks-und-trackbacks-global-abschalten/), thank you!

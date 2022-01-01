@@ -16,11 +16,11 @@ url: /2013/05/19/rasbmc-falsche-zeitzoneneinstellung/
 ---
 Seit einiger Zeit besitze ich ein [Raspberry Pi](http://www.raspberrypi.org/). Dieser kleine Computer ist sehr günstig (etwa 30 Euro) und kann als XBMC eingerichtet werden. Dabei habe ich mich für die [Rasbmc](http://www.raspbmc.com/) Distribution entschieden, da diese sehr einfach (ein Befehl auf der Konsole) installiert werden kann.
 
-&nbsp;
+ 
 
 Bereits bei der Ersteinrichtung wird man nach der aktuellen Zeitzone gefragt. Hier habe ich natürlich für Deutschland Berlin als Stadt und Europa als Region ausgewählt. Leider zeigt mir mein XBMC aber die Uhrzeit immer um zwei Stunden nach hinten versetzt an. Wenn also jetzt 21:47 ist, dann zeigte XBMC 19:47 an.
 
-&nbsp;
+ 
 
 Eine kurze Google Recherche [ergab dann](http://strobelstefan.org/?p=2682), dass man den Assistenten zur Einrichtung der Zeitzone erneut aufrufen kann. Dazu tippt man
 
@@ -34,4 +34,4 @@ Doch das reichte noch nicht aus, um auch wirklich die richtige Uhrzeit anzuzeige
 
 <a href="http://centurio.net/wp-content/uploads/2013/05/raspbmc-time-settings.jpg" data-rel="lightbox-image-2" data-rl\_title="" data-rl\_caption="" title=""><img loading="lazy" class="aligncenter size-medium wp-image-2053" alt="Raspbmc - Time Settings" src="http://centurio.net/wp-content/uploads/2013/05/raspbmc-time-settings-300x225.jpg" width="300" height="225" srcset="https://centurio.net/wp-content/uploads/2013/05/raspbmc-time-settings-300x225.jpg 300w, https://centurio.net/wp-content/uploads/2013/05/raspbmc-time-settings-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
-&nbsp;
+ 

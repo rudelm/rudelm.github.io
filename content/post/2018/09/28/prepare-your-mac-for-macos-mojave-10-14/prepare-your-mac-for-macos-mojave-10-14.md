@@ -19,11 +19,11 @@ How do you check, which apps are still 32bit? You can verify this from the syste
 
 In my case I had these apps replaced by either updates or different tools:
 
-  * AudioBookBuilder - [version 2.0](http://www.splasmata.com/?p=3236﻿) will be made public or maybe not &nbsp;- replaced with [AudioBook Binder (Apple App Store)](https://apps.apple.com/de/app/audiobook-binder/id413969927?l=en&mt=12)&nbsp;
+  * AudioBookBuilder - [version 2.0](http://www.splasmata.com/?p=3236﻿) will be made public or maybe not  - replaced with [AudioBook Binder (Apple App Store)](https://apps.apple.com/de/app/audiobook-binder/id413969927?l=en&mt=12) 
   * Caffeine - no Update and no longer being developed - replaced with [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
   * iMovie 9 - no Update for this version possible - export all projects and delete, replace with never iMovie version  
     
   * ViMediaManager v0.7α14 - replaced with [MediaElch](https://www.kvibes.de/mediaelch/)
   * DVD player - will get an update [later](https://www.heise.de/mac-and-i/meldung/macOS-Apple-kuendigt-32-Bit-Apps-OpenGL-und-OpenCL-ab-4068653.html)
 
-Be sure to update all your other 64bit apps as well before you start the update.&nbsp;
+Be sure to update all your other 64bit apps as well before you start the update. 

@@ -42,7 +42,7 @@ sudo apt-get clean
 sudo reboot
 ```
 
-&nbsp;
+ 
 
 ## Install nodejs 8.9.4
 

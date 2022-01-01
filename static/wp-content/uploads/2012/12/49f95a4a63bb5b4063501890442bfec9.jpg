@@ -67,7 +67,7 @@ Für eine Installation benötigen Sie gegebenenfalls Administrator-Rechte.</p>
 <div id="banner">
 <img src="/themen/resources/img/logos/wdr.gif" alt="WDR.de" title="" id="wdrdeLogo" />
 </div>
-<div class="printLocation" title="URL: http://www1.wdr.de/themen/global/fehler/defaultError102.html">&nbsp;</div>
+<div class="printLocation" title="URL: http://www1.wdr.de/themen/global/fehler/defaultError102.html"> </div>
 <hr/>
 <p class="hidden">Sie befinden sich hier:</p>
 <ul id="breadCrumb" class="noBanner">
@@ -349,7 +349,7 @@ value="suchen" />
 <ul id="wdrdeSubNavi">
 <li >
 <a href="/themen/infokompakt/index.html">Info kompakt</a>
-<span>&nbsp;</span><div class="hoverCont">
+<span> </span><div class="hoverCont">
 <div class="shadowBox">
 <h4>Nachrichten im WDR</h4>
 <ul>
@@ -389,7 +389,7 @@ Zum Hören und Lesen
 </li>
 <li >
 <a href="/themen/politik/index.html">Politik</a>
-<span>&nbsp;</span><div class="hoverCont">
+<span> </span><div class="hoverCont">
 <div class="shadowBox">
 <h4>Politik auf WDR.de</h4>
 <ul>
@@ -442,7 +442,7 @@ Folgen der Wahl
 </li>
 <li >
 <a href="/themen/wirtschaft/index.html">Wirtschaft</a>
-<span>&nbsp;</span><div class="hoverCont">
+<span> </span><div class="hoverCont">
 <div class="shadowBox">
 <h4>Wirtschaft auf WDR.de</h4>
 <ul>
@@ -485,7 +485,7 @@ WDR 5
 </li>
 <li >
 <a href="/themen/kultur/index.html">Kultur</a>
-<span>&nbsp;</span><div class="hoverCont">
+<span> </span><div class="hoverCont">
 <div class="shadowBox">
 <h4>Kultur auf WDR.de</h4>
 <ul>
@@ -543,7 +543,7 @@ Funkhaus Europa
 </li>
 <li >
 <a href="/themen/wissen/index.html">Wissen</a>
-<span>&nbsp;</span><div class="hoverCont">
+<span> </span><div class="hoverCont">
 <div class="shadowBox">
 <h4>Wissen auf WDR.de</h4>
 <ul>
@@ -591,7 +591,7 @@ WDR 5
 </li>
 <li >
 <a href="/themen/digital/index.html">Digital</a>
-<span>&nbsp;</span><div class="hoverCont">
+<span> </span><div class="hoverCont">
 <div class="shadowBox">
 <h4>Digital auf WDR.de</h4>
 <ul>
@@ -629,7 +629,7 @@ Mediathek
 </li>
 <li >
 <a href="/themen/sport/index.html">Sport</a>
-<span>&nbsp;</span><div class="hoverCont">
+<span> </span><div class="hoverCont">
 <div class="shadowBox">
 <h4>Sport auf WDR.de</h4>
 <ul>
@@ -672,7 +672,7 @@ WDR 2
 </li>
 <li >
 <a href="/themen/ratgeber/index.html">Ratgeber</a>
-<span>&nbsp;</span><div class="hoverCont">
+<span> </span><div class="hoverCont">
 <div class="shadowBox">
 <h4>Ratgeber auf WDR.de</h4>
 <ul>
@@ -725,7 +725,7 @@ WDR Fernsehen
 </li>
 <li >
 <a href="/themen/panorama/index.html">Panorama</a>
-<span>&nbsp;</span><div class="hoverCont">
+<span> </span><div class="hoverCont">
 <div class="shadowBox">
 <h4>Panorama auf WDR.de</h4>
 <ul>
@@ -778,7 +778,7 @@ WDR 4
 </li>
 <li >
 <a href="/themen/unterhaltung/index.html">Unterhaltung</a>
-<span>&nbsp;</span><div class="hoverCont">
+<span> </span><div class="hoverCont">
 <div class="shadowBox">
 <h4>Unterhaltung in Radio und Fernsehen</h4>
 <ul>
@@ -833,7 +833,7 @@ Funkhaus Europa
 </li>
 <li >
 <a href="/themen/kinder/index.html">Kinder</a>
-<span>&nbsp;</span><div class="hoverCont">
+<span> </span><div class="hoverCont">
 <div class="shadowBox">
 <h4>Radio und Fernsehen für Kinder</h4>
 <ul>
@@ -878,7 +878,7 @@ WDR 5
 </li>
 <li >
 <a href="/themen/nrwimwdr/index.html">NRW im WDR</a>
-<span>&nbsp;</span><div class="hoverCont">
+<span> </span><div class="hoverCont">
 <div class="shadowBox">
 <h4>NRW im WDR</h4>
 <ul>
@@ -923,7 +923,7 @@ WDR 5
 </li>
 <li class="last">
 <a href="/themen/dossiers/index.html">Dossiers</a>
-<span>&nbsp;</span><div class="hoverCont">
+<span> </span><div class="hoverCont">
 <div class="shadowBox">
 <h4>Dossiers auf WDR.de</h4>
 <ul>

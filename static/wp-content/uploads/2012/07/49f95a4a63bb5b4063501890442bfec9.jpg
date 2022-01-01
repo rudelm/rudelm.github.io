@@ -8,8 +8,8 @@
 <meta http-equiv="content-script-type" content="text/javascript" />
 <meta http-equiv="content-style-type" content="text/css" />
 <meta name="Language" content="de" />
-<meta name="Keywords" content="WDR Online, Radio, Fernsehen, NRW, Aktuelle Nachrichten, Service, Westfalen, Rheinland, Lippe, Sauerland, Eifel, Siegerland, Münsterland, Köln, Düsseldorf, Aachen, Wuppertal, Siegen, Münster, Bielefeld, Dortmund, Essen, Moskau, New York, USA, Russland" />
-<meta name="Description" content="WDR.de ist das programmbegleitende Internetportal des Westdeutschen Rundfunks. Es bietet die wichtigsten Nachrichten des Tages und zusätzliche Informationen in Text, Bild, Audio und Video, sowie umfassende Berichte und Hintergründe zu aktuellen Themen aus und für Nordrhein-Westfalen. WDR.de bündelt Nachrichten und Berichte aus WDR-Radio und Fernseh-Programmen sowie aus entsprechenden Angeboten der ARD." />
+<meta name="Keywords" content="WDR Online, Radio, Fernsehen, NRW, Aktuelle Nachrichten, Service, Westfalen, Rheinland, Lippe, Sauerland, Eifel, Siegerland, Mï¿½nsterland, Kï¿½ln, Dï¿½sseldorf, Aachen, Wuppertal, Siegen, Mï¿½nster, Bielefeld, Dortmund, Essen, Moskau, New York, USA, Russland" />
+<meta name="Description" content="WDR.de ist das programmbegleitende Internetportal des Westdeutschen Rundfunks. Es bietet die wichtigsten Nachrichten des Tages und zusï¿½tzliche Informationen in Text, Bild, Audio und Video, sowie umfassende Berichte und Hintergrï¿½nde zu aktuellen Themen aus und fï¿½r Nordrhein-Westfalen. WDR.de bï¿½ndelt Nachrichten und Berichte aus WDR-Radio und Fernseh-Programmen sowie aus entsprechenden Angeboten der ARD." />
 <meta name="Author" content="" />
 <meta name="Publisher" content="Westdeutscher Rundfunk" />
 <meta http-equiv="refresh" content="900" />
@@ -22,7 +22,7 @@
 <link rel="bookmark" href="/tv/" title="WDR Fernsehen" />
 <link rel="bookmark" href="/radio/" title="WDR Radioprogramme" />
 <link rel="bookmark" href="/themen/homepages/epg.jhtml" title="WDR Programmvorschau" />
-<link rel="bookmark" href="/unternehmen/" title="Informationen über das Unternehmen WDR" />
+<link rel="bookmark" href="/unternehmen/" title="Informationen ï¿½ber das Unternehmen WDR" />
 <link rel="bookmark" href="#top" title="Zum Seitenanfang" />
 <link rel="bookmark" href="#inhalt" title="Zum Seiteninhalt" />
 <link rel="contents" href="/themen/global/inhalt/" title="Inhaltsverzeichnis" />
@@ -87,9 +87,9 @@
 <div id="wsKopf">
 <div id="wsDachNavBg">
   <div id="wsDachNav"><p class="inv"><strong>Hauptnavigation</strong></p>
-    <ul><li id="wsWdrde" class="aktiv"><a href="#" title="Homepage des WDR">WDR.de</a></li><li id="wsFernsehen"><a href="#" title="Fernsehen im WDR">Fernsehen</a></li><li id="wsRadio"><a href="#" title="Radio im WDR">Radio</a></li><li id="wsEpg"><a href="#" title="Programmübersicht aller Sendungen">Programmvorschau</a></li><li id="wsUnternehmen"><a href="#" title="Informationen über das Unternehmen WDR">Unternehmen</a></li></ul>
+    <ul><li id="wsWdrde" class="aktiv"><a href="#" title="Homepage des WDR">WDR.de</a></li><li id="wsFernsehen"><a href="#" title="Fernsehen im WDR">Fernsehen</a></li><li id="wsRadio"><a href="#" title="Radio im WDR">Radio</a></li><li id="wsEpg"><a href="#" title="Programmï¿½bersicht aller Sendungen">Programmvorschau</a></li><li id="wsUnternehmen"><a href="#" title="Informationen ï¿½ber das Unternehmen WDR">Unternehmen</a></li></ul>
     <p id="wsDatum">
-&nbsp;
+ 
 
     </p>
 
@@ -118,19 +118,19 @@
 
 <h3>Liebe Nutzerinnen und Nutzer von WDR.de</h3>
 <p>
-Leider ist unsere Homepage wegen Wartungsarbeiten vorübergehend nicht erreichbar. Bitte versuchen Sie es später noch einmal.
+Leider ist unsere Homepage wegen Wartungsarbeiten vorï¿½bergehend nicht erreichbar. Bitte versuchen Sie es spï¿½ter noch einmal.
 </p>
-<p>&nbsp;</p>
+<p> </p>
 <p>
 Aktuelle Nachrichten erhalten Sie in der Zwischenzeit bei <a href="http://www.tagesschau.de"
 rel="ard@_blank">[tagesschau.de]</a>
 </p>
-<p>&nbsp;</p>
+<p> </p>
 <p>
-Vielen Dank für Ihr Verständnis!
+Vielen Dank fï¿½r Ihr Verstï¿½ndnis!
 </p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<p> </p>
+<p> </p>
 <p>
 Die WDR-Livestreams erreichen Sie hier:
 </p>
@@ -185,9 +185,9 @@ Die WDR-Livestreams erreichen Sie hier:
 <!-- -->
 <div id="wsFooterOuterBG">
 <div id="wsPublish">
-<ul><li>&nbsp;</li>
-<li>&nbsp;</li>
-<li>&nbsp;</li></ul>
+<ul><li> </li>
+<li> </li>
+<li> </li></ul>
 </div>
 <div id="wsFooterColored"></div>
 <div id="wsFooterInnerBG">
@@ -198,7 +198,7 @@ Die WDR-Livestreams erreichen Sie hier:
 </div>
 <hr class="inv" />
 <div id="wsDisclaimer">
-  <p>Der WDR ist nicht für die Inhalte fremder Seiten verantwortlich, die über einen Link erreicht werden.</p>
+  <p>Der WDR ist nicht fï¿½r die Inhalte fremder Seiten verantwortlich, die ï¿½ber einen Link erreicht werden.</p>
 </div>
 </div>
 </div>

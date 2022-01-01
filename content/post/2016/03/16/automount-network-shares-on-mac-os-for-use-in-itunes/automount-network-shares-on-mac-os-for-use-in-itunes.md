@@ -44,12 +44,12 @@ I'm not able to mount afp volumes anymore so I'm using smbfs like it is describe
 
 **Update 3:**
 
-Mac OS Sierra breaks the autofs configuration. I had to change it a little bit according to [this&nbsp;SuperUser entry](http://superuser.com/questions/997735/how-to-mount-smb-share-that-can-be-accessed-by-anyone-on-mac-os-x-el-capitan). The Gist is updated accordingly.
+Mac OS Sierra breaks the autofs configuration. I had to change it a little bit according to [this SuperUser entry](http://superuser.com/questions/997735/how-to-mount-smb-share-that-can-be-accessed-by-anyone-on-mac-os-x-el-capitan). The Gist is updated accordingly.
 
 **Update 4:**
 
 This still works on Mac OS High Sierra. However, make sure that you enter the credentials correctly and that you spare special characters, according to [this blog](https://derflounder.wordpress.com/2014/04/06/using-etcauto_home-on-mavericks-to-mount-shares-under-home/):
 
-**<u>Note:</u>**&nbsp;If you have a password longer than 8 characters, or if the password has special characters in it (like “! # $ % & ‘ ( ) * + , – . / : ; & < = > ? @ [ \ ] ^ _ { | } ~”), you may receive a “**No locks available**” error message and the share will not mount under&nbsp;**/home**. You will also receive a “**No locks available**” or similar&nbsp;**“Host is down”**&nbsp;error if the password is wrong or missing.
+**<u>Note:</u>** If you have a password longer than 8 characters, or if the password has special characters in it (like “! # $ % & ‘ ( ) * + , – . / : ; & < = > ? @ [ \ ] ^ _ { | } ~”), you may receive a “**No locks available**” error message and the share will not mount under **/home**. You will also receive a “**No locks available**” or similar **“Host is down”** error if the password is wrong or missing.
 
 I've encountered the &#8222;No locks available" today and had an error in my password which blocked the auto mounter from opening the folder.

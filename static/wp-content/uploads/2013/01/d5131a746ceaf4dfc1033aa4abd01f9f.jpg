@@ -73,7 +73,7 @@ s.parentNode.insertBefore(po, s);
 </ul>
 <div id="basket">
 		<div id="basketcounter">0<span class="hide">Artikel im Warenkorb</span></div>
-			<p>In Ihrem Warenkorb befinden sich derzeit noch&nbsp;<strong>keine Artikel</strong>.</p>
+			<p>In Ihrem Warenkorb befinden sich derzeit noch <strong>keine Artikel</strong>.</p>
 			<ul id="basketfunctions">
 				<li><a href="shop@ShowBasketContents">Warenkorb</a></li>
 			</ul>

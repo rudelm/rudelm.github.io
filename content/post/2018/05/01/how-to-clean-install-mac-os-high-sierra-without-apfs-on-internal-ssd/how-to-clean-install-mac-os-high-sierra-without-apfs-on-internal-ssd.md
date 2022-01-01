@@ -30,4 +30,4 @@ Start the installation of High Sierra to the freshly formatted HFS+ volume mount
 
 More information can be found [here](https://www.tonymacx86.com/threads/guide-avoid-apfs-conversion-on-high-sierra-update-or-fresh-install.232855/). A video of the process and more details are [here](https://derflounder.wordpress.com/2017/09/26/using-the-macos-high-sierra-os-installers-startosinstall-tool-to-avoid-apfs-conversion/). If you execute the startOsInstall command with -usage you'll get a [list of available parameters](https://apple.stackexchange.com/questions/299726/how-to-prevent-conversion-to-apfs-on-high-sierra-install).
 
-&nbsp;
+ 

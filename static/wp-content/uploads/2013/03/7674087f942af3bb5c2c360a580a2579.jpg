@@ -1511,7 +1511,7 @@ $(document).ready(function(){
             
             <div id="main7" class="struct compBox wideCompBox lastCompBox">
                     <p><div id="tcm2550319" class="richtext ">
-  <b class="struct auxBox">&nbsp;</b>
+  <b class="struct auxBox"> </b>
      
         <div class="special-offer-box">
           
@@ -1527,7 +1527,7 @@ $(document).ready(function(){
             
             <div id="main8" class="struct compBox firstCompBox">
                     <p><div id="tcm2550795" class="richtext promo-slot">
-  <b class="struct auxBox">&nbsp;</b>
+  <b class="struct auxBox"> </b>
      
         <div class="promo-slot-1">
           <a target="_blank" href="http://uplay.ubi.com/">
@@ -1542,7 +1542,7 @@ $(document).ready(function(){
             
             <div id="main9" class="struct compBox">
                     <p><div id="tcm2550796" class="richtext promo-slot">
-  <b class="struct auxBox">&nbsp;</b>
+  <b class="struct auxBox"> </b>
      
         <div class="promo-slot-2">
           <a target="_blank" href="http://www.twitter.com/#!/splintercell/">
@@ -1557,7 +1557,7 @@ $(document).ready(function(){
             
             <div id="main10" class="struct compBox lastCompBox">
                     <p><div id="tcm2550797" class="richtext promo-slot">
-  <b class="struct auxBox">&nbsp;</b>
+  <b class="struct auxBox"> </b>
      
         <div class="promo-slot-1">
           <a target="_blank" href="http://www.facebook.com/splintercell">
@@ -1706,7 +1706,7 @@ $(document).ready(function(){
             
             
             <div id="tcm2558122" class="richtext flags">
-  <b class="struct auxBox">&nbsp;</b>
+  <b class="struct auxBox"> </b>
      
         <div id="flags">
 						<ul>
