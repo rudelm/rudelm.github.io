@@ -23,7 +23,7 @@ Also der erste Tag war noch schwierig, ich habe mit der beschissen Funktastatur 
 
 Doch direkt am zweiten oder dritten Tag lebte ich mich direkt ein und war direkt angetan von der einfachen Bedienung und Funktionen wie Exposée und Dashboard.
 
-Bereits nach einer Woche hatte ich meine Daten übertragen und konnte ganz normal Office:Mac benutzen. Als Email Client habe ich Entourage eingesetzt. Das wollte ich natürlich erst mal mit meinen Daten aus meinem Windows Outlook 2003 befüllen, jedoch war mir "Outlook2Mac&#8220; zu eingeschränkt. Das ist ein Programm, das wie schon gesagt von Outlook die Daten auf einen Mac zu übertragen. Ich habe es dann mit meinem Windows Smartphone gemacht und habe mit "MissingSync&#8220; mein Adressbuch, Termine und Notizen synchronisiert mit Entourage. Einziges Manko: Der Zugriff auf den Speicherinhalt des PDAs gelang mir nicht zuverlässig, die Verbindung ist trotz USB 2.0 immer wieder abgebrochen.
+Bereits nach einer Woche hatte ich meine Daten übertragen und konnte ganz normal Office:Mac benutzen. Als Email Client habe ich Entourage eingesetzt. Das wollte ich natürlich erst mal mit meinen Daten aus meinem Windows Outlook 2003 befüllen, jedoch war mir &#8222;Outlook2Mac" zu eingeschränkt. Das ist ein Programm, das wie schon gesagt von Outlook die Daten auf einen Mac zu übertragen. Ich habe es dann mit meinem Windows Smartphone gemacht und habe mit &#8222;MissingSync" mein Adressbuch, Termine und Notizen synchronisiert mit Entourage. Einziges Manko: Der Zugriff auf den Speicherinhalt des PDAs gelang mir nicht zuverlässig, die Verbindung ist trotz USB 2.0 immer wieder abgebrochen.
 
 Damit war schon eine meiner größten Befürchtungen erledigt, das ich meinen Organizer nicht mehr mit dem PC Synchronisiert bekomme, da bekanntlich für Windows Mobile Geräte nur Active Sync unter Windows gut funktioniert. Also, unter Apple kann man auch Windows Mobile Geräte synchroniseren mit dem Office:Mac und Entourage 🙂
 
@@ -35,7 +35,7 @@ Meine Creative Webcam Pro eX Webcam, mein Kyocera FS-1010 und meine externe Fire
 
 Eine weitere Schrecksekunde gab es, als ich mal bei meinen Eltern zuhause von ihrem Camcorder per Firewire ein Video in iVideo laden wollte. Der Videoassistent stürzte einfach immer wieder ab. Ich vermute mal es lag aber an dem von mir mal ausgelösten Stromausfall mitten im Betrieb. Ich hab ausversehen das Stromkabel des Mini abgezogen und habe dann erst mal einen Dateisystemcheck gemacht der auch ein paar Sachen wohl repariert hat. Einen zweiten Anlauf danach habe ich aber nicht mehr gewagt. Das war aber im großen und Ganzen auch schon das negativste Erlebniss.
 
-Ansonsten gefiel mir echt die Bedienung und das halt soviel "out of the Box&#8220; läuft. Keine Treiber installieren, einfach anstecken, alles geht.
+Ansonsten gefiel mir echt die Bedienung und das halt soviel &#8222;out of the Box" läuft. Keine Treiber installieren, einfach anstecken, alles geht.
 
 Sogar Windows in der Bootcamp Installation war echt einfach.
 

@@ -26,6 +26,6 @@ While the PC connection is without problems, the DisplayPort tends to forget tha
 
 This problem originates in the [DDC/CI](http://en.wikipedia.org/wiki/Display_Data_Channel) support of this monitor. With DDC/CI it is possible to control your screens settings from your PC/Mac without the use of the screens OSD. While this looks tempting, I would have never used this feature. That is why I decided to deactivate the support in the Dell OSD.
 
-**You can deactivate this option in the settings menu of the Dell screen under the point "Other settings&#8220;, then DDC/CI set to disable.**
+**You can deactivate this option in the settings menu of the Dell screen under the point &#8222;Other settings", then DDC/CI set to disable.**
 
 Suddenly, everything works again and my Mac detects the screen without any problems, even when it wakes up and DisplayPort wasn't selected as source in the monitor.

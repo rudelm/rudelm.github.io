@@ -33,7 +33,7 @@ Nevertheless, a [clever user on the steam forum](http://forums.steampowered.com/
 mklink /d "C:\Users\YourUserName\Documents\My Games\Borderlands 2\WillowGame\SaveData\NumericalID" "C:\Users\YourUserName\Documents\Dropbox\DesiredFolder"
 ```
 
-What he did miss to tell you is that you'll need an elevated command window with administrator rights. Just enter cmd on the Windows 8 start menu and select "Open as administrator&#8220; on the command prompt.
+What he did miss to tell you is that you'll need an elevated command window with administrator rights. Just enter cmd on the Windows 8 start menu and select &#8222;Open as administrator" on the command prompt.
 
 The next problem is the order of the folders. In his order, this will result in an error message stating that the link could not be created. However, if you look up the command on [MSDN](http://technet.microsoft.com/en-us/library/cc753194%28v=ws.10%29.aspx) you'll see that you must switch the order of the arguments. It is first the Link name (in your Dropbox folder) and then the Target (What do you want to link).
 

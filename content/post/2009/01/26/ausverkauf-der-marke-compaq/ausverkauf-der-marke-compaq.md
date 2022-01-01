@@ -9,12 +9,12 @@ tags:
 - Compaq
 - meinung
 - Notebooks
-title: Ausverkauf der Marke "Compaq&#8220;
+title: Ausverkauf der Marke &#8222;Compaq"
 url: /2009/01/26/ausverkauf-der-marke-compaq/
 ---
 Schade... Ich war jahrelang Compaq Fan. Dann hatte HP Compaq aufgekauft und seitdem HP Compaq Notebooks mehr oder minder erfolgreich verkauft.
 
-Jetzt habe ich letztens schon im Prospekt mal ein Angebot über ein "HP Marken Notebook&#8220; gesehen. Der Schriftzug war Compaq, allerdings in merkwürdiger Schrift.
+Jetzt habe ich letztens schon im Prospekt mal ein Angebot über ein &#8222;HP Marken Notebook" gesehen. Der Schriftzug war Compaq, allerdings in merkwürdiger Schrift.
 
 Vor ein paar Tagen hatte mir dann Conrad in seinem Newsletter auch ein HP Marken Notebook versprochen, und siehe da, es ist wieder das gleiche Bild.  
 <figure id="attachment_1087" aria-describedby="caption-attachment-1087" style="width: 150px" class="wp-caption aligncenter"><a href="http://centurio.net/wp-content/uploads/2009/01/hp-marken-notebook-conrad1.png" data-rel="lightbox-image-0" data-rl\_title="" data-rl\_caption="" title=""><img loading="lazy" src="http://centurio.net/wp-content/uploads/2009/01/hp-marken-notebook-conrad1-150x150.png" alt="HP Marken-Notebook bei Conrad" title="" width="150" height="150" class="size-thumbnail wp-image-1087" /></a><figcaption id="caption-attachment-1087" class="wp-caption-text">HP Marken-Notebook bei Conrad</figcaption></figure>

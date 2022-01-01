@@ -63,4 +63,4 @@ If you end up being locked out, you can unlog an offending IP address using this
 sudo fail2ban-client set sshd unbanip &lt;offenders IP&gt;
 ```
 
-Banned connections will be dropped immediately by the firewall and should be visible with a "connection refused&#8220;.
+Banned connections will be dropped immediately by the firewall and should be visible with a &#8222;connection refused".

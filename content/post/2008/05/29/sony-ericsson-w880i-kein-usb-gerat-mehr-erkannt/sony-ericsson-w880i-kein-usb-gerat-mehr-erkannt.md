@@ -16,7 +16,7 @@ Windows ist jedoch der Meinung, dass ein unbekanntes USB Gerät erkannt wurde un
 
 Die Alternative zum Datenträgermodus ist die Telefonfunktion. Das Handy bleibt im Telefonmodus und kann dann per USB als Modem benutzt werden, oder man kann mit MyPhone Explorer Telefonbucheinträge abändern. Jedoch wird das Handy auch dann nicht mehr erkannt.
 
-Der Hammer kommt aber beim Firmware Update mit der Sony eigenen Software: Man nimmt den Akku raus, baut ihn wieder ein, drückt die Taste "2&#8220; und verbindet das USB Kabel mit dem Rechner. Und siehe da, es wird vom Flash Tool erkannt und mit einer neuen Firmware einwandfrei bespielt.
+Der Hammer kommt aber beim Firmware Update mit der Sony eigenen Software: Man nimmt den Akku raus, baut ihn wieder ein, drückt die Taste &#8222;2" und verbindet das USB Kabel mit dem Rechner. Und siehe da, es wird vom Flash Tool erkannt und mit einer neuen Firmware einwandfrei bespielt.
 
 Allerdings hat das Firmware Update nichts an dem Problem mit dem Datenträgermodus geändert. Ich kann per Bluetooth auf den kompletten Telefoninhalt zugreifen, das Handy läuft ansonsten auch einwandfrei. Nur die USB Verbindung funktioniert nicht mehr 🙁
 

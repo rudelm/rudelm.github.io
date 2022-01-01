@@ -28,11 +28,11 @@ There are quite a few instructions available on the internet so I'll focus on th
 
 One of these Plugins is called [HomeBridge-HomeMatic](https://github.com/thkl/homebridge-homematic) and integrates HomeMatic devices into HomeBridge.
 
-If you've setup HomeBridge-HomeMatic you'll have a new "Gewerk&#8220; created with name "Homekit&#8220;. I've forgot to add new devices I've added to HomeMatic so they never appeared in HomeBridge.
+If you've setup HomeBridge-HomeMatic you'll have a new &#8222;Gewerk" created with name &#8222;Homekit". I've forgot to add new devices I've added to HomeMatic so they never appeared in HomeBridge.
 
 ## homebridge-airrohr
 
-You can also track the data from your "Feinstaubsensor&#8220; created by the [luftdaten.info](https://luftdaten.info/en/home-en/) project. It tracks the temperature, humidity and air quality. The plugin's code is [available on github](https://github.com/toto/homebridge-airrohr).
+You can also track the data from your &#8222;Feinstaubsensor" created by the [luftdaten.info](https://luftdaten.info/en/home-en/) project. It tracks the temperature, humidity and air quality. The plugin's code is [available on github](https://github.com/toto/homebridge-airrohr).
 
 ## homebridge-hyperion-light
 

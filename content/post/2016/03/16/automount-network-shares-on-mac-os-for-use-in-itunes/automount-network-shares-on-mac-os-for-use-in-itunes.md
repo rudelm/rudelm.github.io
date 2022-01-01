@@ -52,4 +52,4 @@ This still works on Mac OS High Sierra. However, make sure that you enter the cr
 
 **<u>Note:</u>**&nbsp;If you have a password longer than 8 characters, or if the password has special characters in it (like “! # $ % & ‘ ( ) * + , – . / : ; & < = > ? @ [ \ ] ^ _ { | } ~”), you may receive a “**No locks available**” error message and the share will not mount under&nbsp;**/home**. You will also receive a “**No locks available**” or similar&nbsp;**“Host is down”**&nbsp;error if the password is wrong or missing.
 
-I've encountered the "No locks available&#8220; today and had an error in my password which blocked the auto mounter from opening the folder.
+I've encountered the &#8222;No locks available" today and had an error in my password which blocked the auto mounter from opening the folder.

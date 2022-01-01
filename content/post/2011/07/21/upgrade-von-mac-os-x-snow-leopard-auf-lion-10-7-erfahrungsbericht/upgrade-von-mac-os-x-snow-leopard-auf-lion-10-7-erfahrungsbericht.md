@@ -17,7 +17,7 @@ url: /2011/07/21/upgrade-von-mac-os-x-snow-leopard-auf-lion-10-7-erfahrungsberic
 ---
 Seit gestern Nachmittag ist Mac OS X Lion 10.7 verfügbar. Natürlich konnte ich wieder nicht die Finger davon lassen und habe es mir auch direkt im Mac App Store für 23,99 Euro gekauft. Ich habe allerdings erst heute morgen das Update installiert, entgegen meiner ursprünglichen Meinung, erst mal abzuwarten was andere dazu sagen. Aber nachdem mir von zwei Leuten bisher nur relativ gutes berichtet wurde, habe ich gestern ein Backup meiner SSD und HDD gemacht und habe anschließend heute morgen das Update gestartet.
 
-Dabei ist darauf zu achten, dass man den Installer aus dem App Store irgendwo sichert. Nach der Lion Installation wird er gelöscht. Sollte man noch einmal neu installieren, so muss man sich erst wieder den Installer aus dem App Store ziehen. Für den Fall, dass du das nicht wusstest und dich jetzt wunderst wo der Installer ist und du gerne den Installer erneut laden möchtest, dann guck doch mal <a href="http://www.macnotes.de/2011/07/20/os-x-lion-nach-dem-update-noch-einmal-herunterladen-so-gehts/" target="_blank" rel="noopener noreferrer">hier</a>. Der Installer lässt sich auf dem normalen Weg nur über den App Store herunterladen, man muss unter Lion auf "purchased items&#8220; klicken und kann darüber seine bereits gekauften Programme erneut herunterladen.
+Dabei ist darauf zu achten, dass man den Installer aus dem App Store irgendwo sichert. Nach der Lion Installation wird er gelöscht. Sollte man noch einmal neu installieren, so muss man sich erst wieder den Installer aus dem App Store ziehen. Für den Fall, dass du das nicht wusstest und dich jetzt wunderst wo der Installer ist und du gerne den Installer erneut laden möchtest, dann guck doch mal <a href="http://www.macnotes.de/2011/07/20/os-x-lion-nach-dem-update-noch-einmal-herunterladen-so-gehts/" target="_blank" rel="noopener noreferrer">hier</a>. Der Installer lässt sich auf dem normalen Weg nur über den App Store herunterladen, man muss unter Lion auf &#8222;purchased items" klicken und kann darüber seine bereits gekauften Programme erneut herunterladen.
 
 **Ich habe mittlerweile einige Hardware und Funktionen testen können, die Updates und Kommentare habe ich fett markiert.**
 
@@ -45,7 +45,7 @@ Einen sehr guten Überblick über alle neuen Lion Funktionen und macken hat <a h
 
 **Bootcamp:**
 
-  * Was ist mit Bootcamp Windows Treibern? Im Diskimage sind keine enthalten. Mangels eigener Bootcamp Installation kann ich dazu im Moment nichts sagen. Ich denke, zusammen mit dem neuen "Recovery HD&#8220; Partition wird das langsam unübersichtlich, wenn dann auch noch eine Windows Bootcamp Partition dazu kommt.
+  * Was ist mit Bootcamp Windows Treibern? Im Diskimage sind keine enthalten. Mangels eigener Bootcamp Installation kann ich dazu im Moment nichts sagen. Ich denke, zusammen mit dem neuen &#8222;Recovery HD" Partition wird das langsam unübersichtlich, wenn dann auch noch eine Windows Bootcamp Partition dazu kommt.
 
 **Programme:**
 
@@ -80,7 +80,7 @@ Einen sehr guten Überblick über alle neuen Lion Funktionen und macken hat <a h
 
 **Finder:**
 
-  * Urghs, was für eine graue Masse, alles durcheinander. Der Favorit "Alle meine Dateien&#8220; sort für Chaos. Habe ich erst einmal direkt rausgeschmissen und neu angeordnet. Die Farbigen Icons bringen mehr Übersicht
+  * Urghs, was für eine graue Masse, alles durcheinander. Der Favorit &#8222;Alle meine Dateien" sort für Chaos. Habe ich erst einmal direkt rausgeschmissen und neu angeordnet. Die Farbigen Icons bringen mehr Übersicht
 
 **Dashboard:**
 
@@ -127,7 +127,7 @@ Einen sehr guten Überblick über alle neuen Lion Funktionen und macken hat <a h
 
   * Die Oberfläche hat sich nicht groß geändert. Die App soll aber als 64bit Anwendung endlich laufen. Damit funktionieren einige Plugins nicht, da ich aber ohnehin keine Nutze, hat sich das erledigt.
   * Die Datenbank musste sich beim ersten Start aktualisieren. Ging aber sehr schnell bei mir (ca. 50GB)
-  * Die Funktion "Alle kostenlosen Updates laden&#8220; für die iOS Apps geht bei mir nicht. Es tut sich einfach nichts. Man gibt sein iTunes Account Passwort ein und danach bleibt man beim gleichen Bild einfach stehen. Auch Neustart von iTunes bringt hier nichts.
+  * Die Funktion &#8222;Alle kostenlosen Updates laden" für die iOS Apps geht bei mir nicht. Es tut sich einfach nichts. Man gibt sein iTunes Account Passwort ein und danach bleibt man beim gleichen Bild einfach stehen. Auch Neustart von iTunes bringt hier nichts.
 
 **tvnamer python script:**
 
@@ -146,7 +146,7 @@ Einen sehr guten Überblick über alle neuen Lion Funktionen und macken hat <a h
 
 **Sicherheit:**
 
-  * Das "Recovery HD&#8220; image soll ein Ausgangspunkt sein für Systeminstallation und Reparatur. Könnte man hier nicht schon direkt etwas einschleusen und somit jede Installation von Start weg infizieren?
+  * Das &#8222;Recovery HD" image soll ein Ausgangspunkt sein für Systeminstallation und Reparatur. Könnte man hier nicht schon direkt etwas einschleusen und somit jede Installation von Start weg infizieren?
   * Der Lockscreen ist nicht mehr Schwarz sondern nutzt das aktuell eingestellte Hintergrundbild. Wenn also jemand sein Hintergrundbild nicht dauerhaft zeigen will, sollte man das beachten.
   * Lion soll wohl endlich <a href="http://www.theregister.co.uk/2011/07/21/mac_os_x_lion_security/" target="_blank" rel="noopener noreferrer">sehr gut ASLR</a> können, besser als in Snow Leopard
 

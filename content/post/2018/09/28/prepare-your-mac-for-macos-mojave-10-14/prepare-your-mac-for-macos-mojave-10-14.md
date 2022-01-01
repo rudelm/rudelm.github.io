@@ -15,7 +15,7 @@ So Apple release the final version of macOS Mojave aka. 10.14. Before you start 
 
 This version of macOS [will annoy you with warnings](https://9to5mac.com/2018/06/05/macos-mojave-32-bit-support/) about your apps being 32bit each time you start them. While you will still be able to execute 32bit apps in Mojave, I used the opportunity to get rid of a few 32bit apps.
 
-How do you check, which apps are still 32bit? You can verify this from the system information app. Click on your Apple symbol in the menu line and select "About this Mac&#8220;. Click on "System Report&#8220;. Check now Software/Applications. You can filter the list by "64-bit (Intel)&#8220;. Each app marked with "No&#8220; should produce the popup.
+How do you check, which apps are still 32bit? You can verify this from the system information app. Click on your Apple symbol in the menu line and select &#8222;About this Mac". Click on &#8222;System Report". Check now Software/Applications. You can filter the list by &#8222;64-bit (Intel)". Each app marked with &#8222;No" should produce the popup.
 
 In my case I had these apps replaced by either updates or different tools:
 

@@ -60,7 +60,7 @@ Now create a new partition with ntfs. I'll use all of the available space, so it
 Information: You may need to update /etc/fstab.
 ```
 
-Now format the disk in quick format with ntfs. It will label the partition as "SynoBackups&#8220;:
+Now format the disk in quick format with ntfs. It will label the partition as &#8222;SynoBackups":
 
 ```
 > sudo mkfs.ntfs -L SynoBackups -Q /dev/sda1

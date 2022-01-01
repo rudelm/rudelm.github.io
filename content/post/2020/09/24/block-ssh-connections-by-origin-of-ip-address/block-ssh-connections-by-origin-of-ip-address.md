@@ -53,11 +53,11 @@ sshd: ALL: aclexec /usr/local/bin/ipfilter.sh %a
 
 ```<figure class="wp-block-pullquote">
 
-> As documented in the `hosts_options(5)` man page, the standard output is redirected to `/dev/null`, so that there's no chance for you to get the output from `echo`. And as you want the exit status to be taken into account, you should use `aclexec` instead of `spawn`. Indeed the man page says for `aclexec`: "The connection will be allowed or refused depending on whether the command returns a true or false exit status.&#8220;
+> As documented in the `hosts_options(5)` man page, the standard output is redirected to `/dev/null`, so that there's no chance for you to get the output from `echo`. And as you want the exit status to be taken into account, you should use `aclexec` instead of `spawn`. Indeed the man page says for `aclexec`: &#8222;The connection will be allowed or refused depending on whether the command returns a true or false exit status."
 > 
 > <cite>https://unix.stackexchange.com/a/149057/298669</cite></figure> 
 
-I've previously used "spawn&#8220; instead of "aclexec&#8220; but the IPs weren't blocked. There were still connection attempts in the fail2ban log. By using aclexec, the exit code will be properly used for filtering.
+I've previously used &#8222;spawn" instead of &#8222;aclexec" but the IPs weren't blocked. There were still connection attempts in the fail2ban log. By using aclexec, the exit code will be properly used for filtering.
 
 Add to /etc/hosts.deny:
 
