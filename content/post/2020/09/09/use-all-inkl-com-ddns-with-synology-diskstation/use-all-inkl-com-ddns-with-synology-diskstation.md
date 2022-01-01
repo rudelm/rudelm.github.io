@@ -27,6 +27,6 @@ The important part was, that when you'll need to customize a DDNS provider first
   * Select All-Inkl.com as provider
   * Enter the credentials as required
   * Enter the hostname you want to setup for DDNS
-  * Click on &#8222;Test Connection&#8220;
-  * The state should be &#8222;Normal&#8220;
-  * Click on &#8222;OK&#8220;
+  * Click on "Test Connection&#8220;
+  * The state should be "Normal&#8220;
+  * Click on "OK&#8220;

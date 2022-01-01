@@ -27,7 +27,7 @@ Am besten hat mir [diese Anleitung](http://www.ilounge.com/index.php/articles/co
   1. Erstellt ein Backup.
   2. Stellt in den iTunes Einstellungen einen neuen Pfad für das iTunes Media Verzeichnis ein. Ich verwende bei mir innerhalb des DS music Ordner den folgenden Pfad: music/iTunes/iTunes Media
   3. Jetzt muss man iTunes neu organisieren lassen. Dazu geht man auf Ablage, Mediathek, Mediathek organisieren.
-  4. Wähle &#8222;Dateien zusammenlegen&#8220; aus. Damit werden alle von iTunes gerade verwalteten Objekte in den neuen iTunes Media Ordner kopiert.
+  4. Wähle "Dateien zusammenlegen&#8220; aus. Damit werden alle von iTunes gerade verwalteten Objekte in den neuen iTunes Media Ordner kopiert.
   5. Wenn iTunes fertig ist, so kann man überprüfen ob alles funktioniert und vorhanden ist. Wenn man sich die Informationen eines Objekts anguckt, so sollte dort der neue Pfad sichtbar sein.
   6. Man kann jetzt den alten iTunes Media Ordner von der lokalen Festplatte löschen.
 

@@ -80,7 +80,7 @@ mosquitto_passwd -c /mosquitto/config/mosquitto.passwd &lt;username>
 
 It will ask you twice for the password for the username. If you want to setup additional users, you should omit the -c parameter, so that the existing file won't be overwritten.
 
-The &#8222;allow_anonymous false&#8220; line will disable anonymous authentication to the broker.
+The "allow_anonymous false&#8220; line will disable anonymous authentication to the broker.
 
 You can now SSH to your Synology and start the docker container using the docker-compose file:
 

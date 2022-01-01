@@ -25,7 +25,7 @@ Last but not least, eines der Highlights dieser Junien: Bobbycar Madness Extreme
 
 .oO(was redet der da bloß?)
 
-Nun, man nehme ein Bobbycar, schraubt einen 4 PS Kettensägenmotor auf ein entsprechendes Chassis und lässt 3 Leute parallel auf der &#8222;Rennstrecke&#8220; antreten. Es gibt sogar ein Video von mir in Aktion ^^
+Nun, man nehme ein Bobbycar, schraubt einen 4 PS Kettensägenmotor auf ein entsprechendes Chassis und lässt 3 Leute parallel auf der "Rennstrecke&#8220; antreten. Es gibt sogar ein Video von mir in Aktion ^^
 
   
 Link: sevenload.com (etwaige Werbung bitte ich zu entschuldigen...)

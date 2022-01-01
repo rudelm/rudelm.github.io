@@ -13,7 +13,7 @@ url: /2018/07/19/disable-wordpress-trackbacks-to-avoid-spam/
 ---
 I've intended to disable all comment or trackback functionality to avoid having spam and dealing with it in form of anti-spam plugins like Akismet. While I already had comments disabled, Trackbacks were still active.
 
-Even when you disable Trackbacks in the WordPress settings via &#8222;Settings / Discussion&#8220; under &#8222;Allow link notifications from other Weblogs (Pingbacks and Trackbacks)&#8220;, your existing pages needs manual update to take effect.
+Even when you disable Trackbacks in the WordPress settings via "Settings / Discussion&#8220; under "Allow link notifications from other Weblogs (Pingbacks and Trackbacks)&#8220;, your existing pages needs manual update to take effect.
 
 Connect to your MySQL database of your blog (e.g. with PHPMyAdmin) and execute these two queries:
 

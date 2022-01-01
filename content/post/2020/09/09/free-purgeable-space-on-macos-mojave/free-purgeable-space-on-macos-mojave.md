@@ -11,7 +11,7 @@ tags:
 title: Free purgeable space on MacOS Mojave
 url: /2020/09/09/free-purgeable-space-on-macos-mojave/
 ---
-I've recently deleted a large preview database file for Lightroom and was happy about the 80GB won free space. However, the MacOS disk utility as well as the terminal command &#8222;df -h&#8220; did not show the free space. I've also checked the trash and cleared it, but there was no change in the available disk space.
+I've recently deleted a large preview database file for Lightroom and was happy about the 80GB won free space. However, the MacOS disk utility as well as the terminal command "df -h&#8220; did not show the free space. I've also checked the trash and cleared it, but there was no change in the available disk space.
 
 I've taken a closer look at the free space column in the disk utility and found a new variable behind the available disk space: GB purgeable.<figure class="wp-block-image size-large">
 

@@ -27,7 +27,7 @@ Mich plagte aber noch eine andere Frage: Was passiert, wenn die DS mal abraucht 
 
 Also suchte ich weiter und fand in [diesem Thread](http://www.synology-forum.de/showthread.html?32821-Festplatte-unter-Linux-mounten) immerhin ein paar Antworten. Demnach ist das SHR wohl der von Linux benutzte [LVM (Logical Volume Manager)](http://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)). Würde ich also mal versuchen die Festplatte am PC so zu mounten, so hätte ich zusätzlich zum RAID Problem noch das LVM Problem am Hals.
 
-Daher habe ich mich entschlossen, lieber das &#8222;native&#8220; RAID 1 zu verwenden. Hier sollte man dann im Notfall von einer Linux Live CD booten können und hätte dann die Möglichkeit das md Device zu erstellen, auch wenn nur noch eine Platte vorhanden ist. Von diesem Device könnte man dann die ext4 Partition mounten. Idealerweise wäre das dann:
+Daher habe ich mich entschlossen, lieber das "native&#8220; RAID 1 zu verwenden. Hier sollte man dann im Notfall von einer Linux Live CD booten können und hätte dann die Möglichkeit das md Device zu erstellen, auch wenn nur noch eine Platte vorhanden ist. Von diesem Device könnte man dann die ext4 Partition mounten. Idealerweise wäre das dann:
 
 ```
 sudo mdadm --assemble --scan

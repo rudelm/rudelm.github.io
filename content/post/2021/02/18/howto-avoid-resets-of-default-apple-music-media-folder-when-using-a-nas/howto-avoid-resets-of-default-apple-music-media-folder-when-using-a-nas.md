@@ -19,7 +19,7 @@ This is incredible annoying and is probably caused by a race condition between A
 
 <img loading="lazy" width="452" height="239" src="https://centurio.net/wp-content/uploads/2021/02/MusicUpdatingLibrary.png" alt="" class="wp-image-3447" srcset="https://centurio.net/wp-content/uploads/2021/02/MusicUpdatingLibrary.png 452w, https://centurio.net/wp-content/uploads/2021/02/MusicUpdatingLibrary-300x159.png 300w" sizes="(max-width: 452px) 100vw, 452px" /> </a><figcaption>Waiting for Apple Music to update its library...</figcaption></figure> 
 
-[&#8222;Limnos&#8220; pointed me](https://discussions.apple.com/thread/252216475) to a potential workaround for this behaviour:
+["Limnos&#8220; pointed me](https://discussions.apple.com/thread/252216475) to a potential workaround for this behaviour:
 
   * Create a symbolic link to the Apple Music app on your SSD and place it on the automounted volume.
   * Create a second symbolic link from the first link back to your SSD applications folder.
@@ -39,7 +39,7 @@ You can test this now by unmounting the volume manually on the terminal. If you 
 
 Nevertheless, Apple Music forgot its media path and I'll have to change it again to the folder. So this is just a bad workaround. Even when you'll change the media's path after this test, it will be reset on the next iTunes startup.
 
-So ultimately I'll end up with a the instructions of &#8222;[Make a split library portable](https://discussions.apple.com/docs/DOC-7392)&#8222;, which basically says you shouldn't separate the Apple Music library and its media. Always put the library next to the location of your media.
+So ultimately I'll end up with a the instructions of "[Make a split library portable](https://discussions.apple.com/docs/DOC-7392)", which basically says you shouldn't separate the Apple Music library and its media. Always put the library next to the location of your media.
 
 Also you'll need to make sure that you'll manually open the right .musiclibrary file. You can define the library to open when you hold the alt key before you'll start the Apple Music app:<figure class="wp-block-image size-large"><a href="https://centurio.net/wp-content/uploads/2021/02/AppleMusicLibrarySelection.png" data-rel="lightbox-image-1" data-rl\_title="" data-rl\_caption="" title="">
 

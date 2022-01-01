@@ -17,6 +17,6 @@ Genial. Gerade habe ich bei [Kraftfuttermischwerk](http://www.kraftfuttermischwe
 Es handelt sich dabei um eine kleine Bilderserie aus den 70er Jahren, gespickt mit einigen Zitaten.  
 ![Hunter S. Thompson](http://theselvedgeyard.files.wordpress.com/2009/12/hst-8.jpg) 
 
-Wer ihn nicht kennt: [Hunter S. Thompson](http://de.wikipedia.org/wiki/Hunter_S._Thompson) ist Erfinder des [Gonzo-Journalismus](http://de.wikipedia.org/wiki/Gonzo-Journalismus) und auch der Author des Buchs &#8222;[Fear and Loathing in Las Vegas](http://de.wikipedia.org/wiki/Fear_and_Loathing_in_Las_Vegas)&#8222;, welcher im Jahre 1998 von Terry Gilliam mit Johnny Depp und Benicio del Toro genial [verfilmt](http://de.wikipedia.org/wiki/Fear_and_Loathing_in_Las_Vegas_(Film)) wurde.
+Wer ihn nicht kennt: [Hunter S. Thompson](http://de.wikipedia.org/wiki/Hunter_S._Thompson) ist Erfinder des [Gonzo-Journalismus](http://de.wikipedia.org/wiki/Gonzo-Journalismus) und auch der Author des Buchs "[Fear and Loathing in Las Vegas](http://de.wikipedia.org/wiki/Fear_and_Loathing_in_Las_Vegas)", welcher im Jahre 1998 von Terry Gilliam mit Johnny Depp und Benicio del Toro genial [verfilmt](http://de.wikipedia.org/wiki/Fear_and_Loathing_in_Las_Vegas_(Film)) wurde.
 
 Mir gefallen besonders die Fischaugenobjektivaufnahmen. Aber auf der Seite gibt es auch noch weitere interessante Fotos zu sehen.
