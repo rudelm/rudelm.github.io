@@ -19,17 +19,7 @@ If you are like me interested in getting the newest versions immediately, you'll
 
 Yesterday Ginny Caughey recommended to just use a certain command:
 
-<blockquote class="twitter-tweet" data-width="550" data-dnt="true">
-  <p lang="en" dir="ltr">
-    How to force Windows to start downloading the Windows 10 update files | by Jeff Grubb && Emil Protalinski <a href="http://t.co/9FdqqvrcbD">http://t.co/9FdqqvrcbD</a>
-  </p>
-  
-  <p>
-    &mdash; Ginny Caughey (@gcaughey) <a href="https://twitter.com/gcaughey/status/626352655217106944?ref_src=twsrc%5Etfw">July 29, 2015</a>
-  </p>
-</blockquote>
-
-
+{{< tweet user="gcaughey" id="626352655217106944" >}}
 
 The recommended command is this one:
 

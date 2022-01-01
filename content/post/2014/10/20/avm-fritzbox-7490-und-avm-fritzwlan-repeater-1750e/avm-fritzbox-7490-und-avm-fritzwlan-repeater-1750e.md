@@ -36,18 +36,6 @@ Wenngleich der Repeater im Moment auch schwer zu bekommen ist, so kann ich ihn d
 
 Einziger Knackpunkt, den AVM aber auch in einer der nächsten Firmwareversionen hoffentlich fixen wird: Es ist keine feste IP Vergabe möglich für den Stick. Man kann ihn lediglich per DHCP auf eine IP setzen:
 
-https://twitter.com/rudelm/status/520610944322637824
-
-<blockquote class="twitter-tweet" data-width="550" data-dnt="true">
-  <p lang="de" dir="ltr">
-    <a href="https://twitter.com/rudelm?ref_src=twsrc%5Etfw">@rudelm</a> ob das Feature schon mit der nächsten Firmware kommt können wir natürlich nicht versprechen. Anregung ist auf jeden Fall vermerkt.
-  </p>
-  
-  <p>
-    &mdash; FRITZ!Box (@AVM_DE) <a href="https://twitter.com/AVM_DE/status/520849380094386176?ref_src=twsrc%5Etfw">October 11, 2014</a>
-  </p>
-</blockquote>
-
-
+{{< tweet user="AVM_DE" id="520849380094386176" >}}
 
 Die Kombination aus der Fritz!Box und dem Fritz!WLAN Repeater ist wirklich gut. Ich hätte theoretisch ja auch einen aktuellen AirportExpress wählen können, dann hätte ich allerdings vielleicht doch wieder Probleme mit irgendwelchen Besonderheiten oder Verschlüsselungen gehabt. Es gibt also nicht wirklich viel an der Box zu kritisieren. Sie erfüllt ihren Zweck, ist schnell und für mich absolut ausreichend (auch in Hinblick auf kommende DSL Generationen). Da ich sie auch als Telefonanlage mit DECT Telefon verwende, wäre eine verbesserte FAX Funktion noch nett. Der in der Weboberfläche eingebaute FAX Client kann nur Bilder verschicken, keine PDFs.
