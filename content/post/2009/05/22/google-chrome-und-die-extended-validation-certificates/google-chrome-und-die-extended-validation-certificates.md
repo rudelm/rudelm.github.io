@@ -40,6 +40,6 @@ Wenn man sich jedoch jetzt den aktuellen Google Chrome unter Windows dann mal an
 
 Dass das ganze in Chrome gehen soll, zeigt z.B. die Schweizer Firma QuoVadis in ihrer [FAQ](http://www.quovadisglobal.ch/Support/FAQ.aspx).
 
-Also ich verstehs echt nicht, wieso der Chrome das nicht anzeigt? Chrome und IE benutzen z.B. die gleiche Zertifikatsdatenbank, daher sind auch die Meldungen gleich beim Check des Zertifikats. Es handelt sich also nur um die fehlende Darstellung der EVC. Irgendwie erschrickt mich das ganze ja doch schon, ich dachte eigentlich, Google hätte das eingebaut&#8230;
+Also ich verstehs echt nicht, wieso der Chrome das nicht anzeigt? Chrome und IE benutzen z.B. die gleiche Zertifikatsdatenbank, daher sind auch die Meldungen gleich beim Check des Zertifikats. Es handelt sich also nur um die fehlende Darstellung der EVC. Irgendwie erschrickt mich das ganze ja doch schon, ich dachte eigentlich, Google hätte das eingebaut...
 
 Update: Hab den Fehler gefunden: Es liegt doch tatsächlich an der dämlich versteckten Option &#8222;Sperrung des Serverzertifikats überprüfen&#8220; in den Einstellungen Chromes. Aktiviert man dieses Kästchen, so wird der EVC Indikator dann auch mit angezeigt.

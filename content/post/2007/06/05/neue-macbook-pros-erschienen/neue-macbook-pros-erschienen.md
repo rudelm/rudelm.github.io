@@ -11,7 +11,7 @@ tags:
 title: Neue MacBook Pros erschienen
 url: /2007/06/05/neue-macbook-pros-erschienen/
 ---
-Es war ja klar&#8230; kaum hat man sich eins zugelegt und kaum 2 Monate später kommt es dann tatsächlich in neuer Auflage raus 😉 Aber es war ja zu erwarten und ich bin froh, das ich meins endlich gekauft habe.
+Es war ja klar... kaum hat man sich eins zugelegt und kaum 2 Monate später kommt es dann tatsächlich in neuer Auflage raus 😉 Aber es war ja zu erwarten und ich bin froh, das ich meins endlich gekauft habe.
 
 So wenn ich mir die [technischen Daten](http://www.mactechnews.de/index.php?id=16771) angucke und mit meinem Vergleiche, fallen mir direkt der größere Ram (jetzt 2GB statt 1GB, endlich!), die Grafikkarte von nVidia (laut [notebookcheck.com](http://www.notebookcheck.com/Vergleich-mobiler-Grafikkarten.358.0.html) in der gleichen Leistungsklasse wie die Ati X1600 aber dafür DX10 fähig) und das LED Hintergrundbeleuchtete Display auf. Dazu kommen dann noch die etwas schnellere CPU. Aber alles in allem scheinbar kein Grund sich wirklich zu ärgern über einen verfrühten Kauf.
 

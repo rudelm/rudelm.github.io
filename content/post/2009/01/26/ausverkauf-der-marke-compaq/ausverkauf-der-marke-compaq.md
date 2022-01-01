@@ -12,7 +12,7 @@ tags:
 title: Ausverkauf der Marke &#8222;Compaq&#8220;
 url: /2009/01/26/ausverkauf-der-marke-compaq/
 ---
-Schade&#8230; Ich war jahrelang Compaq Fan. Dann hatte HP Compaq aufgekauft und seitdem HP Compaq Notebooks mehr oder minder erfolgreich verkauft.
+Schade... Ich war jahrelang Compaq Fan. Dann hatte HP Compaq aufgekauft und seitdem HP Compaq Notebooks mehr oder minder erfolgreich verkauft.
 
 Jetzt habe ich letztens schon im Prospekt mal ein Angebot über ein &#8222;HP Marken Notebook&#8220; gesehen. Der Schriftzug war Compaq, allerdings in merkwürdiger Schrift.
 

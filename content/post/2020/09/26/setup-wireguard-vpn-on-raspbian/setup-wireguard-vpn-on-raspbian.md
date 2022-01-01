@@ -77,4 +77,4 @@ Luckily I was able to stop the connection by SSHing from the WireGuard VPN to th
 sudo wg-quick down &lt;ProfileName>
 ```
 
-The question is now, how can I configure WireGuard Client to just know the route through the VPN to resources in the host network or vice versa how I can configure the WireGuard Host to provide other machines in the network a route to the connected client&#8230;
+The question is now, how can I configure WireGuard Client to just know the route through the VPN to resources in the host network or vice versa how I can configure the WireGuard Host to provide other machines in the network a route to the connected client...

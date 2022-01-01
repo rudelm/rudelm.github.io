@@ -160,7 +160,7 @@ var Suffusion_JS = {
 					<div id="header-container" class="fix">
 					<div id="header" class="fix">
 			<h1 class="blogtitle"><a href="http://blog.centurio.net">Centurios Blog</a></h1>
-		<div class="description">Du bist unblogbar&#8230;</div>
+		<div class="description">Du bist unblogbar...</div>
     </div><!-- /header -->
  	<div id="nav" class="tab fix">
 		<div class='col-control'>

@@ -34,7 +34,7 @@ Mir ging es übrigens auch wie dem Autor bei Medien-Sport-Politik: Plug in Baby 
 
 Fotos und Videos habe ich auch jede Menge gemacht, die ich auch gerne hochladen würde. Jedoch weiß ich nicht, wie es da rechtlich aussieht. Es gibt auf jeden Fall [ein Album bei Flickr](http://www.flickr.com/photos/pretty-paracetamol/sets/72157622823019742/) von dem Konzert.
 
-Bei Youtube gibts auch den Opener, ist sehr interessant mal aus der ersten Reihe zu sehen. Ich war leider hinten und konnte nur aus der Ferne das ganze betrachten&#8230; Nächstes Mal bin ich schneller, dann aber auch unten! 🙂<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio">
+Bei Youtube gibts auch den Opener, ist sehr interessant mal aus der ersten Reihe zu sehen. Ich war leider hinten und konnte nur aus der Ferne das ganze betrachten... Nächstes Mal bin ich schneller, dann aber auch unten! 🙂<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio">
 
 <div class="wp-block-embed__wrapper">
 </div></figure>

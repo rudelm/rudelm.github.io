@@ -40,12 +40,12 @@ I was not able to use VMWare again with Bootcamp. Therefore I decided to delete 
 
 **Next Update:**
 
-No good news to report&#8230; Windows was finally recognized correctly by VMWare, but I couldn't add the Bootcamp installlation. The setup wanted me to reboot into Windows and reboot into Mac OS X, because it thought the Bootcamp partition was not cleanly unmounted:
+No good news to report... Windows was finally recognized correctly by VMWare, but I couldn't add the Bootcamp installlation. The setup wanted me to reboot into Windows and reboot into Mac OS X, because it thought the Bootcamp partition was not cleanly unmounted:
 
 <figure id="attachment_1998" aria-describedby="caption-attachment-1998" style="width: 300px" class="wp-caption aligncenter"><a href="http://centurio.net/wp-content/uploads/2012/11/BootcampNotPrepared.png" data-rel="lightbox-image-1" data-rl\_title="" data-rl\_caption="" title=""><img loading="lazy" class="size-medium wp-image-1998" title="Bootcamp partition is not prepared - VMWare Fusion 4.1.3" src="http://centurio.net/wp-content/uploads/2012/11/BootcampNotPrepared-300x195.png" alt="Bootcamp partition is not prepared - VMWare Fusion 4.1.3" width="300" height="195" srcset="https://centurio.net/wp-content/uploads/2012/11/BootcampNotPrepared-300x195.png 300w, https://centurio.net/wp-content/uploads/2012/11/BootcampNotPrepared.png 434w" sizes="(max-width: 300px) 100vw, 300px" /></a><figcaption id="caption-attachment-1998" class="wp-caption-text">Bootcamp partition is not prepared - VMWare Fusion 4.1.3</figcaption></figure>
 
 &nbsp;
 
-So I decided to try the new [VMWare Fusion 5.0.1](http://www.amazon.de/gp/product/B008VLUE24) version and suddenly my problems were all gone&#8230; It's sad to see, that you always need a newer software version to work correctly. Especially when Windows 8 runs just fine inside a normal VMWare VM, but not when you are using Bootcamp. My guess would be that you could install Windows 7, configure Bootcamp correctly in VMWare Fusion and then upgrade to Windows 8. But this takes awefully long, so I'll stick to the newer Fusion version. You can test it 30 days for free and after that you have to buy it for 44,99Euro 🙁
+So I decided to try the new [VMWare Fusion 5.0.1](http://www.amazon.de/gp/product/B008VLUE24) version and suddenly my problems were all gone... It's sad to see, that you always need a newer software version to work correctly. Especially when Windows 8 runs just fine inside a normal VMWare VM, but not when you are using Bootcamp. My guess would be that you could install Windows 7, configure Bootcamp correctly in VMWare Fusion and then upgrade to Windows 8. But this takes awefully long, so I'll stick to the newer Fusion version. You can test it 30 days for free and after that you have to buy it for 44,99Euro 🙁
 
 &nbsp;

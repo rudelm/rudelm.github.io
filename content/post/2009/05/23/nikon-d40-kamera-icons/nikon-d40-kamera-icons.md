@@ -18,4 +18,4 @@ Als stolzer neuer Besitzer einer Nikon D40 brauchte ich etwas mehr Farbe und Sty
 
 Daher hab ich ne Runde gegooglet und habe dann hier dieses schöne [Nikon D40 Icon Set](http://sveiki.deviantart.com/art/Nikon-D40-Icon-Set-69911211) gefunden. Damit kann man wunderbar das Icon von iPhoto und dem Datenträger selber auf dem Desktop ersetzen. Eine schöne Sache, wie ich finde 🙂
 
-Übrigens: Es sind auch ein paar Icons für die Windows User dabei&#8230;
+Übrigens: Es sind auch ein paar Icons für die Windows User dabei...

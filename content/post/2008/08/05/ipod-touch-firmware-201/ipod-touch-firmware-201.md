@@ -45,7 +45,7 @@ Alles kostenlose Programme ausser Bomberman. Enige davon nerven (benötigen extr
 Nervig ist auch, dass Updates und Installierte Programme immer auf den ersten verfügbaren Platz geschoben werden auf dem Home Bildschirm, anstatt an ihrem bereits zugeordneten Platz auf dem Home Bildschirm. Also muss nach jedem Update neu das Icon verschoben werden.
 
 **Das Synchronisieren:**  
-Das Synchronisieren dauert jetzt viel länger als vorher, weil ein Backup erstellt wird. Das kann man auch irgendwie deaktivieren, dann gehts schneller, nur habe ich gerade den Link dazu verlegt. Das kommt im übrigens davon, wenn man einen neuen RSS Reader probiert (NetNewsWire) und noch nicht die Bedienung vollständig kennt&#8230; aber das ist ne andere Sache.
+Das Synchronisieren dauert jetzt viel länger als vorher, weil ein Backup erstellt wird. Das kann man auch irgendwie deaktivieren, dann gehts schneller, nur habe ich gerade den Link dazu verlegt. Das kommt im übrigens davon, wenn man einen neuen RSS Reader probiert (NetNewsWire) und noch nicht die Bedienung vollständig kennt... aber das ist ne andere Sache.
 
 **Das Update an sich:**  
 Das Update an sich gestaltet sich unproblematisch, wenn man dafür bezahlt hat geht es wie gewohnt. Man kann allerdings die Firmware auch so aus dem Netz ziehen (Anleitungen gibt es dafür genug) und dann installieren indem man bei gedrückter Alt Taste auf Widerherstellen klickt und die Datei auswählt. Ob das Legal ist und ob Apple da nicht irgendwann einen Riegel vorschiebt, kann ich nicht sagen. Ich habe meine Version gekauft 😉

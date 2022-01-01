@@ -53,15 +53,15 @@ Replace the &#8222;/Volumes/untitled&#8220; with the name of the Volume we've cr
 Now the installer will create a bootable USB stick. You should see something like this:
 
 [code]  
-Erasing Disk: 0%&#8230; 10%&#8230; 20%&#8230; 30%&#8230;100%&#8230;
+Erasing Disk: 0%... 10%... 20%... 30%...100%...
 
-Copying installer files to disk&#8230;
+Copying installer files to disk...
 
 Copy complete.
 
-Making disk bootable&#8230;
+Making disk bootable...
 
-Copying boot files&#8230;
+Copying boot files...
 
 Copy complete.
 

@@ -17,7 +17,7 @@ I've recently updated to a Macbook with apple Silicon running Big Sur. It looks 
 
 This is incredible annoying and is probably caused by a race condition between Apple Music and automount not mounting the volume fast enough. So from time to time I'll need to check my configured media folder in Apple music. I'll end up changing the folder back to the automount folder and need to wait for Apple music to finish a complete scan of the library:<figure class="wp-block-image size-large"><a href="https://centurio.net/wp-content/uploads/2021/02/MusicUpdatingLibrary.png" data-rel="lightbox-image-0" data-rl\_title="" data-rl\_caption="" title="">
 
-<img loading="lazy" width="452" height="239" src="https://centurio.net/wp-content/uploads/2021/02/MusicUpdatingLibrary.png" alt="" class="wp-image-3447" srcset="https://centurio.net/wp-content/uploads/2021/02/MusicUpdatingLibrary.png 452w, https://centurio.net/wp-content/uploads/2021/02/MusicUpdatingLibrary-300x159.png 300w" sizes="(max-width: 452px) 100vw, 452px" /> </a><figcaption>Waiting for Apple Music to update its library&#8230;</figcaption></figure> 
+<img loading="lazy" width="452" height="239" src="https://centurio.net/wp-content/uploads/2021/02/MusicUpdatingLibrary.png" alt="" class="wp-image-3447" srcset="https://centurio.net/wp-content/uploads/2021/02/MusicUpdatingLibrary.png 452w, https://centurio.net/wp-content/uploads/2021/02/MusicUpdatingLibrary-300x159.png 300w" sizes="(max-width: 452px) 100vw, 452px" /> </a><figcaption>Waiting for Apple Music to update its library...</figcaption></figure> 
 
 [&#8222;Limnos&#8220; pointed me](https://discussions.apple.com/thread/252216475) to a potential workaround for this behaviour:
 

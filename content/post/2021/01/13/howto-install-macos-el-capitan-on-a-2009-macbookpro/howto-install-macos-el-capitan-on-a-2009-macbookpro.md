@@ -65,7 +65,7 @@ However, I've encountered another annoying issue which caused the installer to f
   </p>
 </blockquote>
 
-Oh great&#8230; On to the next commands you can [try from the Terminal inside the Recovery OS](https://apple.stackexchange.com/a/232016/19241):
+Oh great... On to the next commands you can [try from the Terminal inside the Recovery OS](https://apple.stackexchange.com/a/232016/19241):
 
   1. <code style="font-size: 17px;">installer -pkg /Volumes/Mac\ OS\ X\ Install\ DVD/Packages/OSInstall.mpkg -target /Volumes/"XXX"</code> where XXX is the name of the disk you're installing to.
   2. Wait for the installation to say it's complete. You will not see any sort of progress display.

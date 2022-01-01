@@ -23,7 +23,7 @@ Nun, die älteren Versionen der DiskStation Software (so nennt sich das Betriebs
 
 Für SHR spricht halt die große Flexibilität, die sich allerdings erst bei Geräten mit mehr als 2 Schächten bemerkbar macht.
 
-Mich plagte aber noch eine andere Frage: Was passiert, wenn die DS mal abraucht und ich nicht mehr an meine Daten komme? Die Festplatten sind mit ext4 formatiert&#8230; Aber wie bekomme ich das RAID gemountet am PC? Der entsprechende Wiki Eintrag behandelt nur Software, die Zugriff auf ext4 unter Windows ermöglicht oder von älteren Versionen spricht.. Zugriffe auf das RAID selber werden nicht erklärt. Und allein bin ich mit der Frage auch nicht.
+Mich plagte aber noch eine andere Frage: Was passiert, wenn die DS mal abraucht und ich nicht mehr an meine Daten komme? Die Festplatten sind mit ext4 formatiert... Aber wie bekomme ich das RAID gemountet am PC? Der entsprechende Wiki Eintrag behandelt nur Software, die Zugriff auf ext4 unter Windows ermöglicht oder von älteren Versionen spricht.. Zugriffe auf das RAID selber werden nicht erklärt. Und allein bin ich mit der Frage auch nicht.
 
 Also suchte ich weiter und fand in [diesem Thread](http://www.synology-forum.de/showthread.html?32821-Festplatte-unter-Linux-mounten) immerhin ein paar Antworten. Demnach ist das SHR wohl der von Linux benutzte [LVM (Logical Volume Manager)](http://en.wikipedia.org/wiki/Logical_Volume_Manager_(Linux)). Würde ich also mal versuchen die Festplatte am PC so zu mounten, so hätte ich zusätzlich zum RAID Problem noch das LVM Problem am Hals.
 

@@ -140,7 +140,7 @@ Einen sehr guten Überblick über alle neuen Lion Funktionen und macken hat <a h
 
 **Xcode:**
 
-  * muss neuinstalliert werden über den App Store, kostet jetzt nicht mehr 4 Euro. Verdammt, wieder zu früh auf kaufen geklickt&#8230;
+  * muss neuinstalliert werden über den App Store, kostet jetzt nicht mehr 4 Euro. Verdammt, wieder zu früh auf kaufen geklickt...
   * Das Update meckert über ein geöffnetes iTunes. Irgendein iTunes Prozess scheint im Hintergrund noch zu laufen und das Ganze zu blockieren. Genauer gesagt war es der itunes_helper prozess.
   * Xcode fordert beim Starten die Zugangsdaten zur Apple Developer Connection
 
