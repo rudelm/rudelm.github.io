@@ -5,7 +5,6 @@ import re
 import shutil
 
 content_dir = 'content/post'
-it = os.scandir(content_dir)
 
 def move_to_dir(file_entry, result):
     year = result.group(1)
@@ -33,10 +32,10 @@ def move_post(target_path, title, file_entry):
     else:
         return
 
-
-for entry in it:
-    if entry.name.endswith('.md'):
-        # its a markdown file we can scan for parts
-        result = re.search(r"(\d{4})-(\d{2})-(\d{2})-(.*).md", entry.name)
-        move_to_dir(entry, result)
+with os.scandir(content_dir) as it:
+    for entry in it:
+        if entry.name.endswith('.md'):
+            # its a markdown file we can scan for parts
+            result = re.search(r"(\d{4})-(\d{2})-(\d{2})-(.*).md", entry.name)
+            move_to_dir(entry, result)
         
