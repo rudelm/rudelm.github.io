@@ -13,6 +13,6 @@ def delete_file(file_entry):
 
 for root, dirs, files in os.walk(content_dir):
     for file in files:
-        result = re.search(r"(.*)-(\d{3}x\d{3}).*", file)
+        result = re.search(r"(.*)-(\d{3}x\d{3})|(.thumbnail).*", file)
         if result:
             delete_file(os.path.join(root, file))
