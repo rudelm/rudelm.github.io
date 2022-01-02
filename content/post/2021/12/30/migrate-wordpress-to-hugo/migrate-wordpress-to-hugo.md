@@ -12,7 +12,7 @@ I'm annoyed by constant update notifications of wordpress. Plugins need also oft
 ### Plugin
 ### Wordpress Import in Jekyll
 ### Jekyll Import in Hugo
-Blog posts are put into the `content/post` folder. The filenames are `YYYY-MM-DD-post-title.md`. I recommend changing this to `content/post/YYYY/MM/DD/post-title`, because it will enable cool stuff like image processing. I've created a small python script that moves them automatically.
+Blog posts are put into the `content/post` folder. The filenames are `YYYY-MM-DD-post-title.md`. I recommend changing this to `content/post/YYYY/MM/DD/post-title`, because it will enable cool stuff like image processing. I've created a small python script that moves them automatically called `rename-posts.py`.
 
 ## Search and replace
 * looks interesting: https://gist.github.com/rmaziarka/125cc7dcd99035de971a19dd3c1f46cd#file-wordpress-to-hugo-migrator-js-L288
@@ -42,7 +42,10 @@ hugo-blog/static/wp-content/uploads/2021/02
 
 So I'll delete every version starting with - after the filename and move them from `static` to [page-bundles](https://gohugo.io/content-management/page-resources/), which is right next to the blog posts. This enables stuff like [image processing](https://gohugo.io/content-management/image-processing/).
 
+I've used the script `clean-image-versions.py` for this task.
 
+### Remove empty folders
+The Jekyll import contained a lot of empty folders in `static/wp-content/uploads` which I've cleaned by using `find ./static -type d -empty -delete`
 
 ## Creating a new post
 Use `hugo new posts/hello.md` to create a new blog post. It won't have any additional timestamps in the filename unless you specify it, e.g. like `hugo new posts/2021-12-30-hello.md`. 
