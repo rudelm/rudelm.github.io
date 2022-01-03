@@ -3,6 +3,10 @@ author: Centurio
 date: 2021-12-30T19:52:26+01:00
 title: Migrate Wordpress to Hugo
 description: How I got rid of Wordpress and used Hugo for static content generation
+categories:
+- Blogs
+tags:
+- Hugo
 draft: true
 ---
 # Introduction

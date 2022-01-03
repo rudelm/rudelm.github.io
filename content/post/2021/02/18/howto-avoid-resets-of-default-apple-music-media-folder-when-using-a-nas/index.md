@@ -20,6 +20,7 @@ This is incredible annoying and is probably caused by a race condition between A
 
 {{< img "images/MusicUpdatingLibrary.png" "Apple Music Updating screen" >}}
 
+## A workaround
 [ "Limnos" pointed me](https://discussions.apple.com/thread/252216475) to a potential workaround for this behaviour:
 
   * Create a symbolic link to the Apple Music app on your SSD and place it on the automounted volume.
