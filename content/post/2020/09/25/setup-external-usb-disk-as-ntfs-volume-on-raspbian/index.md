@@ -11,6 +11,7 @@ tags:
 title: Setup external USB disk as NTFS volume on Raspbian
 url: /2020/09/25/setup-external-usb-disk-as-ntfs-volume-on-raspbian/
 ---
+# Introduction
 I intend to use an external 2.5" USB disk formatted as NTFS volume on my Raspberry Pi. Since its rather larger (5TB) I don't want to use MBR but GPT instead. Here's a short list of commands I've used to setup the disk.
 
 Start by identifying the connected disk:
@@ -32,6 +33,7 @@ mmcblk0     179:0    0 14.9G  0 disk
 
 My disk is sda. 
 
+## Partitioning
 I now usually used fdisk as a partitioning tool. However, there's a tool I can highly recommend. Its called parted and can be installed using:
 
 ```
@@ -90,6 +92,7 @@ mmcblk0
 
 Note that there's also a more specific id, the UUID. We will use this UUID later when we configure a default mount point in /etc/fstab.
 
+## Mounting
 Now we'll try to mount the new partition. Create a folder to mount the partition and mount it manually:
 
 ```
@@ -132,6 +135,7 @@ success
 > sudo umount /mnt/backups
 ```
 
+## Mounting automatically
 Now we'll add the partition to /etc/fstab so that it can be mounted automatically:
 
 ```
@@ -154,4 +158,5 @@ tmpfs           462M     0  462M   0% /sys/fs/cgroup
 /dev/sda1       4.6T  210M  4.6T   1% /mnt/backups
 ```
 
+## Conclusion
 I think this is a really nice change in mounting the volumes and will create a more stable configuration, regardless which USB port you've used to connect your drive.

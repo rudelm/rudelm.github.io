@@ -12,8 +12,10 @@ tags:
 title: Email notification for fail2ban events
 url: /2020/09/23/email-notification-for-fail2ban-events/
 ---
-So I've configured <a href="https://centurio.net/2020/09/22/protect-ssh-services-with-fail2ban/" data-type="post" data-id="3355">my fail2ban installation</a> and I'm also able to <a href="https://centurio.net/2020/09/21/configure-mail-transport-agent-on-raspbian-with-external-smtp-server/" data-type="post" data-id="3352">send emails</a>. But wouldn't it be awesome if I'll get notified via email about any fail2ban event?
+# Introduction
+So I've configured [my fail2ban installation](/2020/09/22/protect-ssh-services-with-fail2ban) and I'm also able to [send emails](/2020/09/21/configure-mail-transport-agent-on-raspbian-with-external-smtp-server). But wouldn't it be awesome if I'll get notified via email about any fail2ban event?
 
+## Lets start
 We start with editing the /etc/fail2ban/jail.local file. Look for the destemail and action parameters and change them accordingly:
 
 ```
@@ -30,6 +32,7 @@ The action can be one of these, whereby I've chosen action_mwl:
   * action_mwl: ban the IP and send email with whois information about the banned IP and add relevant log lines to the email
   * action\_cf\_mwl: notify Cloudfare about the offending IP, ban the IP and send email with whois information about the banned IP
 
+## Restart fail2ban
 Do a restart of fail2ban:
 
 ```
@@ -64,6 +67,7 @@ sudo cp /etc/fail2ban/action.d/mail-buffered.local /etc/fail2ban/action.d/sendma
 sudo cp /etc/fail2ban/action.d/mail-buffered.local /etc/fail2ban/action.d/sendmail-common.local
 ```
 
+## Second restart
 Do a restart of fail2ban:
 
 ```

@@ -11,14 +11,17 @@ tags:
 title: Free purgeable space on MacOS Mojave
 url: /2020/09/09/free-purgeable-space-on-macos-mojave/
 ---
+# Introduction
 I've recently deleted a large preview database file for Lightroom and was happy about the 80GB won free space. However, the MacOS disk utility as well as the terminal command  "df -h" did not show the free space. I've also checked the trash and cleared it, but there was no change in the available disk space.
 
-I've taken a closer look at the free space column in the disk utility and found a new variable behind the available disk space: GB purgeable.<figure class="wp-block-image size-large">
+## Disk Utility
+I've taken a closer look at the free space column in the disk utility and found a new variable behind the available disk space: GB purgeable.
 
-<img loading="lazy" width="1024" height="309" src="https://centurio.net/wp-content/uploads/2020/09/purgeableSpaceMacOSDiskUtility-1024x309.png" alt="" class="wp-image-3345" srcset="https://centurio.net/wp-content/uploads/2020/09/purgeableSpaceMacOSDiskUtility-1024x309.png 1024w, https://centurio.net/wp-content/uploads/2020/09/purgeableSpaceMacOSDiskUtility-300x91.png 300w, https://centurio.net/wp-content/uploads/2020/09/purgeableSpaceMacOSDiskUtility-768x232.png 768w, https://centurio.net/wp-content/uploads/2020/09/purgeableSpaceMacOSDiskUtility-1536x464.png 1536w, https://centurio.net/wp-content/uploads/2020/09/purgeableSpaceMacOSDiskUtility.png 1822w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
+{{< img "images/purgeableSpaceMacOSDiskUtility.png" "Purgeable space in Disk utility" >}}
 
 However, there is nowhere an option to purge this space. Upon further searching I've found [this tip on stack overflow](https://apple.stackexchange.com/a/398356/19241):
 
+## TimeMachine is the culprit
 It looks like TimeMachine takes up a lot of free space in APFS snapshots which needs manual cleaning using this command:
 
 ```

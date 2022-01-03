@@ -11,6 +11,7 @@ tags:
 title: Fixing Xcode command line tools after upgrade to macOS Catalina 10.15
 url: /2020/10/26/fixing-xcode-command-line-tools-after-upgrade-to-macos-catalina-10-15/
 ---
+# Introduction
 Today I've updated to macOS Catalina 10.15. I've tried to setup zsh instead of bash and ran intro troubles with Xcode command line tools.
 
 If I run
@@ -40,9 +41,11 @@ sudo rm -rf /Library/Developer
 
 but the problem is still present.
 
-Many people suggest to go to the developer.apple.com page and to search manually for the Xcode command line tools. I thought this wouldn't work, because I'm only seeing the Xcode command line tools for Xcode 12.<figure class="wp-block-image size-large">
+## Download manually
 
-<img loading="lazy" width="1024" height="945" src="https://centurio.net/wp-content/uploads/2020/10/XcodeCommandLineTools12-1024x945.png" alt="" class="wp-image-3402" srcset="https://centurio.net/wp-content/uploads/2020/10/XcodeCommandLineTools12-1024x945.png 1024w, https://centurio.net/wp-content/uploads/2020/10/XcodeCommandLineTools12-300x277.png 300w, https://centurio.net/wp-content/uploads/2020/10/XcodeCommandLineTools12-768x709.png 768w, https://centurio.net/wp-content/uploads/2020/10/XcodeCommandLineTools12.png 1033w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
+Many people suggest to go to the developer.apple.com page and to search manually for the Xcode command line tools. I thought this wouldn't work, because I'm only seeing the Xcode command line tools for Xcode 12.
+
+{{< img "images/XcodeCommandLineTools12.png" "Xcode Command Line Tools 12 from developer.apple.com" >}}
 
 However, we're already at Xcode 12.1, so I thought this is the wrong download and is already outdated. But after I've installed the tools from this dmg, its working again and 
 
@@ -52,5 +55,7 @@ xcode-select: error: command line tools are already installed, use "Software Upd
 ```
 
 shows a suitable error message.
+
+## Conclusion
 
 So lessons learned: using the latest major version of the command line tools installer seems to be sufficient.

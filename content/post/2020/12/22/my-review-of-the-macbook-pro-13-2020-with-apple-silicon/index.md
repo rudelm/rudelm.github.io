@@ -14,7 +14,7 @@ tags:
 title: My Review of the MacBook Pro 13" (2020) with Apple Silicon
 url: /2020/12/22/my-review-of-the-macbook-pro-13-2020-with-apple-silicon/
 ---
-## Introduction
+# Introduction
 
 After careful considerations and watching a lot of YouTube videos about the new Macs with Apple Silicon hardware, I've decided to order myself a shiny new MacBook Pro 13" with 16GB RAM and 512GB SSD. I could compare it to my works MacBook Pro 16" as well as my older MacBook Pro 15" from mid 2014 and I must say, I'm really impressed.
 
