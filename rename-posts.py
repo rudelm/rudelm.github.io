@@ -13,7 +13,8 @@ def move_to_dir(file_entry, result):
     title = result.group(4)
     new_path = "{}/{}/{}/{}/{}/".format(content_dir, year, month, day, title)
     create_dir(new_path)
-    move_post(new_path, title, file_entry)
+    # blog posts should be placed in index.md so that page resources are working
+    move_post(new_path, 'index.md', file_entry)
 
 def create_dir(target_path):
     if not os.path.exists(target_path):
