@@ -29,9 +29,9 @@ I own a Xiaomi Robot Vacuum. This robot can be controlled by the Xiaomi app, how
   * Download [Raspbian lite image](https://www.raspberrypi.org/software)
   * Download [Etcher](https://etcher.io/)
 
-Use Etcher to write the image to the SD card. Remount that SD card and add a file called &#8222;ssh" in the root of the mounted partition. This will enable SSH from the beginning so that you can login directly to the Pi. I don't want to attach a screen or keyboard to that machine so it will only be reachable over the network. Now boot your Pi from this SD card.
+Use Etcher to write the image to the SD card. Remount that SD card and add a file called  "ssh" in the root of the mounted partition. This will enable SSH from the beginning so that you can login directly to the Pi. I don't want to attach a screen or keyboard to that machine so it will only be reachable over the network. Now boot your Pi from this SD card.
 
-Identify the Pi's IP (e.g. by looking at the network overview in your router). Now connect to that IP with user &#8222;pi". The default password is &#8222;raspberry". Please change the password now with `passwd` and assign a new user password.
+Identify the Pi's IP (e.g. by looking at the network overview in your router). Now connect to that IP with user  "pi". The default password is  "raspberry". Please change the password now with `passwd` and assign a new user password.
 
 Update everything with apt:
 

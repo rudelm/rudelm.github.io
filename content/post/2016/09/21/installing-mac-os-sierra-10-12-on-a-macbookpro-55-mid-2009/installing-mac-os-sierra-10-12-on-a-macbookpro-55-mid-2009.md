@@ -16,9 +16,9 @@ Mac OS Sierra was [released yesterday](http://www.macworld.co.uk/news/mac-softwa
 
 I've backuped the Macbook and gave the given instructions a try. Instead of reinstalling everything I only updated from El Capitan to Sierra. After the first restart, the Macbook shut down, as it didn't found a valid boot partition.
 
-So I rebooted again to the patched installation media and ran the proposed &#8222;macOS Post Install...". I've selected my type of Macbook and let it patch. Additionally I've ran the &#8222;Force Cache Rebuild" command and rebooted.
+So I rebooted again to the patched installation media and ran the proposed  "macOS Post Install...". I've selected my type of Macbook and let it patch. Additionally I've ran the  "Force Cache Rebuild" command and rebooted.
 
-The Macbook booted to Sierra 🙂 However, the FaceTime camera wasn't detected and I wasn't able to get it working again. Since there was a &#8222;Legacy USB Support injector" I think this might cause the problem. The FaceTime camera is connected internally over USB so it seems to have some problems.
+The Macbook booted to Sierra 🙂 However, the FaceTime camera wasn't detected and I wasn't able to get it working again. Since there was a  "Legacy USB Support injector" I think this might cause the problem. The FaceTime camera is connected internally over USB so it seems to have some problems.
 
 I don't think this is a big problem. You'll probably get this somehow fixed with a little time and patience. However, since I'm running a real Mac hardware (and no Hackintosh), I don't want to fiddle around with such basic hardware problems.
 

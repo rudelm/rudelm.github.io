@@ -15,7 +15,7 @@ url: /2011/09/08/microsoft-windows-phone-7-und-der-erste-virenscanner/
 ---
 **Small update: please [use Google Translate for an english version](http://translate.google.com/translate?sl=auto&tl=en&js=n&prev=_t&hl=en&ie=UTF-8&layout=2&eotf=1&u=http%3A%2F%2Fcenturio.net%2F2011%2F09%2F08%2Fmicrosoft-windows-phone-7-und-der-erste-virenscanner%2F). I still need time to think about a good multilanguage solution for this blog 🙂**
 
-Es war nur eine Frage der Zeit, bis der erste Virenscanner für Microsoft Windows Phone 7 erscheint. Gestern war es dann &#8222;endlich" soweit: [AVG Mobilation Anti-Virus Free](http://www.avgmobilation.com/products)
+Es war nur eine Frage der Zeit, bis der erste Virenscanner für Microsoft Windows Phone 7 erscheint. Gestern war es dann  "endlich" soweit: [AVG Mobilation Anti-Virus Free](http://www.avgmobilation.com/products)
 
 Nun ist es aber so, dass die App ganz normal vom Microsoft Marketplace geladen werden kann. Was bedeutet das für die App?
 
@@ -30,8 +30,8 @@ Soviel in Kürze zu den Grundlagen, die man haben muss, um zu verstehen, warum d
 Warum behaupte ich, dass der AVG AV sinnlos ist? Nun ja, da gibt es mehrere Punkte:
 
   * Da die App wie jede andere App auch nur die nötigsten Rechte bekommt, kann es andere Speicherorte nicht untersuchen, geschweige denn irgendetwas desinfizieren oder löschen! Einzige Orte an denen gesucht werden kann sind die Multimedia Daten. Also Bilder, Videos und Musik.
-  * [Rafael Rivera](http://www.withinwindows.com/2011/09/07/the-only-time-youll-see-avg-security-suite-warn-you-about-malware-on-windows-phone-7/) hat sich die Anti-Virus Definitionen angeguckt. Sie bestehen tatsächlich nur aus einer XML Datei, in der quasi nur &#8222;eicar" definiert ist. Eicar ist ein Testvirus, der benutzt werden kann um die Funktion eines Virenscanners zu überprüfen. Diese Anwendung sucht nur nach diesem String im Dateinamen [(Dank an Justin Angel)](http://www.justinangel.net) und schlägt dann Alarm.
-  * Die angepriesene Safe Search und Safe Surf Funktion macht nichts weiteres, als den Suchbegriff im Eingabefenster an einen WebBrowserTask zu übergeben, der dann den Mobile Internet Explorer startet. Man wird dann auf eine Webseite von AVG weitergeleitet, die letztlich nur eine Google Suche ist. Für die Google Suche wird dann vermutlich die Google Safe Browsing API verwendet und das ist dann der einzige &#8222;Schutz".
+  * [Rafael Rivera](http://www.withinwindows.com/2011/09/07/the-only-time-youll-see-avg-security-suite-warn-you-about-malware-on-windows-phone-7/) hat sich die Anti-Virus Definitionen angeguckt. Sie bestehen tatsächlich nur aus einer XML Datei, in der quasi nur  "eicar" definiert ist. Eicar ist ein Testvirus, der benutzt werden kann um die Funktion eines Virenscanners zu überprüfen. Diese Anwendung sucht nur nach diesem String im Dateinamen [(Dank an Justin Angel)](http://www.justinangel.net) und schlägt dann Alarm.
+  * Die angepriesene Safe Search und Safe Surf Funktion macht nichts weiteres, als den Suchbegriff im Eingabefenster an einen WebBrowserTask zu übergeben, der dann den Mobile Internet Explorer startet. Man wird dann auf eine Webseite von AVG weitergeleitet, die letztlich nur eine Google Suche ist. Für die Google Suche wird dann vermutlich die Google Safe Browsing API verwendet und das ist dann der einzige  "Schutz".
 
 Aber heute morgen hab ich dann noch eine schöne Neuigkeit über dieses Programm erfahren: Es benötigt die GPS Position des Telefons. Justin Angel hat dies herausgefunden und weiter analysiert:
 

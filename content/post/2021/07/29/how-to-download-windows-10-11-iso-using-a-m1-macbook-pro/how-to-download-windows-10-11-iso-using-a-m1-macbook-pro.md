@@ -17,13 +17,13 @@ I've recently tried [UTM](https://mac.getutm.app) on my Apple Silicon MBP to tes
 ## Get Windows 11 Insider Preview
 Go to [UUP dump](https://uupdump.net). This page lists all available UUP files from Windows Update servers.
 
-Search for &#8222;feature update Windows 10" or &#8222;Windows 11 Insider Preview" and select a recent version for the required architecture (e.g. x64). Click on next.
+Search for  "feature update Windows 10" or  "Windows 11 Insider Preview" and select a recent version for the required architecture (e.g. x64). Click on next.
 
 Select a language and click next.
 
-Select an edition, like &#8222;Windows Pro" and click next.
+Select an edition, like  "Windows Pro" and click next.
 
-Select Download method &#8222;Download and convert to ISO". Check &#8222;Include updates" and click on &#8222;Create download package".
+Select Download method  "Download and convert to ISO". Check  "Include updates" and click on  "Create download package".
 
 Extract the resulting file. You'll see three scripts:
 
@@ -31,7 +31,7 @@ Extract the resulting file. You'll see three scripts:
   * Linux: `uup_download_linux.sh`
   * macOS: `uup_download_macos.sh`
 
-Make the uup\_download\_macos.sh executable by using &#8222;chmod +x uup\_download\_macos.sh" and try to execute it.
+Make the uup\_download\_macos.sh executable by using  "chmod +x uup\_download\_macos.sh" and try to execute it.
 
 It will probably complain about missing files. But at the same time, it offers help on what you'll need to install using homebrew, e.g.:
 

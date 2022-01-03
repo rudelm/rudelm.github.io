@@ -17,7 +17,7 @@ url: /2007/09/09/werbung-nrw-forschungstag-it-sicherheit-2007-in-bochum/
 ---
 Ich hab gerade vor ein paar Tagen diese Email vom HGI bekommen, das ganze klingt sehr interessant und ist kostenlos. Sehr zu empfehlen, eine vorherige Anmeldung ist allerdings erforderlich! Ich denke, ich werde wohl hingehen 🙂
 
-Update: Bin angemeldet. Das Formular ist über diesen Link erreichbar. Ich habe mal bei Firma/Abteilung &#8222;keine/keine" eingetragen
+Update: Bin angemeldet. Das Formular ist über diesen Link erreichbar. Ich habe mal bei Firma/Abteilung  "keine/keine" eingetragen
 
 > Sehr geehrte Damen und Herren,
 > 
@@ -35,7 +35,7 @@ Update: Bin angemeldet. Das Formular ist über diesen Link erreichbar. Ich habe 
 > Von der Forschung in den Markt: Wirtschaft und Wissenschaft im Dialog
 > 
 > Als zentrale Schnittstelle zwischen Wirtschaft und Wissenschaft zeigt der  
-> &#8222;NRW-Forschungstag IT-Sicherheit 2007" Best Practice-Beispiele und  
+>  "NRW-Forschungstag IT-Sicherheit 2007" Best Practice-Beispiele und  
 > Erfolgsfaktoren für die Entwicklung innovativer IT-Sicherheitslösungen und  
 > marktnaher Forschungsprojekte.
 > 
@@ -47,7 +47,7 @@ Update: Bin angemeldet. Das Formular ist über diesen Link erreichbar. Ich habe 
 > 
 > Schlüsseltechnologie IT-Sicherheit: Erfolgschancen anwendungsorientierter  
 > Forschungsprojekte PKI nach Anwenderbedarf: Trustcentersoftware  
-> &#8222;FlexiTrust"
+>  "FlexiTrust"
 > 
 > Manipulationssicherheit und Trusted Computing: EMSCB/Turaya Digitale  
 > Wasserzeichen Datensicherheit für Embedded Systems

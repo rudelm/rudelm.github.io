@@ -37,7 +37,7 @@ x ./Install OS X El Capitan.app/Contents
 …
 ```
 
-Now we can try to create the install media from the installer app. Make sure you've attach another disk which can be overwritten by the installer. In this example its named &#8222;MyBlankUSBDrive":
+Now we can try to create the install media from the installer app. Make sure you've attach another disk which can be overwritten by the installer. In this example its named  "MyBlankUSBDrive":
 
 ```
 # "Install OS X El Capitan.app/Contents/Resources/createinstallmedia" --volume /Volumes/MyBlankUSBDrive --applicationpath "Install OS X El Capitan.app"

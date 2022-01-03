@@ -11,6 +11,7 @@ tags:
 title: Howto avoid resets of default Apple Music media folder when using a NAS
 url: /2021/02/18/howto-avoid-resets-of-default-apple-music-media-folder-when-using-a-nas/
 ---
+# Introduction
 I'm a longtime fan and user of [automount](https://centurio.net/2016/03/16/automount-network-shares-on-mac-os-for-use-in-itunes/). Automount mounts automatically my Apple Music media folder, once the Music app tries to access it.
 
 I've recently updated to a Macbook with apple Silicon running Big Sur. It looks like the default behaviour changed, because I'm often adding songs to Apple music, just to see that they are copied to my SSD instead of the automounted NAS media folder.
@@ -19,7 +20,7 @@ This is incredible annoying and is probably caused by a race condition between A
 
 {{< img "images/MusicUpdatingLibrary.png" "Apple Music Updating screen" >}}
 
-[&#8222;Limnos" pointed me](https://discussions.apple.com/thread/252216475) to a potential workaround for this behaviour:
+[ "Limnos" pointed me](https://discussions.apple.com/thread/252216475) to a potential workaround for this behaviour:
 
   * Create a symbolic link to the Apple Music app on your SSD and place it on the automounted volume.
   * Create a second symbolic link from the first link back to your SSD applications folder.
@@ -39,7 +40,7 @@ You can test this now by unmounting the volume manually on the terminal. If you 
 
 Nevertheless, Apple Music forgot its media path and I'll have to change it again to the folder. So this is just a bad workaround. Even when you'll change the media's path after this test, it will be reset on the next iTunes startup.
 
-So ultimately I'll end up with a the instructions of &#8222;[Make a split library portable](https://discussions.apple.com/docs/DOC-7392)&#8222;, which basically says you shouldn't separate the Apple Music library and its media. Always put the library next to the location of your media.
+So ultimately I'll end up with a the instructions of  "[Make a split library portable](https://discussions.apple.com/docs/DOC-7392) ", which basically says you shouldn't separate the Apple Music library and its media. Always put the library next to the location of your media.
 
 Also you'll need to make sure that you'll manually open the right .musiclibrary file. You can define the library to open when you hold the alt key before you'll start the Apple Music app:
 

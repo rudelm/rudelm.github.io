@@ -15,9 +15,9 @@ tags:
 title: Synology DiskStation Download Station access to temporary BitTorrent files
 url: /2013/10/06/synology-diskstation-download-station-access-to-temporary-bittorrent-files/
 ---
-My [Synology DS-213+](http://www.amazon.de/gp/product/B008U69DDG) can be used as a BitTorrent client. The necessary package &#8222;[Download Station](https://kb.synology.com/en-af/DSM/help/DownloadStation/DownloadStation_desc?version=6)" is available for free in the standard repositories of the DiskStation. If you use the Download Station for BitTorrent downloads, you may want to access files from the torrent early and before the complete torrent is finished.
+My [Synology DS-213+](http://www.amazon.de/gp/product/B008U69DDG) can be used as a BitTorrent client. The necessary package  "[Download Station](https://kb.synology.com/en-af/DSM/help/DownloadStation/DownloadStation_desc?version=6)" is available for free in the standard repositories of the DiskStation. If you use the Download Station for BitTorrent downloads, you may want to access files from the torrent early and before the complete torrent is finished.
 
-In this case you could assume that the setup download folder would be also used as a place for these temporary files. But the Download Station uses a hidden folder for these files. It's only visible if you login to your DiskStation using [SSH](http://centurio.net/2012/12/29/synology-ds213-ssh-mit-zertifikaten/) or Telnet. It's the folder &#8222;/volume1/@download".
+In this case you could assume that the setup download folder would be also used as a place for these temporary files. But the Download Station uses a hidden folder for these files. It's only visible if you login to your DiskStation using [SSH](http://centurio.net/2012/12/29/synology-ds213-ssh-mit-zertifikaten/) or Telnet. It's the folder  "/volume1/@download".
 
 If you want to continue to download and want to check the folders content at the same time, you will need to mount this folder to a shared folder which is accessable via SMB or AFP and their likes. The command
 

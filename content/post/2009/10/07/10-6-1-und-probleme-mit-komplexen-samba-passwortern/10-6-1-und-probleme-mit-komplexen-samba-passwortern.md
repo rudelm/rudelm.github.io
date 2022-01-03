@@ -13,7 +13,7 @@ Irgendwas war dann doch anders, nachdem ich auf 10.6 das Upgrade gemacht habe...
 Doch was kann das Problem sein?  
 <!--more-->
 
-Nachdem ich mich per SSH auf der Fritzbox eingelogt habe, konnte ich merkwürdige Fehlermeldungen über eine falsche Codepage finden. Da dachte ich schon &#8222;Oh man, das neue Trunk Image (Entwicklerversion aus dem SVN) der Fritzbox funktioniert mal wieder nicht" und da habe ich schon wieder angefangen neue Firmware zu kompilieren. Allerdings wars das dann doch nicht.
+Nachdem ich mich per SSH auf der Fritzbox eingelogt habe, konnte ich merkwürdige Fehlermeldungen über eine falsche Codepage finden. Da dachte ich schon  "Oh man, das neue Trunk Image (Entwicklerversion aus dem SVN) der Fritzbox funktioniert mal wieder nicht" und da habe ich schon wieder angefangen neue Firmware zu kompilieren. Allerdings wars das dann doch nicht.
 
 Das Passwort des Samba Accounts habe ich dann auch ein paar mal geändert bzw. neu eingetragen, aber es hat einfach nichts gebracht. Der Finder von Mac OS hat einfach die Verbindung verweigert und wollte mir irgendwas davon erzählen, dass die Freigabe nicht verfügbar wäre.
 

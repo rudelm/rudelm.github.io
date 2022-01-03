@@ -28,27 +28,27 @@ The download will take its time to complete. If it's finished, go to step 2. Oth
 
 ## 2. Cancel the installation
 
-When the Mavericks installer opens, don't continue it. Close it over the menu or press &#8222;alt+q" to quit the installer.
+When the Mavericks installer opens, don't continue it. Close it over the menu or press  "alt+q" to quit the installer.
 
 ## 3. Connect the USB stick and prepare it
 
 Now connect your USB stick. I recommend a stick with at least 16GB space available (like [this from SanDisk](http://www.amazon.de/gp/product/B00422DCB6)). This stick will be formatted, so make a backup of its content or use a dedicated one especially for this sole purpose.
 
-  * Open the &#8222;Disk Utility" and select your connected USB Stick.
-  * Choose Partition and select 1 Partition. Set the name to &#8222;stick". This way we can identify it better in step 4. Select &#8222;Mac OS Extended (Journaled)" and assign the complete space to this partition:  
+  * Open the  "Disk Utility" and select your connected USB Stick.
+  * Choose Partition and select 1 Partition. Set the name to  "stick". This way we can identify it better in step 4. Select  "Mac OS Extended (Journaled)" and assign the complete space to this partition:  
     <a href="http://centurio.net/wp-content/uploads/2013/12/Partition\_USB\_Stick.png" data-rel="lightbox-image-1" data-rl\_title="" data-rl\_caption="" title=""><img loading="lazy" class="aligncenter size-medium wp-image-2114" alt="Partition USB Stick" src="http://centurio.net/wp-content/uploads/2013/12/Partition_USB_Stick-300x258.png" width="300" height="258" srcset="https://centurio.net/wp-content/uploads/2013/12/Partition_USB_Stick-300x258.png 300w, https://centurio.net/wp-content/uploads/2013/12/Partition_USB_Stick-35x30.png 35w, https://centurio.net/wp-content/uploads/2013/12/Partition_USB_Stick.png 745w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  * Be sure to select &#8222;Options", &#8222;GUID Partition Table" instead of &#8222;Master Boot Record":  
+  * Be sure to select  "Options",  "GUID Partition Table" instead of  "Master Boot Record":  
     <a href="http://centurio.net/wp-content/uploads/2013/12/GUID.png" data-rel="lightbox-image-2" data-rl\_title="" data-rl\_caption="" title=""><img loading="lazy" class="aligncenter size-medium wp-image-2113" alt="GUID" src="http://centurio.net/wp-content/uploads/2013/12/GUID-300x229.png" width="300" height="229" srcset="https://centurio.net/wp-content/uploads/2013/12/GUID-300x229.png 300w, https://centurio.net/wp-content/uploads/2013/12/GUID-35x26.png 35w, https://centurio.net/wp-content/uploads/2013/12/GUID.png 457w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  * Now press &#8222;Apply" and let the Mac format the stick.
+  * Now press  "Apply" and let the Mac format the stick.
 
 ## 4. Create the Mavericks installer
 
-Open the &#8222;Terminal" application and enter:
+Open the  "Terminal" application and enter:
 
 [code]  
 sudo /Applications/Install\ OS\ X\ Mavericks.app/Contents/Resources/createinstallmedia -volume /Volumes/untitled -applicationpath /Applications/Install\ OS\ X\ Mavericks.app -nointeraction[/code]
 
-Replace the &#8222;/Volumes/untitled" with the name of the Volume we've created in step 3, e.g. &#8222;/Volumes/stick". This command will ask for your Mac administrator password, so enter it and proceed.
+Replace the  "/Volumes/untitled" with the name of the Volume we've created in step 3, e.g.  "/Volumes/stick". This command will ask for your Mac administrator password, so enter it and proceed.
 
 Now the installer will create a bootable USB stick. You should see something like this:
 
@@ -68,13 +68,13 @@ Copy complete.
 Done.  
 [/code]
 
-If you look your desktop, you should see a new volume called &#8222;Install OS X Mavericks":
+If you look your desktop, you should see a new volume called  "Install OS X Mavericks":
 
-<a href="http://centurio.net/wp-content/uploads/2013/12/Install\_OS\_X\_Maverics\_Icon.png" data-rel="lightbox-image-3" data-rl\_title="" data-rl\_caption="" title=""><img loading="lazy" class="aligncenter size-full wp-image-2115" alt="Install OS X Maverics Icon" src="http://centurio.net/wp-content/uploads/2013/12/Install_OS_X_Maverics_Icon.png" width="130" height="121" srcset="https://centurio.net/wp-content/uploads/2013/12/Install_OS_X_Maverics_Icon.png 130w, https://centurio.net/wp-content/uploads/2013/12/Install_OS_X_Maverics_Icon-35x32.png 35w" sizes="(max-width: 130px) 100vw, 130px" /></a>If you open it, you will see the &#8222;Install OS X Mavericks.app" which you could now execute to perfom a normal upgrade installation. But you wanted this stick especially for the creation of new clean installation, therefore reboot your mac.
+<a href="http://centurio.net/wp-content/uploads/2013/12/Install\_OS\_X\_Maverics\_Icon.png" data-rel="lightbox-image-3" data-rl\_title="" data-rl\_caption="" title=""><img loading="lazy" class="aligncenter size-full wp-image-2115" alt="Install OS X Maverics Icon" src="http://centurio.net/wp-content/uploads/2013/12/Install_OS_X_Maverics_Icon.png" width="130" height="121" srcset="https://centurio.net/wp-content/uploads/2013/12/Install_OS_X_Maverics_Icon.png 130w, https://centurio.net/wp-content/uploads/2013/12/Install_OS_X_Maverics_Icon-35x32.png 35w" sizes="(max-width: 130px) 100vw, 130px" /></a>If you open it, you will see the  "Install OS X Mavericks.app" which you could now execute to perfom a normal upgrade installation. But you wanted this stick especially for the creation of new clean installation, therefore reboot your mac.
 
 ## 5. Boot into the installer
 
-During the startup sound, press the &#8222;alt" key. This will open up the boot menu selector. You can now select the Volume we've created. It should be a yellow symbol with an USB logo on it.
+During the startup sound, press the  "alt" key. This will open up the boot menu selector. You can now select the Volume we've created. It should be a yellow symbol with an USB logo on it.
 
  
 
