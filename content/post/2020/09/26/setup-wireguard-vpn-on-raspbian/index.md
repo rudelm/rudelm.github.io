@@ -71,7 +71,7 @@ sudo apt install wireguard
 I've transferred the created config from the WireGuard host to the WireGuard client and ran
 
 ```
-sudo wg-quick up &lt;ProfileName>
+sudo wg-quick up  <ProfileName>
 ```
 
 And it established really fast a connection. However, my problem was now that the SSH connection broke because all of the traffic to and from the client was going through the WireGuard VPN (like you would have used it for your phone when you're in an unsecured WiFi and want to redirect all traffic through the VPN).
@@ -79,7 +79,7 @@ And it established really fast a connection. However, my problem was now that th
 Luckily I was able to stop the connection by SSHing from the WireGuard VPN to the assigned IP of the WireGuard client and by using
 
 ```
-sudo wg-quick down &lt;ProfileName>
+sudo wg-quick down  <ProfileName>
 ```
 
 The question is now, how can I configure WireGuard Client to just know the route through the VPN to resources in the host network or vice versa how I can configure the WireGuard Host to provide other machines in the network a route to the connected client...

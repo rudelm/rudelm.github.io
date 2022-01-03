@@ -24,7 +24,7 @@ The problem with Raspbian is that [I've tried to auto mount the NFS share on sta
 I've used these settings in my /etc/fstab to mount the volume automatically:
 
 ```
-&lt;DS IP>:/volume1/databases /mnt/databases nfs auto,user,rw,nolock,nosuid 0 0
+ <DS IP>:/volume1/databases /mnt/databases nfs auto,user,rw,nolock,nosuid 0 0
 ```
 
 This doesn't work properly since my influxdb is often dead after a restart, but if I check the mounted volumes I see the NFS volume mounted properly.
@@ -46,7 +46,7 @@ Open the file /etc/auto.master and add something like this
 Now create a file called /etc/auto.databases with this content
 
 ```
-databases       -fstype=nfs,user,nolock,nosuid,rw &lt;DS IP>:/volume1/databases
+databases       -fstype=nfs,user,nolock,nosuid,rw  <DS IP>:/volume1/databases
 ```
 
 Unmount the existing NFS share. Remove/comment out the line for the nfs mount in your /etc/fstab so that it doesn't conflict with autofs. Restart autofs with

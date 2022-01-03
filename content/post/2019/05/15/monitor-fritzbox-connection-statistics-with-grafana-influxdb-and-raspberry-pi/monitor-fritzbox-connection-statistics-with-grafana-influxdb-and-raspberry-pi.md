@@ -49,18 +49,18 @@ LoadPlugin network
 Scroll down till you'll see the plugin configuration and configure the port and IP for collectd
 
 ```
-&lt;Plugin network>
+ <Plugin network>
     Server "127.0.0.1" "25826"
-&lt;/Plugin>
+ </Plugin>
 ```
 
 Enable the python plugin and configure the module with the username and password of the user you've created. Make also sure to use the right address.
 
 ```
-&lt;Plugin python>
+ <Plugin python>
     Import "fritzcollectd"
 
-    &lt;Module fritzcollectd>
+     <Module fritzcollectd>
         Address "fritz.box"
         Port 49000
         User "user"
@@ -68,8 +68,8 @@ Enable the python plugin and configure the module with the username and password
         Hostname "FritzBox"
         Instance "1"
         Verbose "False"
-    &lt;/Module>
-&lt;/Plugin>
+     </Module>
+ </Plugin>
 ```
 
 Since you've already got a running InfluxDB, you'll just need to enable collectd as data source:

@@ -39,7 +39,7 @@ It is time to test it. Try the command with a known IP in America and one from a
 
 ```
 > /usr/local/bin/ipfilter.sh
-Usage:  ipfilter.sh &lt;ip>
+Usage:  ipfilter.sh  <ip>
 > /usr/local/bin/ipfilter.sh 8.8.8.8
 > echo $?
 1

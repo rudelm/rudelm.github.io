@@ -118,7 +118,7 @@ cp /usr/local/lib/node_modules/homebridge/config-sample.json ~/.homebridge/confi
     
     Generate a new MAC address separated by : using [this website](https://www.miniwebtool.com/mac-address-generator/). You'll need the IP address of your Xiaomi robot as well as the token. There are [several ways to get the token](https://github.com/jghaanstra/com.xiaomi-miio/blob/master/docs/obtain_token.md). I've extracted mine from the iOS backup. Instead of uploading the token I've used this command on the token taken from the sqlite database:
     
-    <pre class="lang:default decode:true">echo '0: &lt;YOUR HEXADECIMAL STRING >' | xxd -r -p | openssl enc -d -aes-128-ecb -nopad -nosalt -K 00000000000000000000000000000000
+    <pre class="lang:default decode:true">echo '0:  <YOUR HEXADECIMAL STRING >' | xxd -r -p | openssl enc -d -aes-128-ecb -nopad -nosalt -K 00000000000000000000000000000000
 
 ```
 

@@ -75,7 +75,7 @@ allow_anonymous false
 You can setup the mosquitto.passwd using the docker container and/or an installation of mosquitto, so that you can use the mosquitto_passwd tool.
 
 ```
-mosquitto_passwd -c /mosquitto/config/mosquitto.passwd &lt;username>
+mosquitto_passwd -c /mosquitto/config/mosquitto.passwd  <username>
 ```
 
 It will ask you twice for the password for the username. If you want to setup additional users, you should omit the -c parameter, so that the existing file won't be overwritten.

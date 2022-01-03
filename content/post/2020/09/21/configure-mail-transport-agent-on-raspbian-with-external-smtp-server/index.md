@@ -50,7 +50,7 @@ User configuration file name: /home/pi/.msmtprc
 
 Copyright (C) 2016 Martin Lambers and others.
 This is free software.  You may redistribute copies of it under the terms of
-the GNU General Public License &lt;http://www.gnu.org/licenses/gpl.html >.
+the GNU General Public License  <http://www.gnu.org/licenses/gpl.html >.
 There is NO WARRANTY, to the extent permitted by law.
 ```
 
@@ -88,7 +88,7 @@ account root
 
 # Host name of the SMTP server
 # TODO: Use the host of your own mail account
-host &lt;your Username provided by KAS>.kasserver.com
+host  <your Username provided by KAS>.kasserver.com
 
 # As an alternative to tls_trust_file/tls_crl_file, you can use tls_fingerprint
 # to pin a single certificate. You have to update the fingerprint when the
@@ -105,7 +105,7 @@ from user@domain.name
 auth on
 
 # TODO: Use your own user name fpr the mail account
-user &lt;The username of the email account you use for sending emails>
+user  <The username of the email account you use for sending emails>
 
 # Password method 1: Add the password to the system keyring, and let msmtp get
 # it automatically. To set the keyring password using Gnome's libsecret:
@@ -123,7 +123,7 @@ user &lt;The username of the email account you use for sending emails>
 # a good idea to store passwords in plain text files. If you do it anyway, at
 # least make sure that this file can only be read by yourself.
 # TODO: Use the password of your own mail account
-password &lt;The password of the email account you use for sending emails>
+password  <The password of the email account you use for sending emails>
 
 # Password method 4: Store the password in ~/.netrc. This method is probably not
 # relevant anymore.

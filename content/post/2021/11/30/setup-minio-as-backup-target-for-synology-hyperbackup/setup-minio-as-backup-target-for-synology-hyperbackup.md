@@ -85,11 +85,11 @@ MINIO_VOLUMES="/data"
 # Use if you want to run Minio on a custom port
 MINIO_OPTS="--certs-dir /data/.minio/certs --address :443"
 # Access Key of the server.
-MINIO_ACCESS_KEY=&lt;someAccessKey >
+MINIO_ACCESS_KEY= <someAccessKey >
 # Secret key of the server.
-MINIO_SECRET_KEY=&lt;someSecretKey >
+MINIO_SECRET_KEY= <someSecretKey >
 # Server Domain
-MINIO_DOMAIN=&lt;domain >
+MINIO_DOMAIN= <domain >
 ```
 
 Reload systemd:

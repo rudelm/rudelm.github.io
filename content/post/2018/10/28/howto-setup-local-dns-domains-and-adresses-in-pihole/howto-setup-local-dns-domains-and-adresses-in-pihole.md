@@ -17,7 +17,7 @@ If you use the AVM FritzBox you'll now about this dreaded DNS suffix  "fritz.box
 Create a file called lan.list in /etc/pihole and fill it with content in the following format:
 
 ```
-&lt;ip-address> &lt;hostname>.stuff.local &lt;hostname>
+ <ip-address>  <hostname>.stuff.local  <hostname>
 ```
 
 Create a second dnsmasq config file which references the file we've just created:
