@@ -27,9 +27,9 @@ Select Download method  "Download and convert to ISO". Check  "Include updates" 
 
 Extract the resulting file. You'll see three scripts:
 
-  * Windows: `uup_download_windows.cmd`
-  * Linux: `uup_download_linux.sh`
-  * macOS: `uup_download_macos.sh`
+  * Windows: `uup_download_windows.cmd`
+  * Linux: `uup_download_linux.sh`
+  * macOS: `uup_download_macos.sh`
 
 Make the uup\_download\_macos.sh executable by using  "chmod +x uup\_download\_macos.sh" and try to execute it.
 

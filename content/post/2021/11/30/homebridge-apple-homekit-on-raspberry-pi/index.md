@@ -53,4 +53,4 @@ There are also some good instructions online:
 
 ## Combination with Apple TV 4K
 
-If you want to use homebridge while you are on the road you'll need to have either an iPad or an Apple TV setup to use the same iCloud account like your phone does. It looks like you'll also need to enable the iCloud Keychain, otherwise the communication won't work and you don't see the homekit setting in your Apple TV settings. However, I've removed iCloud Keychain from my setup and it still seems to be working.
+If you want to use homebridge while you are on the road you'll need to have either an iPad or an Apple TV setup to use the same iCloud account like your phone does. It looks like you'll also need to enable the iCloud Keychain, otherwise the communication won't work and you don't see the homekit setting in your Apple TV settings. However, I've removed iCloud Keychain from my setup and it still seems to be working.

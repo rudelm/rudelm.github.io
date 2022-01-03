@@ -37,7 +37,7 @@ I'm using the Mac Mini for hearing Spotify, watching Netflix and Sky Go Connect,
 </p>
 
 <p class="p1">
-  My Xbox 360 Gamepads where installed without problems. I just had to connect them via the USB adapter and pair them with the adapter. They are usable in Kodi as well as in Gamestarter without further configuration. I think that PS3 gamepads will probably behave similar.
+  My Xbox 360 Gamepads where installed without problems. I just had to connect them via the USB adapter and pair them with the adapter. They are usable in Kodi as well as in Gamestarter without further configuration. I think that PS3 gamepads will probably behave similar.
 </p>
 
 <p class="p1">
@@ -45,13 +45,13 @@ I'm using the Mac Mini for hearing Spotify, watching Netflix and Sky Go Connect,
 </p>
 
 <p class="p1">
-  For Spotify I've just wanted the Pi 3 to appear as a Spotify connect speaker. The mobile apps and my other machines in the network are a better solution to select the music I want to hear, so I just wanted the Pi 3 to appear as a target. The <a href="https://forum.libreelec.tv/thread/8438-librespot-addon/">Librespot</a> provides this cool feature and also enables you to add easily Spotify connect to other rooms in your house with just a Raspberry Pi. Just search in the add-on for Librespot and install it. After a restart its active. Spotify connect is available immediately and stops automatically once a movie is started. It will be available again once the movie is really stopped (being paused is insufficient). Connecting to Librespot is really fast and works even better than with my Heos speakers!
+  For Spotify I've just wanted the Pi 3 to appear as a Spotify connect speaker. The mobile apps and my other machines in the network are a better solution to select the music I want to hear, so I just wanted the Pi 3 to appear as a target. The <a href="https://forum.libreelec.tv/thread/8438-librespot-addon/">Librespot</a> provides this cool feature and also enables you to add easily Spotify connect to other rooms in your house with just a Raspberry Pi. Just search in the add-on for Librespot and install it. After a restart its active. Spotify connect is available immediately and stops automatically once a movie is started. It will be available again once the movie is really stopped (being paused is insufficient). Connecting to Librespot is really fast and works even better than with my Heos speakers!
 </p>
 
 <a href="http://centurio.net/2017/07/23/raspberry-pi-3-with-kodi-netflix-spotify-connect-hyperion-and-retroarch/spotifyconnectpi3/" rel="attachment wp-att-2348"><img loading="lazy" class="aligncenter size-medium wp-image-2348" src="http://centurio.net/wp-content/uploads/2017/07/SpotifyConnectPi3-185x300.png" alt="" width="185" height="300" srcset="https://centurio.net/wp-content/uploads/2017/07/SpotifyConnectPi3-185x300.png 185w, https://centurio.net/wp-content/uploads/2017/07/SpotifyConnectPi3.png 560w" sizes="(max-width: 185px) 100vw, 185px" /></a>
 
 <p class="p1">
-  Netflix is a completely different beast. Netflix is relying on a library called WideVine which handles the DRM. Google created a version for Chrome on ARM devices and some LibreElec and Kodi developers found a great way to integrate all this into the next version of LibreElec 9 and Kodi 18. So you need to update to <span class="s2"> <a href="https://forum.kodi.tv/showthread.php?tid=298461">LibreElec 9 alpha</a>. Copy the downloaded update file for Raspberry Pi 2 and 3 and put it into the update folder of your Pi 3. Now just restart and you'll get the new version. <strong>However, be sure to make a backup of your library, just in case anything doesn't work as expected!</strong></span>
+  Netflix is a completely different beast. Netflix is relying on a library called WideVine which handles the DRM. Google created a version for Chrome on ARM devices and some LibreElec and Kodi developers found a great way to integrate all this into the next version of LibreElec 9 and Kodi 18. So you need to update to <span class="s2"> <a href="https://forum.kodi.tv/showthread.php?tid=298461">LibreElec 9 alpha</a>. Copy the downloaded update file for Raspberry Pi 2 and 3 and put it into the update folder of your Pi 3. Now just restart and you'll get the new version. <strong>However, be sure to make a backup of your library, just in case anything doesn't work as expected!</strong></span>
 </p>
 
 You'll now need the WideVine libs, you can install them with this command on your Pi:

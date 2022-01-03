@@ -11,7 +11,7 @@ tags:
 title: Update Windows 8.1 Pro to Windows 10 Pro with USB stick
 url: /2015/07/31/update-windows-8-1-pro-to-windows-10-pro-with-usb-stick/
 ---
-I'm trying [since last night](http://centurio.net/2015/07/30/update-windows-8-1-pro-to-windows-10-my-experience/) to install the update from Windows 8.1 Pro to Windows 10 Pro on my gaming machine. The experience wasn't smooth as I expected, since I'm using an english Windows installation, while Microsoft's media creation tool always seem to use the german setup of Windows 10.
+I'm trying [since last night](http://centurio.net/2015/07/30/update-windows-8-1-pro-to-windows-10-my-experience/) to install the update from Windows 8.1 Pro to Windows 10 Pro on my gaming machine. The experience wasn't smooth as I expected, since I'm using an english Windows installation, while Microsoft's media creation tool always seem to use the german setup of Windows 10.
 
 You cannot upgrade without data loss (your apps are removed), if you install a different language of Windows. The installation of language packs isn't helping here either, so you'll need to install exactly the language version, you've once installed.
 
@@ -39,6 +39,6 @@ The update is running. It seems to keep my installed apps and data:
 
 <a href="http://centurio.net/wp-content/uploads/2015/07/ReadyToInstallAndKeepAppsAndData.png" data-rel="lightbox-image-2" data-rl\_title="" data-rl\_caption="" title=""><img loading="lazy" class="aligncenter size-medium wp-image-2245" src="http://centurio.net/wp-content/uploads/2015/07/ReadyToInstallAndKeepAppsAndData-300x235.png" alt="Ready to install and keep apps and data" width="300" height="235" srcset="https://centurio.net/wp-content/uploads/2015/07/ReadyToInstallAndKeepAppsAndData-300x235.png 300w, https://centurio.net/wp-content/uploads/2015/07/ReadyToInstallAndKeepAppsAndData.png 716w" sizes="(max-width: 300px) 100vw, 300px" /></a>**Update 19:35:**
 
-It's finally running! All apps & settings are still there and working. Glad that this finally worked out. BTW: Although I installed en-en Windows 10 started with en-us langauge settings.
+It's finally running! All apps & settings are still there and working. Glad that this finally worked out. BTW: Although I installed en-en Windows 10 started with en-us langauge settings.
 
  

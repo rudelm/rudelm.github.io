@@ -23,7 +23,7 @@ Here's my shared folder for use with docker, its under /volume1/docker:
 mqtt
 ├── data
 ├── log
-│   └── mosquitto.log
+│   └── mosquitto.log
 ├── mosquitto.conf
 └── mosquitto.passwd
 ```

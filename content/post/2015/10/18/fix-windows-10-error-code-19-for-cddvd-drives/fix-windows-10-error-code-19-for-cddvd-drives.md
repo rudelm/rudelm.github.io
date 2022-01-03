@@ -27,13 +27,13 @@ I took control and searched the web for the exact error message from the device 
 
 * * *
 
-**Beware: Take a backup of your registry before you edit and just follow instructions from the internet! I cannot be held responsible for damage/problems caused to your machine.**
+**Beware: Take a backup of your registry before you edit and just follow instructions from the internet! I cannot be held responsible for damage/problems caused to your machine.**
 
 * * *
 
  
 
-I only found instructions for older Windows versions. However, I've tried those instructions on my machine and found a **LowerFilters** entry in my machine's registry:
+I only found instructions for older Windows versions. However, I've tried those instructions on my machine and found a **LowerFilters** entry in my machine's registry:
 
 <a href="http://centurio.net/wp-content/uploads/2015/10/Windows10DVDRW\_fix.png" data-rel="lightbox-image-1" data-rl\_title="" data-rl_caption="" title=""><img loading="lazy" class="aligncenter size-medium wp-image-2257" src="http://centurio.net/wp-content/uploads/2015/10/Windows10DVDRW_fix-300x238.png" alt="Windows 10 fix for Code 19" width="300" height="238" srcset="https://centurio.net/wp-content/uploads/2015/10/Windows10DVDRW_fix-300x238.png 300w, https://centurio.net/wp-content/uploads/2015/10/Windows10DVDRW_fix-1024x814.png 1024w, https://centurio.net/wp-content/uploads/2015/10/Windows10DVDRW_fix.png 1286w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 

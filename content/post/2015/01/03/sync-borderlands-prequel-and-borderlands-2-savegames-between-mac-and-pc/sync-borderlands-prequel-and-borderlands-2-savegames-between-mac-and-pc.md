@@ -15,7 +15,7 @@ tags:
 title: Sync Borderlands Prequel and Borderlands 2 savegames between Mac and PC
 url: /2015/01/03/sync-borderlands-prequel-and-borderlands-2-savegames-between-mac-and-pc/
 ---
-I really liked Borderlands 2. So much, that I played over 42 hours already 🙂 This happened all on my gaming PC. With my new Macbook Pro and the availability of Borderlands for Mac, I intend to play it in LAN mode occasionally when I'm visiting friends who also play Borderlands. However, I was shocked when I started Steam on my Mac and did not see the savegames from my PC, although Steam's Cloud Synchronisation was active.
+I really liked Borderlands 2. So much, that I played over 42 hours already 🙂 This happened all on my gaming PC. With my new Macbook Pro and the availability of Borderlands for Mac, I intend to play it in LAN mode occasionally when I'm visiting friends who also play Borderlands. However, I was shocked when I started Steam on my Mac and did not see the savegames from my PC, although Steam's Cloud Synchronisation was active.
 
 <a href="http://centurio.net/wp-content/uploads/2015/01/Borderlands\_2\_Steam\_Cloud\_Sync.png" data-rel="lightbox-image-0" data-rl\_title="" data-rl\_caption="" title=""><img loading="lazy" class="aligncenter size-medium wp-image-2183" src="http://centurio.net/wp-content/uploads/2015/01/Borderlands_2_Steam_Cloud_Sync-300x72.png" alt="Borderlands 2 Steam Cloud Sync" width="300" height="72" srcset="https://centurio.net/wp-content/uploads/2015/01/Borderlands_2_Steam_Cloud_Sync-300x72.png 300w, https://centurio.net/wp-content/uploads/2015/01/Borderlands_2_Steam_Cloud_Sync-35x8.png 35w, https://centurio.net/wp-content/uploads/2015/01/Borderlands_2_Steam_Cloud_Sync.png 470w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
@@ -23,7 +23,7 @@ A short research showed that the developers of Borderlands had this feature deac
 
 > **Q: Will I be able to sync my game saves between the Windows PC, Mac, and Linux versions?**
 > 
-> A: Yes, but with a caveat: characters and saved games will NOT sync between Windows PC, Mac, and Linux via Steam Cloud.  Since the Mac and Linux versions of Borderlands: The Pre-Sequel may frequently be in an out of sync with the Windows PC version, syncing game saves across platforms via Steam Cloud has been disabled.  This will ensure saved game data will not be lost or corrupt due to incompatible in-game content or other unforeseen reasons.  Users do have the option of transferring game saves via physical media (like a thumb drive) if they wish.
+> A: Yes, but with a caveat: characters and saved games will NOT sync between Windows PC, Mac, and Linux via Steam Cloud.  Since the Mac and Linux versions of Borderlands: The Pre-Sequel may frequently be in an out of sync with the Windows PC version, syncing game saves across platforms via Steam Cloud has been disabled.  This will ensure saved game data will not be lost or corrupt due to incompatible in-game content or other unforeseen reasons.  Users do have the option of transferring game saves via physical media (like a thumb drive) if they wish.
 
  
 

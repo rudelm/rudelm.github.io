@@ -17,7 +17,7 @@ However, Microsoft decided to deliver the update files in several waves to keep 
 
 If you are like me interested in getting the newest versions immediately, you'll probably checked your Windows update setting and didn't notice any new updates for you.
 
-Yesterday Ginny Caughey recommended to just use a certain command:
+Yesterday Ginny Caughey recommended to just use a certain command:
 
 {{< tweet user="gcaughey" id="626352655217106944" >}}
 

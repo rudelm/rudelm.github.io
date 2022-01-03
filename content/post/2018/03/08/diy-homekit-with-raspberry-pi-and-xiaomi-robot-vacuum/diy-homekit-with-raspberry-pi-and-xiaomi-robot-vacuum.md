@@ -16,7 +16,7 @@ tags:
 title: DIY HomeKit with Raspberry Pi and Xiaomi Robot Vacuum
 url: /2018/03/08/diy-homekit-with-raspberry-pi-and-xiaomi-robot-vacuum/
 ---
-Inspired by tweets of [Steven Troughten-Smith](https://twitter.com/stroughtonsmith), people started to experiment with Raspberry Pi's as DIY HomeBridge devices. One of them is [Wojtek Pietrusiewicz](https://twitter.com/morid1n). He wrote a [nice article](https://infinitediaries.net/using-a-raspberry-pi-zero-w-to-add-a-camera-and-a-xiaomi-air-purifier-2-to-homekit-via-homebridge/) which I used as base for this post.
+Inspired by tweets of [Steven Troughten-Smith](https://twitter.com/stroughtonsmith), people started to experiment with Raspberry Pi's as DIY HomeBridge devices. One of them is [Wojtek Pietrusiewicz](https://twitter.com/morid1n). He wrote a [nice article](https://infinitediaries.net/using-a-raspberry-pi-zero-w-to-add-a-camera-and-a-xiaomi-air-purifier-2-to-homekit-via-homebridge/) which I used as base for this post.
 
 # Introduction
 
@@ -48,8 +48,8 @@ sudo reboot
 
 According to Wojtek only this version works currently with HomeBridge. I did not test any other version so I'm just describing what I did on my machine:
 
-  1. Download nodejs for the PI into your users homefolder, e.g. with `wget https://nodejs.org/dist/v8.9.4/node-v8.9.4-linux-armv6l.tar.xz`
-  2. Unpack the file with `tar -xvf node-v8.9.4-linux-armv6l.tar.xz`
+  1. Download nodejs for the PI into your users homefolder, e.g. with `wget https://nodejs.org/dist/v8.9.4/node-v8.9.4-linux-armv6l.tar.xz`
+  2. Unpack the file with `tar -xvf node-v8.9.4-linux-armv6l.tar.xz`
   3. `cd node-v8.9.4-linux-armv61`
   4. `sudo cp -R * /usr/local/`
   5. add `export PATH=$PATH:/usr/local/bin` to e.g. `~/.bashrc`
@@ -57,8 +57,8 @@ According to Wojtek only this version works currently with HomeBridge. I did not
 
 ## Install HomeBridge
 
-  1. Install the necessary libraries: `sudo apt-get install libavahi-compat-libdnssd-dev`
-  2. Install HomeBridge with npm: `sudo npm install -g --unsafe-perm homebridge`
+  1. Install the necessary libraries: `sudo apt-get install libavahi-compat-libdnssd-dev`
+  2. Install HomeBridge with npm: `sudo npm install -g --unsafe-perm homebridge`
   3. open `/etc/default/homebridge` and safe it with this content: <pre class="lang:default decode:true"># Defaults / Configuration options for homebridge
 # The following settings tells homebridge where to find the config.json file and where to persist the data (i.e. pairing and others)
 HOMEBRIDGE_OPTS=-U /var/homebridge
@@ -68,7 +68,7 @@ HOMEBRIDGE_OPTS=-U /var/homebridge
 # DEBUG=*
 ```
 
-  4. open `/etc/systemd/system/homebridge.service` and safe it with this content: ```
+  4. open `/etc/systemd/system/homebridge.service` and safe it with this content: ```
 [Unit]
 Description=Node.js HomeKit Server 
 After=syslog.target network-online.target
@@ -93,8 +93,8 @@ cp /usr/local/lib/node_modules/homebridge/config-sample.json ~/.homebridge/confi
 
 ## Setting up HomeBridge with Xiaomi Robot Vacuum
 
-  1. `sudo npm install -g homebridge-xiaomi-mi-robot-vacuum miio`
-  2. open `~/.homebridge/config.json` and safe it with this content: <pre class="lang:default decode:true">{
+  1. `sudo npm install -g homebridge-xiaomi-mi-robot-vacuum miio`
+  2. open `~/.homebridge/config.json` and safe it with this content: <pre class="lang:default decode:true">{
  "bridge": {
  "name": "Homebridge",
  "username": "XX:XX:XX:XX:XX:XX",

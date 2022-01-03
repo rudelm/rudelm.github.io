@@ -19,7 +19,7 @@ The shared folder on my Synology is configured to be accessible by various IPs i
 
 <img loading="lazy" width="862" height="569" src="http://centurio.net/wp-content/uploads/2018/11/synology-nfs-settings.png" alt="" class="wp-image-3232" srcset="https://centurio.net/wp-content/uploads/2018/11/synology-nfs-settings.png 862w, https://centurio.net/wp-content/uploads/2018/11/synology-nfs-settings-300x198.png 300w, https://centurio.net/wp-content/uploads/2018/11/synology-nfs-settings-768x507.png 768w" sizes="(max-width: 862px) 100vw, 862px" /> </figure> 
 
-The problem with Raspbian is that [I've tried to auto mount the NFS share on startup](http://centurio.net/2018/10/28/howto-ensure-automatically-mounted-nfs-volume-on-raspbian-stretch/), so that the influxdb service can directly write to the NFS mount. 
+The problem with Raspbian is that [I've tried to auto mount the NFS share on startup](http://centurio.net/2018/10/28/howto-ensure-automatically-mounted-nfs-volume-on-raspbian-stretch/), so that the influxdb service can directly write to the NFS mount. 
 
 I've used these settings in my /etc/fstab to mount the volume automatically:
 

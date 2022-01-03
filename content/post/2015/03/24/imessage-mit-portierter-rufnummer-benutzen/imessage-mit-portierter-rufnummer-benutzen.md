@@ -19,7 +19,7 @@ Wenn man ein neues iPhone besitzt muss man auf einige Details achten. Das ist in
 
 Im Falle einer Portierung bekommt man eine temporäre Telefonnummer und kann diese erst einmal in dem neuen iPhone benutzen und dort für iMessage einrichten.
 
-Am Tage der Portierung wird diese alte Nummer aber ungültig. Beide iPhones haben dann kein Netz mehr und Anrufer erhalten entsprechende Meldungen (temporäre Nummer: ist z.Z. nicht vergeben, portierte Nummer: ist z.Z. nicht erreichbar). Nach einem Neustart des neuen iPhones bucht sich das iPhone wieder im Netz ein und ist dann unter der portierten Nummer erreichbar. Allerdings stimmen die iMessage Einstellungen nicht und verweisen nach wie vor auf die temporäre Nummer. In diesem Fall muss man einige Einstellungen auf dem alten und neuen iPhone bearbeiten, so dass die temporäre Nummer entfernt und die portierte Nummer auf dem neuen iPhone aktiv wird.
+Am Tage der Portierung wird diese alte Nummer aber ungültig. Beide iPhones haben dann kein Netz mehr und Anrufer erhalten entsprechende Meldungen (temporäre Nummer: ist z.Z. nicht vergeben, portierte Nummer: ist z.Z. nicht erreichbar). Nach einem Neustart des neuen iPhones bucht sich das iPhone wieder im Netz ein und ist dann unter der portierten Nummer erreichbar. Allerdings stimmen die iMessage Einstellungen nicht und verweisen nach wie vor auf die temporäre Nummer. In diesem Fall muss man einige Einstellungen auf dem alten und neuen iPhone bearbeiten, so dass die temporäre Nummer entfernt und die portierte Nummer auf dem neuen iPhone aktiv wird.
 
 Auf dem alten iPhone mit alter Sim und alter Nummer:
 

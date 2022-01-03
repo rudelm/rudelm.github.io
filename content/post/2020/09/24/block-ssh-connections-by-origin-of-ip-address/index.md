@@ -11,10 +11,12 @@ tags:
 title: Block SSH connections by origin of IP address
 url: /2020/09/24/block-ssh-connections-by-origin-of-ip-address/
 ---
-If you're exposing services to the internet, you'll notice a lot of connection attempts. To block those bots and scripts trying to login to your machine, you should use <a href="https://centurio.net/2020/09/22/protect-ssh-services-with-fail2ban/" data-type="post" data-id="3355">fail2ban</a>.
+# Introduction
+If you're exposing services to the internet, you'll notice a lot of connection attempts. To block those bots and scripts trying to login to your machine, you should use [fail2ban](/2020/09/22/protect-ssh-services-with-fail2ban).
 
 However, you can also limit the range of allowed origins of the IP addresses. The company MaxMind provides a database of IP addresses and their origin contries. You can configure your machine in such a way that only certain country codes are allowed.
 
+## Install geoip client
 Start by installing the geoip client and database by using this apt command:
 
 ```
@@ -23,6 +25,7 @@ sudo apt-get install geoip-bin geoip-database
 
 This database is updated automatically, when you've got your machine configured for auto updates.
 
+## ipfilter script
 The next step is to save this script to your machine in /usr/local//usr/local/bin/ipfilter.sh:
 
 Edit the script to your needs, e.g. by limiting the number of allowed countries. Now make this script executable:
@@ -31,6 +34,7 @@ Edit the script to your needs, e.g. by limiting the number of allowed countries.
 chmod +x /usr/local/bin/ipfilter.sh
 ```
 
+## Testing
 It is time to test it. Try the command with a known IP in America and one from a local network or known IP from the allowed countries:
 
 ```
@@ -53,7 +57,7 @@ sshd: ALL: aclexec /usr/local/bin/ipfilter.sh %a
 
 ```<figure class="wp-block-pullquote">
 
-> As documented in the `hosts_options(5)` man page, the standard output is redirected to `/dev/null`, so that there's no chance for you to get the output from `echo`. And as you want the exit status to be taken into account, you should use `aclexec` instead of `spawn`. Indeed the man page says for `aclexec`:  "The connection will be allowed or refused depending on whether the command returns a true or false exit status."
+> As documented in the `hosts_options(5)` man page, the standard output is redirected to `/dev/null`, so that there's no chance for you to get the output from `echo`. And as you want the exit status to be taken into account, you should use `aclexec` instead of `spawn`. Indeed the man page says for `aclexec`:  "The connection will be allowed or refused depending on whether the command returns a true or false exit status."
 > 
 > <cite>https://unix.stackexchange.com/a/149057/298669</cite></figure> 
 

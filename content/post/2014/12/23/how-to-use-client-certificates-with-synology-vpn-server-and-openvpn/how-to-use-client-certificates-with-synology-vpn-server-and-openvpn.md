@@ -36,7 +36,7 @@ I'm using DSM 5. There's a nice new Security setting in the system settings. You
 
 The next step depends on your computers OS. I'm using Mac OS where I can easily add the root CA certificate as an always trusted certificate.
 
-# 5. Reload the web interface of your DiskStation
+# 5. Reload the web interface of your DiskStation
 
 After you've set the certificate, the web interface should have been reloaded. Eventually you've been warned by your browser about a security issue (you did not trusted your root CA, therefore the web page was untrusted). After a reload and the instructions from step 4, this warning should go away. If you take a look at the certificate tab of the DiskStation's security setting, you will see that your new server certificate is active.
 
@@ -50,7 +50,7 @@ Enable OpenVPN from the Settings of the VPN Server. For more details [see Synolo
 
 # 8. Connect via SSH to your DiskStation
 
-Disable user authentication on the DiskStation and enable the certificate based authentication (code taken from this wiki) in this file: /usr/syno/etc/packages/VPNCenter/openvpn/openvpn.conf
+Disable user authentication on the DiskStation and enable the certificate based authentication (code taken from this wiki) in this file: /usr/syno/etc/packages/VPNCenter/openvpn/openvpn.conf
 
 ```lang-bash
 #ca /var/packages/VPNCenter/target/etc/openvpn/keys/ca.crt
@@ -97,6 +97,6 @@ verb 3
 
 The DiffieHellmann Parameters (dh) can also be created with XCA. I would recommend 2048, since 4096 takes ages to generate.
 
-# 10. Give it a try
+# 10. Give it a try
 
 Now you can test your VPN connection on your devices. It should not ask for a password, instead it should use the my.crt and my.key you've set in the configuration.

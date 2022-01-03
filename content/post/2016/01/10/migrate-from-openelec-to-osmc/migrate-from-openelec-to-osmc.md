@@ -17,7 +17,7 @@ url: /2016/01/10/migrate-from-openelec-to-osmc/
 ---
 I recently upgraded my ambilight clone from 50 to 104 LEDs and I've also updated my OpenElec installation on my Raspberry Pi B+ to 6.0.0. However, the [hyperiond](https://github.com/tvdzwan/hyperion/wiki/Installation) wasn't able to communicate properly with [Kodi](http://kodi.tv/) so that no ambilight information was send to the LEDs: The LEDs would always be black, if I want to watch something on the Raspberry Pi.
 
-<del><a href="https://github.com/tvdzwan/hyperion/issues/440" class="broken_link">I've opened an issue on github</a></del> but I didn't get  a useable response so far. The configuration and installation worked fine when I've connected with the iOS app or from the command line.
+<del><a href="https://github.com/tvdzwan/hyperion/issues/440" class="broken_link">I've opened an issue on github</a></del> but I didn't get  a useable response so far. The configuration and installation worked fine when I've connected with the iOS app or from the command line.
 
 Today I've tried to use [OSMC](https://osmc.tv/) as surrogate for OpenElec and I'm really impressed: it worked almost out of the box with my old configuration. So I want to share what's necessary to migrate from OpenElec to OSMC:
 

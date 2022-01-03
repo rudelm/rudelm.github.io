@@ -28,7 +28,7 @@ However, there is one important problem with this solution: Once you've disconne
 
 I thought I've taken care of this problem with auto connecting to the network share with a Login Item. However, this didn't help me much since I sometimes have disconnections to my network (e.g. when I'm on the road) and the network connection will only be created once during the login of your current user. So this doesn't help me at all and caused me to look for another better solution.
 
-So I've found <del>this gist</del> (the link is dead) and modified it a little bit to my environment. Therefore here's my short list of modifications for using autofs in combination with AFP or SMB volumes:
+So I've found <del>this gist</del> (the link is dead) and modified it a little bit to my environment. Therefore here's my short list of modifications for using autofs in combination with AFP or SMB volumes:
 
 If you now start up iTunes again, it will try to locate the media files in the /Volumes/music folder, like I manually specified it. However, autofs will now automatically mount the network share for me and iTunes won't complain about a missing volume. This way I won't ever need to take care of manually updating the path once I forgot connecting to my NAS 🙂
 
