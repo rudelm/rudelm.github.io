@@ -40,12 +40,17 @@ hugo-blog/static/wp-content/uploads/2021/02
 └── MusicUpdatingLibrary.png
 ```
 
-So I'll delete every version starting with - after the filename and move them from `static` to [page-bundles](https://gohugo.io/content-management/page-resources/), which is right next to the blog posts. This enables stuff like [image processing](https://gohugo.io/content-management/image-processing/).
+So I'll delete every version starting with - after the filename or `.thumbnail` and moved them from `static` to [page-bundles](https://gohugo.io/content-management/page-resources/), which is right next to the blog posts. This enables stuff like [image processing](https://gohugo.io/content-management/image-processing/).
 
 I've used the script `clean-image-versions.py` for this task.
 
+Additionally, there were a few images I had to check manually because of cryptic filenames. Those were probably used in blog posts, which I've already deleted. Wordpress doesn't automatically cleanup the linked media.
+
 ### Remove empty folders
 The Jekyll import contained a lot of empty folders in `static/wp-content/uploads` which I've cleaned by using `find ./static -type d -empty -delete`
+
+### Remove unused folders
+I've got some folders which where created by a plugin. They can all be deleted, e.g. `static/wp-content/backupwp-*` or `static/wp-content/thumb-cache`.
 
 ## Creating a new post
 Use `hugo new posts/hello.md` to create a new blog post. It won't have any additional timestamps in the filename unless you specify it, e.g. like `hugo new posts/2021-12-30-hello.md`. 
