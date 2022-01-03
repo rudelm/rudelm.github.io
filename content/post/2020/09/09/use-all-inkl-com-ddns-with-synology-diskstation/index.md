@@ -20,7 +20,7 @@ Setting up [DDNS in KAS](https://all-inkl.com/wichtig/anleitungen/kas/tools/ddns
 
 The important part was, that when you'll need to customize a DDNS provider first before it can be setup in DiskStation settings.
 
-{{< img "images/InklDDNSSynologySettings.png" "Synology DDNS Settings for use with All-inkl" >}}
+{{< img "images/All-InklDDNSSynologySettings.png" "Synology DDNS Settings for use with All-inkl" >}}
 
   * Go to Control Panel, External Access and click on Customize
   * Add a new name for the DDNS provider, e.g. All-Inkl.com
