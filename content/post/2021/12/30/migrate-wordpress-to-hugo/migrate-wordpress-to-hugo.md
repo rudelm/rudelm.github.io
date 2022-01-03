@@ -23,8 +23,8 @@ Blog posts are put into the `content/post` folder. The filenames are `YYYY-MM-DD
 ### Search and replace escaped characters
 * replace `&#8230;` with `...`
 * replace `&#8222;` with `"`
-* replace `"` with `"`
-* replace ` ` with ` `
+* replace `&#8220;` with `"`
+* replace `&nbsp;` with ` `
 ### Search and replace code markups
 Wordpress supports code blocks. These should be searched for and be replaced with a suitable markdown replacement.
 
