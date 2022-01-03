@@ -15,9 +15,9 @@ I'm a longtime fan and user of [automount](https://centurio.net/2016/03/16/autom
 
 I've recently updated to a Macbook with apple Silicon running Big Sur. It looks like the default behaviour changed, because I'm often adding songs to Apple music, just to see that they are copied to my SSD instead of the automounted NAS media folder.
 
-This is incredible annoying and is probably caused by a race condition between Apple Music and automount not mounting the volume fast enough. So from time to time I'll need to check my configured media folder in Apple music. I'll end up changing the folder back to the automount folder and need to wait for Apple music to finish a complete scan of the library:<figure class="wp-block-image size-large"><a href="https://centurio.net/wp-content/uploads/2021/02/MusicUpdatingLibrary.png" data-rel="lightbox-image-0" data-rl\_title="" data-rl\_caption="" title="">
+This is incredible annoying and is probably caused by a race condition between Apple Music and automount not mounting the volume fast enough. So from time to time I'll need to check my configured media folder in Apple music. I'll end up changing the folder back to the automount folder and need to wait for Apple music to finish a complete scan of the library:
 
-<img loading="lazy" width="452" height="239" src="https://centurio.net/wp-content/uploads/2021/02/MusicUpdatingLibrary.png" alt="" class="wp-image-3447" srcset="https://centurio.net/wp-content/uploads/2021/02/MusicUpdatingLibrary.png 452w, https://centurio.net/wp-content/uploads/2021/02/MusicUpdatingLibrary-300x159.png 300w" sizes="(max-width: 452px) 100vw, 452px" /> </a><figcaption>Waiting for Apple Music to update its library...</figcaption></figure> 
+{{< img "images/MusicUpdatingLibrary.png" "Apple Music Updating screen" >}}
 
 [&#8222;Limnos" pointed me](https://discussions.apple.com/thread/252216475) to a potential workaround for this behaviour:
 
@@ -41,9 +41,9 @@ Nevertheless, Apple Music forgot its media path and I'll have to change it again
 
 So ultimately I'll end up with a the instructions of &#8222;[Make a split library portable](https://discussions.apple.com/docs/DOC-7392)&#8222;, which basically says you shouldn't separate the Apple Music library and its media. Always put the library next to the location of your media.
 
-Also you'll need to make sure that you'll manually open the right .musiclibrary file. You can define the library to open when you hold the alt key before you'll start the Apple Music app:<figure class="wp-block-image size-large"><a href="https://centurio.net/wp-content/uploads/2021/02/AppleMusicLibrarySelection.png" data-rel="lightbox-image-1" data-rl\_title="" data-rl\_caption="" title="">
+Also you'll need to make sure that you'll manually open the right .musiclibrary file. You can define the library to open when you hold the alt key before you'll start the Apple Music app:
 
-<img loading="lazy" width="744" height="856" src="https://centurio.net/wp-content/uploads/2021/02/AppleMusicLibrarySelection.png" alt="" class="wp-image-3448" srcset="https://centurio.net/wp-content/uploads/2021/02/AppleMusicLibrarySelection.png 744w, https://centurio.net/wp-content/uploads/2021/02/AppleMusicLibrarySelection-261x300.png 261w" sizes="(max-width: 744px) 100vw, 744px" /> </a><figcaption>Apple Music asks for a library to use when you'll open it with alt key pressed.</figcaption></figure> 
+{{< img "images/AppleMusicLibrarySelection.png" "Apple Music Library Selection screen" >}}
 
 If you'll just double click, it will most likely not open the right library. Somehow macOS still knows where you've moved your local library file (e.g. to the NAS in the automounted folder) and will open it from the new location.
 
