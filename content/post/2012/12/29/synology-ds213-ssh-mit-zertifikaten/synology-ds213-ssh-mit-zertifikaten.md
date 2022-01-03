@@ -45,7 +45,7 @@ Bei der Erzeugung wird man nach einem Passwort gefragt. Dieses Passwort wird ver
 Aus dem erzeugten Schlüsselpaar kopieren wir jetzt den öffentlichen Schlüssel in die Datei authorized_keys:
 
 ```
-cat /root/.ssh/id_rsa.pub &gt;&gt; /root/.ssh/authorized_keys
+cat /root/.ssh/id_rsa.pub  >> /root/.ssh/authorized_keys
 ```
 
 Dieser Befehl hängt den Inhalt von id\_rsa.pub an das Ende von authorized\_keys und erzeugt die Datei, falls sie noch nicht existiert. Die Datei wird jetzt vor neugierigen Blicken auf dem System geschützt, es darf  nur noch root die Datei lesen:

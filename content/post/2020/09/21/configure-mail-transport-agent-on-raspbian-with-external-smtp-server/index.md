@@ -35,7 +35,7 @@ sudo apt-get install msmtp msmtp-mta mailutils
 Get the location of the configuration files:
 
 ```
-&gt; msmtp --version
+ > msmtp --version
 msmtp version 1.6.6
 Platform: arm-unknown-linux-gnueabihf
 TLS/SSL library: GnuTLS
@@ -50,7 +50,7 @@ User configuration file name: /home/pi/.msmtprc
 
 Copyright (C) 2016 Martin Lambers and others.
 This is free software.  You may redistribute copies of it under the terms of
-the GNU General Public License &lt;http://www.gnu.org/licenses/gpl.html&gt;.
+the GNU General Public License &lt;http://www.gnu.org/licenses/gpl.html >.
 There is NO WARRANTY, to the extent permitted by law.
 ```
 

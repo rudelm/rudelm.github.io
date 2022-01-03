@@ -60,7 +60,7 @@ sudo fail2ban-client status sshd
 If you end up being locked out, you can unlog an offending IP address using this command:
 
 ```
-sudo fail2ban-client set sshd unbanip &lt;offenders IP&gt;
+sudo fail2ban-client set sshd unbanip &lt;offenders IP >
 ```
 
 Banned connections will be dropped immediately by the firewall and should be visible with a  "connection refused".

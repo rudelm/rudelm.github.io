@@ -21,7 +21,7 @@ Apple uses their own version of SMB and enabled client signing to mitigate again
 Therefore I've disabled client-signing on my mac using this command:
 
 ```
-printf "[default]\nsigning_required=no\n" | sudo tee /etc/nsmb.conf &gt;/dev/null
+printf "[default]\nsigning_required=no\n" | sudo tee /etc/nsmb.conf  >/dev/null
 ```
 
 This will write this content
