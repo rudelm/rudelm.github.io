@@ -11,8 +11,10 @@ tags:
 title: Creating a backup of an existing OpenHAB installation
 url: /2019/11/21/creating-a-backup-of-an-existing-openhab-installation/
 ---
+# Introduction
 I'm about to try an update of my existing OpenHAB installation. Right now I've got a few things in a working state and in case I destroy anything I want to have a working backup. 
 
+## Creating a Backup
 Luckily, there's an integrated backup script on my 2.4.0 installation I can use. I just need to install the zip package first on my Raspbian using
 
 ```
@@ -43,4 +45,5 @@ Removing temporary files...
 Success! Backup made in /var/lib/openhab2/backups/openhab2-backup-19_11_21-19_24_30.zip
 ```
 
+## Conclusion
 The backup includes the installed plugins as well as the used configuration. Quite easy and fun to use!

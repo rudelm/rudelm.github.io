@@ -11,8 +11,10 @@ tags:
 title: Howto mass delete old Tweets on Twitter
 url: /2019/01/01/howto-mass-delete-old-tweets-on-twitter/
 ---
+# Introduction
 There's unfortunately no way to mass delete old Tweets you've posted on Twitter. There are some online services, who promise to delete your data for you, but since you'll have to grant them access to your account I've got a bad feeling and wanted to do things on my own.
 
+## Twitter Archive Eraser
 I've tried last year a windows only software called [Twitter Archive Eraser](https://martani.github.io/Twitter-Archive-Eraser/). Last year it used to be a github project which you could compile locally and let it run on your account. It's now free for a limited amount of tweets and also only works with tweets not older than two years. To remove these restrictions you've got to pay a small amount for a license.
 
 You'll need to download your complete message archive for the deletion process. Once you've got the data from Twitter you might as well start to write a little script which deletes the old messages for you using the Twitter post id. 
@@ -21,7 +23,7 @@ Luckily, I found [this blog post by Kris Shaffer](https://pushpullfork.com/i-del
 
 ## New approach using JSON Twitter archives
 
-This is the currently working approach (December 2020). I've updated the python script accordingly and put it into its separate [git repo on GitHub](https://github.com/rudelm/tweetcleaner).
+This is the currently working approach (December 2021). I've updated the python script accordingly and put it into its separate [git repo on GitHub](https://github.com/rudelm/tweetcleaner).
 
 ## Old approach using CVS Twitter archives
 

@@ -15,8 +15,10 @@ title: Configure Mosquitto mqtt broker  user authentication in Docker running on
   NAS
 url: /2019/12/16/configure-mosquitto-mqtt-broker-user-authentication-in-docker-running-on-synology-nas/
 ---
+# Introduction
 Today I've tried to enable user authentication for my Mosquitto mqtt broker running in a Docker container on my Synology NAS.
 
+## Synology folder structure
 Here's my shared folder for use with docker, its under /volume1/docker:
 
 ```
@@ -28,12 +30,14 @@ mqtt
 └── mosquitto.passwd
 ```
 
+## Permissions
 The mqtt folder needs to be accessible by the docker process running in the container, e.g. by using:
 
 ```
 sudo chown -R 1883:1883 mqtt/
 ```
 
+## Configuration
 The content of my used docker-compose.yml:
 
 ```
@@ -72,6 +76,7 @@ password_file /mosquitto/config/mosquitto.passwd
 allow_anonymous false
 ```
 
+## Setting up accounts
 You can setup the mosquitto.passwd using the docker container and/or an installation of mosquitto, so that you can use the mosquitto_passwd tool.
 
 ```
