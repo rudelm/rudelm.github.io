@@ -13,13 +13,23 @@ draft: true
 I'm annoyed by constant update notifications of wordpress. Plugins need also often updates and you've probably read about security issues as well.
 
 ## Export from Wordpress
+The data from Wordpress can either be pulled from an exported file or from a live connection to the database. Since I wanted the easy way, I've selected using a plugin and files.
+
 ### Plugin
+Install [this plugin](https://wordpress.org/plugins/jekyll-exporter/) in your Wordpress installation. Its quite simple. You just have to install it and open the plugin settings for download.
+
 ### Wordpress Import in Jekyll
+My first try with a static content creator was [Jekyll](https://jekyllrb.com) which is written in Ruby. I've gave it a short try but wasn't oo happy with the exiting themes.
+
 ### Jekyll Import in Hugo
 Blog posts are put into the `content/post` folder. The filenames are `YYYY-MM-DD-post-title.md`. I recommend changing this to `content/post/YYYY/MM/DD/post-title`, because it will enable cool stuff like image processing. I've created a small python script that moves them automatically called `rename-posts.py`.
 
 ## Search and replace
-* looks interesting: https://gist.github.com/rmaziarka/125cc7dcd99035de971a19dd3c1f46cd#file-wordpress-to-hugo-migrator-js-L288
+There are automated tools, which I did not test:
+* looks interesting, but is untested by me: https://gist.github.com/rmaziarka/125cc7dcd99035de971a19dd3c1f46cd#file-wordpress-to-hugo-migrator-js-L288
+
+You'll need to modify a lot of files manually. I've used this chance to drop a lot of old and outdated content from my blog.
+
 ### Search and replace escaped characters
 * replace `&#8230;` with `...`
 * replace `&#8222;` with `"`
@@ -119,6 +129,11 @@ The Jekyll import contained a lot of empty folders in `static/wp-content/uploads
 
 ### Remove unused folders
 I've got some folders which where created by a plugin. They can all be deleted, e.g. `static/wp-content/backupwp-*` or `static/wp-content/thumb-cache`.
+
+## Setting up a theme
+I've decided to use the [stack](https://docs.stack.jimmycai.com) theme and customized it to my needs.
+
+This theme has a back button, once it detects a markdown structure it can use in a table of content on the right side. For this, I had to manually modify all posts to introduce a first level heading with at least two second level headings. Otherwise the back button would have not been displayed. I'm not happy with this yet, but its working for now.
 
 ## Creating a new post
 Use `hugo new posts/hello.md` to create a new blog post. It won't have any additional timestamps in the filename unless you specify it, e.g. like `hugo new posts/2021-12-30-hello.md`. 
