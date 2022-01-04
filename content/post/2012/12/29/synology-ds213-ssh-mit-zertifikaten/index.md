@@ -5,7 +5,7 @@ categories:
 date: "2012-12-29T20:42:27Z"
 guid: http://centurio.net/?p=2021
 id: 2021
-image: /wp-content/uploads/2012/12/IMG_1291.jpg
+image: /2012/12/22/synology-ds213-raid-1-oder-shr/images/DS213plus.jpg
 tags:
 - DS213+
 - Mac OS X
@@ -14,23 +14,21 @@ tags:
 title: Synology DS213+ - SSH mit Zertifikaten
 url: /2012/12/29/synology-ds213-ssh-mit-zertifikaten/
 ---
+# Einleitung
 Auf der Synology DS213+ läuft ein Linux System. Dies kann man manchmal am bequemsten per Konsole über SSH steuern. Dabei hat man entweder die Möglichkeit eine User/Passwort Kombination oder eine User/Zertifikat Kombination zum Authentifizieren zu verwenden. Letztere ist deutlich sicherer und auch bequemer. Ich möchte daher kurz meine eigene Version der notwendigen Schritte bloggen, da die [meisten](https://confluence.atlassian.com/pages/viewpage.action?pageId=271943168#ConfiguringMultipleSSHIdentitiesforGitBash,MacOSX,&Linux-CreatemultipleidentitiesforMacOSX,GitBash,andLinux) verfügbaren Anleitungen nicht alle Schritte optimal für meine Situation lösen. Daher bekommt ihr hier jetzt meine Vorgehensweise, die teilweise Befehle aus den verlinkten Anleitungen nutzt:
-
  
-
-1. Aktivieren des SSH/Telnet Dienstes auf der DS
+## Aktivieren des SSH/Telnet Dienstes auf der DS
 
 Systemsteuerung, Terminal, Haken bei beiden Diensten setzen. Telnet machen wir im Moment nur an, damit wir im Notfall per Telnet uns auf die Konsole anmelden können. Dieser Dienst sollte nach erfolgreicher Konfiguration wieder dringend geschlossen werden, da die Daten unverschlüsselt übertragen werden!
 
-2. Einloggen mittels SSH
+## Einloggen mittels SSH
 
 Ich gehe mal davon aus, das jeder schon einmal SSH verwendet hat. Wenn nicht, dann gibt es z.B. [hier eine gute Anleitung](http://wiki.ubuntuusers.de/SSH). Ich selber nutze Mac OS X, daher bezieht sich diese Anleitung auch nur auf Mac OS X, sollte aber mit jedem Linux ähnlich machbar sein. Windows User mögen an dieser Stelle sich über [Putty](http://www.putty.org/) informieren.
 
 Als User verwendet man root mit dem Passwort des DiskStation admin Benutzers.
 
-<!--more-->
 
-3. SSH Key generieren
+## SSH Key generieren
 
 Mit dem Befehl
 
@@ -68,10 +66,10 @@ cat /root/.ssh/id_rsa.pub
 
 Ihr solltet jetzt zwei Dateien haben:
 
-  * <span style="line-height: 13px;" data-mce-mark="1">id_rsa_ds213plus - euer privater Schlüssel</span>
-  * id\_rsa\_ds213plus.pub  - euer öffentlicher Schlüssel
+  * id_rsa_ds213plus - euer privater Schlüssel
+  * id_rsa_ds213plus.pub  - euer öffentlicher Schlüssel
 
-4. SSH Daemon konfigurieren
+## SSH Daemon konfigurieren
 
 Ihr müsst die Authentifizierung mit Zertifikaten erst noch aktivieren. Dies stellt ihr in der Datei sshd_config ein. Diese Datei findet ihr im Ordner /etc/ssh. Ich benutze den Editor vi. Die Bedienung des Editors erkläre ich jetzt nicht, da verweise ich auf [diese Seite](http://www.danielklicks.de/blog/2012/04/synology-disk-station-gesicherter-ssh-zugang-mit-private-key/).
 
@@ -91,7 +89,7 @@ AuthorizedKeysFile ~/.ssh/authorized_keys
 
 Bevor jetzt der SSH Dienst voreilig neugestartet wird, müsst ihr erst einmal auf eurem Client die Konfiguration entsprechend anpassen.
 
-5. SSH Client konfigurieren
+## SSH Client konfigurieren
 
 Ihr habt im Schritt 3 zwei Dateien erzeugt mit dem Schlüsselpaar. Diese Dateien kopiert ihr euch in das .ssh Verzeichnis eures Benutzers und setzt die Rechte nur für diesen Benutzer mit dem Befehl
 
@@ -111,7 +109,7 @@ Host ds
 
 Wenn man jetzt ssh ds als Befehl eintippen würde, so würde dein SSH Client sich zu deiner DS unter der angegebenen IP verbinden auf Port 22, mit User root und dem privaten Schlüssel den wir vorhin kopiert hatten.
 
-6. Testen
+## Testen
 
 Der SSH Daemon muss neugestartet werden auf der DS. Dies geschieht mit dem Befehl
 
@@ -129,7 +127,7 @@ ssh ds
 
 Du solltest jetzt nach deinem Passwort zu dem vorhin erstellten SSH Schlüsselpaar gefragt werden. Hast du es eingegeben, so bist du direkt eingeloggt und musst nicht mehr das Passwort des DS admin verwenden.
 
-7. Aufräumen
+## Aufräumen
 
 In der config Datei des SSH Daemons kann man jetzt noch die User/Passwort Authentifizierung abschalten. Dies geschieht mit folgender Zeile:
 
@@ -141,6 +139,6 @@ Nach einem Neustart des SSH Daemons (siehe oben) solltest du dich nur noch mit d
 
 Deaktiviere nun noch den Telnet Dienst in der Systemsteuerung der DS.
 
-8. Optionales
+## Optionales
 
 Wenn du Mac OS verwendest, so wirst du bereits bei der Eingabe des Passworts für den SSH Key das Feld zum Speichern des Passwortes bemerkt haben. Wenn du diese Option wählst, so wird das Passwort in dem Mac OS Schlüsselbund hinterlegt. Ähnliche Möglichkeiten gibt es auch für Windows und Linux. Da schau am besten in den oben verlinkten Seiten nach.

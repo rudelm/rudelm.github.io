@@ -7,7 +7,7 @@ categories:
 date: "2013-10-06T03:01:32Z"
 guid: http://centurio.net/?p=2088
 id: 2088
-image: /wp-content/uploads/2012/12/IMG_1291.jpg
+image: /2012/12/22/synology-ds213-raid-1-oder-shr/images/DS213plus.jpg
 tags:
 - BitTorrent
 - DiskStation

@@ -6,7 +6,7 @@ categories:
 date: "2013-01-13T16:18:50Z"
 guid: http://centurio.net/?p=2044
 id: 2044
-image: /wp-content/uploads/2012/12/IMG_1291.jpg
+image: /2012/12/22/synology-ds213-raid-1-oder-shr/images/DS213plus.jpg
 tags:
 - DS213+
 - mdraid

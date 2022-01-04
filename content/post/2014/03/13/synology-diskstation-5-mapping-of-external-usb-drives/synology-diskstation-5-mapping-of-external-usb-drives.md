@@ -5,7 +5,7 @@ categories:
 date: "2014-03-13T23:26:24Z"
 guid: http://centurio.net/?p=2128
 id: 2128
-image: /wp-content/uploads/2012/12/IMG_1291.jpg
+image: /2012/12/22/synology-ds213-raid-1-oder-shr/images/DS213plus.jpg
 tags:
 - DiskStation
 - Synology

@@ -6,7 +6,7 @@ categories:
 date: "2012-12-22T23:19:23Z"
 guid: http://centurio.net/?p=2008
 id: 2008
-image: /wp-content/uploads/2012/12/IMG_1291.jpg
+image: /2012/12/22/synology-ds213-raid-1-oder-shr/images/DS213plus.jpg
 tags:
 - DS213+
 - Synology
