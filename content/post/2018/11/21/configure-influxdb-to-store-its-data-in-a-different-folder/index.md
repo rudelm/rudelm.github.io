@@ -12,7 +12,11 @@ tags:
 title: Configure influxDB to store its data in a different folder
 url: /2018/11/21/configure-influxdb-to-store-its-data-in-a-different-folder/
 ---
-The default location of the influxDB data is /var/lib/influxdb. If you want to change the location, you'll need to configure three folders to be in a different place. The changes should be done in the file /etc/influxdb/influxdb.conf
+# Introduction
+The default location of the influxDB data is /var/lib/influxdb.
+
+## Change the location
+If you want to change the location, you'll need to configure three folders to be in a different place. The changes should be done in the file /etc/influxdb/influxdb.conf
 
 ```
 ...
@@ -31,6 +35,7 @@ The default location of the influxDB data is /var/lib/influxdb. If you want to c
   wal-dir = "/mnt/databases/influxdb/wal"
 ```
 
+## Storing data on NFS volume
 I'm using this to store the data on a NFS share [which is mounted automatically](http://centurio.net/2018/11/21/auto-mount-nfs-shares-on-raspbian/). If you want to keep your existing data, move the existing content of /var/lib/influxdb to the new location.
 
 Make sure, that the new location is owned by influxdb user and group.

@@ -35,7 +35,8 @@ Identify the Pi's IP (e.g. by looking at the network overview in your router). N
 
 Update everything with apt:
 
-<pre class="lang:default decode:true">sudo apt-get update
+```
+sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get dist-upgrade
 sudo apt-get clean
@@ -59,16 +60,18 @@ According to Wojtek only this version works currently with HomeBridge. I did not
 
   1. Install the necessary libraries: `sudo apt-get install libavahi-compat-libdnssd-dev`
   2. Install HomeBridge with npm: `sudo npm install -g --unsafe-perm homebridge`
-  3. open `/etc/default/homebridge` and safe it with this content: <pre class="lang:default decode:true"># Defaults / Configuration options for homebridge
-# The following settings tells homebridge where to find the config.json file and where to persist the data (i.e. pairing and others)
-HOMEBRIDGE_OPTS=-U /var/homebridge
- 
-# If you uncomment the following line, homebridge will log more 
-# You can display this via systemd's journalctl: journalctl -f -u homebridge
-# DEBUG=*
-```
+  3. open `/etc/default/homebridge` and safe it with this content:
+  ```# Defaults / Configuration options for homebridge
+     # The following settings tells homebridge where to find the config.json file and where to persist the data (i.e. pairing and others)
+     HOMEBRIDGE_OPTS=-U /var/homebridge
 
-  4. open `/etc/systemd/system/homebridge.service` and safe it with this content: ```
+     # If you uncomment the following line, homebridge will log more 
+     # You can display this via systemd's journalctl: journalctl -f -u homebridge
+     # DEBUG=*
+  ```
+
+  4. open `/etc/systemd/system/homebridge.service` and safe it with this content: 
+  ```
 [Unit]
 Description=Node.js HomeKit Server 
 After=syslog.target network-online.target
@@ -86,7 +89,9 @@ KillMode=process
 WantedBy=multi-user.target
 ```
 
-  5. <pre class="lang:default decode:true">sudo useradd --system homebridge
+  5. 
+```
+sudo useradd --system homebridge
 sudo mkdir /var/homebridge
 cp /usr/local/lib/node_modules/homebridge/config-sample.json ~/.homebridge/config.json
 ```
@@ -94,7 +99,9 @@ cp /usr/local/lib/node_modules/homebridge/config-sample.json ~/.homebridge/confi
 ## Setting up HomeBridge with Xiaomi Robot Vacuum
 
   1. `sudo npm install -g homebridge-xiaomi-mi-robot-vacuum miio`
-  2. open `~/.homebridge/config.json` and safe it with this content: <pre class="lang:default decode:true">{
+  2. open `~/.homebridge/config.json` and safe it with this content: 
+```
+{
  "bridge": {
  "name": "Homebridge",
  "username": "XX:XX:XX:XX:XX:XX",
@@ -115,11 +122,11 @@ cp /usr/local/lib/node_modules/homebridge/config-sample.json ~/.homebridge/confi
  ]
 }
 ```
-    
-    Generate a new MAC address separated by : using [this website](https://www.miniwebtool.com/mac-address-generator/). You'll need the IP address of your Xiaomi robot as well as the token. There are [several ways to get the token](https://github.com/jghaanstra/com.xiaomi-miio/blob/master/docs/obtain_token.md). I've extracted mine from the iOS backup. Instead of uploading the token I've used this command on the token taken from the sqlite database:
-    
-    <pre class="lang:default decode:true">echo '0:  <YOUR HEXADECIMAL STRING >' | xxd -r -p | openssl enc -d -aes-128-ecb -nopad -nosalt -K 00000000000000000000000000000000
 
+Generate a new MAC address separated by : using [this website](https://www.miniwebtool.com/mac-address-generator/). You'll need the IP address of your Xiaomi robot as well as the token. There are [several ways to get the token](https://github.com/jghaanstra/com.xiaomi-miio/blob/master/docs/obtain_token.md). I've extracted mine from the iOS backup. Instead of uploading the token I've used this command on the token taken from the sqlite database:
+    
+```
+echo '0:  <YOUR HEXADECIMAL STRING >' | xxd -r -p | openssl enc -d -aes-128-ecb -nopad -nosalt -K 00000000000000000000000000000000
 ```
 
   3. Check if everything is working by starting homebridge for the first time. It should show a QR code. If it does, cancel the process with ctrl+c
@@ -137,7 +144,6 @@ sudo systemctl status homebridge
 ```
 
 # Adding the HomeBridge to iOS devices
-
   1. Install the Home app, if you've removed it from your device. You can reinstall it from the App store.
   2. Open the Home app and add a new device
   3. If you've give the app access to your camera, you can scan the QR code you've seen earlier. However, HomeBridge is now running as a daemon in the background so you won't see that QR code. You can add the bridge manually by using the PIN you've set in the config.

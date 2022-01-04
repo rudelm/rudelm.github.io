@@ -12,10 +12,12 @@ tags:
 title: Howto ensure automatically mounted NFS volume on Raspbian Stretch
 url: /2018/10/28/howto-ensure-automatically-mounted-nfs-volume-on-raspbian-stretch/
 ---
+# Introduction
 **Update**: [I'm doing the automated mount now with autofs](http://centurio.net/2018/11/21/auto-mount-nfs-shares-on-raspbian/).
 
 I've tried to setup NFS on my old Raspberry Pi 1 with Raspbian Stretch. I assumed that I just need to add an entry to the /etc/fstab file and the NFS volume on my Synology NAS would be mounted automatically.
 
+## The Problem
 So I've added this
 
 ```
@@ -34,6 +36,7 @@ and tried to mount everything with
 mount -a
 ```
 
+## The Solution
 and my volume showed up as mounted. After reboot the volume wasn't mounted anymore and the service couldn't find its data. So what shall we do? After some research I've found these options, which fixed the problem:
 
 ```
