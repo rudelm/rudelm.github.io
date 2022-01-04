@@ -6,7 +6,7 @@ categories:
 date: "2013-09-29T18:06:31Z"
 guid: http://centurio.net/?p=2085
 id: 2085
-image: /2013/09/29/how-to-enable-separated-guest-networks-with-dd-wrt-on-tp-link-tl-wr1043n/ddwrt_controlpanel.png
+image: /2013/09/29/how-to-enable-separated-guest-networks-with-dd-wrt-on-tp-link-tl-wr1043n/images/ddwrt_controlpanel.png
 tags:
 - DD-WRT
 - router
