@@ -7,7 +7,7 @@ categories:
 - Blogs
 tags:
 - Hugo
-draft: true
+draft: false
 ---
 # Introduction
 I'm annoyed by constant update notifications of wordpress. Plugins need also often updates and you've probably read about security issues as well.
@@ -19,10 +19,81 @@ The data from Wordpress can either be pulled from an exported file or from a liv
 Install [this plugin](https://wordpress.org/plugins/jekyll-exporter/) in your Wordpress installation. Its quite simple. You just have to install it and open the plugin settings for download.
 
 ### Wordpress Import in Jekyll
-My first try with a static content creator was [Jekyll](https://jekyllrb.com) which is written in Ruby. I've gave it a short try but wasn't oo happy with the exiting themes.
+My first try with a static content creator was [Jekyll](https://jekyllrb.com) which is written in Ruby. I've gave it a short try but wasn't too happy with the exiting themes.
 
-### Jekyll Import in Hugo
-Blog posts are put into the `content/post` folder. The filenames are `YYYY-MM-DD-post-title.md`. I recommend changing this to `content/post/YYYY/MM/DD/post-title`, because it will enable cool stuff like image processing. I've created a small python script that moves them automatically called `rename-posts.py`.
+## Jekyll Import in Hugo
+Import from Jekyll can be done with Hugo and [without the need for any plugin](https://gohugo.io/commands/hugo_import_jekyll/). Take the archive, that was exported by the wordpress to jekyll plugin and extract it in one folder, e.g. `blog/jekyll`. Create a second folder called `blog/hugo` which will store the hugo files.
+
+Now run `hugo import jekyll blog/jekyll blog/hugo`.
+
+### Adding a theme
+I've decided to use the [stack](https://docs.stack.jimmycai.com) theme and customized it to my needs.
+
+This theme has a back button, once it detects a markdown structure it can use in a table of content on the right side. For this, I had to manually modify all posts to introduce a first level heading with at least two second level headings. Otherwise the back button would have not been displayed. I'm not happy with this yet, but its working for now.
+
+Install this by following [the instructions](https://docs.stack.jimmycai.com/getting-started.html#installation). It depends if you've already used a git repo as target folder for your hugo import or if it was a blank folder.
+
+### Check the config.yaml
+The `config.yaml` is the central configuration file for Hugo. Here you can setup the new theme among other options. This is my `config.yaml`:
+
+```yaml
+baseURL: https://centurio.net
+disablePathToLower: true
+languageCode: en-us
+title: Centurios Blog
+theme: "stack"
+
+params:
+  rssFullContent: true
+  article:
+    toc: true
+    readingTime: true
+  comments:
+    enabled: false
+  sidebar:
+    subtitle: Macs, Linux, IoT and Photography
+    avatar:
+      enabled: true
+      local: true
+      src: img/avatar.png
+  widgets:
+    enabled:
+      - search
+      - categories
+      - archives
+      - tag-cloud
+    archives:
+      limit: 5
+    tagCloud:
+      limit: 10
+    categoriesCloud:
+      limit: 20
+
+menu:
+    main:
+        - identifier: github
+          name: GitHub
+          url: 'https://github.com/rudelm/'
+          params:
+            icon: github
+            newTab: true
+            
+        - identifier: twitter
+          name: Twitter
+          url: 'https://twitter.com/rudelm'
+          params:
+            icon: twitter
+            newTab: true
+```
+
+### Running for the first time
+Start hugo with `hugo server -D` and open a browser on `http://localhost:1313`. If something is wrong (e.g. wrong formatted yaml in the `config.yaml`), it won't start up and notifies you. Be aware that things might look strange, depending on your import.
+
+### Location of blog posts
+Blog posts are put into the `content/post` folder. The filenames are `index.md`. I recommend putting these to `content/post/YYYY/MM/DD/post-title`, because it will enable cool stuff like image processing.
+
+### Location of imported wp-content
+The original wp-content is placed in `static/wp-content/uploads/YYYY/DD`. 
 
 ## Search and replace
 There are automated tools, which I did not test:
@@ -130,14 +201,7 @@ The Jekyll import contained a lot of empty folders in `static/wp-content/uploads
 ### Remove unused folders
 I've got some folders which where created by a plugin. They can all be deleted, e.g. `static/wp-content/backupwp-*` or `static/wp-content/thumb-cache`.
 
-## Setting up a theme
-I've decided to use the [stack](https://docs.stack.jimmycai.com) theme and customized it to my needs.
-
-This theme has a back button, once it detects a markdown structure it can use in a table of content on the right side. For this, I had to manually modify all posts to introduce a first level heading with at least two second level headings. Otherwise the back button would have not been displayed. I'm not happy with this yet, but its working for now.
-
-## Creating a new post
-Use `hugo new posts/hello.md` to create a new blog post. It won't have any additional timestamps in the filename unless you specify it, e.g. like `hugo new posts/2021-12-30-hello.md`. 
-### Setup defaults
+## Setup defaults
 The start of every markdown blog post contains meta inforamtion describing a blog post. If you'll use the `hugo new` command, it will be pretty empty. That's because there's no default archetype configured. Add this to `archetypes/default.md`:
 
 ```
@@ -149,3 +213,9 @@ draft: true
 ---
 # Introduction
 ```
+
+## Creating a new post
+Use `hugo new posts/hello.md` to create a new blog post. It won't have any additional timestamps in the filename unless you specify it, e.g. like `hugo new posts/2021-12-30-hello.md`. 
+
+## Conclusion
+Was it worth to put so much effort into Hugo? I would say yes. Its way more faster and gave me the chance to cleanup a lot of the old stuff. I'll be doing refinements over the next few months and will probably update this post from time to time.
