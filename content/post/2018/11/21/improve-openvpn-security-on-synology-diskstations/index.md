@@ -11,7 +11,7 @@ tags:
 - OpenVPN
 - Synology
 title: Improve OpenVPN security on Synology DiskStations
-url: /2018/11/21/improve-openvpn-security-on-synology-diskstations/
+
 ---
 # Introduction
 I'm using [OpenVPN on my Synology DiskStation with certificates](http://centurio.net/2014/12/23/how-to-use-client-certificates-with-synology-vpn-server-and-openvpn/) instead of Preshared Keys. A few days ago I've wanted to login to my VPN and it wasn't working. After checking the log file I've seen that there were some issues with the used configuration file for OpenVPN.

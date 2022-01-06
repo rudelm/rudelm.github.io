@@ -9,7 +9,7 @@ tags:
 - Mac OS X
 - Xcode
 title: Fixing Xcode command line tools after upgrade to macOS Catalina 10.15
-url: /2020/10/26/fixing-xcode-command-line-tools-after-upgrade-to-macos-catalina-10-15/
+
 ---
 # Introduction
 Today I've updated to macOS Catalina 10.15. I've tried to setup zsh instead of bash and ran intro troubles with Xcode command line tools.

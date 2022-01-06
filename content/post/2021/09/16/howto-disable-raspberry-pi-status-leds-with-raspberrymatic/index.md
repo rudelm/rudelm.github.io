@@ -10,7 +10,7 @@ id: 3470
 tags:
 - Homematic
 title: Howto disable Raspberry Pi Status LEDs with RaspberryMatic
-url: /2021/09/16/howto-disable-raspberry-pi-status-leds-with-raspberrymatic/
+
 ---
 # Introduction
 I'm using a RaspberryPi 3 with RaspberryMatic distribution to control my HomeMatic thermostats. This distribution has a  "heartbeat" functionality, which leds the green LED of the Pi light up in constant time intervals.

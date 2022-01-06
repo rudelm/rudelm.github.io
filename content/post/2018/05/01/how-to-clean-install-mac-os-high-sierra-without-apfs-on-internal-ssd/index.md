@@ -12,7 +12,7 @@ tags:
 - Mac OS X
 - SSD
 title: How to clean install Mac OS High Sierra without APFS on internal SSD
-url: /2018/05/01/how-to-clean-install-mac-os-high-sierra-without-apfs-on-internal-ssd/
+
 ---
 # Introduction
 Did you ever wonder how you can make a clean install on your Mac with High Sierra [without being forced to use APFS](http://osxdaily.com/2017/10/17/how-skip-apfs-macos-high-sierra/)? Well, I just reinstalled my mac using this method and want to explain how I acomplished this:

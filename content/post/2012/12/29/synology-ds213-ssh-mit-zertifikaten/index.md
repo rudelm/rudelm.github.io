@@ -12,7 +12,7 @@ tags:
 - SSH
 - Synology
 title: Synology DS213+ - SSH mit Zertifikaten
-url: /2012/12/29/synology-ds213-ssh-mit-zertifikaten/
+
 ---
 # Einleitung
 Auf der Synology DS213+ läuft ein Linux System. Dies kann man manchmal am bequemsten per Konsole über SSH steuern. Dabei hat man entweder die Möglichkeit eine User/Passwort Kombination oder eine User/Zertifikat Kombination zum Authentifizieren zu verwenden. Letztere ist deutlich sicherer und auch bequemer. Ich möchte daher kurz meine eigene Version der notwendigen Schritte bloggen, da die [meisten](https://confluence.atlassian.com/pages/viewpage.action?pageId=271943168#ConfiguringMultipleSSHIdentitiesforGitBash,MacOSX,&Linux-CreatemultipleidentitiesforMacOSX,GitBash,andLinux) verfügbaren Anleitungen nicht alle Schritte optimal für meine Situation lösen. Daher bekommt ihr hier jetzt meine Vorgehensweise, die teilweise Befehle aus den verlinkten Anleitungen nutzt:

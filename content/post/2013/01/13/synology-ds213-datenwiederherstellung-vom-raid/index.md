@@ -13,7 +13,7 @@ tags:
 - Raid
 - Synology
 title: Synology DS213+ - Datenwiederherstellung vom Raid
-url: /2013/01/13/synology-ds213-datenwiederherstellung-vom-raid/
+
 ---
 # Einleitung
 Ich musste es bisher noch nicht ausprobieren, aber sollte mal der Tag kommen, dann könnte [diese Seite](http://www.raid-recovery-guide.com/nas-recovery.aspx) hilfreich sein. Dort ist auch die Rede von dem mdraid Gerät, das ich in [meinem anderen Blog Post](http://centurio.net/2012/12/22/synology-ds213-raid-1-oder-shr/) angesprochen hatte. Letztlich sollte es also kein Problem sein, im Fehlerfall eine der Festplatten des Raids auszubauen und auf einem PC lesbar zu laden.

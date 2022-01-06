@@ -11,7 +11,7 @@ tags:
 - autofs
 - InfluxDB
 title: Auto mount NFS shares on Raspbian
-url: /2018/11/21/auto-mount-nfs-shares-on-raspbian/
+
 ---
 # Introduction
 I'm using influxdb on my Raspberry Pi in combination with a NFS mount. The NFS mount is on my Synology NAS and should store the database data of influxdb. Reason for this setup is that I fear that the SD card won't survive the many write/read cycles caused by a database writing to it.

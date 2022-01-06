@@ -9,7 +9,7 @@ tags:
 - CleanUp
 - Twitter
 title: Howto mass delete old Tweets on Twitter
-url: /2019/01/01/howto-mass-delete-old-tweets-on-twitter/
+
 ---
 # Introduction
 There's unfortunately no way to mass delete old Tweets you've posted on Twitter. There are some online services, who promise to delete your data for you, but since you'll have to grant them access to your account I've got a bad feeling and wanted to do things on my own.

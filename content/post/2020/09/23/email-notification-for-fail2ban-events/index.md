@@ -10,7 +10,7 @@ tags:
 - email
 - Fail2ban
 title: Email notification for fail2ban events
-url: /2020/09/23/email-notification-for-fail2ban-events/
+
 ---
 # Introduction
 So I've configured [my fail2ban installation](/2020/09/22/protect-ssh-services-with-fail2ban) and I'm also able to [send emails](/2020/09/21/configure-mail-transport-agent-on-raspbian-with-external-smtp-server). But wouldn't it be awesome if I'll get notified via email about any fail2ban event?

@@ -14,7 +14,7 @@ tags:
 - Raspbian
 - WireGuard
 title: Setup WireGuard VPN on Raspbian
-url: /2020/09/26/setup-wireguard-vpn-on-raspbian/
+
 ---
 # Introduction
 I'm already using [OpenVPN](/2014/12/23/how-to-use-client-certificates-with-synology-vpn-server-and-openvpn) but heard only good things about [WireGuard VPN](https://www.wireguard.com/). For my current project, I need a VPN connection to my home network. I do not want to mess with my currently working OpenVPN setup, so I tried to setup WireGuard VPN on Raspbian.

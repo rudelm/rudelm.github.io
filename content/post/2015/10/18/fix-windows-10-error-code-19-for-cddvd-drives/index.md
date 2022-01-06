@@ -9,7 +9,7 @@ image: /2015/10/18/fix-windows-10-error-code-19-for-cddvd-drives/images/Windows1
 tags:
 - Windows 10
 title: Fix Windows 10 error code 19 for CD/DVD drives
-url: /2015/10/18/fix-windows-10-error-code-19-for-cddvd-drives/
+
 ---
 # Introduction
 I recently tried to convert a CD to MP3 (as part of my [private copy](https://de.wikipedia.org/wiki/Privatkopie) for cds without protection), since my car stereo doesn't have any CD drive at all. Therefore I've installed CDEX. CDEX complained about a missing CD drive, which puzzled me since I know that I have a DVDRW drive installed in my desktop PC. Upon further investigation I've seen no drive letter assignment in the explorer or disk management of Windows 10.

@@ -11,7 +11,7 @@ tags:
 - Microsoft
 - WP7
 title: Microsoft Windows Phone 7 und der erste Virenscanner
-url: /2011/09/08/microsoft-windows-phone-7-und-der-erste-virenscanner/
+
 ---
 # Einleitung
 **Small update: please [use Google Translate for an english version](http://translate.google.com/translate?sl=auto&tl=en&js=n&prev=_t&hl=en&ie=UTF-8&layout=2&eotf=1&u=http%3A%2F%2Fcenturio.net%2F2011%2F09%2F08%2Fmicrosoft-windows-phone-7-und-der-erste-virenscanner%2F). I still need time to think about a good multilanguage solution for this blog 🙂**

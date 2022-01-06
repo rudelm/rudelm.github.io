@@ -10,7 +10,7 @@ tags:
 - autofs
 - Raspbian
 title: Howto ensure automatically mounted NFS volume on Raspbian Stretch
-url: /2018/10/28/howto-ensure-automatically-mounted-nfs-volume-on-raspbian-stretch/
+
 ---
 # Introduction
 **Update**: [I'm doing the automated mount now with autofs](http://centurio.net/2018/11/21/auto-mount-nfs-shares-on-raspbian/).

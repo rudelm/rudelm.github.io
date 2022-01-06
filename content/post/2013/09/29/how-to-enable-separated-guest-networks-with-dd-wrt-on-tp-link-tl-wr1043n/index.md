@@ -13,7 +13,7 @@ tags:
 - TP-Link
 - Wlan
 title: How to enable separated Guest Networks with DD-WRT on TP-Link TL-WR1043N
-url: /2013/09/29/how-to-enable-separated-guest-networks-with-dd-wrt-on-tp-link-tl-wr1043n/
+
 ---
 # Introduction
 I've recently setup a new and shiny [TP-Link TL-WR1043N](http://www.amazon.de/gp/product/B002YETVTQ) Gigabit Router with DD-WRT and wanted to document how I set it up as access point with opening an additional guest network.

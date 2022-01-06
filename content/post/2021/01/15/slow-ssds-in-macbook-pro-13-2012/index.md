@@ -10,7 +10,7 @@ tags:
 - SATA
 - SSD
 title: Slow SSDs in MacBook Pro 13" 2012
-url: /2021/01/15/slow-ssds-in-macbook-pro-13-2012/
+
 ---
 A friend asked me to check her MacBook Pro 13" from 2012. It is running unbearable slow. So I've made a bootable copy with Carbon Copy Cloner and TimeMachine and tried to start with a fresh installation.
 

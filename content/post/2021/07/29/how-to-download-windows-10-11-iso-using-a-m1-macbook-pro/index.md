@@ -9,7 +9,7 @@ tags:
 - Microsoft
 - Windows 10
 title: How to download Windows 10/11 iso using a M1 MacBook Pro
-url: /2021/07/29/how-to-download-windows-10-11-iso-using-a-m1-macbook-pro/
+
 ---
 # Introduction
 I've recently tried [UTM](https://mac.getutm.app) on my Apple Silicon MBP to test Windows 11. To install Windows 11, I needed a recent iso image. This blog post explains how to download the iso files for Windows 10 or 11.

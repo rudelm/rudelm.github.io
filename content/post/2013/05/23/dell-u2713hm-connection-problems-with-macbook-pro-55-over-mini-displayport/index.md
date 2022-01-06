@@ -14,7 +14,7 @@ tags:
 - Mini DIsplayPort
 - U2713HM
 title: Dell U2713HM connection problems with Macbook Pro 5,5 over Mini DisplayPort
-url: /2013/05/23/dell-u2713hm-connection-problems-with-macbook-pro-55-over-mini-displayport/
+
 ---
 # Introduction
 

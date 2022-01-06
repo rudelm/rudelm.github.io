@@ -11,7 +11,7 @@ tags:
 - Catalina
 - itunes
 title: Fix broken automount mounts on macOS Catalina
-url: /2020/10/26/fix-broken-automount-mounts-on-macos-catalina/
+
 ---
 # Introduction
 I've moved my iTunes music library content to my NAS. I'm using [automount](/page/search/?keyword=automount) to keep iTunes happy without losing the connection to the files. After upgrading to macOS Catalina, automount did not work as it used to.

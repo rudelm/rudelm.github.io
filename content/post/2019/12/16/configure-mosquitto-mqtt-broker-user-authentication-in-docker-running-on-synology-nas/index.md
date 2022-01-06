@@ -13,7 +13,7 @@ tags:
 - Synology
 title: Configure Mosquitto mqtt broker  user authentication in Docker running on Synology
   NAS
-url: /2019/12/16/configure-mosquitto-mqtt-broker-user-authentication-in-docker-running-on-synology-nas/
+
 ---
 # Introduction
 Today I've tried to enable user authentication for my Mosquitto mqtt broker running in a Docker container on my Synology NAS.

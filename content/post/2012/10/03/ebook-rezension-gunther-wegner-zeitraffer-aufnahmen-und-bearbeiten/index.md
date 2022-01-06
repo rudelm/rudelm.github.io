@@ -11,7 +11,7 @@ tags:
 - Timelapse
 - Zeitraffer
 title: 'Ebook Rezension: Gunther Wegner - Zeitraffer - Aufnahmen und Bearbeiten'
-url: /2012/10/03/ebook-rezension-gunther-wegner-zeitraffer-aufnahmen-und-bearbeiten/
+
 ---
 # Einleitung
 Seit längerem beschäftige ich mich mit Zeitrafferaufnahmen. Zeitrafferaufnahmen sind im Prinzip nichts anderes, als viele Fotos, die in einem bestimmten zeitlichen Abstand hintereinander erstellt wurden. Wenn man ausreichend viele Fotos in der Sekunde zusammenfügt, so erhält man einen Film. Zeitrafferaufnahmen nutzen jetzt den Umstand, dass der Abstand zwischen den Fotos größer ist als in dem resultierenden Film. Dadurch werden größere Zeiträume auf einen kurzen Zeitraum  "zusammengerafft".

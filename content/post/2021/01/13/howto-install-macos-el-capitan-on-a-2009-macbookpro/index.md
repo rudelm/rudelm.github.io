@@ -9,7 +9,7 @@ tags:
 - Mac
 - macOS
 title: Howto install macOS El Capitan on a 2009 MacbookPro
-url: /2021/01/13/howto-install-macos-el-capitan-on-a-2009-macbookpro/
+
 ---
 I'm trying to sell a 2009 MacbookPro. It's the model MacbookPro5.5 and Apple supports macOS El Capitan 10.11 as latest available version.
 

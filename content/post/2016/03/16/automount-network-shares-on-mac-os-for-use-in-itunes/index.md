@@ -13,7 +13,7 @@ tags:
 - Mac
 - Synology
 title: Automount network shares on Mac OS for use in iTunes
-url: /2016/03/16/automount-network-shares-on-mac-os-for-use-in-itunes/
+
 ---
 # Introduction
 I've moved my iTunes library from my Macbook's SSD to my [Synology NAS](/page/search/?keyword=synology) on a network share. This is quite easy and can be made inside the iTunes preferences pane. After you've changed the path for the iTunes Media, all iTunes managed media will be moved to the new location (assuming you let iTunes manage your files of course :)).

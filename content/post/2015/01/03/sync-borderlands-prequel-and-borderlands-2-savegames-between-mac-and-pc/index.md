@@ -12,7 +12,7 @@ tags:
 - Mac
 - Steam
 title: Sync Borderlands Prequel and Borderlands 2 savegames between Mac and PC
-url: /2015/01/03/sync-borderlands-prequel-and-borderlands-2-savegames-between-mac-and-pc/
+
 ---
 # Introduction
 I really liked Borderlands 2. So much, that I played over 42 hours already 🙂 This happened all on my gaming PC. With my new Macbook Pro and the availability of Borderlands for Mac, I intend to play it in LAN mode occasionally when I'm visiting friends who also play Borderlands. However, I was shocked when I started Steam on my Mac and did not see the savegames from my PC, although Steam's Cloud Synchronisation was active.

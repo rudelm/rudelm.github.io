@@ -11,7 +11,7 @@ tags:
 - Fritz!Box
 - Gigaset
 title: Gigaset S810a &#038; AVM Fritzbox 7490 - Telefonbucheinträge
-url: /2015/03/23/gigaset-s810a-avm-fritzbox-7490-telefonbucheintraege/
+
 ---
 # Einleitung
 Seitdem wir einen IP-Anschluss der Telekom besitzen, haben wir auch eine AVM [Fritzbox 7490](http://www.amazon.de/gp/product/B00EO777DI). Damit man endlich kabelfrei und in HD-Qualität telefonieren kann, haben wir uns für ein [Gigaset S810a](http://www.amazon.de/gp/product/B004MZJN66) als DECT-Telefon entschieden. Die Bewertungen lesen sich sehr gut und ich habe auch bisher nur gute Erfahrungen mit dieser Kombination gemacht.

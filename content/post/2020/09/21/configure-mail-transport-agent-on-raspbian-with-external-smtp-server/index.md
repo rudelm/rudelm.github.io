@@ -10,7 +10,7 @@ id: 3352
 tags:
 - Mail
 title: Configure mail transport agent on Raspbian with external SMTP server
-url: /2020/09/21/configure-mail-transport-agent-on-raspbian-with-external-smtp-server/
+
 ---
 # Introduction
 I want to get email notifications for actions on my Raspberry Pi using Raspbian. You could setup a separate mail server for that action but that seems to be a little bit overkill.

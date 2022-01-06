@@ -12,7 +12,7 @@ tags:
 - Denon
 - Heos
 title: Heos by Denon - Bluetooth dongle
-url: /2015/12/20/heos-by-denon-bluetooth-dongle/
+
 ---
 # Introduction
 I've recently bought a [Heos HomeCinema](http://www.amazon.de/gp/product/B0113XC3D4) and a [Heos 1](http://www.amazon.de/gp/product/B00Y2AAFAE). The Heos devices are created by Denon and offer a multi room wifi speaker setup, similar to Sonos. Since Sonos did not offer a DTS compatible speakerbar for my TV, I've decided to give the Heos devices a try.

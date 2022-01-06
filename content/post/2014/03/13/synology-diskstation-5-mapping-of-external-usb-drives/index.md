@@ -11,7 +11,7 @@ tags:
 - Synology
 - USB
 title: Synology DiskStation 5 - Mapping of external USB drives
-url: /2014/03/13/synology-diskstation-5-mapping-of-external-usb-drives/
+
 ---
 # Introduction
 The mapping of external USB drives in Synologys Diskstation 5 is a mystery to me. The order of connected drives does not seem to be of interest and keeps being the same even after a reboot. Especially after the latest update to DiskStation 5, my [DiskStation 213+](http://www.amazon.de/gp/product/B008U69DDG) assigned other than usual drive numbers to my external USB drives. This results in broken backup plans and network volumes.

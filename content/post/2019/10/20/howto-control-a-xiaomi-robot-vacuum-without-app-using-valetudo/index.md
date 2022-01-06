@@ -10,7 +10,7 @@ tags:
 - Robot
 - Xiaomi
 title: Howto control a Xiaomi Robot Vacuum without app using Valetudo
-url: /2019/10/20/howto-control-a-xiaomi-robot-vacuum-without-app-using-valetudo/
+
 ---
 # Introduction
 I've [tinkered before](http://centurio.net/2018/03/08/diy-homekit-with-raspberry-pi-and-xiaomi-robot-vacuum/) with my Xiaomi Robot Vacuum but returned to the official Xiaomi app since the existing solutions felt uncomfortable. I even worked on adding Mac support for the [dustcloud](https://github.com/dgiese/dustcloud) software but stopped using the rooted firmware.

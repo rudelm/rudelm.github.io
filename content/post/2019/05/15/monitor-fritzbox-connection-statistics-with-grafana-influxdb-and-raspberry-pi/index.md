@@ -13,7 +13,7 @@ tags:
 - InfluxDB
 title: Monitor Fritz!Box connection statistics with Grafana, InfluxDB and Raspberry
   Pi
-url: /2019/05/15/monitor-fritzbox-connection-statistics-with-grafana-influxdb-and-raspberry-pi/
+
 ---
 # Introduction
 I've recently stumbled over an [article](https://www.heise.de/select/ct/2018/21/1539315226273140) in the german magazine C'T about visualisations of your Fritz!Box's connection. The solution looked quite boring and outdated, since it used [MRTG](https://oss.oetiker.ch/mrtg/) for the graph creation.

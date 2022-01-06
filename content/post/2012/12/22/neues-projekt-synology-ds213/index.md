@@ -12,7 +12,7 @@ tags:
 - Synology
 - WD30EFRZ
 title: 'Neues Projekt: Synology DS213+'
-url: /2012/12/22/neues-projekt-synology-ds213/
+
 ---
 Heute habe ich mir einen lang gehegten Wunsch erfüllt: Ich habe mir ein [Synology DS213+](http://www.amazon.de/gp/product/B008U69DDG) NAS System zugelegt. Dazu habe ich dann gleich noch 2* 3TB Festplatten von Western Digital verbaut ([WD30EFRZ](http://www.amazon.de/gp/product/B008JJLW4M), speziell für NAS Systeme ausgelegt). Das Teil soll zentral Dokumente verwalten, Sichern und verschiedene Medien bereitstellen. Auslöser für den Kauf war die ständig steigende Bilderflut durch meine Digitalkameras und der Wunsch alles etwas besser abgesichert zu wissen.
 

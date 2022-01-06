@@ -12,7 +12,7 @@ tags:
 - M1
 - MacBookPro
 title: My Review of the MacBook Pro 13" (2020) with Apple Silicon
-url: /2020/12/22/my-review-of-the-macbook-pro-13-2020-with-apple-silicon/
+
 ---
 # Introduction
 

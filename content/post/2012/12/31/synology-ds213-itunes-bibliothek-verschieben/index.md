@@ -12,7 +12,7 @@ tags:
 - itunes
 - Synology
 title: Synology DS213+ - iTunes Bibliothek verschieben
-url: /2012/12/31/synology-ds213-itunes-bibliothek-verschieben/
+
 ---
 # Einleitung
 Neben meinen Bildern möchte ich eigentlich auch meine Musik zentral auf der DS vorhalten. Verschiedene Anleitungen habe ich ausprobiert und bin letztlich bei einer ganz einfachen Lösung hängen geblieben. Wichtig ist natürlich: Macht ein Backup eurer Datenbank bevor ihr die Experimente macht 😉

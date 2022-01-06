@@ -12,7 +12,7 @@ tags:
 - minio
 - Synology
 title: Setup minio as backup target for Synology HyperBackup
-url: /2021/11/30/setup-minio-as-backup-target-for-synology-hyperbackup/
+
 ---
 # Introduction
 After some unsuccessful <a href="https://centurio.net/2020/09/26/setup-wireguard-vpn-on-raspbian/" data-type="post" data-id="3386">tests with WireGuard VPN</a>, I've tried something new to provide a suitable encrypted backup target for my Synology NAS.

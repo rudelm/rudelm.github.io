@@ -14,7 +14,7 @@ tags:
 - Mango
 - Thesis
 title: Windows Phone 7 Mango RTM Update experience
-url: /2011/09/28/windows-phone-7-mango-rtm-update-experience/
+
 ---
 # Introduction
 So [Microsoft announced](http://windowsteamblog.com/windows_phone/b/windowsphone/archive/2011/09/27/windows-phone-7-5-mango-update-begins.aspx) yesterday that their Windows Phone 7 Mango Update would be available to all phones, that do not run any customized or branded version of the OS on their phones. Luckily, my HTC HD7, which I use for my master thesis, is unbranded.

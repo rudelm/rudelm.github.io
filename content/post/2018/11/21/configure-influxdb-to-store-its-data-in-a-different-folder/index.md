@@ -10,7 +10,7 @@ id: 3236
 tags:
 - InfluxDB
 title: Configure influxDB to store its data in a different folder
-url: /2018/11/21/configure-influxdb-to-store-its-data-in-a-different-folder/
+
 ---
 # Introduction
 The default location of the influxDB data is /var/lib/influxdb.

@@ -9,7 +9,7 @@ id: 3382
 tags:
 - SSH
 title: Block SSH connections by origin of IP address
-url: /2020/09/24/block-ssh-connections-by-origin-of-ip-address/
+
 ---
 # Introduction
 If you're exposing services to the internet, you'll notice a lot of connection attempts. To block those bots and scripts trying to login to your machine, you should use [fail2ban](/2020/09/22/protect-ssh-services-with-fail2ban).

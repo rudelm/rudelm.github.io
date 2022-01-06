@@ -18,7 +18,7 @@ tags:
 - SNES
 - Spotify
 title: Raspberry Pi 3 with Kodi, Netflix, Spotify Connect, Hyperion and RetroArch
-url: /2017/07/23/raspberry-pi-3-with-kodi-netflix-spotify-connect-hyperion-and-retroarch/
+
 ---
 # Introduction
 I'm currently using an old Mac Mini from 2009 as my media center. I've updated it recently with more RAM and an SSD but it has its problems with Bluetooth, regardless my used bluetooth card or USB adapter. Before this setup I've used a Raspberry Pi 3 with LibreElec which I've now reactivated successfully.

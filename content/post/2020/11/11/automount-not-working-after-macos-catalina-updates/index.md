@@ -10,7 +10,7 @@ tags:
 - automount
 - Catalina
 title: automount not working after macOS Catalina updates
-url: /2020/11/11/automount-not-working-after-macos-catalina-updates/
+
 ---
 # Introduction
 I've recently upgraded to macOS catalina. My automount mount for music media <a href="https://centurio.net/2020/10/26/fix-broken-automount-mounts-on-macos-catalina/" data-type="URL" data-id="https://centurio.net/2020/10/26/fix-broken-automount-mounts-on-macos-catalina/">was broken</a>. I fixed it and today it is again not working.

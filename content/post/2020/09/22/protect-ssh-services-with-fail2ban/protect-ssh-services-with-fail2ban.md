@@ -11,7 +11,7 @@ tags:
 - Raspbian
 - SSH
 title: Protect SSH services with fail2ban
-url: /2020/09/22/protect-ssh-services-with-fail2ban/
+
 ---
 If you'll open SSH on a server to the open internet, you'll notice a lot of bots trying to login. You certainly should setup certificate based login, but banning offending IPs is also an important security measure.
 

@@ -11,7 +11,7 @@ tags:
 - UEFI
 - Windows 10
 title: Howto convert a Windows 10 installation from legacy BIOS to UEFI boot
-url: /2018/05/17/howto-convert-a-windows-10-installation-from-legacy-bios-to-uefi-boot/
+
 ---
 # Introduction
 I'm currently trying to build a Hackintosh. I had some troubles with bootloaders and modified BIOS, as they weren't able to detect my existing Windows 10 installation. Windows 10 was installed in legacy BIOS mode, which means you have a traditional boot layout using a Master Boot Record (MBR) instead of GPT (which is also used by Mac OS).The Windows 10 installation would be visible if I could somehow change it from MBR to GPT.

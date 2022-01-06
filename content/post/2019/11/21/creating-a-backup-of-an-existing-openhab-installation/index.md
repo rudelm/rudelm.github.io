@@ -9,7 +9,7 @@ tags:
 - OpenHAB
 - Raspbian
 title: Creating a backup of an existing OpenHAB installation
-url: /2019/11/21/creating-a-backup-of-an-existing-openhab-installation/
+
 ---
 # Introduction
 I'm about to try an update of my existing OpenHAB installation. Right now I've got a few things in a working state and in case I destroy anything I want to have a working backup. 

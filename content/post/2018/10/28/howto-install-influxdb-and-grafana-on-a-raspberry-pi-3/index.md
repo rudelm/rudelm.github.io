@@ -11,7 +11,7 @@ tags:
 - Grafana
 - InfluxDB
 title: Howto install InfluxDB and Grafana on a Raspberry Pi 3
-url: /2018/10/28/howto-install-influxdb-and-grafana-on-a-raspberry-pi-3/
+
 ---
 # Introduction
 Inspired by a friend I've decided to install [InfluxDB](https://github.com/influxdata/influxdb) and [Grafana](https://grafana.com/) on my Raspberry Pi 3. InfluxDB is a database optimized for storing time related data like measurements of my recently installed particle sensor. Grafana is used to create beautiful graphs to display the stored data.

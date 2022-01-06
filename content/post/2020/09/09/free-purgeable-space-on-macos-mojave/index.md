@@ -9,7 +9,7 @@ tags:
 - APFS
 - Mac OS
 title: Free purgeable space on MacOS Mojave
-url: /2020/09/09/free-purgeable-space-on-macos-mojave/
+
 ---
 # Introduction
 I've recently deleted a large preview database file for Lightroom and was happy about the 80GB won free space. However, the MacOS disk utility as well as the terminal command  "df -h" did not show the free space. I've also checked the trash and cleared it, but there was no change in the available disk space.

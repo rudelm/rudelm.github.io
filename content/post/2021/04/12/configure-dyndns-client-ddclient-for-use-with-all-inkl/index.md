@@ -11,7 +11,7 @@ tags:
 - DynDNS
 - Raspbian
 title: Configure DynDNS client ddclient for use with all-inkl
-url: /2021/04/12/configure-dyndns-client-ddclient-for-use-with-all-inkl/
+
 ---
 # Introduction
 You can try ddclient, if you don't have a Router or NAS, which updates a DynDNS account. I'm using it on Raspbian and all-inkl as hosting service.

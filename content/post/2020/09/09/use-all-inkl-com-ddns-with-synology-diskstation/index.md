@@ -10,7 +10,7 @@ tags:
 - DynDNS
 - Synology
 title: Use all-inkl.com DDNS with Synology DiskStation
-url: /2020/09/09/use-all-inkl-com-ddns-with-synology-diskstation/
+
 ---
 # Introduction
 I've recently upgraded my all-inkl.com webspace to the [PrivatPlus](https://all-inkl.com/webhosting/privatplus/) tariff. As part of this tariff I'm now able to use DDNS running under the Domains I'm able to manage.

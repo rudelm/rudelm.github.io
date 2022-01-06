@@ -10,7 +10,7 @@ tags:
 - DNS
 - pihole
 title: Howto setup local DNS domains and adresses in pihole
-url: /2018/10/28/howto-setup-local-dns-domains-and-adresses-in-pihole/
+
 ---
 # Intrduction
 If you use the AVM FritzBox you'll now about this dreaded DNS suffix  "fritz.box" which every device will get in your network, if you decide to use the DNS server of the FritzBox. I wanted to have something different which doesn't collide with domains on the internet, e.g.  "stuff.local". As I already use pihole as adblocker on DNS level I needed a solution to configure it in pihole. The following info is based on [the pihole forum](https://discourse.pi-hole.net/t/howto-using-pi-hole-as-lan-dns-server/533).

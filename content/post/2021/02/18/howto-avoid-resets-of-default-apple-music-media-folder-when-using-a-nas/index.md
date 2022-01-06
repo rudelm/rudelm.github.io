@@ -9,7 +9,7 @@ id: 3446
 tags:
 - automount
 title: Howto avoid resets of default Apple Music media folder when using a NAS
-url: /2021/02/18/howto-avoid-resets-of-default-apple-music-media-folder-when-using-a-nas/
+
 ---
 # Introduction
 I'm a longtime fan and user of [automount](https://centurio.net/2016/03/16/automount-network-shares-on-mac-os-for-use-in-itunes/). Automount mounts automatically my Apple Music media folder, once the Music app tries to access it.

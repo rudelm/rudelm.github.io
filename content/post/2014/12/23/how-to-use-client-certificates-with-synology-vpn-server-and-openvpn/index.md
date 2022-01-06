@@ -12,7 +12,7 @@ tags:
 - OpenVPN
 - Synology
 title: How to use client certificates with Synology VPN Server and OpenVPN
-url: /2014/12/23/how-to-use-client-certificates-with-synology-vpn-server-and-openvpn/
+
 ---
 # Introduction
 The holidays are near and I want to have access to my files on my Synology NAS, while I'm visiting my family. That's why I'm showing you today how to configure the official Synology VPN server to use OpenVPN with client certificates instead of username/password.

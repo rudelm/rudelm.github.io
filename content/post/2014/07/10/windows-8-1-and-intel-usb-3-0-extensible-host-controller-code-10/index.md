@@ -10,7 +10,7 @@ tags:
 - USB 3.0
 - Windows 8.1
 title: Windows 8.1 and Intel USB 3.0 eXtensible Host Controller code 10
-url: /2014/07/10/windows-8-1-and-intel-usb-3-0-extensible-host-controller-code-10/
+
 ---
 # Introduction
 Sometimes my desktop computer does not recognize its attached devices on its USB 3.0 ports. This is especially annoying when you use these ports for your input devices and you are not able to login to your computer.

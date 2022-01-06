@@ -14,7 +14,7 @@ tags:
 - HomeBridge
 - HomeKit
 title: DIY HomeKit with Raspberry Pi and Xiaomi Robot Vacuum
-url: /2018/03/08/diy-homekit-with-raspberry-pi-and-xiaomi-robot-vacuum/
+
 ---
 Inspired by tweets of [Steven Troughten-Smith](https://twitter.com/stroughtonsmith), people started to experiment with Raspberry Pi's as DIY HomeBridge devices. One of them is [Wojtek Pietrusiewicz](https://twitter.com/morid1n). He wrote a [nice article](https://infinitediaries.net/using-a-raspberry-pi-zero-w-to-add-a-camera-and-a-xiaomi-air-purifier-2-to-homekit-via-homebridge/) which I used as base for this post.
 

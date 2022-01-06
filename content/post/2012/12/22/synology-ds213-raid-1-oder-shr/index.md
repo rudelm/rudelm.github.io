@@ -11,7 +11,7 @@ tags:
 - Raid
 - Synology
 title: 'Synology DS213+: Raid 1 oder SHR'
-url: /2012/12/22/synology-ds213-raid-1-oder-shr/
+
 ---
 # Einleitung
 Wenn man die Synology DS213+ zum ersten mal einrichtet, dann fragt einen der Assistent wie man mit den verbauten Festplatten umgehen möchte. Zur Auswahl stehen dann unter anderem die Konfiguration ohne ein RAID (also bei mir 2\*3TB = 6TB Speicher) oder die Konfiguration eines RAID (0 oder 1, 2\*3TB = 6TB am Stück, oder 2*3TB = 3 TB mit Auswahlsicherheit).
