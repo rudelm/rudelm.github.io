@@ -7,7 +7,7 @@ categories:
 - Blogs
 tags:
 - Hugo
-draft: false
+- Jekyll
 ---
 # Introduction
 I'm annoyed by constant update notifications of wordpress. Plugins need also often updates and you've probably read about security issues as well.
