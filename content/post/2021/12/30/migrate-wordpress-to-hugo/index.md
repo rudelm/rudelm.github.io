@@ -10,7 +10,15 @@ tags:
 - Jekyll
 ---
 # Introduction
-I'm annoyed by constant update notifications of wordpress. Plugins need also often updates and you've probably read about security issues as well.
+I'm annoyed by constant update notifications of wordpress. Plugins need also often updates and you've probably read about security issues as well. After retweeting this tweet
+
+{{< tweet user="isotopp" id="1475427386963419146" >}}
+
+Kris answered me 
+
+{{< tweet user="isotopp" id="1475510444681048064" >}}
+
+and recommended to use Jekyll or Hugo. So I was motivated to finally make the switch. It took me a good week to get the page finally online on 01/06/2022.
 
 ## Export from Wordpress
 The data from Wordpress can either be pulled from an exported file or from a live connection to the database. Since I wanted the easy way, I've selected using a plugin and files.
