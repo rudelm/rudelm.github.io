@@ -214,6 +214,29 @@ draft: true
 # Introduction
 ```
 
+## Add URLs to front matter
+The imported blog posts contained a line like this:
+
+```
+url: /2021/11/30/homebridge-apple-homekit-on-raspberry-pi/
+```
+
+This caused the resulting generated output to create a folder structure `/2021/11/30/homebridge-apple-homekit-on-raspberry-pi/` with an index.html file. Without this change, this blog posts are moved automatically to `/posts/2021/11/30/homebridge-apple-homekit-on-rapsberry-pi`. This behaviour is explained [here](https://gohugo.io/content-management/urls/#set-url-in-front-matter).
+
+This breaks the existing blog URLs, so I'll need to keep the url explicetely (or I need to accept that links are broken and search results are wrong). however, adding this to all posts is also very cumbersome.
+
+By adding this to your `config.yaml` all blog posts will use the date information in a posts front matter. So I'll be using [this](https://gohugo.io/content-management/urls/#permalinks-configuration-example):
+
+```yaml
+disablePathToLower: false
+permalinks:
+  post: "/:year/:month/:day/:title/"
+```
+
+The `disablePathToLower: false` is especially important, as it makes all URLs case insensitive and lower case only.
+
+You can now remove all the `url:` entries from your files, except you want to manually specify a different URL for a post (e.g. a shorter version  of the title).
+
 ## Creating a new post
 Use `hugo new posts/hello.md` to create a new blog post. It won't have any additional timestamps in the filename unless you specify it, e.g. like `hugo new posts/2021/12/30/hello/index.md`. This can be simplified with something like [this](https://discourse.gohugo.io/t/dates-in-post-filenames/26219/7). Guess I'll be blogging about this once I've got a good solution. I image something simple on the shell without the need for NodeJS or NPM.
 
