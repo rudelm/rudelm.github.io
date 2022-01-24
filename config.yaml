@@ -3,6 +3,10 @@ disablePathToLower: true
 languageCode: en-us
 title: Centurios Blog
 theme: "stack"
+enableGitInfo: true
+
+frontmatter:
+  lastmod: ['lastmod', ':git', 'date', 'publishDate']
 
 disablePathToLower: false
 permalinks:
