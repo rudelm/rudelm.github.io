@@ -22,7 +22,7 @@ I followed [the instructions](https://github.com/Hypfer/Valetudo/wiki/Installati
 
   * The firmware builder creates a firmware package along with SSH keys supplied during the build process. I could not login using those SSH keys and required the SSH key directly from the ~/.ssh folder of the user.
   * Flashing inside a VirtualBox Ubuntu VM doesn't work, even when you use a bridged network interface. You maybe able to request the device token but the flash command always fail.
-  * Flashing the robot may fail, if it isn't completely reset to its default. You can reset the robot to factory default by pressing the home and reset button until you hear the chinese voice.
+  * Flashing the robot may fail, if it isn't completely reset to its default. You can reset the robot to factory default by pressing the home button for 3 to 5 seconds, followed by a single push of the reset button until you hear the chinese voice. See [this Roborock wiki](https://support.roborock.com/hc/en-us/articles/360035372632-How-to-reset-Roborock-to-factory-default-) for details on how to do a factory reset.
   * You should flash the robot while it is inside its charging station.
   * If you're using a Mac, you can install python3 and the required python packages. This will allow you to flash the firmware directly from your mac.
   * Keep your machine close to the robot during the flashing process, because it might otherwise timeout.
