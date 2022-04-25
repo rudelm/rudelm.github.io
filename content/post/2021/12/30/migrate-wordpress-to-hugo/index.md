@@ -246,7 +246,7 @@ The `disablePathToLower: false` is especially important, as it makes all URLs ca
 You can now remove all the `url:` entries from your files, except you want to manually specify a different URL for a post (e.g. a shorter version  of the title).
 
 ## Creating a new post
-Use `hugo new posts/hello.md` to create a new blog post. It won't have any additional timestamps in the filename unless you specify it, e.g. like `hugo new posts/2021/12/30/hello/index.md`. This can be simplified with something like [this](https://discourse.gohugo.io/t/dates-in-post-filenames/26219/7). Guess I'll be blogging about this once I've got a good solution. I image something simple on the shell without the need for NodeJS or NPM.
+Use `hugo new posts/hello.md` to create a new blog post. It won't have any additional timestamps in the filename unless you specify it, e.g. like `hugo new post/2021/12/30/hello/index.md`. This can be simplified with something like [this](https://discourse.gohugo.io/t/dates-in-post-filenames/26219/7). Guess I'll be blogging about this once I've got a good solution. I image something simple on the shell without the need for NodeJS or NPM.
 
 ## Conclusion
 Was it worth to put so much effort into Hugo? I would say yes. Its way more faster and gave me the chance to cleanup a lot of the old stuff. I'll be doing refinements over the next few months and will probably update this post from time to time.
