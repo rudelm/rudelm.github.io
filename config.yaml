@@ -8,6 +8,12 @@ enableGitInfo: true
 frontmatter:
   lastmod: ['lastmod', ':git', 'date', 'publishDate']
 
+markup:
+  tableOfContents:
+    endLevel: 4
+    ordered: false
+    startLevel: 1
+
 disablePathToLower: false
 permalinks:
   post: "/:year/:month/:day/:title/"
