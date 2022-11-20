@@ -12,11 +12,11 @@ tags:
 # Introduction
 I'm annoyed by constant update notifications of wordpress. Plugins need also often updates and you've probably read about security issues as well. After retweeting this tweet
 
-{{< tweet user="isotopp" id="1475427386963419146" >}}
+[Its not available anymore, see this blog post why.](/2022/11/20/moved-to-mastodon/)
 
 Kris answered me 
 
-{{< tweet user="isotopp" id="1475510444681048064" >}}
+[Its not available anymore, see this blog post why.](/2022/11/20/moved-to-mastodon/)
 
 and recommended to use Jekyll or Hugo. So I was motivated to finally make the switch. It took me a good week to get the page finally online on 01/06/2022.
 
