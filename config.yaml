@@ -45,7 +45,7 @@ params:
       limit: 20
 
 menu:
-    main:
+    social:
         - identifier: github
           name: GitHub
           url: 'https://github.com/rudelm/'
@@ -58,7 +58,6 @@ menu:
           url: 'https://infosec.exchange/@rudelm'
           params:
             icon: mastodon
-            rel: me
             newTab: true
 
         - identifier: twitter
