@@ -1,5 +1,4 @@
 baseURL: https://centurio.net
-disablePathToLower: true
 languageCode: en-us
 title: Centurios Blog
 theme: "stack"
