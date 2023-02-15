@@ -17,6 +17,10 @@ markup:
 permalinks:
   post: "/:year/:month/:day/:title/"
 
+privacy:
+  youtube:
+    privacyEnhanced: true
+
 params:
   rssFullContent: true
   article:
