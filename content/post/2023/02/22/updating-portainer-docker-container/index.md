@@ -37,5 +37,28 @@ docker pull portainer/portainer-ee:latest
 
 Now start portainer again.
 
+# Update an agent
+My Raspberry Pi3b+ runs also portainer, but as an agent. Its started with this command:
+
+```bash
+docker run -d \
+  -p 9001:9001 \
+  --name portainer_agent \
+  --restart=always \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -v /var/lib/docker/volumes:/var/lib/docker/volumes \
+  portainer/agent:2.18.1
+```
+
+Stop the running installation and update the container
+
+```bash
+docker stop portainer_agent
+docker rm portainer_agent
+docker pull portainer/agent:2.18.1
+```
+
+Now start portainer again.
+
 # Conclusion
 Updating Portainer is easy and doesn't cost much time. Already started containers stay up and have no downtime. Sweet!
