@@ -33,7 +33,16 @@ dig centurio.net +noall +answer -t AAAA
 ;; global options: +cmd
 ```
 
-The IPv6 entry doesn't show up yet and I'll try to check this later on again. Don't forget to add a CNAME record for www so that it points to the github.io page, in my case rudelm.github.io.
+The IPv6 entry doesn't show up yet and I'll try to check this later on again. **Update**: It's now working:
+
+```bash
+dig centurio.net +noall +answer -t AAAA
+
+; <<>> DiG 9.10.6 <<>> centurio.net +noall +answer -t AAAA
+;; global options: +cmd
+centurio.net.		3392	IN	AAAA	2606:50c0:8000::153
+```
+Don't forget to add a CNAME record for www so that it points to the github.io page, in my case rudelm.github.io.
 
 # Configure github
 Go to the settings of your personal repo and check the pages menu. Add the custom domain under which your hugo blog should be reachable. Github will then trigger an automated DNS check. This one currently fails for me:
@@ -44,6 +53,8 @@ Domain does not resolve to the GitHub Pages server. For more information, see do
 ```
 
 However, I've seen that github tried to request a TLS certificate in a three step process, so I assume at least something must be working.
+
+**Update**: the DNS check is now successful.
 
 # Conclusion
 I finally don't have to upload everything again and again using ftp. This was quite error prone and inefficient. I can now blog and push it to github, and the github action will create new pages for me automatically.
