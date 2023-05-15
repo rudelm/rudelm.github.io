@@ -17,12 +17,15 @@ I've started with Portainer 2.17.0 and today Portainer 2.17.1 was released. Time
 I've started my installation of Portainer with this command:
 
 ```bash
-docker run -d -p 9000:9000 \
+docker run -d -p 9000:9000 -p 9443:9443 \
     --name=portainer_ee \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -v /volume1/docker/portainer_ee/data:/data \
+    -v /volume1/docker/portainer_ee/certs:/certs \
     --restart=always \
-    portainer/portainer-ee:latest
+    portainer/portainer-ee:latest \
+    --sslcert /certs/portainer.crt \
+    --sslkey /certs/portainer.key
 ```
 
 Notice the volume where I've mounted the data. This will ensure that my data survives the following steps.
