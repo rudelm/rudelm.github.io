@@ -50,7 +50,7 @@ docker run -d \
   --restart=always \
   -v /var/run/docker.sock:/var/run/docker.sock \
   -v /var/lib/docker/volumes:/var/lib/docker/volumes \
-  portainer/agent:2.18.1
+  portainer/agent:2.18.3
 ```
 
 Stop the running installation and update the container
