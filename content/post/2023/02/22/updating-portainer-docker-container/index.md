@@ -50,7 +50,7 @@ docker run -d \
   --restart=always \
   -v /var/run/docker.sock:/var/run/docker.sock \
   -v /var/lib/docker/volumes:/var/lib/docker/volumes \
-  portainer/agent:2.18.3
+  portainer/agent:2.18.4
 ```
 
 Stop the running installation and update the container
@@ -58,7 +58,7 @@ Stop the running installation and update the container
 ```bash
 docker stop portainer_agent
 docker rm portainer_agent
-docker pull portainer/agent:2.18.1
+docker pull portainer/agent:2.18.4
 ```
 
 Now start portainer again.
