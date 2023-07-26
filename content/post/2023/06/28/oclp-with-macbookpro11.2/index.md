@@ -39,5 +39,18 @@ Your first hurdle is to build a 0.6.7 installer usb stick from another mac - do 
 
 So I downloaded the OCLP 0.6.7 on my Apple Silicon MBP and created a suitable USB stick with the latest macOS installer. Once I rebooted from the stick, I could select the OCLP patched installer and the machine was working again. Even without any data loss or need for reconfiguration of existing user data.
 
+# Another more simpler solution
+The Macbook decided to automatically install the latest [rapid security response update 13.4.1 (c)](https://support.apple.com/en-us/HT213825). My father was asked by OCLP to reapply the root patches and he could work again like there was no interruption. I've decided to update to 13.5 once I've read [these steps](https://discord.com/channels/417165963327176704/1130866929100390482/1132057057097437345) in the OCLP discord:
+
+```
+Disable / revert root patches using OCLP. DON'T REBOOT when asked!
+Install RSR 13.4.1(c), mac will install and reboot by itself.
+Re-enable root patches again.
+Reboot. Everything is working again with the RSR installed. 🙂
+Edit: This will probably only work on hasswell+ processors since pre-hasswell don't have the correct updates delivered. 
+```
+
+While the steps aim at a MacbookPro11,4, they could be also applied to the Macboopro11,2 and the 13.5. update, simplifying the time spend for the update drastically. Additionally I've seen that the software updater downloads the complete macOS of about 12GB instead of only the update, but that's a small price to be paid for having these updates at all.
+
 # Conclusion
 Its great that I can still use the old hardware with recent macOS versions. However, the amount of work necessary increases from release to release. My wife's Macbook Air is also patched but is pretty straight forward to update without issues. I guess, sooner or later those machines will need replacement anyways, which is quite sad. Considering that they are still useable for their intended workloads.
