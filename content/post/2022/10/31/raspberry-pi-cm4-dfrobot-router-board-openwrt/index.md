@@ -6,7 +6,7 @@ categories:
 - Raspberry Pi
 - Linux
 tags:
-- openWRT
+- OpenWRT
 - linux
 ---
 # Introduction
