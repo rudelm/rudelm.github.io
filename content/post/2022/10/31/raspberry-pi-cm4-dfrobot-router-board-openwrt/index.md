@@ -61,9 +61,20 @@ Second stage boot server done
 ```
 
 ## Create system image with openwrt.org page
-This is the preferred and faster way. Go to openwrt.org and open the [firmware selector](https://firmware-selector.openwrt.org/?version=22.03.2).
+This is the preferred and faster way. Go to openwrt.org and open the [firmware selector for 22.03.2](https://firmware-selector.openwrt.org/?version=22.03.2).
 
-Enter `Raspberry` and select `Raspberry Pi 4B/400/4CM (64bit)`. Adjust the installed packages and add `luci kmod-r8169 kmod-usb-dwc2 bcm27xx-userland`. Request the firmware and download all offered images.
+Enter `Raspberry` and select `Raspberry Pi 4B/400/4CM (64bit)`. Adjust the installed packages and add `kmod-r8169 kmod-usb-dwc2 bcm27xx-userland`. Request the firmware and download all offered images.
+
+**Update for 23.05.0:** A lot changed under the hood. The only working minimal package selection were for me the default packages and `kmod-usb-dwc2`. Everything else was either part of the package list or part of the Raspberry Pi base image (looking at `bcm27xx-userland`). Also make sure you'll open [the firmware selector for 23.05.0](https://firmware-selector.openwrt.org/?version=23.05.0&target=bcm27xx%2Fbcm2711&id=rpi-4) in Chrome. Otherwise the download buttons did not work for me.
+
+Make sure that the generated sha256sum fit to your downloaded files, e.g.
+
+```bash
+shasum -a 256 openwrt-23.05.0-14d945d583a7-bcm27xx-bcm2711-rpi-4-squashfs-factory.img.gz
+82ffbaa64ac18d11db3da09bb5c27c82bfff35ab74dfedef08f5d9ccff285a1d  openwrt-23.05.0-14d945d583a7-bcm27xx-bcm2711-rpi-4-squashfs-factory.img.gz
+shasum -a 256 openwrt-23.05.0-14d945d583a7-bcm27xx-bcm2711-rpi-4-squashfs-sysupgrade.img.gz
+4b8828bd9881342039de6f04ccdfb21e602f53063cf13a46526423867c1527ba  openwrt-23.05.0-14d945d583a7-bcm27xx-bcm2711-rpi-4-squashfs-sysupgrade.img.gz
+```
 
 ### Create a new system image - manually
 Following the instructions from [this gist](https://gist.github.com/martin-niklasson/6912a7e5ba49b92801d54766f1d7277a):
