@@ -28,6 +28,8 @@ chmod +x minio
 sudo mv minio /usr/local/bin/
 ```
 
+Be aware that this download is sometimes very slow, especially from Europ. There's an [open issue](https://github.com/minio/minio/issues/9847) but looks like the conversation is locked and no one was able to complain about it again.
+
 We need a user for the minio process to run:
 
 ```bash
@@ -122,10 +124,23 @@ As I'm using all-inkl as hosting provider, I was keen to know if I could use Let
 
 This was also the place, where I found [kasserver](https://github.com/fetzerch/kasserver). kasserver provides an interface to the adminstration interface of all-inkl. It's especially useful for setting up Let's encrypt certs using [certbot](https://github.com/fetzerch/kasserver#kasserver-dns-certbot).
 
+### Install pip and venv
+I had to reinstall the raspberry pi and had to do a few preparations before kasserver could be installed. The python was installed via APT, so it was [managed externally](https://stackoverflow.com/a/75696359/831825). This caused some troubles for me and I had to create a dedicated environment, that is available as [system-site-package](https://stackoverflow.com/a/76672519/831825):
+
+```bash
+sudo apt install python3.11-venv
+python3 -m venv ~/.local --system-site-packages
+```
+
+The python packages that are now installed are put into the venv in `~/.local`. Its `bin` folder is normally part of the PATH environment variable, so every command installed here will be available after you log again to a new shell.
+
+### Install kasserver
+
 Install it with
 
 ```bash
-pip3 install kasserver
+~/.local/bin/pip install kasserver
+sudo apt-get install libxslt-dev
 ```
 
 Setup the KAS credentials in ~/.netrc
@@ -142,7 +157,13 @@ Restrict access to the file to only your user
 chmod 600 ~/.netrc
 ```
 
-Install certbot
+Test the installation with
+
+```bash
+kasserver-dns list your.domain
+```
+
+### Install certbot
 
 ```bash
 sudo apt-get install certbot
@@ -171,8 +192,28 @@ mkdir ~/letsencrypt/logs
 Request a certificate that is valid as wildcard cert and also for the top domain:
 
 ```bash
-certbot certonly -d *.subdomain.domain.com,subdomain.domain.com --config-dir /home/pi/letsencrypt/config --work-dir /home/pi/letsencrypt/work --logs-dir /home/pi/letsencrypt/logs --preferred-challenges dns --manual --manual-auth-hook /home/pi/.local/bin/kasserver-dns-certbot --manual-cleanup-hook /home/pi/.local/bin/kasserver-dns-certbot -m system@rudel.email
+certbot certonly -d *.subdomain.domain.com --config-dir /home/pi/letsencrypt/config --work-dir /home/pi/letsencrypt/work --logs-dir /home/pi/letsencrypt/logs --preferred-challenges dns --manual --manual-auth-hook /home/pi/.local/bin/kasserver-dns-certbot --manual-cleanup-hook /home/pi/.local/bin/kasserver-dns-certbot -m your@email.domain
 ```
+
+## Setup NTFS formatted USB drive
+I've got an NTFS formatted USB drive attached to the pi. It's my backup storage. I've selected NTFS since it can be read by macOS without problems. For ext4 I'll need to use FUSE or Paragon extFS, which I don't want to buy.
+
+The setup for the NTFS drive is explained in [good detail here](https://gist.github.com/etes/aa76a6e9c80579872e5f).
+
+Make sure that you'll add the user that mounts the NTFS drive is also part of the minio group, e.g. `sudo usermod -a -G minio,staff,usergroup minio`. I've even tried to mount the complete drive as minio:minio using this entry in `/etc/fstab` to avoid permissions problems:
+
+```bash
+UUID=4EE12D1B5321171F /mnt/backups ntfs-3g      auto,exec,rw,uid=995,gid=991    0       2
+```
+
+The ID of the minio user can be found using 
+
+```bash
+id minio
+uid=995(minio) gid=991(minio) Gruppen=991(minio),50(staff)
+```
+
+However, as we can see later on, I've changed this back to the ID of my raspberry pi user, e.g. `pi`.
 
 ## Restart and testing
 
@@ -216,7 +257,13 @@ mc mirror /volume/old-data destminio/yourBucketName --insecure
 Be aware, this is a very slow operation (around 5MB/s on a Raspberry Pi 3b).
 
 ## Run as docker container
-I've had some troubles with the setup of minio so I've tried to use it via docker. On my raspberry Pi 3b, I required an arvm7 compatible image. The official docker image doesn't provide this so I've selected this one instead: `tobi312/minio:latest`
+I've had some troubles with the setup of minio so I've tried to use it via docker. 
+
+### Install docker
+There's a really good [documentation](https://docs.docker.com/engine/install/raspberry-pi-os/#install-using-the-repository) for installing the official docker packages and not the ones provided by Rasbpian. Quite nice and worked out of the box.
+
+### Minio in docker
+On my raspberry Pi 3b, I required an arvm7 compatible image. The official docker image doesn't provide this so I've selected this one instead: `tobi312/minio:latest`
 
 I've setup my `docker-compose.yml` like this:
 
@@ -224,19 +271,22 @@ I've setup my `docker-compose.yml` like this:
 version: '2'
 services:
     minio:
-      container name: minio
-      command: ["server", "--address", ":443", "--console-address", ": 9001", "/data"]
+      container_name: minio
+      command: ["server", "--certs-dir", "/certs", "--address", ":443", "--console-address", ":9001", "/data"]
       environment:
         - MINIO_ROOT_USER=foo
         - MINIO_ROOT_PASSWORD=bar
         - MINIO_DOMAIN=buckets.domain.com
-      image: tobi312/minio:latest 
+      image: tobi312/minio:latest
+      user: 1000:1000
       ports:
-        - '443:4431
-        - '9001:9001 
+        - '443:443'
+        - '9001:9001' 
       volumes:
-        - /mnt/backups/config:/root/.minio
-        - /mnt/backups/minio:/data: rw
+        - /home/pi/letsencrytp/config/live/buckets.domain.com/privkey.pem:/certs/private.key
+        - /home/pi/letsencrytp/config/live/buckets.domain.com/cert.pem:/certs/public.crt
+        - /home/pi/letsencrytp/config/live/buckets.domain.com/chain.pem:/certs/CAs/chain.pem
+        - /mnt/backups/minio:/data
       healthcheck:
         test: ["CMD", "curl", "-fail", "http://localhost:443/minio/health/live"]
         interval: 60s 
@@ -245,7 +295,9 @@ services:
       restart: unless-stopped
 ```
 
-Whereby `MINIO_ROOT_USER` and `MINIO_ROOT_PASSWORD` are the same as before the Access and Secret Key. Make sure that you'll set `MINIO_DOMAIN` without wildcards.
+Whereby `MINIO_ROOT_USER` and `MINIO_ROOT_PASSWORD` are the same as before the Access and Secret Key. Make sure that you'll set `MINIO_DOMAIN` without wildcards. The ID should be the same ID as of the user that owns the letsencrypt certificate files as well as the mounted data directory.
+
+Start the compose file with `docker compose up -d` when you're next to the `docker-compose.yml` file.
 
 ## Reconnect S3 Hyperbackup
 If you change your domain or S3 provider, you'll have to reconnect an existing Hyperbackup key with a new S3 destination. Create a new S3 backup, select S3 as destination and choose a custom configuration. Use the credentials you've used before, including the new URL. Hyperbackup tries to connect automatically to the S3 server and lets you select the bucket and eventually any existing folders in that bucket. I've selected here the folder where I've imported my existing Hyperbackup.
