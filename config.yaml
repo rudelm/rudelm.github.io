@@ -68,3 +68,10 @@ menu:
       params:
         icon: mastodon
         newTab: true
+
+    - identifier: rss
+      name: RSS
+      url: 'https://centurio.net/index.xml'
+      params:
+        icon: rss
+        newTab: true
