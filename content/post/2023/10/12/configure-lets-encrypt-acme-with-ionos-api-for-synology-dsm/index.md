@@ -75,3 +75,37 @@ When I assign it manually, it will trigger a restart of the webserver automatica
 
 # Conclusion
 After some minor problems with the `synology_dsm` deploy hook, I've got it all running. It will be interesting to see how things will end up in 90 days, when the certificate expire. Ideally the docker container will handle the renewal process automatically. In combination with the deploy hook, the DSM should pretty much maintenance free.
+
+# Update 04/11/2024
+I've just witnessed another expired certificate without my knowing. According to the acme container, it should be renewed only in a month, but is already expired for 2 days:
+
+```bash
+2024/04/11 00:49:03	stdout	[Wed Apr 10 22:49:03 UTC 2024] Skip, Next renewal time is: [1;32m2024-05-11T22:49:51Z[0m 
+```
+
+But according to the logs, acme already tried to renew a certificate in March 2024:
+
+```bash
+2024/03/13 23:49:51	stdout	[Wed Mar 13 22:49:51 UTC 2024] [1;32mCert success.[0m 
+```
+
+It failed to update the certificate in the DSM again:
+
+```bash
+2024/03/13 23:49:59	stdout	[Wed Mar 13 22:49:59 UTC 2024] [1;31mUnable to authenticate to https://myds:5001 - check your username & password.[0m 
+```
+
+I've tried again to configure the deploy hook but I couldn't get past the authentication:
+
+```bash
+[Thu Apr 11 22:18:30 UTC 2024] Session ID
+[Thu Apr 11 22:18:30 UTC 2024] SynoToken
+[Thu Apr 11 22:18:30 UTC 2024] Unable to authenticate to https://myds:5001 - check your username & password.
+[Thu Apr 11 22:18:30 UTC 2024] If two-factor authentication is enabled for the user:
+[Thu Apr 11 22:18:30 UTC 2024] - set SYNO_Device_Name then input *correct* OTP-code manually
+[Thu Apr 11 22:18:30 UTC 2024] - get & set SYNO_Device_ID via your browser cookies
+[Thu Apr 11 22:18:30 UTC 2024] Error deploy for domain:myds
+[Thu Apr 11 22:18:30 UTC 2024] Deploy error.
+```
+
+I've had this problems before and looking at [the github issue](https://github.com/acmesh-official/acme.sh/issues/2727), it's often causing problems. In its current state, it's too fragile so I've selected manually the certificate and replaced the expired one. Guess I'll rather check for any renewal emails or other notification and have to do this manually. There's also the possibility to run acme natively on the DSM to avoid having authentication problems but I did not give it a try yet.
