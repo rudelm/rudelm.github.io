@@ -80,19 +80,19 @@ After some minor problems with the `synology_dsm` deploy hook, I've got it all r
 I've just witnessed another expired certificate without my knowing. According to the acme container, it should be renewed only in a month, but is already expired for 2 days:
 
 ```bash
-2024/04/11 00:49:03	stdout	[Wed Apr 10 22:49:03 UTC 2024] Skip, Next renewal time is: [1;32m2024-05-11T22:49:51Z[0m 
+2024/04/11 00:49:03	stdout	[Wed Apr 10 22:49:03 UTC 2024] Skip, Next renewal time is:  [1;32m2024-05-11T22:49:51Z [0m 
 ```
 
 But according to the logs, acme already tried to renew a certificate in March 2024:
 
 ```bash
-2024/03/13 23:49:51	stdout	[Wed Mar 13 22:49:51 UTC 2024] [1;32mCert success.[0m 
+2024/03/13 23:49:51	stdout	[Wed Mar 13 22:49:51 UTC 2024]  [1;32mCert success. [0m 
 ```
 
 It failed to update the certificate in the DSM again:
 
 ```bash
-2024/03/13 23:49:59	stdout	[Wed Mar 13 22:49:59 UTC 2024] [1;31mUnable to authenticate to https://myds:5001 - check your username & password.[0m 
+2024/03/13 23:49:59	stdout	[Wed Mar 13 22:49:59 UTC 2024]  [1;31mUnable to authenticate to https://myds:5001 - check your username & password. [0m 
 ```
 
 I've tried again to configure the deploy hook but I couldn't get past the authentication:
