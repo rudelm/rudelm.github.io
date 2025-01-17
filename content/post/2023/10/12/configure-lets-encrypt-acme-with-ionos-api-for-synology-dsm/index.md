@@ -9,10 +9,10 @@ tags:
 - Lets Encrypt
 ---
 # Introduction
-I've [just setup]({{< ref "/post/2023/10/12/configure-lets-encrypt-acme-with-ionos-api-in-openwrt" >}}) a Let's encrypt certificate for my OpenWRT router. I would like to do the same for my Synology NAS. However, this one is a bit more complex, since I'm running a lot of docker container on that machine and also use the reverse proxy feature. So I'll need a wildcard certificate. Unfortunately, DSM doesn't support Let's encrypt certificates using DNS validation, so I'll have to do things manually. Luckily [some people](https://www.christosgeo.com/2022/02/03/renew-lets-encrypt-certificates-on-synology-using-acme-sh/) already experimented with this problem and documented them.
+I've (just setup]({{< ref "/post/2023/10/12/configure-lets-encrypt-acme-with-ionos-api-in-openwrt" >}}) a Let's encrypt certificate for my OpenWRT router. I would like to do the same for my Synology NAS. However, this one is a bit more complex, since I'm running a lot of docker container on that machine and also use the reverse proxy feature. So I'll need a wildcard certificate. Unfortunately, DSM doesn't support Let's encrypt certificates using DNS validation, so I'll have to do things manually. Luckily (some people](https://www.christosgeo.com/2022/02/03/renew-lets-encrypt-certificates-on-synology-using-acme-sh/) already experimented with this problem and documented them.
 
 # Create Ionos API credentials
-See [this documentation](https://developer.hosting.ionos.de/docs/getstarted#createKey) on how to create a new API key. I've created additonally a subdomain `local` which I'll be using for all my local network stuff. I assume you'll need to have the subdomain already configured in Ionos before you'll request any certificates for subdomains.
+See (this documentation](https://developer.hosting.ionos.de/docs/getstarted#createKey) on how to create a new API key. I've created additonally a subdomain `local` which I'll be using for all my local network stuff. I assume you'll need to have the subdomain already configured in Ionos before you'll request any certificates for subdomains.
 
 # Preparations
 The suggestion is to run the ACME script inside a docker container. Additionally a separate DSM admin user should be used for managing the certificate renewal process. The user must be an admin, but can be denied access to all DSM Applications. You'll have to login once for this user, to complete the 2FA setup.
@@ -37,7 +37,7 @@ export SYNO_Create=1
 Change the values to your needs. The `SYNO_Username` and password are of the account you've created earlier. The `IONOS_` parameters are from the API credential creation of Ionos.
 
 ## The Container
-I'm using Portainer for most of my docker stuff. But since I'm following [these instructions](https://www.christosgeo.com/2022/02/03/renew-lets-encrypt-certificates-on-synology-using-acme-sh/) I'll be configuring this container via the DSM console.
+I'm using Portainer for most of my docker stuff. But since I'm following (these instructions](https://www.christosgeo.com/2022/02/03/renew-lets-encrypt-certificates-on-synology-using-acme-sh/) I'll be configuring this container via the DSM console.
 
 Enabe automatic restarts and give it a simple name like acme.
 
@@ -65,7 +65,7 @@ I had problems with my existing certs which weren't trusted by the docker contai
 [Fri Oct 13 00:12:29 UTC 2023] Success   
 ```
 
-The list of certificates now show the uploaded certificate from lets encrypt, but its not in use anywhere inside the DSM. According to [this wiki](https://github.com/acmesh-official/acme.sh/wiki/deployhooks#20-deploy-the-certificate-to-synology-dsm), it must be assigned manually:
+The list of certificates now show the uploaded certificate from lets encrypt, but its not in use anywhere inside the DSM. According to (this wiki](https://github.com/acmesh-official/acme.sh/wiki/deployhooks#20-deploy-the-certificate-to-synology-dsm), it must be assigned manually:
 
 ```
 Afterwards, the certificate should show up inside Control Panel -> Security -> Certificates & can be assigned to specific services or set as the default certificate.
@@ -80,19 +80,19 @@ After some minor problems with the `synology_dsm` deploy hook, I've got it all r
 I've just witnessed another expired certificate without my knowing. According to the acme container, it should be renewed only in a month, but is already expired for 2 days:
 
 ```bash
-2024/04/11 00:49:03	stdout	[Wed Apr 10 22:49:03 UTC 2024] Skip, Next renewal time is:  [1;32m2024-05-11T22:49:51Z [0m 
+2024/04/11 00:49:03	stdout Wed Apr 10 22:49:03 UTC 2024 Skip, Next renewal time is: 2024-05-11T22:49:51Z
 ```
 
 But according to the logs, acme already tried to renew a certificate in March 2024:
 
 ```bash
-2024/03/13 23:49:51	stdout	[Wed Mar 13 22:49:51 UTC 2024]  [1;32mCert success. [0m 
+2024/03/13 23:49:51	stdout Wed Mar 13 22:49:51 UTC 2024 Cert success.
 ```
 
 It failed to update the certificate in the DSM again:
 
 ```bash
-2024/03/13 23:49:59	stdout	[Wed Mar 13 22:49:59 UTC 2024]  [1;31mUnable to authenticate to https://myds:5001 - check your username & password. [0m 
+2024/03/13 23:49:59	stdout Wed Mar 13 22:49:59 UTC 2024] Unable to authenticate to https://myds:5001 - check your username & password.
 ```
 
 I've tried again to configure the deploy hook but I couldn't get past the authentication:
