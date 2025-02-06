@@ -26,13 +26,13 @@ I'm currently using an old Mac Mini from 2009 as my media center. I've updated i
 I'm using the Mac Mini for hearing Spotify, watching Netflix and Sky Go Connect, SNES Emulator with Xbox 360 and PS3 Gamepads and of course Kodi as media center in combination with Hyperion on a Raspberry Pi 1 as Ambilight clone. I've had to replace all this functionality with the Pi 3, but luckily it is possible!
 
 ## LibreElec
-I've started with <a href="https://libreelec.tv/">LibreElec</a> (8.0.2 stable) and installed it on the Pi 3. I had to copy the necessary Kodi files for setting the used sources and mysql database, so that I get my existing library and its viewing status.
+I've started with [LibreElec](https://libreelec.tv/) (8.0.2 stable) and installed it on the Pi 3. I had to copy the necessary Kodi files for setting the used sources and mysql database, so that I get my existing library and its viewing status.
 
 ## Hyperion
-Hyperion was <a href="https://docs.hyperion-project.org/en/user/Installation.html">easy to install</a> via HyperionRemote. I only had to enable guest control for external resources in Kodi, so that Hyperion could properly shut down the backlight while the main menu is being displayed.
+Hyperion was [easy to install](https://docs.hyperion-project.org/en/user/Installation.html) via HyperionRemote. I only had to enable guest control for external resources in Kodi, so that Hyperion could properly shut down the backlight while the main menu is being displayed.
 
 ## SNES emulator
-The SNES emulator can be used on LibreElec using the Kodi add-on <a href="https://github.com/bite-your-idols/Gamestarter">Gamestarter</a>. Just follow the GitHub instructions.
+The SNES emulator can be used on LibreElec using the Kodi add-on [Gamestarter](https://github.com/bite-your-idols/Gamestarter). Just follow the GitHub instructions.
 
 ## Xbox360 Gamepads
 My Xbox 360 Gamepads where installed without problems. I just had to connect them via the USB adapter and pair them with the adapter. They are usable in Kodi as well as in Gamestarter without further configuration. I think that PS3 gamepads will probably behave similar.
@@ -41,12 +41,12 @@ My Xbox 360 Gamepads where installed without problems. I just had to connect the
 The Bluetooth Mac Keyboard and Trackpad can also be paired with the Pi 3 via LibreElecs system settings. This allows a better search since you don't need to use the onscreen Keyboard.
 
 ## Spotify Connect
-For Spotify I've just wanted the Pi 3 to appear as a Spotify connect speaker. The mobile apps and my other machines in the network are a better solution to select the music I want to hear, so I just wanted the Pi 3 to appear as a target. The <a href="https://forum.libreelec.tv/thread/8438-librespot-addon/">Librespot</a> provides this cool feature and also enables you to add easily Spotify connect to other rooms in your house with just a Raspberry Pi. Just search in the add-on for Librespot and install it. After a restart its active. Spotify connect is available immediately and stops automatically once a movie is started. It will be available again once the movie is really stopped (being paused is insufficient). Connecting to Librespot is really fast and works even better than with my Heos speakers!
+For Spotify I've just wanted the Pi 3 to appear as a Spotify connect speaker. The mobile apps and my other machines in the network are a better solution to select the music I want to hear, so I just wanted the Pi 3 to appear as a target. The [Librespot](https://forum.libreelec.tv/thread/8438-librespot-addon/) provides this cool feature and also enables you to add easily Spotify connect to other rooms in your house with just a Raspberry Pi. Just search in the add-on for Librespot and install it. After a restart its active. Spotify connect is available immediately and stops automatically once a movie is started. It will be available again once the movie is really stopped (being paused is insufficient). Connecting to Librespot is really fast and works even better than with my Heos speakers!
 
 {{< img "images/SpotifyConnectPi3.png" "Spotify Connect showing the Pi3" >}}
 
 ## Netflix
-Netflix is a completely different beast. Netflix is relying on a library called WideVine which handles the DRM. Google created a version for Chrome on ARM devices and some LibreElec and Kodi developers found a great way to integrate all this into the next version of LibreElec 9 and Kodi 18. So you need to update to <span class="s2"> <a href="https://forum.kodi.tv/showthread.php?tid=298461">LibreElec 9 alpha</a>. Copy the downloaded update file for Raspberry Pi 2 and 3 and put it into the update folder of your Pi 3. Now just restart and you'll get the new version. <strong>However, be sure to make a backup of your library, just in case anything doesn't work as expected!</strong></span>
+Netflix is a completely different beast. Netflix is relying on a library called WideVine which handles the DRM. Google created a version for Chrome on ARM devices and some LibreElec and Kodi developers found a great way to integrate all this into the next version of LibreElec 9 and Kodi 18. So you need to update to [LibreElec 9 alpha](https://forum.kodi.tv/showthread.php?tid=298461). Copy the downloaded update file for Raspberry Pi 2 and 3 and put it into the update folder of your Pi 3. Now just restart and you'll get the new version. However, be sure to make a backup of your library, just in case anything doesn't work as expected!
 
 You'll now need the WideVine libs, you can install them with this command on your Pi:
 

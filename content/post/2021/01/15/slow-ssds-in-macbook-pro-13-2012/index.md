@@ -18,10 +18,7 @@ I've created an external Bootdisk with macOS 10.15 and tried to repartition and 
 
 This MacBook was running fine for almost two years when I've replaced the internal HDD with a SanDisk SSD Plus SDSSDA-480G. All the more I was wondering why it started to be so slow without warning.
 
-I've found [this post](https://www.ifixit.com/Answers/View/519420/MacBook+is+slow+after+upgrading+to+SSD) on [ifixit.com](https://www.ifixit.com/Answers/View/236761/SSD+Became+Very+Slow) where someone replaced the HDD with an SSD in the same model and it started to be very slow. The culprit [should be the internal SATA cable](https://apple.stackexchange.com/questions/177603/ridiculously-slow-macbook-pro), which isn't either SATA3 compatible or [has broken data lanes](https://boards.rossmanngroup.com/threads/why-the-821-1480-and-821-2049-hard-drive-cables-die.17992/) due to mechanic stress from bending or itching on sharp edges caused by the CNC milling of the MacBook case:<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
-
-<div class="wp-block-embed__wrapper">
-</div></figure> 
+I've found [this post](https://www.ifixit.com/Answers/View/519420/MacBook+is+slow+after+upgrading+to+SSD) on [ifixit.com](https://www.ifixit.com/Answers/View/236761/SSD+Became+Very+Slow) where someone replaced the HDD with an SSD in the same model and it started to be very slow. The culprit [should be the internal SATA cable](https://apple.stackexchange.com/questions/177603/ridiculously-slow-macbook-pro), which isn't either SATA3 compatible or [has broken data lanes](https://boards.rossmanngroup.com/threads/why-the-821-1480-and-821-2049-hard-drive-cables-die.17992/) due to mechanic stress from bending or itching on sharp edges caused by the CNC milling of the MacBook case:
 
 I've checked the cable and did not see any damages to the cable. So I've tried an old HDD on the same cable and repartitioning and installing was reasonable fast again.
 

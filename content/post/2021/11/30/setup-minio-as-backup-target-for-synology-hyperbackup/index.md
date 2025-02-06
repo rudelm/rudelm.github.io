@@ -15,7 +15,7 @@ title: Setup minio as backup target for Synology HyperBackup
 
 ---
 # Introduction
-After some unsuccessful <a href="https://centurio.net/2020/09/26/setup-wireguard-vpn-on-raspbian/" data-type="post" data-id="3386">tests with WireGuard VPN</a>, I've tried something new to provide a suitable encrypted backup target for my Synology NAS.
+After some unsuccessful [tests with WireGuard VPN]({{< ref "/post/2020/09/26/setup-wireguard-vpn-on-raspbian/">}}), I've tried something new to provide a suitable encrypted backup target for my Synology NAS.
 
 Minio is a block storage server which is compatible to AWS S3 API. That means I can configure a S3 compatible target in HyperBackup. Here's now a small [installation guide](https://computingforgeeks.com/how-to-setup-s3-compatible-object-storage-server-with-minio/) for a Raspberry Pi, which I've modified for my needs:
 
@@ -118,7 +118,7 @@ You should enable TLS by placing a private key, a certificate and eventually a C
 
 I've started with the creation of a wildcard certificate created by my own trusted CA. However, you could create the same result by using Lets Encrypt. It's important to use a wildcard certificate, as this is a requirement for using [minio as backup target with Hyper Backup](https://itrandomness.com/2020/05/local-backups-with-synology-hyper-backup-and-minio/). We'll run minio in [virtual-host-style requests](https://docs.min.io/docs/minio-server-configuration-guide.html). That's also the reason why you'll need to define the MINIO_DOMAIN variable.
 
-Instead of adding the bucket name to the server domain, the bucket name will be put in front of the server domain. So you'll end up with domains like bucket.<domain> instead of <domain>/bucket. This is the reason why you'll need a wildcard certificate for the given domain.
+Instead of adding the bucket name to the server domain, the bucket name will be put in front of the server domain. So you'll end up with domains like bucket.domain instead of domain/bucket. This is the reason why you'll need a wildcard certificate for the given domain.
 
 As I'm using all-inkl as hosting provider, I was keen to know if I could use Let's Encrypt wildcard certificates in combination with the DDNS solution offered. However, for using Let's encrypt certificates, you'll need access to your domains DNS records and need to have a way to update TXT records, as the certs will automatically expire after 90 days. The general setup in combination with all-inkl is explained [here](https://stevenschwenke.de/GeneratingTLSCertificatesUsingCertbotManualModeAndDNSChallengeAndSetupWithAllInkl).
 

@@ -65,7 +65,7 @@ However, I've encountered another annoying issue which caused the installer to f
 
 Oh great... On to the next commands you can [try from the Terminal inside the Recovery OS](https://apple.stackexchange.com/a/232016/19241):
 
-  1. <code style="font-size: 17px;">installer -pkg /Volumes/Mac\ OS\ X\ Install\ DVD/Packages/OSInstall.mpkg -target /Volumes/"XXX"</code> where XXX is the name of the disk you're installing to.
+  1. `installer -pkg /Volumes/Mac\ OS\ X\ Install\ DVD/Packages/OSInstall.mpkg -target /Volumes/"XXX"` where XXX is the name of the disk you're installing to.
   2. Wait for the installation to say it's complete. You will not see any sort of progress display.
 
 Great, you've got El Capitan installed! [Apple had some issues with certificates](https://tidbits.com/2019/10/28/redownload-archived-macos-installers-to-address-expired-certificates/) and people found a way to either use the above commands for installation or you'll have to tinker with your Macs time settings so that the signature is valid again. I would have expected that Apple resigned all installers so I wouldn't have to use these commands at all but doesn't look like they did.

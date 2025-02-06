@@ -25,7 +25,7 @@ However, there is one important problem with this solution: Once you've disconne
 
 I thought I've taken care of this problem with auto connecting to the network share with a Login Item. However, this didn't help me much since I sometimes have disconnections to my network (e.g. when I'm on the road) and the network connection will only be created once during the login of your current user. So this doesn't help me at all and caused me to look for another better solution.
 
-So I've found <del>this gist</del> (the link is dead) and modified it a little bit to my environment. Therefore here's my short list of modifications for using autofs in combination with AFP or SMB volumes:
+So I've found ~~this gist~~ (the link is dead) and modified it a little bit to my environment. Therefore here's my short list of modifications for using autofs in combination with AFP or SMB volumes:
 
 If you now start up iTunes again, it will try to locate the media files in the /Volumes/music folder, like I manually specified it. However, autofs will now automatically mount the network share for me and iTunes won't complain about a missing volume. This way I won't ever need to take care of manually updating the path once I forgot connecting to my NAS 🙂
 
@@ -37,7 +37,7 @@ Hm, it seems that the trick with /../Volumes does not work anymore on Mac OS 10.
 So I need to mount the volume in a different folder and need to change the path in iTunes again.
 
 ## Update using smbfs
-I'm not able to mount afp volumes anymore so I'm using smbfs like it is described [<del>here</del> (the link is dead)](https://www.dforge.net/2012/08/07/create-a-permanent-smb-mount-in-osx/). However, this will require a user and password in the configuration file 🙁
+I'm not able to mount afp volumes anymore so I'm using smbfs like it is described [~~here~~ (the link is dead)](https://www.dforge.net/2012/08/07/create-a-permanent-smb-mount-in-osx/). However, this will require a user and password in the configuration file 🙁
 
 ## Update for Sierra
 
@@ -47,6 +47,6 @@ Mac OS Sierra breaks the autofs configuration. I had to change it a little bit a
 
 This still works on Mac OS High Sierra. However, make sure that you enter the credentials correctly and that you spare special characters, according to [this blog](https://derflounder.wordpress.com/2014/04/06/using-etcauto_home-on-mavericks-to-mount-shares-under-home/):
 
-**<u>Note:</u>** If you have a password longer than 8 characters, or if the password has special characters in it (like “! # $ % & ‘ ( ) * + , – . / : ; & < = > ? @ [ \ ] ^ _ { | } ~”), you may receive a “**No locks available**” error message and the share will not mount under **/home**. You will also receive a “**No locks available**” or similar **“Host is down”** error if the password is wrong or missing.
+**Note:** If you have a password longer than 8 characters, or if the password has special characters in it (like “! # $ % & ‘ ( ) * + , – . / : ; & < = > ? @ [ \ ] ^ _ { | } ~”), you may receive a “**No locks available**” error message and the share will not mount under **/home**. You will also receive a “**No locks available**” or similar **“Host is down”** error if the password is wrong or missing.
 
 I've encountered the  "No locks available" today and had an error in my password which blocked the auto mounter from opening the folder.

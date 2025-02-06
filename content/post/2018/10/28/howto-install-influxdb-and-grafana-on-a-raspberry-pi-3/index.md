@@ -54,11 +54,11 @@ sudo systemctl start grafana-server
 
 ## First login to Grafana:
 
-Now you're ready to configure Grafana. Go to http://<ip-of-grafana-machine>:3000 and setup a new username and password for the webinterface. The default is admin/admin
+Now you're ready to configure Grafana. Go to http://ip-of-grafana-machine:3000 and setup a new username and password for the webinterface. The default is admin/admin
 
 ## Configure InfluxDB as datasource in Grafana:
 
-You need to configure a datasource under http://<ip-of-grafana-machine>:3000/datasources
+You need to configure a datasource under http://ip-of-grafana-machine:3000/datasources
 
 Enter as name the name of the database you've created earlier. In this case it was topic.
 
