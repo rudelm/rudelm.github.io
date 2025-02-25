@@ -31,25 +31,29 @@ crw-rw---- 1 root dialout 188, May 16 19:15 /dev/ttyUSB0
 ```
 
 # Flashing the firmware
-Use this docker container to [avoid installing all the dependencies](https://www.zigbee2mqtt.io/guide/adapters/flashing/flashing_via_cc2538-bsl.html) for flashing the firmware. Replace the device with the `ttyUSB` you've seen in `dmesg` output. Its likely `/dev/ttyUSB0` anyways. Get [the link](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.x.0/bin) to the latest coordinator firmware. Search for `CC1352P2_CC2652P_launchpad_*.zip`. Place that URL as `FIRMWARE_URL` parameter:
+Use this docker container to [avoid installing all the dependencies](https://www.zigbee2mqtt.io/guide/adapters/flashing/flashing_via_cc2538-bsl.html) for flashing the firmware. Search for your device while it's connected in `/dev/serial/by-id`. Mine looks like this: `/dev/serial/by-id/usb-Silicon_Labs_Sonoff_Zigbee_3.0_USB_Dongle_Plus_0001-if00-port0`. Previously I would recommend `/dev/ttyUSB0` but that changed in newer Raspbian versions. Also the target device in the docker container should be `/dev/ttyACM0` instead. Get [the link](https://github.com/Koenkk/Z-Stack-firmware/releases) to the latest coordinator firmware from the releases section. Search for `CC1352P2_CC2652P_launchpad_*.zip`. Place that URL as `FIRMWARE_URL` parameter:
 
 ```bash
 docker run --rm \
-    --device /dev/ttyUSB0:/dev/ttyUSB0 \
-    -e FIRMWARE_URL=https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/bin/CC1352P2_CC2652P_launchpad_coordinator_20221226.zip \
-    ckware/ti-cc-tool -ewv -p /dev/ttyUSB0 --bootloader-sonoff-usb
+    --device /dev/serial/by-id/usb-Silicon_Labs_Sonoff_Zigbee_3.0_USB_Dongle_Plus_0001-if00-port0:/dev/ttyACM0 \
+    -e FIRMWARE_URL=https://github.com/Koenkk/Z-Stack-firmware/releases/download/Z-Stack_3.x.0_coordinator_20240710/CC1352P2_CC2652P_launchpad_coordinator_20240710.zip \
+    ckware/ti-cc-tool -ewv -p /dev/ttyACM0 --bootloader-sonoff-usb
+
 ```
 
 The output should probably look like this:
 
 ```bash
+Downloading firmware from https://github.com/Koenkk/Z-Stack-firmware/releases/download/Z-Stack_3.x.0_coordinator_20240710/CC1352P2_CC2652P_launchpad_coordinator_20240710.zip
+Firmware source: 'CC1352P2_CC2652P_launchpad_coordinator_20240710.zip'
+Firmware file:   'CC1352P2_CC2652P_launchpad_coordinator_20240710.hex'
 sonoff
-Opening port /dev/ttyUSB0, baud 500000
-Reading data from ../CC1352P2_CC2652P_launchpad_coordinator_20221226.hex
-Your firmware looks like an Intel Hex file
+Opening port /dev/ttyACM0, baud 500000
+Reading data from CC1352P2_CC2652P_launchpad_coordinator_20240710.hex
+Firmware file: Intel Hex
 Connecting to target...
 CC1350 PG2.0 (7x7mm): 352KB Flash, 20KB SRAM, CCFG.BL_CONFIG at 0x00057FD8
-Primary IEEE Address: 00:00:00:00:00:00:00:00
+Primary IEEE Address: 00:12:4B:00:2A:2E:BC:C4
     Performing mass erase
 Erasing all main bank flash sectors
     Erase done
@@ -57,7 +61,7 @@ Writing 360448 bytes starting at address 0x00000000
 Write 104 bytes at 0x00057F988
     Write done
 Verifying by comparing CRC32 calculations.
-    Verified (match: 0xe0c256fd)
+    Verified (match: 0xd9dd0124)
 ```
 
 # Using zigbee2mqtt
