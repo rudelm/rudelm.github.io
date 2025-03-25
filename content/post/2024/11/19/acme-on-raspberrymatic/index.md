@@ -46,6 +46,8 @@ Add the automatic renew cronjob by using `crontab -e` and add this line:
 0 0 * * * /usr/local/.acme.sh/acme.sh --cron --home /usr/local/.acme.sh > /dev/null
 ```
 
+Update 03/25/2025: The entry in the crontab is overriden on each update.
+
 ## Setup the DNS API
 This step needs only to be done once. [Follow the instructions](https://github.com/acmesh-official/acme.sh/wiki/dnsapi2#dns_porkbun) to export the credentials like this:
 
@@ -69,6 +71,15 @@ Run this command to create the certificate:
  > /etc/config/server.pem && chmod 600 /etc/config/server.pem && /etc/init.d/S50lighttpd reload"
  ```
 
+ # Renew the certificate
+ I've executed the same command as the crontab would do:
+
+ ```bash
+ /usr/local/.acme.sh/acme.sh --cron --home /usr/local/.acme.sh > /dev/null
+ ```
+
+ This will automatically run the `reloadcmd` we've added in the last step, so after a reload you should see the updated certificate already in action.
+
  # Verify installation
  Open the RaspberryMatic UI and try to change the used protocol from `http` to `https`. You shouldn't get a warning and your new Let's encrypt certificate should be ready to use.
 
@@ -77,4 +88,4 @@ Run this command to create the certificate:
  Additionally I've setup my Uptime Kuma to monitor the new service so I can see if the certificate renewal is really working.
 
  # Conclusion
- I'm happy how this worked out. It's quite fast and easy to create self signed certificates. By using the `/usr/local/` location for installation, it should also survive firmware updates. I just hope this will be the case but I'll update the blog post once I know more.
+ I'm happy how this worked out. It's quite fast and easy to create self signed certificates. By using the `/usr/local/` location for installation, it should also survive firmware updates. ~~I just hope this will be the case but I'll update the blog post once I know more.~~ Firmware updates require that you'll add the crontab, all other settings survive an update.
