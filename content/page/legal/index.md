@@ -4,7 +4,6 @@ description: Legal disclaimers
 aliases:
   - legal
   - disclaimer
-lang: de
 menu:
     main: 
         weight: -90
