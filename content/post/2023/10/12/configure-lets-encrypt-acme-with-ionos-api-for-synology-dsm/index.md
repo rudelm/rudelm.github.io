@@ -37,7 +37,7 @@ export SYNO_Create=1
 Change the values to your needs. The `SYNO_Username` and password are of the account you've created earlier. The `IONOS_` parameters are from the API credential creation of Ionos.
 
 ## The Container
-I'm using Portainer for most of my docker stuff. But since I'm following (these instructions](https://www.christosgeo.com/2022/02/03/renew-lets-encrypt-certificates-on-synology-using-acme-sh/) I'll be configuring this container via the DSM console.
+I'm using Portainer for most of my docker stuff. But since I'm following [these instructions](https://www.christosgeo.com/2022/02/03/renew-lets-encrypt-certificates-on-synology-using-acme-sh/) I'll be configuring this container via the DSM console.
 
 Enabe automatic restarts and give it a simple name like acme.
 
@@ -65,7 +65,7 @@ I had problems with my existing certs which weren't trusted by the docker contai
 [Fri Oct 13 00:12:29 UTC 2023] Success   
 ```
 
-The list of certificates now show the uploaded certificate from lets encrypt, but its not in use anywhere inside the DSM. According to (this wiki](https://github.com/acmesh-official/acme.sh/wiki/deployhooks#20-deploy-the-certificate-to-synology-dsm), it must be assigned manually:
+The list of certificates now show the uploaded certificate from lets encrypt, but its not in use anywhere inside the DSM. According to [this wiki](https://github.com/acmesh-official/acme.sh/wiki/deployhooks#20-deploy-the-certificate-to-synology-dsm), it must be assigned manually:
 
 ```
 Afterwards, the certificate should show up inside Control Panel -> Security -> Certificates & can be assigned to specific services or set as the default certificate.
