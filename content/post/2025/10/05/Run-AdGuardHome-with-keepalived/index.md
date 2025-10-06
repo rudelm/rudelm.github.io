@@ -116,6 +116,9 @@ vrrp_instance VI_DNS {
     virtual_ipaddress {
         192.168.3.190/24
     }
+    virtual_ipaddress {
+        fdd6:e6df:9a26:3:0:0:0:190/64
+    }
     track_script {
         chk_adguard
     }
@@ -165,6 +168,9 @@ vrrp_instance VI_DNS {
     }
     virtual_ipaddress {
         192.168.3.190/24
+    }
+    virtual_ipaddress {
+        fdd6:e6df:9a26:3:0:0:0:190/64
     }
     track_script {
         chk_adguard
@@ -237,7 +243,53 @@ google.com.		37	IN	A	142.250.179.142
 ```
 
 # Problems with IPv6
-What's currently unresolved is to set a IPv6 address for the DNS. It looks like the Rasbpian version of keepalived doesn't support this out of the box. There are workarounds for this but I don't know if I really want to do this for now, as it doesn't offer me any benefits.
+At first, IPv6 wasn't working for me. What helped was to set the IPv6 address into a separate block like this:
+
+```bash
+virtual_ipaddress {
+        fdd6:e6df:9a26:3:0:0:0:190/64
+    }
+```
+
+and suddenly I also got that IPv6 address for DNS requests:
+
+```bash
+dig -6 www.google.com fdd6:e6df:9a26:3:0:0:0:190
+
+; <<>> DiG 9.10.6 <<>> -6 www.google.com fdd6:e6df:9a26:3:0:0:0:190
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55029
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;www.google.com.			IN	A
+
+;; ANSWER SECTION:
+www.google.com.		54	IN	A	172.217.23.196
+
+;; Query time: 38 msec
+;; SERVER: fdd6:e6df:9a26:3::190#53(fdd6:e6df:9a26:3::190)
+;; WHEN: Mon Oct 06 18:39:04 CEST 2025
+;; MSG SIZE  rcvd: 59
+
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 13187
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;fdd6:e6df:9a26:3:0:0:0:190.	IN	A
+
+;; ANSWER SECTION:
+fdd6:e6df:9a26:3:0:0:0:190. 3600 IN	A	0.0.0.0
+
+;; Query time: 7 msec
+;; SERVER: fdd6:e6df:9a26:3::190#53(fdd6:e6df:9a26:3::190)
+;; WHEN: Mon Oct 06 18:39:04 CEST 2025
+;; MSG SIZE  rcvd: 60
+```
 
 # Conclusion
 It was quite simple to get this configuration running and I'm happy that the fallback works this good. I don't have to fear system restarts that block my complete network until completed startup and at the same time I'm having more control over the DNS requests in my home network.
