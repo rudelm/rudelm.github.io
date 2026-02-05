@@ -1,0 +1,34 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Centurios Blog"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  description = "Macs, Linux, IoT and Photography"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+   name = "Markus Rudel"
+   email = "blog@centurio.net"
+   image = "img/avatar.png"
+#   imageQuality = 96
+   headline = "Macs, Linux, IoT and Photography"
+#   bio = "A little bit about you"
+   links = [
+     { email = "mailto:blog@centurio.net" },
+     { github = "https://github.com/rudelm" },
+#     { gitlab = "https://gitlab.com/username" },
+#     { linkedin = "https://linkedin.com/in/username" },
+     { mastodon = "https://infosec.exchange/@rudelm" },
+#     { signal = "https://signal.me/#eu/userid" },
+#     { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+#     { steam = "https://steamcommunity.com/profiles/userid" },
+#     { codeberg = "https://codeberg.org/username"},
+   ]
