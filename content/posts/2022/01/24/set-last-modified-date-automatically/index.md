@@ -7,10 +7,10 @@ categories:
 tags:
 - Hugo
 ---
-# Introduction
+## Introduction
 I've wanted to see when a blog post was last updated. My current Hugo theme doesn't offer support for this. Luckily I found [this blog post](https://makewithhugo.com/add-a-last-edited-date/) and modified it to my needs.
 
-## Changes to config.yaml
+### Changes to config.yaml
 Since I don't have everywhere in the frontmatter a `lastmod` value, I need to rely on the git timestamp. I have to modify the `config.yaml` so that Hugo can use this information. In case I've added the `lastmod` manually, it should override the information from git:
 
 ```
@@ -20,7 +20,7 @@ frontmatter:
   lastmod: ['lastmod', ':git', 'date', 'publishDate']
 ```
 
-## Modify the theme
+### Modify the theme
 Existing files from a theme [can be overridden](https://gohugobrasil.netlify.app/themes/customizing/). You'll need to copy the existing file to the same place in your `layouts` folder. I've added these changes to my `details.html`:
 
 ```
@@ -59,5 +59,5 @@ Existing files from a theme [can be overridden](https://gohugobrasil.netlify.app
     </footer>
 ```
 
-# Conclusion
+## Conclusion
 Now you'll see in lot of my posts a "Last modified" next to the published date.  I've updated almost all my posts, as they were recently modified to be compatible with Hugo.

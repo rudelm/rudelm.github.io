@@ -11,7 +11,7 @@ tags:
 title: Fixing Xcode command line tools after upgrade to macOS Catalina 10.15
 
 ---
-# Introduction
+## Introduction
 Today I've updated to macOS Catalina 10.15. I've tried to setup zsh instead of bash and ran intro troubles with Xcode command line tools.
 
 If I run
@@ -41,7 +41,7 @@ sudo rm -rf /Library/Developer
 
 but the problem is still present.
 
-## Download manually
+### Download manually
 
 Many people suggest to go to the developer.apple.com page and to search manually for the Xcode command line tools. I thought this wouldn't work, because I'm only seeing the Xcode command line tools for Xcode 12.
 
@@ -56,6 +56,6 @@ xcode-select: error: command line tools are already installed, use "Software Upd
 
 shows a suitable error message.
 
-## Conclusion
+### Conclusion
 
 So lessons learned: using the latest major version of the command line tools installer seems to be sufficient.

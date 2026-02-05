@@ -14,12 +14,12 @@ tags:
 title: Setup minio as backup target for Synology HyperBackup
 
 ---
-# Introduction
+## Introduction
 After some unsuccessful [tests with WireGuard VPN]({{< ref "/posts/2020/09/26/setup-wireguard-vpn-on-raspbian/">}}), I've tried something new to provide a suitable encrypted backup target for my Synology NAS.
 
 Minio is a block storage server which is compatible to AWS S3 API. That means I can configure a S3 compatible target in HyperBackup. Here's now a small [installation guide](https://computingforgeeks.com/how-to-setup-s3-compatible-object-storage-server-with-minio/) for a Raspberry Pi, which I've modified for my needs:
 
-## Installation
+### Installation
 Download a copy of minio for arm and make it executable:
 
 ```bash
@@ -51,7 +51,7 @@ Grant it additional networking permissions:
 sudo setcap cap_net_bind_service=+ep /usr/local/bin/minio
 ```
 
-## Configuration
+### Configuration
 Now we configure a service for starting minio using [Systemd](https://www.raspberrypi.org/documentation/linux/usage/systemd.md), writing the following lines into /etc/systemd/system/minio.service. Make sure to set the right working directory.
 
 ```basH
@@ -113,7 +113,7 @@ If you want to have minio starting at system startup:
 sudo systemctl enable minio
 ```
 
-## TLS encryption and lets encrypt
+### TLS encryption and lets encrypt
 You should enable TLS by placing a private key, a certificate and eventually a CA certificate into the path supplied by the -certs-dir parameter. In my example it would be /data/.minio/certs. You can read more about securing minio with certificates under [this link](https://min.io/docs/minio/linux/operations/network-encryption.html).
 
 I've started with the creation of a wildcard certificate created by my own trusted CA. However, you could create the same result by using Lets Encrypt. It's important to use a wildcard certificate, as this is a requirement for using [minio as backup target with Hyper Backup](https://itrandomness.com/2020/05/local-backups-with-synology-hyper-backup-and-minio/). We'll run minio in [virtual-host-style requests](https://docs.min.io/docs/minio-server-configuration-guide.html). That's also the reason why you'll need to define the MINIO_DOMAIN variable.
@@ -124,7 +124,7 @@ As I'm using all-inkl as hosting provider, I was keen to know if I could use Let
 
 This was also the place, where I found [kasserver](https://github.com/fetzerch/kasserver). kasserver provides an interface to the adminstration interface of all-inkl. It's especially useful for setting up Let's encrypt certs using [certbot](https://github.com/fetzerch/kasserver#kasserver-dns-certbot).
 
-### Install pip and venv
+#### Install pip and venv
 I had to reinstall the raspberry pi and had to do a few preparations before kasserver could be installed. The python was installed via APT, so it was [managed externally](https://stackoverflow.com/a/75696359/831825). This caused some troubles for me and I had to create a dedicated environment, that is available as [system-site-package](https://stackoverflow.com/a/76672519/831825):
 
 ```bash
@@ -134,7 +134,7 @@ python3 -m venv ~/.local --system-site-packages
 
 The python packages that are now installed are put into the venv in `~/.local`. Its `bin` folder is normally part of the PATH environment variable, so every command installed here will be available after you log again to a new shell.
 
-### Install kasserver
+#### Install kasserver
 
 Install it with
 
@@ -163,7 +163,7 @@ Test the installation with
 kasserver-dns list your.domain
 ```
 
-### Install certbot
+#### Install certbot
 
 ```bash
 sudo apt-get install certbot
@@ -195,7 +195,7 @@ Request a certificate that is valid as wildcard cert and also for the top domain
 certbot certonly -d *.subdomain.domain.com --config-dir /home/pi/letsencrypt/config --work-dir /home/pi/letsencrypt/work --logs-dir /home/pi/letsencrypt/logs --preferred-challenges dns --manual --manual-auth-hook /home/pi/.local/bin/kasserver-dns-certbot --manual-cleanup-hook /home/pi/.local/bin/kasserver-dns-certbot -m your@email.domain
 ```
 
-## Setup NTFS formatted USB drive
+### Setup NTFS formatted USB drive
 I've got an NTFS formatted USB drive attached to the pi. It's my backup storage. I've selected NTFS since it can be read by macOS without problems. For ext4 I'll need to use FUSE or Paragon extFS, which I don't want to buy.
 
 The setup for the NTFS drive is explained in [good detail here](https://gist.github.com/etes/aa76a6e9c80579872e5f).
@@ -215,7 +215,7 @@ uid=995(minio) gid=991(minio) Gruppen=991(minio),50(staff)
 
 However, as we can see later on, I've changed this back to the ID of my raspberry pi user, e.g. `pi`.
 
-## Restart and testing
+### Restart and testing
 
 You can start minio using:
 
@@ -234,7 +234,7 @@ Create a new bucket. You'll use this bucket as your backup target in Hyper Backu
 
 The setup of Hyper Backup with S3 compatible providers is explained [here](https://www.synology.com/en-global/knowledgebase/DSM/tutorial/Backup/How_to_back_up_your_data_to_cloud_services_with_Hyper_Backup).
 
-## Import of existing data
+### Import of existing data
 
 When you've already got data on your machine and want to add it to an Bucket, you'll need to use the `mc` tool. First, you'll have to setup an alias:
 
@@ -256,13 +256,13 @@ mc mirror /volume/old-data destminio/yourBucketName --insecure
 
 Be aware, this is a very slow operation (around 5MB/s on a Raspberry Pi 3b).
 
-## Run as docker container
+### Run as docker container
 I've had some troubles with the setup of minio so I've tried to use it via docker. 
 
-### Install docker
+#### Install docker
 There's a really good [documentation](https://docs.docker.com/engine/install/raspberry-pi-os/#install-using-the-repository) for installing the official docker packages and not the ones provided by Rasbpian. Quite nice and worked out of the box.
 
-### Minio in docker
+#### Minio in docker
 On my raspberry Pi 3b, I required an arvm7 compatible image. The official docker image doesn't provide this so I've selected this one instead: `tobi312/minio:latest`
 
 I've setup my `docker-compose.yml` like this:
@@ -299,7 +299,7 @@ Whereby `MINIO_ROOT_USER` and `MINIO_ROOT_PASSWORD` are the same as before the A
 
 Start the compose file with `docker compose up -d` when you're next to the `docker-compose.yml` file.
 
-## Reconnect S3 Hyperbackup
+### Reconnect S3 Hyperbackup
 If you change your domain or S3 provider, you'll have to reconnect an existing Hyperbackup key with a new S3 destination. Create a new S3 backup, select S3 as destination and choose a custom configuration. Use the credentials you've used before, including the new URL. Hyperbackup tries to connect automatically to the S3 server and lets you select the bucket and eventually any existing folders in that bucket. I've selected here the folder where I've imported my existing Hyperbackup.
 
 Hyperbackup asks for a schedule and which folders to backup. I've selected none, but when askes for the encryption key or password of the backup, you'll can connect an existing backup with the new location. Hyperbackup will download Meta information about the backup, which takes some time, depending on your connectivity and the connectivity of your S3 server. It then shows that it is reassociating the backup, so I assume it will show later up with all its contents and settings which were backed up. I'll update this post accordingly, when I know more.

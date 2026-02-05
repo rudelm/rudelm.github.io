@@ -18,13 +18,13 @@ title: DIY HomeKit with Raspberry Pi and Xiaomi Robot Vacuum
 ---
 Inspired by tweets of [Steven Troughten-Smith](https://twitter.com/stroughtonsmith), people started to experiment with Raspberry Pi's as DIY HomeBridge devices. One of them is [Wojtek Pietrusiewicz](https://twitter.com/morid1n). He wrote a [nice article](https://infinitediaries.net/using-a-raspberry-pi-zero-w-to-add-a-camera-and-a-xiaomi-air-purifier-2-to-homekit-via-homebridge/) which I used as base for this post.
 
-# Introduction
+## Introduction
 
 I own a Xiaomi Robot Vacuum. This robot can be controlled by the Xiaomi app, however, I don't like it very much. The idea is to control this robot over HomeKit. To use HomeKit, I use an old Raspberry Pi 1B. The software will be [HomeBridge](https://github.com/nfarina/homebridge).
 
-# Setting up the Pi
+## Setting up the Pi
 
-## Installation and Configuration of Raspbian
+### Installation and Configuration of Raspbian
 
   * Download [Raspbian lite image](https://www.raspberrypi.org/software)
   * Download [Etcher](https://etcher.io/)
@@ -45,7 +45,7 @@ sudo reboot
 
  
 
-## Install nodejs 8.9.4
+### Install nodejs 8.9.4
 
 According to Wojtek only this version works currently with HomeBridge. I did not test any other version so I'm just describing what I did on my machine:
 
@@ -56,7 +56,7 @@ According to Wojtek only this version works currently with HomeBridge. I did not
   5. add `export PATH=$PATH:/usr/local/bin` to e.g. `~/.bashrc`
   6. node should be now available
 
-## Install HomeBridge
+### Install HomeBridge
 
   1. Install the necessary libraries: `sudo apt-get install libavahi-compat-libdnssd-dev`
   2. Install HomeBridge with npm: `sudo npm install -g --unsafe-perm homebridge`
@@ -96,7 +96,7 @@ sudo mkdir /var/homebridge
 cp /usr/local/lib/node_modules/homebridge/config-sample.json ~/.homebridge/config.json
 ```
 
-## Setting up HomeBridge with Xiaomi Robot Vacuum
+### Setting up HomeBridge with Xiaomi Robot Vacuum
 
   1. `sudo npm install -g homebridge-xiaomi-mi-robot-vacuum miio`
   2. open `~/.homebridge/config.json` and safe it with this content: 
@@ -131,7 +131,7 @@ echo '0:  <YOUR HEXADECIMAL STRING >' | xxd -r -p | openssl enc -d -aes-128-ecb 
 
   3. Check if everything is working by starting homebridge for the first time. It should show a QR code. If it does, cancel the process with ctrl+c
 
-## Automate HomeBridge startup
+### Automate HomeBridge startup
 
 ```
 cp ~/.homebridge/config.json /var/homebridge
@@ -143,7 +143,7 @@ sudo systemctl start homebridge
 sudo systemctl status homebridge
 ```
 
-# Adding the HomeBridge to iOS devices
+## Adding the HomeBridge to iOS devices
   1. Install the Home app, if you've removed it from your device. You can reinstall it from the App store.
   2. Open the Home app and add a new device
   3. If you've give the app access to your camera, you can scan the QR code you've seen earlier. However, HomeBridge is now running as a daemon in the background so you won't see that QR code. You can add the bridge manually by using the PIN you've set in the config.

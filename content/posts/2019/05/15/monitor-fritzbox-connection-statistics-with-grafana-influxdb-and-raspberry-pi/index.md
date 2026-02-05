@@ -15,13 +15,13 @@ title: Monitor Fritz!Box connection statistics with Grafana, InfluxDB and Raspbe
   Pi
 
 ---
-# Introduction
+## Introduction
 I've recently stumbled over an [article](https://www.heise.de/select/ct/2018/21/1539315226273140) in the german magazine C'T about visualisations of your Fritz!Box's connection. The solution looked quite boring and outdated, since it used [MRTG](https://oss.oetiker.ch/mrtg/) for the graph creation.
 
-## A better solution
+### A better solution
 I've started searching for a better solution using Grafana, InfluxDB and my Raspberry Pi and found this great blog post. I've [already explained](https://centurio.net/2018/10/28/howto-install-influxdb-and-grafana-on-a-raspberry-pi-3/) how to install Grafana and InfluxDB in this post, so I'll concentrate on the Fritz!Box related parts:
 
-## Installation of fritzcollectd
+### Installation of fritzcollectd
 Start with the installation of fritzcollectd. It is a plugin for collectd.
 
 ```
@@ -30,12 +30,12 @@ sudo apt-get install -y libxml2-dev libxslt1-dev
 sudo pip install fritzcollectd
 ```
  
-## Creating a user account
+### Creating a user account
 Now create a user account in the Fritz!Box for collectd. Go to System, Fritz!Box-user and create a new user with password, who has access from internet disabled. The important part is to enable  "Fritz!Box settings".
 
 Additionally make sure that your Fritz!Box is configured to support connection queries using UPnP. You can configure this under  "Home Network > Network > Networksettings". Select  "Allow access for applications" as well as  "Statusinformation using UPnP". 
 
-## Installation and configuration of collect
+### Installation and configuration of collect
 Next part is the installation and configuration of collectd:
 
 ```
@@ -77,7 +77,7 @@ Enable the python plugin and configure the module with the username and password
  </Plugin>
 ```
 
-## Changes to InfluxDB
+### Changes to InfluxDB
 Since you've already got a running InfluxDB, you'll just need to enable collectd as data source:
 
 ```
@@ -101,7 +101,7 @@ sudo systemctl restart collectd
 sudo systemctl restart influxdb
 ```
 
-## Configure Grafana
+### Configure Grafana
 Login to your grafana installation and configure a new datasource. Make sure to set the collectd database. If you're using credentials for the InfluxDB, you can add them now. If you're not using authentication you can disable the  "With credentials" checkbox.
 
 {{< img "images/influxdb-collectd-datasource.png" "InfluxDB Datasource" >}}

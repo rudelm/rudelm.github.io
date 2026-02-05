@@ -12,13 +12,13 @@ tags:
 title: Configure mail transport agent on Raspbian with external SMTP server
 
 ---
-# Introduction
+## Introduction
 I want to get email notifications for actions on my Raspberry Pi using Raspbian. You could setup a separate mail server for that action but that seems to be a little bit overkill.
 
-## msmtp
+### msmtp
 [msmtp](https://marlam.de/msmtp/) is a mail transfer agent which uses a configured smtp server for email transfer. This allows you to send emails via a configured smtp server (in my case from my webspace provider [All-Inkl.com](https://all-inkl.com/PA13DF412578D) - by [creating a new account using this link you'll support the costs for running this blog](https://all-inkl.com/partnerprogramm/provision/)).
 
-## Installation
+### Installation
 Upgrade your raspbian:
 
 ```
@@ -31,7 +31,7 @@ Install msmtp:
 sudo apt-get install msmtp msmtp-mta mailutils
 ```
 
-## Configuration
+### Configuration
 Get the location of the configuration files:
 
 ```
@@ -160,7 +160,7 @@ Let your computer now that msmtp should be used as replacement for sendmail by a
 set sendmail="/usr/bin/msmtp -t"
 ```
 
-## Test your configuration
+### Test your configuration
 Test your configuration by sending an email from the terminal:
 
 ```

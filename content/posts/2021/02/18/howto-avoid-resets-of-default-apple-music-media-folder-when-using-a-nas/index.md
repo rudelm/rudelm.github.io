@@ -11,7 +11,7 @@ tags:
 title: Howto avoid resets of default Apple Music media folder when using a NAS
 
 ---
-# Introduction
+## Introduction
 I'm a longtime fan and user of [automount](https://centurio.net/2016/03/16/automount-network-shares-on-mac-os-for-use-in-itunes/). Automount mounts automatically my Apple Music media folder, once the Music app tries to access it.
 
 I've recently updated to a Macbook with apple Silicon running Big Sur. It looks like the default behaviour changed, because I'm often adding songs to Apple music, just to see that they are copied to my SSD instead of the automounted NAS media folder.
@@ -20,7 +20,7 @@ This is incredible annoying and is probably caused by a race condition between A
 
 {{< img "images/MusicUpdatingLibrary.png" "Apple Music Updating screen" >}}
 
-## A workaround
+### A workaround
 [ "Limnos" pointed me](https://discussions.apple.com/thread/252216475) to a potential workaround for this behaviour:
 
   * Create a symbolic link to the Apple Music app on your SSD and place it on the automounted volume.

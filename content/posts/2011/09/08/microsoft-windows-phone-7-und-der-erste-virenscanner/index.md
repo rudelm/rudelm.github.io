@@ -13,14 +13,14 @@ tags:
 title: Microsoft Windows Phone 7 und der erste Virenscanner
 
 ---
-# Einleitung
+## Einleitung
 **Small update: please [use Google Translate for an english version](http://translate.google.com/translate?sl=auto&tl=en&js=n&prev=_t&hl=en&ie=UTF-8&layout=2&eotf=1&u=http%3A%2F%2Fcenturio.net%2F2011%2F09%2F08%2Fmicrosoft-windows-phone-7-und-der-erste-virenscanner%2F). I still need time to think about a good multilanguage solution for this blog 🙂**
 
 Es war nur eine Frage der Zeit, bis der erste Virenscanner für Microsoft Windows Phone 7 erscheint. Gestern war es dann  "endlich" soweit: [AVG Mobilation Anti-Virus Free](http://www.avgmobilation.com/products)
 
 Nun ist es aber so, dass die App ganz normal vom Microsoft Marketplace geladen werden kann. Was bedeutet das für die App?
 
-## Grundlagen
+### Grundlagen
 
   * Die App hat die gleichen Rechte wie jede andere App im Marketplace auch. D.h. sie hat minimale Rechte. Einzige Ausnahmen für Anwendungen mit mehr Rechten im Marketplace: Adobe Reader, Youtube und die ganzen OEM Anwendungen der Hersteller. AVG zählt **NICHT** dazu.
   * Windows Phone 7 nutzt ein Konzept, das sich Isolated Storage nennt. Dadurch darf jede Anwendung nur in ihrem eigenen Verzeichnis arbeiten und ist somit isoliert von den restlichen Apps. Die Apps haben untereinander keinerlei Verbindung und dürfen nicht auf Speicherbereiche außerhalb des ihnen zugeteilten Bereichs zugreifen.
@@ -29,7 +29,7 @@ Nun ist es aber so, dass die App ganz normal vom Microsoft Marketplace geladen w
 Soviel in Kürze zu den Grundlagen, die man haben muss, um zu verstehen, warum der AVG AV in seiner aktuellen Version eine sinnlose Software ist.
 
 
-## Sinnlosigkeit der App
+### Sinnlosigkeit der App
 Warum behaupte ich, dass der AVG AV sinnlos ist? Nun ja, da gibt es mehrere Punkte:
 
   * Da die App wie jede andere App auch nur die nötigsten Rechte bekommt, kann es andere Speicherorte nicht untersuchen, geschweige denn irgendetwas desinfizieren oder löschen! Einzige Orte an denen gesucht werden kann sind die Multimedia Daten. Also Bilder, Videos und Musik.
@@ -37,7 +37,7 @@ Warum behaupte ich, dass der AVG AV sinnlos ist? Nun ja, da gibt es mehrere Punk
   * Die angepriesene Safe Search und Safe Surf Funktion macht nichts weiteres, als den Suchbegriff im Eingabefenster an einen WebBrowserTask zu übergeben, der dann den Mobile Internet Explorer startet. Man wird dann auf eine Webseite von AVG weitergeleitet, die letztlich nur eine Google Suche ist. Für die Google Suche wird dann vermutlich die Google Safe Browsing API verwendet und das ist dann der einzige  "Schutz".
 
 
-## Nutzung der Geo location
+### Nutzung der Geo location
 Aber heute morgen hab ich dann noch eine schöne Neuigkeit über dieses Programm erfahren: Es benötigt die GPS Position des Telefons. Justin Angel hat dies herausgefunden und weiter analysiert:
 
   * Allgemeine Anleitung zum Nachfolgen seiner Schritte
@@ -46,7 +46,7 @@ Aber heute morgen hab ich dann noch eine schöne Neuigkeit über dieses Programm
 
 Demnach erfasst die Anwendung die Position des Benutzers und so gut wie alle öffentlich auslesbaren Informationen auf dem Telefon. Dies sind dann z.B. Hardware Hersteller und Model, oder aber auch die eingerichtete E-Mailadresse. Die gesammelten Informationen werden dann an AVG geschickt.
 
-## Fazit
+### Fazit
 Die Frage ist nun, was macht AVG damit? Ich habe da mehrere Theorien:
 
   * Wenn man AVG danach fragt, so werden sie bestimmt antworten: Wir benötigen diese Informationen zur Qualitätssicherung. Also auf welchen Geräten wird die Anwendung benutzt, wie oft, etc. Das müsste dann aber irgendwo in deren AGBs/Terms of Service stehen.

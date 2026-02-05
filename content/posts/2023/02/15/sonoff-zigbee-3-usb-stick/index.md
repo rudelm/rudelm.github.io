@@ -10,10 +10,10 @@ tags:
 - zigbee
 - mqtt
 ---
-# Introduction
+## Introduction
 I've moved into a house and wanted to check the temperature and humidity of our rooms. Using HomeMatic thermostats would be very expensive, so I decided to use Aqara Zigbee sensors. Those sensors need a hub or Zigbee USB stick, so they can interact with computers. I've decided to buy a Sonoff Zigbee 3.0 USB Dongle and use it in combination with Zigbee2MQTT docker container on a Raspberry Pi 3b+.
 
-# Installation
+## Installation
 Plugin the Zigbee adapter on any of the USB ports of the Raspberry Pi. Now connect with SSH to the Pi. Run `sudo dmesg` and see if you see something like
 
 ```bash
@@ -30,7 +30,7 @@ $ ls -l /dev/ttyUSB0
 crw-rw---- 1 root dialout 188, May 16 19:15 /dev/ttyUSB0
 ```
 
-# Flashing the firmware
+## Flashing the firmware
 Use this docker container to [avoid installing all the dependencies](https://www.zigbee2mqtt.io/guide/adapters/flashing/flashing_via_cc2538-bsl.html) for flashing the firmware. Search for your device while it's connected in `/dev/serial/by-id`. Mine looks like this: `/dev/serial/by-id/usb-Silicon_Labs_Sonoff_Zigbee_3.0_USB_Dongle_Plus_0001-if00-port0`. Previously I would recommend `/dev/ttyUSB0` but that changed in newer Raspbian versions. Also the target device in the docker container should be `/dev/ttyACM0` instead. Get [the link](https://github.com/Koenkk/Z-Stack-firmware/releases) to the latest coordinator firmware from the releases section. Search for `CC1352P2_CC2652P_launchpad_*.zip`. Place that URL as `FIRMWARE_URL` parameter:
 
 ```bash
@@ -64,7 +64,7 @@ Verifying by comparing CRC32 calculations.
     Verified (match: 0xd9dd0124)
 ```
 
-# Using zigbee2mqtt
+## Using zigbee2mqtt
 There are quite a lot of instructions available, so I won't go into details:
 * https://www.zigbee2mqtt.io/guide/getting-started/#installation
 * https://nerdiy.de/en/howto-zigbee-einen-sonoff-zigbee-3-0-usb-dongle-plus-fuer-zigbee2mqtt-vorbereiten/
@@ -72,5 +72,5 @@ There are quite a lot of instructions available, so I won't go into details:
 
 
 
-# Conclusion
+## Conclusion
 I'm still testing everything but so far I like the stick. The transmission range could be bigger, since I've got now three sensors dropping out. However, this seems to be normal for Zigbee devices. We will see how much this annoys me and if I can find a proper repeater solution that really works.

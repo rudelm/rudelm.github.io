@@ -14,13 +14,13 @@ tags:
 title: Synology DS213+ - iTunes Bibliothek verschieben
 
 ---
-# Einleitung
+## Einleitung
 Neben meinen Bildern möchte ich eigentlich auch meine Musik zentral auf der DS vorhalten. Verschiedene Anleitungen habe ich ausprobiert und bin letztlich bei einer ganz einfachen Lösung hängen geblieben. Wichtig ist natürlich: Macht ein Backup eurer Datenbank bevor ihr die Experimente macht 😉
  
-## Eine neue Library
+### Eine neue Library
 Viele Anleitungen aus dem [Synology](http://www.synology-forum.de/showthread.html?24475-iTunes-Mediathek-auslagern/page25)-[Forum](http://www.synology-forum.de/showthread.html?24475-iTunes-Mediathek-auslagern/page21) und -Wiki schlagen die Erstellung einer komplett neuen Library vor. Dabei verliert man allerdings alle Meta Informationen und Playlisten. Hier hlefen auch Tools wie Tune-Instructor nicht mehr weiter. Bei mir fehlten dann z.B. sehr viele Cover oder die Jahrelang gepflegten Playlisten.
  
-## Verschieben einer existierenden Library
+### Verschieben einer existierenden Library
 Am besten hat mir [diese Anleitung](http://www.ilounge.com/index.php/articles/comments/moving-your-itunes-library-to-a-new-hard-drive/) geholfen. Ich habe mein iTunes so eingestellt, das es sich komplett um die Verwaltung der Inhalte kümmern soll. Dies ist auch zwingend erforderlich, denn nur so kann man garantieren, dass auch alle Dateien auf das NAS korrekterweise übertragen werden.
 
 1. Erstellt ein Backup.

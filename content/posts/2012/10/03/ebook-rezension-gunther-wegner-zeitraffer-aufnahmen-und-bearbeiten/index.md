@@ -13,13 +13,13 @@ tags:
 title: 'Ebook Rezension: Gunther Wegner - Zeitraffer - Aufnahmen und Bearbeiten'
 
 ---
-# Einleitung
+## Einleitung
 Seit längerem beschäftige ich mich mit Zeitrafferaufnahmen. Zeitrafferaufnahmen sind im Prinzip nichts anderes, als viele Fotos, die in einem bestimmten zeitlichen Abstand hintereinander erstellt wurden. Wenn man ausreichend viele Fotos in der Sekunde zusammenfügt, so erhält man einen Film. Zeitrafferaufnahmen nutzen jetzt den Umstand, dass der Abstand zwischen den Fotos größer ist als in dem resultierenden Film. Dadurch werden größere Zeiträume auf einen kurzen Zeitraum  "zusammengerafft".
 
-## Gunther Wegner
+### Gunther Wegner
 Wenn man im Internet nach diesem Thema sucht, so begegnet einem fast zwangsläufig irgendwann [Gunther Wegner](http://lrtimelapse.com/). Gunther hat in seinem Blog [gwegner.de](http://gwegner.de/) viele Tipps und tolle Zeitraffervideos veröffentlicht. Im Laufe der Zeit kam dann noch die Software LRTimelapse für [Adobes Lightroom](http://www.amazon.de/gp/product/B0076MNR8W) noch dazu. Diese Software hat er selber geschrieben. Sie ermöglicht es, Zeitraffer mit Hilfe von Lightroom zu bearbeiten und zu verbessern. Die Resultate werden entsprechend qualitativ hochwertiger. Zusammen mit dem Programm und seinen Tipps hat er ein Ebook veröffentlicht, das jeder für 10 Euro auf seiner Seite kaufen kann. Für interessierte Blog Schreiber (wie ich es z.B. bin 🙂 stellt er das Buch auch kostenlos zur Verfügung. Als Gegenleistung erbringt man dann eine kleine Rezension, was ich hiermit auch mache.
 
-## Das Ebook
+### Das Ebook
 Das Ebook hat 142 Seiten und ist auch im epub Format für Ebook Reader wie der Kindle verfügbar. Man kann das Buch grob unterteilen in drei große Abschnitte:
 
   * Equipment - die Grundvoraussetzungen
@@ -38,6 +38,6 @@ Für mich sind primär die Lightroom Diashow Presets interessant, da diese Full 
 
 Ich habe in meinem letzten Urlaub versucht ein paar Zeitraffer Filme zu erstellen, allerdings ist noch nichts Zufriedenstellendes dabei entstanden. Meine bisherigen Zeitraffer Filme habe ich mit Quicktime erstellt. Richtig gute Filme gibt es bei Gunther im Blog bzw. im [Forum](http://forum.lrtimelapse.com/).
 
-## Fazit
+### Fazit
 
 Zusammenfassend kann man sagen, dass das Ebook mir einige interessante neue Dinge beigebracht hat. Die Software selber habe ich mangels Zeit und gutem Ausgangsmaterial noch nicht ausreichend testen können. Wer interessiert ist an Zeitraffer Fotografie sollte auf jeden Fall Gunthers Webseite mal genauer angucken. An dieser Stelle noch einmal vielen Dank für das Ebook!

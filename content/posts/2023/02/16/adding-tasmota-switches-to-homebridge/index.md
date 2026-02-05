@@ -10,14 +10,14 @@ tags:
 - tasmota
 - mqtt
 ---
-# Introduction
+## Introduction
 I want to control my various smarthome devices via a central UI. I like giving Siri commands to switch on lights or to increase the temperature. For this, I'm using [HomeBridge](https://homebridge.io/) in a Docker container. Adding stuff like HomeMatic is relatively easy, but adding Tasmota switches which are controlled via MQTT are a little bit tricky.
 
-# Installation of the plugin
+## Installation of the plugin
 I've decided to use [Homebridge Mqttthing](https://github.com/arachnetech/homebridge-mqttthing#readme). It supports a lot of Tasmota devices and also supports many generic MQTT devices, since topics can be defined for almost everything including javascript transformation of values.
 The plugin itself can be installed from the Homebridge UI. Just search for `Homebridge Mqttthing` and install it.
 
-# Configuration of Tasmota devices
+## Configuration of Tasmota devices
 My Tasmota device have this MQTT configuration:
 
 {{< img "images/tasmotaMqttConfig.png">}}
@@ -25,7 +25,7 @@ My Tasmota device have this MQTT configuration:
 
 Important to mention is the Full Topic `tasmota/%prefix%/%topic%/` which we'll need later on.
 
-# Configuration of a device in the plugin
+## Configuration of a device in the plugin
 A single device hash must be added to the Homebridge `config.json`:
 
 ```json
@@ -61,5 +61,5 @@ The variables `getOn` and `setOn` control and verify the current status of the d
 
 The `startPub` hash is especially interesting. After a Homebridge restart, the software doesn't know about the current status of the outlet. Upon Homebridge start, the plugin will send an empty message to `tasmota/cmnd/16A-1/POWER` which will trigger a status message on `tasmota/stat/16A-1/POWER` which is then used to confirm the initial state, comparing it with the values defined in `onValue` and `offValue`.
 
-# Conclusion
+## Conclusion
 Adding the tasmota devices was quite fun, especially when the current state of the switch is properly readout. After trying several plugins, I liked [Homebridge Mqttthing](https://github.com/arachnetech/homebridge-mqttthing#readme) most. I'm especially glad that I'm able to get the initial state of the devices right after a restart of HomeBridge.

@@ -9,11 +9,11 @@ tags:
 - AdGuardHome
 - keepalived
 ---
-# Introduction
+## Introduction
 I've used to run Pi-Hole at home, changed then to AdGuardHome, then to AdGuardHome DNS and today I'm back again at at combination of AdGuardHome and AdGuardHome DNS as my primary DNS services at home. The reason for this is I finally found a solution to keep two AdGuardHome installations in sync and also keeping them highly available. Today I want to document how I did that.
 
 
-# Installation
+## Installation
 I'm using two Raspberry Pis for this setup. A Pi 5 8GB and a Pi 4 2GB. The Pi 5 serves also as a docker host and therefore gets the job to sync between the AdGuardHome installations using AdGuardHome-sync. Here's a schema of the current setup:
 
 ![AdGuardHome setup with keepalived and sync](AdGuardHome_keepalived.png)
@@ -21,10 +21,10 @@ I'm using two Raspberry Pis for this setup. A Pi 5 8GB and a Pi 4 2GB. The Pi 5 
 I'll leave the installation and setup of AdGuardHome and refer to [the official documentation](https://github.com/AdguardTeam/AdGuardHome?tab=readme-ov-file#automated-install-linux-and-mac) for this part. [AdGuardHome-sync](https://github.com/bakito/adguardhome-sync) is running as a docker container, using the two IPs of the AdGuardHome UIs (192.168.100.18 and 192.168.100.19).
 I'm running Raspbian on my Raspberry Pis and had to install for keeaplived only two packages, using `sudo apt-get install keepalived libipset13`. For the healthcheck I'm using netcat, which I've installed using `sudo apt-get install netcat-openbsd`.
 
-# Configuration
+## Configuration
 The configuration consists of several parts working together.
 
-## Health check
+### Health check
 On each of the two machines two scripts have to be added as `/usr/local/bin/check_adguard.sh`. These scripts act as a health script that keepalived uses to detect the availablity of the service.
 
 On pi5-1:
@@ -87,7 +87,7 @@ Make the script executable on both machines using `sudo chmod +x /usr/local/bin/
 
 Please note that I'm also checking the IPv6 connectivity. Reason for using netcat instead of e.g. dig is, that dig would cause frequent entries in AdGuardHome log, which annoyed me a lot. dig will provice the reliable results though, since you're doing DNS requests and can verify it is really working. It is even possible to create filter rules to avoid these requests showing up in your logs and statistics, but then I'm also excluding other local requests to the DNS so I'm ok with using netcat instead.
 
-## keepalived configuration
+### keepalived configuration
 Now we'll have to add the configuration for keepalived.
 
 On pi5-1:
@@ -202,7 +202,7 @@ The priority of the pi4-1 is set to 90, so by default this is the secondary inst
 
 Now restart the keepalived service using `sudo systemctl restart keepalived.service` on both machines. You can check the current state using `sudo systemctl status keepalived.service` so you'll see who is primary and who is secondary. The instance with the highest weight is the primary, and the health script reduces the weight by minus 20 if there's somekind of error.
 
-## AdGuardHome
+### AdGuardHome
 I've had to change the `/opt/AdGuardHome/AdGuardHome.yaml` to bind the process to all available IPs, otherwise the process isn't able to bound to the Virtual IP (VIP) 192.168.100.190 and 192.168.3.190. The relevant parts are:
 
 ```yaml
@@ -216,7 +216,7 @@ dns:
 
 Do a restart of AdGuardHome after this, using `sudo systemctl restart AdGuardHome.service` on both machines.
 
-## Router
+### Router
 Check if you're able to login to AdGuardHome on the VIP for the UI, e.g. http://192.168.100.190:853. If that is working, try to query the DNS under it's VIP, e.g.:
 
 ```bash
@@ -242,7 +242,7 @@ google.com.		37	IN	A	142.250.179.142
 ;; MSG SIZE  rcvd: 55
 ```
 
-# Problems with IPv6
+## Problems with IPv6
 At first, IPv6 wasn't working for me. What helped was to set the IPv6 address into a separate block like this:
 
 ```bash
@@ -291,7 +291,7 @@ fdd6:e6df:9a26:3:0:0:0:190. 3600 IN	A	0.0.0.0
 ;; MSG SIZE  rcvd: 60
 ```
 
-# Conclusion
+## Conclusion
 It was quite simple to get this configuration running and I'm happy that the fallback works this good. I don't have to fear system restarts that block my complete network until completed startup and at the same time I'm having more control over the DNS requests in my home network.
 With the help of this setup I was able to identify:
  * Tasmota devices can be configured to use a local ntp server instead of making requests to the outside

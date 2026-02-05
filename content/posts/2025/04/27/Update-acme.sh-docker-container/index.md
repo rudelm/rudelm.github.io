@@ -9,10 +9,10 @@ tags:
 - linux
 - acme
 ---
-# Introduction
+## Introduction
 I'm using [Diun](https://github.com/crazy-max/diun) to be notified about outdated Docker container. Today I was notified about an outstanding update for [acme.sh](https://github.com/acmesh-official/acme.sh). I'm using acme in various variants but this container was running on my Synology, outside the management provided by [Dockge](https://github.com/louislam/dockge), so I had to update the container manually.
 
-# Update procedure
+## Update procedure
 Login to your Host via SSH and become root. Update to the latest image by using `docker pull neilpang/acme.sh`. Here's an example call from my machine:
 
 ```bash
@@ -59,5 +59,5 @@ networks: {}
 
 Now I can just hit update in Dockge and I'm getting my container updated.
 
-# Conclusion
+## Conclusion
 I have no idea why I did not move acme to a docker-compose file earlier. Updating it this way is way more comfortable.  But the best thing about this update is probably that I've did migrate my setup to Dockge.

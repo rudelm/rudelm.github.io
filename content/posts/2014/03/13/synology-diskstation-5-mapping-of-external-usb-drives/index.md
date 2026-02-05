@@ -13,10 +13,10 @@ tags:
 title: Synology DiskStation 5 - Mapping of external USB drives
 
 ---
-# Introduction
+## Introduction
 The mapping of external USB drives in Synologys Diskstation 5 is a mystery to me. The order of connected drives does not seem to be of interest and keeps being the same even after a reboot. Especially after the latest update to DiskStation 5, my [DiskStation 213+](http://www.amazon.de/gp/product/B008U69DDG) assigned other than usual drive numbers to my external USB drives. This results in broken backup plans and network volumes.
 
-## Solution
+### Solution
 A little Google research led me to this forum entry together with a suitable solution:
 
   * Unmount/Eject all connected external USB drives

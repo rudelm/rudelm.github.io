@@ -13,10 +13,10 @@ tags:
 title: Auto mount NFS shares on Raspbian
 
 ---
-# Introduction
+## Introduction
 I'm using influxdb on my Raspberry Pi in combination with a NFS mount. The NFS mount is on my Synology NAS and should store the database data of influxdb. Reason for this setup is that I fear that the SD card won't survive the many write/read cycles caused by a database writing to it.
 
-## NFS Configuration
+### NFS Configuration
 The shared folder on my Synology is configured to be accessible by various IPs in my network:
 
 {{< img "images/synology-nfs-settings.png" "Synology NFS Settings" >}}
@@ -34,7 +34,7 @@ This doesn't work properly since my influxdb is often dead after a restart, but 
 
 However, there's a tool called autofs [which already helped me](http://centurio.net/2016/03/16/automount-network-shares-on-mac-os-for-use-in-itunes/) with a similar problem on my Mac when I moved my iTunes library to the Synology share.
 
-## Install autofs
+### Install autofs
 Install autofs using
 
 ```
@@ -59,7 +59,7 @@ Unmount the existing NFS share. Remove/comment out the line for the nfs mount in
 sudo service autofs restart
 ```
 
-## Testing
+### Testing
 Now check the content of your mount point with e.g.
 
 ```

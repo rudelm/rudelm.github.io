@@ -13,7 +13,7 @@ tags:
 - Timelapse
 title: LRTimelapse Pro Timer Free - a great DIY intervalometer
 ---
-# Introduction
+## Introduction
 This is an old blog post from 07/06/2017 and I've finally moved it from the draft folder to the published folder. In the meantime, Gunther released a successor to this project called [LRTimelapse PRO Timer 3 and 2.5](https://lrtimelapse.com/lrtpt/). Therefore this blog post is just keeping tracks of what I've did to get it running.
 
 I'm building my own DIY intervalometer. An intervalometer is a device which triggers your camera for a defined number of times in given intervals. This allows you to create cool timelapse movies with your camera.
@@ -22,7 +22,7 @@ Gunther Wegner is a well known and recognised photographer who programmed the gr
 
 The timer is a little Arduino project and should provide better results than most of the commercial solutions. Its price is quite cheap, its components easy to order. So even when you aren't a professional maker you'll get this project running in a few hours.
 
-## Required parts
+### Required parts
 
 Here's what you'll need. I've ordered my parts from Reichelt electronic in Germany and had some of the parts in my collection already:
 
@@ -52,6 +52,6 @@ After I've updated the values for my shield, the buttons where now working. Now 
 
 I've tried to put the transistor and resistor onto a small board which wouldn't stand out too much, as I don't know yet how much space I will have in my encasing. Complete soldering time was maybe 3 hours, so its a really nice after work project.
 
-## Create a case
+### Create a case
 
 As for the encasing I'm waiting for a friend of mine to finish calibration on his 3D printer. If you don't have access to a 3D printer, you can order one from Logodeckel in [two](http://shop.logodeckel.de/produkt/lrtimelapse-pro-timer-gehaeuse-blau/) [different](http://shop.logodeckel.de/produkt/lrtimelapse-pro-timer-gehaeuse-gruen/) color schemes.

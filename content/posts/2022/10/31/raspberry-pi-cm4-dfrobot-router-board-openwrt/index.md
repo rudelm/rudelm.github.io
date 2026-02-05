@@ -9,13 +9,13 @@ tags:
 - OpenWRT
 - linux
 ---
-# Introduction
+## Introduction
 I'm moving and I have finally access to a Deutsche Glasfaser Fiber to the home account. Additionally I don't want to use AVM products anymore. So this time I'm giving the linux Router distribution OpenWRT a chance. I've ordered a Raspberry Pi Compute Modul 4 and combined it with a DFRobot Router Board.
 
-# OpenWRT 22.03.2
+## OpenWRT 22.03.2
 DFRobot offers an [Image for 21.02.3](https://img.dfrobot.com.cn/wiki/5d303ff74db88f1df9d80a04/54317b71156f96d6b410aca5c956ed33.zip), but not for [22.03.2](https://downloads.openwrt.org/releases/22.03.2/targets/bcm27xx/bcm2711/openwrt-22.03.2-bcm27xx-bcm2711-rpi-4-squashfs-factory.img.gz). So I want to document what I need to do, to get one updated to the latest version.
 
-## eMMC Installation
+### eMMC Installation
 These are the requirements for the eMMC installation:
 * [USB-C data cable](https://www.amazon.de/gp/product/B09MW3BDQM/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) - cannot recommmend, as it isn#t detected. However, I was able to connect using an older USB-A to USB-C adapter cable
 * [Balena Etcher](https://www.balena.io/etcher/)
@@ -23,7 +23,7 @@ These are the requirements for the eMMC installation:
 * [usbboot](https://www.jeffgeerling.com/blog/2020/flashing-raspberry-pi-compute-module-on-macos-usbboot)
 * [System Image](https://downloads.openwrt.org/releases/22.03.2/targets/bcm27xx/bcm2711/openwrt-22.03.2-bcm27xx-bcm2711-rpi-4-squashfs-factory.img.gz)
 
-### usbboot installation
+#### usbboot installation
 The connected Pi with eMMC storage will show up as USB mass storage and can be written like a SD card.
 
 ```bash
@@ -36,7 +36,7 @@ make
 
 You'll need to connect the Raspberry Pi CM before you'll proceed with `sudo ./rpiboot`
 
-### Enter Boot Mode
+#### Enter Boot Mode
 The DFRobot router board has a physical switch called 'RPiBOOT'. Its default to 0 and if its switched its set to 1. This disables the eMMC startup and it will appear as a mass storage when started.
 
 Connect the USB-C cable to the USB Data port of the Router board and plug it into your Mac. Connect the official USB-C power adapter to the power USB-C port of the Router board.
@@ -60,7 +60,7 @@ File read: start4.elf
 Second stage boot server done
 ```
 
-## Create system image with openwrt.org page
+### Create system image with openwrt.org page
 This is the preferred and faster way. Go to openwrt.org and open the [firmware selector for 22.03.2](https://firmware-selector.openwrt.org/?version=22.03.2).
 
 Enter `Raspberry` and select `Raspberry Pi 4B/400/4CM (64bit)`. Adjust the installed packages and add `kmod-r8169 kmod-usb-dwc2 bcm27xx-userland`. Request the firmware and download all offered images.
@@ -76,7 +76,7 @@ shasum -a 256 openwrt-23.05.0-14d945d583a7-bcm27xx-bcm2711-rpi-4-squashfs-sysupg
 4b8828bd9881342039de6f04ccdfb21e602f53063cf13a46526423867c1527ba  openwrt-23.05.0-14d945d583a7-bcm27xx-bcm2711-rpi-4-squashfs-sysupgrade.img.gz
 ```
 
-### Create a new system image - manually
+#### Create a new system image - manually
 Following the instructions from [this gist](https://gist.github.com/martin-niklasson/6912a7e5ba49b92801d54766f1d7277a):
 
 Download the latest image builder for Raspberry Pi from OpenWRT:
@@ -135,22 +135,22 @@ sha256sums
 
 Use the factory image and copy it on your mac.
 
-#### Extract the system image
+##### Extract the system image
 Extract the downloaded system image with Keka. You'll get a file like `openwrt-22.03.2-bcm27xx-bcm2711-rpi-4-squashfs-factory.img`
 
-## Write image to eMMC using Balena Etcher
+### Write image to eMMC using Balena Etcher
 * Start Balena Etcher
 * Flash from file and point to the extracted `.img` file
 * Select target and select the mounted eMMC of the Pi
 * Click on Flash
 * Wait for the Flash process to finish and verify
 
-## Turn of Boot Mode
+### Turn of Boot Mode
 The DFRobot router board has a physical switch called 'RPiBOOT'. Its default to 0 and if its switched its set to 1. You've done this already when you've flashed the system, but it needs to be disabled before the written image can be started from eMMC.
 
 Disconnect the Pi from power and turn that switch back to 0.
 
-# First Boot
+## First Boot
 
 Now power the Pi again without connection to the Mac and install a network cable to ETH1, which is next to the Power USB-C port. The other is ETH0, which is used for WAN connections.
 
@@ -164,13 +164,13 @@ I\'m also configuring a SSH key for authentication. Create one with e.g. `ssh-ke
 
 Copy the created public key and enter it in Luci under Administration, SSH-Keys. Try to login with that key before you\'ll disable access with only SSH keys. This can be done in Luci under Administration, SSH Access, Allow the root user to login with password and remove the check.
 
-# Resizing to your needs
+## Resizing to your needs
 Now that the basic setup is done, you'll have to resize the partitions of the eMMC. OpenWRT takes up as less as possible space to fit on all types of devices. To fully use the 32GB eMMC module, you'll have to enter Boot mode again and make the eMMC mountable again.
 
-## Resize on your Mac
+### Resize on your Mac
 I've tried to adapt the steps from [the DFRobot wiki](https://wiki.dfrobot.com/Compute_Module_4_IoT_Router_Board_Mini_SKU_DFR0767). However, I was unable to modify them for macOS since `fdisk` behabes differently. I recommend resizing it on the pi directly
 
-## Resize remotely on OpenWRT
+### Resize remotely on OpenWRT
 The following is only possible when you've connected the Pi to the internet. Connect now via SSH to the pi.
 
 Install these packages:
@@ -198,7 +198,7 @@ The filesystem on /dev/loop0 is now 30456704 (1k) blocks long.
 
 Reboot the pi. Now check the available free disk space in Luci under Status, Overview. It should show around the size of your eMMC.
 
-# Setup a simple router
+## Setup a simple router
 Now that you have got the pi running, we can start to configure a simple router functionality. Connect a LAN cable to ETH1, which is closed to the USB-C power. You have already connected your Mac to ETH0 and can reach the Luci web interface.
 
 Go to Network, Devices and check that you see two network devices, eth0 and eth1 as well as br-lan. This means that the drivers are configured correctly and the network card of the DFRobot board is useable.
@@ -207,7 +207,7 @@ Under Network, Interfaces there\`s already a br-lan. It bridges the internal lan
 
 Click on `Add new Interface` and name it WAN4, DHCP Client and select Ethernet Adapter ETH0. Repeat this for IPv6 and name it WAN6. Edit those new devices and set wan as firewall-zone for these devices.
 
-# Setup docker
+## Setup docker
 I wanted to run a dockerized pihole, after I saw [this](https://paul-mackinnon.medium.com/openwrt-raspberry-pi-docker-vlan-project-9cb1db10684c) post, but I did not get it working. So I discarded this idea. If you want to try it yourself:
 
 Run these commands to install docker:
@@ -302,7 +302,7 @@ docker: Error response from daemon: operation not supported.
 See 'docker run --help'.
 ```
 
-# Setup external USB storage
+## Setup external USB storage
 I think this is related to squashFS and its overlayFS that is used on OpenWRT. Docker container might work if their configuration and mounted folders are on external disk in a different file format. The DFRobot board has a USB-C USB2.0 port which needs to be enabled. Edit the `/boot/config.txt` and add this to the bottom of the file: `dtoverlay=dwc2,dr_mode=host`. Now safe the file and reboot, the USB-C port on the side should now be working as a regular USB board. I've ordered a small Samsung USB-C Stick and format it with ext4, so that I could use it as storage for the docker installation.
 
 First, install all the required packages. I've followed [these](https://openwrt.org/docs/guide-user/storage/usb-installing) [two wiki pages](https://openwrt.org/docs/guide-user/storage/usb-drives-quickstart).
@@ -370,5 +370,5 @@ WARN[2022-11-14T21:13:36.509760954Z] Unable to find memory controller
 WARN[2022-11-14T21:13:36.584084474Z] Could not load necessary modules for IPSEC rules: protocol not supported
 ```
 
-# Conclusion
+## Conclusion
 OpenWRT seems to be a nice solution to get a linux based router running on the Raspberry Pi. The installation itself and keeping it updated for newer OpenWRT versions seem to be easy enough. Running Docker on OpenWRT on a Rasperry Pi doesn't seem to work, at least not with the official image. But that's fine, I'll keep it just as a very performant router and keep the fun stuff to other Raspberry Pis or my Synology NAS.

@@ -11,10 +11,10 @@ tags:
 title: Crashing influxdb on Raspberry Pi 3+ because insufficient memory
 
 ---
-# Introduction
+## Introduction
 A few days ago I've noticed that my influxdb installation wasn't working properly. The server was crashing constantly.
 
-## Checking the logs
+### Checking the logs
 I've checked the logs using
 
 `sudo journalctl -u influxdb -b`
@@ -44,7 +44,7 @@ May 12 23:12:18 pi3plus systemd[1]: influxdb.service: Failed with result 'exit-c
 
 ```
 
-## Analysis
+### Analysis
 This happened because I've recently added statistics from my FritzBox with regards to my DSL line speed. The statistics have a high cadence, which means that many entries are created in influxdb in a short amount of time. Influxdb tries to create an index in RAM for these entries and is overwhelmed by the mass of data.
 
 Therefore, I stopped the service with
@@ -63,5 +63,5 @@ Once it is finished you can restart influxdb with
 
 `sudo systemctl start influxdb`
 
-## Conclusion
+### Conclusion
 Your server should now be stable again. The index is now disk based instead of being memory based, which could cause troubles on the limited resources of the Raspberry Pi.

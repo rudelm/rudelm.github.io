@@ -13,10 +13,10 @@ tags:
 title: Fix broken automount mounts on macOS Catalina
 
 ---
-# Introduction
+## Introduction
 I've moved my iTunes music library content to my NAS. I'm using [automount](/page/search/?keyword=automount) to keep iTunes happy without losing the connection to the files. After upgrading to macOS Catalina, automount did not work as it used to.
 
-## Changed structure of filesystem
+### Changed structure of filesystem
 Reason is the changed structure in the APFS container. If you have a look at the disk utility, it will show you a system container and a user container. The system contains macOS and is write protected, while the user container contains all your apps, data and so on.
 
 You'll just have to [prepend your existing automount paths](https://www.fkylewright.com/2019/10/macos-catalina-10-15-autofs-mount-point-changes/) with /System/Volumes/Data. Now you'll just have to run

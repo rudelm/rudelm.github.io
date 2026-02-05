@@ -12,10 +12,10 @@ tags:
 title: Use all-inkl.com DDNS with Synology DiskStation
 
 ---
-# Introduction
+## Introduction
 I've recently upgraded my all-inkl.com webspace to the [PrivatPlus](https://all-inkl.com/webhosting/privatplus/) tariff. As part of this tariff I'm now able to use DDNS running under the Domains I'm able to manage.
 
-## DDNS in KAS
+### DDNS in KAS
 Setting up [DDNS in KAS](https://all-inkl.com/wichtig/anleitungen/kas/tools/ddns-dynamisches-dns/benutzer-anlegen-im-kas_362.html) is explained quite well. However, I did not see instructions on how to use these credentials on a Synology DiskStation OS. Luckily, [somebody else](https://www.ask-sheldon.com/inkl-com-ddns-synology-nas/) did this already.
 
 The important part was, that when you'll need to customize a DDNS provider first before it can be setup in DiskStation settings.

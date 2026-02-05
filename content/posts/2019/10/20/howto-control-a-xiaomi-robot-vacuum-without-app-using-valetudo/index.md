@@ -12,10 +12,10 @@ tags:
 title: Howto control a Xiaomi Robot Vacuum without app using Valetudo
 
 ---
-# Introduction
+## Introduction
 I've [tinkered before](http://centurio.net/2018/03/08/diy-homekit-with-raspberry-pi-and-xiaomi-robot-vacuum/) with my Xiaomi Robot Vacuum but returned to the official Xiaomi app since the existing solutions felt uncomfortable. I even worked on adding Mac support for the [dustcloud](https://github.com/dgiese/dustcloud) software but stopped using the rooted firmware.
 
-## Valetudo
+### Valetudo
 A few days ago I've read about [Valetudo](https://github.com/Hypfer/Valetudo). Valetudo is a web interface to the Xiaomi robot being self hosted on the robot. It allows easy extraction of the necessary control token and stops the robot from reporting cleaning and location data to Xiaomi. There's also support for MQTT so that you can integrate it into existing home automation systems.
 
 I followed [the instructions](https://github.com/Hypfer/Valetudo/wiki/Installation-Instructions) on creating a rooted firmware and found a few problems and want to share my solution:
@@ -28,5 +28,5 @@ I followed [the instructions](https://github.com/Hypfer/Valetudo/wiki/Installati
   * Keep your machine close to the robot during the flashing process, because it might otherwise timeout.
   * Since I'm using a chinese version of the robot, I only hear the chinese voice. In this case you'll need to convert the robot to a european version following [these instructions](https://github.com/dgiese/dustcloud/wiki/Vacuum-Robots-CCC-to-CE-conversion). Once the robot is rebooted you'll hear the english translation and can verify this from the Valetudo interface.
 
-## Using Valetudo
+### Using Valetudo
 Now you're ready to use Valetudo. I've added a link to the Valetudo homepage on my smartphone. It replaces now the Xiaomi app while it still provides access to the cleaning map, the maintenance hours for replacing parts as well as automated clean up plans. All in all its a really nice piece of software!

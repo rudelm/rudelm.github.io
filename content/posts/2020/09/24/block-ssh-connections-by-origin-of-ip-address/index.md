@@ -11,15 +11,15 @@ tags:
 title: Block SSH connections by origin of IP address
 
 ---
-# Introduction
+## Introduction
 If you're exposing services to the internet, you'll notice a lot of connection attempts. To block those bots and scripts trying to login to your machine, you should use [fail2ban](/2020/09/22/protect-ssh-services-with-fail2ban).
 
 However, you can also limit the range of allowed origins of the IP addresses. The company MaxMind provides a database of IP addresses and their origin contries. You can configure your machine in such a way that only certain country codes are allowed.
 
-## Update 07/09/2024
+### Update 07/09/2024
 I've somehow lost the `ipfilter.sh` script but found another online. I've updated and reformatted the post better. Looks like it was damaged during the migration from wordpress to hugo.
 
-## Install geoip client
+### Install geoip client
 Start by installing the geoip client and database by using this apt command:
 
 ```
@@ -28,7 +28,7 @@ sudo apt-get install geoip-bin geoip-database
 
 This database is updated automatically, when you've got your machine configured for auto updates.
 
-## ipfilter script
+### ipfilter script
 The next step is to save this script to your machine in `/usr/local//usr/local/bin/ipfilter.sh`:
 
 ```bash
@@ -59,7 +59,7 @@ Edit the script to your needs, e.g. by limiting the number of allowed countries.
 chmod +x /usr/local/bin/ipfilter.sh
 ```
 
-## Testing
+### Testing
 It is time to test it. Try the command with a known IP in America and one from a local network or known IP from the allowed countries:
 
 ```

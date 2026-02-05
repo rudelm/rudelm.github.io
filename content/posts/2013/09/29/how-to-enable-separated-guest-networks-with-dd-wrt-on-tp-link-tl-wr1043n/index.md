@@ -15,13 +15,13 @@ tags:
 title: How to enable separated Guest Networks with DD-WRT on TP-Link TL-WR1043N
 
 ---
-# Introduction
+## Introduction
 I've recently setup a new and shiny [TP-Link TL-WR1043N](http://www.amazon.de/gp/product/B002YETVTQ) Gigabit Router with DD-WRT and wanted to document how I set it up as access point with opening an additional guest network.
 
-## Flashing DD-WRT
+### Flashing DD-WRT
 First, you need to flash DD-WRT to the Router. As I was using a brand new device, I've chosen the  "factory-to-ddwrt.bin" from the [DD-WRT Router Database](http://www.dd-wrt.com/site/support/router-database). Just type in  "TP-Link TL-WR1043N" and you will see three image files. If you are uncertain, which firmware is the right to choose, try [these](http://www.dd-wrt.com/wiki/index.php/Installation#Choosing_the_Correct_Firmware_-_Extremely_Important) instructions. If you already used DD-WRT, you should know how to make updates to your router. I will not cover this cases in my documentation.
 
-## Enable Wireless Access Point
+### Enable Wireless Access Point
 After flashing, you need to configure it as [Wireless Access Point](http://www.dd-wrt.com/wiki/index.php/Wireless_Access_Point).
 
 When you are ready, open [these](http://www.dd-wrt.com/wiki/index.php/Multiple_WLANs) instructions on how to create  "Multiple WLANs". The TP-Link is Atheros based hardware, which means that all wireless network interfaces will start with  "ath" in their names. Follow the guide, until you come to the part where it describes the  "Command Method for DHCP". Add to the configuration the IP of your local DNS server:

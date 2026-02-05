@@ -12,10 +12,10 @@ tags:
 title: automount not working after macOS Catalina updates
 
 ---
-# Introduction
+## Introduction
 I've recently upgraded to macOS catalina. My automount mount for music media [was broken]({{< ref"/posts/2020/10/26/fix-broken-automount-mounts-on-macos-catalina" >}}). I fixed it and today it is again not working.
 
-## The problem and solution
+### The problem and solution
 The last change I did was to install the supplemental update for 10.15.7 which seems to overwrite the /etc/auto\_master so my /etc/auto\_smb wasn't loaded anymore. Here's my current working content:
 
 ```
