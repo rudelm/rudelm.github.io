@@ -1,2 +1,6 @@
 permalinks:
   posts: "/:year/:month/:day/:title/"
+
+taxonomies:
+  tag: tags
+  category: categories
