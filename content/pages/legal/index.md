@@ -4,11 +4,8 @@ description: Legal disclaimers
 aliases:
   - legal
   - disclaimer
-menu:
-    main: 
-        weight: -90
-        params:
-            icon: legal
+showTableOfContents: false
+showShareLinks: false
 ---
 
 # Impressum
