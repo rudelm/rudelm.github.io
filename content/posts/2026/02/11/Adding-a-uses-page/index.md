@@ -2,6 +2,10 @@
 author: Centurio
 title: "Adding a Uses Page"
 date: 2026-02-11T20:44:21+01:00
+categories:
+- blogs
+tags:
+- Hugo
 ---
 During the end of the year 2025 I've started to think about writing down which tools I've used. I've seen this trend online on some other blogs already and wanted to give it a try. Here's a list of my inspirations:
 

@@ -2,6 +2,10 @@
 author: Centurio
 title: "Theme Switch Stack to Blowfish"
 date: 2026-02-11T20:44:54+01:00
+categories:
+- blogs
+tags:
+- Hugo
 ---
 ## Introduction
 It's 2026. I've wanted something fresh in my blog so I've changed my Hugo theme. Instead of using [Stack](https://stack.jimmycai.com/), I'm now using [Blowfish](https://blowfish.page). Blowfish supports out of the box more features I've needed and I was unable to get them right in Stack.
