@@ -27,6 +27,7 @@ title = "Centurios Blog"
 #     { gitlab = "https://gitlab.com/username" },
 #     { linkedin = "https://linkedin.com/in/username" },
      { mastodon = "https://infosec.exchange/@rudelm" },
+     { rss = "/posts/index.xml" },
 #     { signal = "https://signal.me/#eu/userid" },
 #     { stack-overflow = "https://stackoverflow.com/users/userid/username" },
 #     { steam = "https://steamcommunity.com/profiles/userid" },
