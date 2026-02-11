@@ -36,6 +36,11 @@ enableEmoji = true
   filename = 'sitemap.xml'
   priority = 0.5
 
+enableGitInfo = true
+
+  [frontmatter]
+    date = ['date', ':git', ':default']
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
