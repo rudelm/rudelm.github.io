@@ -1,8 +1,10 @@
 ---
 title: "Hardware"
 description: "My current hardware setup."
-date: 2026-02-11
 showTableOfContents: false
+showDate: false
+showWordCount: false
+showReadingTime: false
 ---
 
 This page describes the hardware I currently use.

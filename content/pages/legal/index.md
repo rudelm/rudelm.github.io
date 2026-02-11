@@ -5,7 +5,9 @@ aliases:
   - legal
   - disclaimer
 showTableOfContents: false
-showShareLinks: false
+showDate: false
+showWordCount: false
+showReadingTime: false
 ---
 
 # Impressum
@@ -15,7 +17,3 @@ Wiesengrund 1
 
 # Kontakt
 E-Mail: blog@centurio.net
-
-## Icons
-* [github svg](https://simpleicons.org/?q=github) modified to be better visible in light/dark mode
-* [Category & Scale icon svg](https://heroicons.com)
