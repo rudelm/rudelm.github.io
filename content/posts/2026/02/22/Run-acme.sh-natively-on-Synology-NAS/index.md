@@ -27,7 +27,7 @@ $ source ~/.profile
 The regular cron job is disabled by using `--nocron` option. This should be replaced by a scheduled task in the management console.
 
 ```bash
-/usr/local/share/acme.sh/acme.sh --deploy -d domain -d *.domain --deploy-hook synology_dsm
+/usr/local/share/acme.sh/acme.sh --deploy --home /usr/local/share/acme.sh -d domain -d *.domain --deploy-hook synology_dsm
 ```
 
 ## Configuration
@@ -51,3 +51,8 @@ Now it's time to test the script. Run the command `` and see how the deploy hook
 ```
 
 Make sure that you'll disable the docker container, if you've set it up in the past. We don't want it to interfere with the certificate renewals.
+
+## Smaller issues
+Make sure to include the ``-home` variable, otherwise the scheduled task won't be able to find the certificates and will fail early.
+
+Another thing that's problematic is that the deploy hook always replaces the certificate, even when acme did not find a need for renewal. So the renewal process shouldn't be configured to run each night, rather once a week or similar so a time where it isn't a problem to restart the Synology Webserver.
